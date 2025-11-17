@@ -1,0 +1,1073 @@
+year,doi,title,f_author,id
+2015,,Requirements for and Evaluation of User Support for Large-Scale Ontology Alignment,Valentina Ivanova,2
+2015,,Heuristics for Fixing Common Errors in Deployed schema.org Microdata,Robert Meusel,3
+2015,,Using @Twitter Conventions to Improve #LOD-Based Named Entity Disambiguation,Genevieve Gorrell,4
+2015,,Knowledge Enabled Approach to Predict the Location of Twitter Users,Revathy Krishnamurthy,5
+2015,,A Compact In-Memory Dictionary for RDF Data,Hamid R. Bazoobandi,6
+2015,,Quality Assessment of Linked Datasets Using Probabilistic Approximation,Jeremy Debattista,7
+2015,,Cooperative Techniques for SPARQL Query Relaxation in RDF Databases,G eraud Fokou,8
+2015,,HDT-MR: A Scalable Solution for RDF Compression with HDT and MapReduce,Jos e M. Gim enez-Garc a,9
+2015,,Processing Aggregate Queries in a Federation of SPARQL Endpoints,Dilshod Ibragimov,10
+2015,,A Survey of HTTP Caching Implementations on the Open Semantic Web,Kjetil Kjernsmo,11
+2015,,Query Execution Optimization for Clients of Triple Pattern Fragments,Joachim Van Herwegen,12
+2015,,RODI: A Benchmark for Automatic Mapping Generation in Relational-to-Ontology Data Integration,Christoph Pinkel,13
+2015,,LIME: The Metadata Module for OntoLex,Manuel Fiorelli,14
+2015,,Learning a Cross-Lingual Semantic Representation of Relations Expressed in Text,Achim Rettinger,15
+2015,,HAWK – Hybrid Question Answering Using Linked Data,Ricardo Usbeck,16
+2015,,Automating RDF Dataset Transformation and Enrichment,Mohamed Ahmed Sherif,17
+2015,,Semi-supervised Instance Matching Using Boosted Classiﬁers,Mayank Kejriwal,18
+2015,,Assigning Semantic Labels to Data Sources,S.K. Ramnandan,19
+2015,,Inductive Classiﬁcation Through Evidence-Based Models and Their Ensembles,Giuseppe Rizzo,20
+2015,,Standardized and Eﬃcient RDF Encoding for Constrained Embedded Networks,Sebastian K abisch,21
+2015,,SPSC: Eﬃcient Composition of Semantic Services in Unstructured P2P Networks,Xiaoqi Cao,22
+2015,,Linked Data-as-a-Service: The Semantic Web Redeployed,Laurens Rietveld,23
+2015,,VocBench: A Web Application for Collaborative Development of Multilingual Thesauri,Armando Stellato,24
+2015,,Gagg: A Graph Aggregation Operator,Fadi Maali,25
+2015,,FrameBase: Representing N-Ary Relations Using Semantic Frames,Jacobo Rouces,26
+2015,,Towards Hybrid NER: A Study of Content and Crowdsourcing-Related Performance Factors,Oluwaseyi Feyisetan,27
+2015,,"Ranking Entities in the Age of Two Webs, an Application to Semantic Snippets",Mazen Alsarem,28
+2015,,Troubleshooting and Optimizing Named Entity Resolution Systems in the Industry,Panos Alexopoulos,29
+2015,,Using Ontologies for Modeling Virtual Reality Scenarios,Mauro Dragoni,30
+2015,,Supporting Open Collaboration in Science Through Explicit and Linked Semantic Description of Processes,Yolanda Gil,31
+2015,,Crowdmapping Digital Social Innovation with Linked Data,Harry Halpin,32
+2015,,Desperately Searching for Travel Offers? Formulate Better Queries with Some Help from Linked Data,Chun Lu,33
+2015,,Towards the Russian Linked Culture Cloud: Data Enrichment and Publishing,Dmitry Mouromtsev,34
+2015,,Leveraging and Balancing Heterogeneous Sources of Evidence in Ontology Learning,Gerhard Wohlgenannt,35
+2015,,From Symptoms to Diseases – Creating the Missing Link,Heiner Oberkampf,36
+2015,,Using Semantic Web Technologies for Enterprise Architecture Analysis,Maximilian Osenberg,37
+2015,,PADTUN - Using Semantic Technologies in Tunnel Diagnosis and Maintenance Domain,Dhavalkumar Thakker,38
+2015,,Crowdsourcing Disagreement for Collecting Semantic Annotation,Anca Dumitrache,39
+2015,,Ontology Change in Ontology-Based Information Integration Systems,Fajar Juang Ekaputra,40
+2015,,Creating Learning Material from Web Resources,Katrin Krieger,41
+2015,,The Design and Implementation of Semantic Web-Based Architecture for Augmented Reality Browser,Tam as Matuszka,42
+2015,,Information Extraction for Learning Expressive Ontologies,Giulio Petrucci,43
+2015,,A Scalable Adaptive Method for Complex Reasoning Over Semantic Data Streams,Thu-Le Pham,44
+2015,,Sequential Decision Making with Medical Interpretation Algorithms in the Semantic Web,Patrick Philipp,45
+2015,,A Context-Based Semantics for SPARQL Property Paths Over the Web,Olaf Hartig,46
+2015,,Towards Linked Open Data Enabled Data Mining,Strategies for Feature Generation,47
+2015,,Semantic Support for Recording Laboratory Experimental Metadata: A Study in Food Chemistry,Semantic Support for Recording Laboratory,48
+2015,,Exploiting Semantics from Ontologies to Enhance Accuracy of Similarity Measures,Ignacio Traverso-Rib on,49
+2015,,e-Document Standards as Background Knowledge in Context-Based Ontology Matching,Audun Vennesland,50
+2015,,Semantics-Enabled User Interest Mining,Fattane Zarrinkalam,51
+2015,,Distributed and Scalable OWL EL Reasoning,Raghava Mutharaju,52
+2015,,Large Scale Rule-Based Reasoning Using a Laptop,Martin Peters,53
+2015,,RDF Digest: Ef ﬁ cient Summarization of RDF/S KBs,eorgia Troullinou,54
+2015,,A Comparison of Data Structures to Manage URIs on the Web of Data,Ruslan Mavlyutov,55
+2016,,Detecting Similar Linked Datasets Using Topic Modelling,Michael Rder,56
+2016,,Enriching Product Ads with Metadata from HTML Annotations,Petar Ristoski,57
+2016,,Iterative Entity Navigation via Co-clustering Semantic Links and Entity Classes,Liang Zheng,58
+2016,,DoSeR - A Knowledge-Base-Agnostic Framework for Entity Disambiguation Using Semantic Embeddings,Stefan Zwicklbauer,59
+2016,,Embedding Mapping Approaches for Tensor Factorization and Knowledge Graph Modelling,Yinchong Yang,60
+2016,,Comparing Vocabulary Term Recommendations Using Association Rules and Learning to Rank: A User Study,Johann Schaible,61
+2016,,Full-Text Support for Publish/Subscribe Ontology Systems,Lefteris Zervakis,62
+2016,,Heaven: A Framework for Systematic Comparative Research Approach for RSP Engines,Riccardo Tommasini,63
+2016,,Bridging the Gap Between Formal Languages and Natural Languages with Zippers,S ebastien Ferr e,64
+2016,,Towards Monitoring of Novel Statements in the News,Michael F arber,65
+2016,,AskNow: A Framework for Natural Language Query Formalization in SPARQL,Mohnish Dubey,66
+2016,,Heuristics for Connecting Heterogeneous Knowledge via FrameBase,Jacobo Rouces,67
+2016,,Knowledge Extraction for Information Retrieval,Francesco Corcoglioniti,68
+2016,,Eﬃcient Graph-Based Document Similarity,Christian Paul,69
+2016,,Semantic Topic Compass – Classiﬁcation Based on Unsupervised Feature Ambiguity Gradation,Amparo Elizabeth Cano,70
+2016,,Supporting Arbitrary Custom Datatypes in RDF and SPARQL,Maxime Lefran cois,71
+2016,,Handling Inconsistencies Due to Class Disjointness in SPARQL Updates,Albin Ahmeti,72
+2016,,A Contextualised Semantics for owl:sameAs,Wouter Beek,73
+2016,,The Lazy Traveling Salesman – Memory Management for Large-Scale Link Discovery,Axel-Cyrille Ngonga Ngomo,74
+2016,,RDF Query Relaxation Strategies Based on Failure Causes,G eraud Fokou,75
+2016,,CyCLaDEs: A Decentralized Cache for Triple Pattern Fragments,Pauline Folz,76
+2016,,LOTUS: Adaptive Text Search for Big Linked Data,Filip Ilievski,77
+2016,,Dataset Recommendation for Data Linking: An Intensional Approach,Mohamed Ben Ellefi,78
+2016,,Query Rewriting in RDF Stream Processing,Jean-Paul Calbimonte,79
+2016,,"Linking Data, Services and Human Know-How",Paolo Pareti,80
+2016,,"VOLT: A Provenance-Producing, Transparent SPARQL Proxy for the On-Demand Computation of Linked Data and its Application to Spatiotemporally Dependent Data",Blake Regalia,81
+2016,,Learning to Classify Spatiotextual Entities in Maps,Giorgos Giannopoulos,82
+2016,,Supporting Geo-Ontology Engineering Through Spatial Data Analytics,Gloria Re Calegari,83
+2016,,Provenance Management for Evolving RDF Datasets,Argyro Avgoustaki,84
+2016,,Private Record Linkage: Comparison of Selected Techniques for Name Matching,Pawel Grzebala,85
+2016,,An Ontology-Driven Approach for Semantic Annotation of Documents with Speciﬁc Concepts,C eline Alec,86
+2016,,Qanary – A Methodology for Vocabulary-Driven Open Question Answering Systems,Andreas Both,87
+2016,,Test-Driven Development of Ontologies,C. Maria Keet,88
+2016,,"From Queriability to Informativity, Assessing “Quality in Use” of DBpedia and YAGO",Tong Ruan,89
+2016,,Semantically Enhanced Quality Assurance in the JURION Business Use Case,Dimitris Kontokostas,90
+2016,,Adaptive Linked Data-Driven Web Components: Building Flexible and Reusable Semantic Web Interfaces,Ali Khalili,91
+2016,,Building the Seshat Ontology for a Global History Databank,Rob Brennan,92
+2016,,RMLEditor: A Graph-Based Mapping Editor for Linked Data Mappings,Pieter Heyvaert,93
+2016,,Enriching a Small Artwork Collection Through Semantic Linking,Mauro Dragoni,94
+2016,,Ontology-Based Data Access for Maritime Security,Stefan Br uggemann,95
+2016,,WarSampo Data Service and Semantic Portal for Publishing Linked Open Data About the Second World War History,Eero Hyv onen,96
+2016,,Predicting Drug-Drug Interactions Through Large-Scale Similarity-Based Link Prediction,Achille Fokoue,97
+2016,,Semantics Driven Human-Machine Computation Framework for Linked Islamic Knowledge Engineering,Amna Basharat,98
+2016,,Towards Scalable Federated Context-Aware Stream Reasoning,Alexander Dejonghe,99
+2016,,Normalized Semantic Web Distance,Tom De Nies,100
+2016,,Machine-Crowd Annotation Workﬂow for Event Understanding Across Collections and Domains,Oana Inel,101
+2016,,Distributed Context-Aware Applications by Means of Web of Things and Semantic Web Technologies,Nicole Merkle,102
+2016,,On Learnability of Constraints from RDF Data,Emir Mu noz,103
+2016,,A Knowledge-Based Framework for Events Representation and Reuse from Historical Archives,Marco Rovera,104
+2016,,Unsupervised Conceptualization and Semantic Text Indexing for Information Extraction,Eugen Ruppert,105
+2016,,Continuously Self-Updating Query Results over Dynamic Heterogeneous Linked Data,Ruben Taelman,106
+2016,,Exploiting Disagreement Through Open-Ended Tasks for Capturing Interpretation Spaces,Benjamin Timmermans,107
+2016,,A Semantic Approach for Process Annotation and Similarity Analysis,Tobias Weller,108
+2016,,Gleaning Types for Literals in RDF Triples with Application to Entity Summarization,Kalpa Gunaratna,109
+2016,,TermPicker : Enabling the Reuse of Vocabulary Terms by Exploiting Data from the Linked Open Data Cloud,Johann Schaible,110
+2016,,Implicit Entity Linking in Tweets,Sujan Perera,111
+2016,,Fast Approximate A-Box Consistency Checking Using Machine Learning,Heiko Paulheim,112
+2017,,Traﬃc Analytics for Linked Data Publishers,Luca Costabello,113
+2017,,Online Relation Alignment for Linked Datasets,Maria Koutraki,114
+2017,,Tuning Personalized PageRank for Semantics-Aware Recommendations Based on Linked Open Data,Cataldo Musto,115
+2017,,Terminological Cluster Trees for Disjointness Axiom Discovery,Giuseppe Rizzo,116
+2017,,Embedding Learning for Declarative Memories,Volker Tresp,117
+2017,,Spatial Ontology-Mediated Query Answering over Mobility Streams,Thomas Eiter,118
+2017,,Optimizing the Performance of Concurrent RDF Stream Processing Queries,Chan Le Van,119
+2017,,AGACY Monitoring: A Hybrid Model for Activity Recognition and Uncertainty Handling,Hela Sfar,120
+2017,,Mapping Natural Language to Description Logic,Bikash Gyawali,121
+2017,,Harnessing Diversity in Crowds and Machines for Better NER Performance,Oana Inel,122
+2017,,All that Glitters Is Not Gold – Rule-Based Curation of Reference Datasets for Named Entity Recognition and Entity Linking,Kunal Jha,123
+2017,,Explaining Graph Navigational Queries,Valeria Fionda,124
+2017,,Semantic Annotation of Data Processing Pipelines in Scientiﬁc Publications,Sepideh Mesbah,125
+2017,,Combining Word and Entity Embeddings for Entity Linking,Jose G. Moreno,126
+2017,,Beyond Time: Dynamic Context-Aware Entity Recommendation,Nam Khanh Tran,127
+2017,,Patterns for Heterogeneous TBox Mappings to Bridge Diﬀerent Modelling Decisions,Pablo Rub en Fillottrani,128
+2017,,Exploring Importance Measures for Summarizing RDF/S KBs,Alexandros Pappas,129
+2017,,Data-Driven Joint Debugging of the DBpedia Mappings and Ontology,Towards Addressing the Causes Instead of the Symptoms,130
+2017,,Rule-Based OWL Modeling with ROWLTab Prot´eg´e Plugin,Md. Kamruzzaman Sarker,131
+2017,,Chaudron: Extending DBpedia with Measurement,Julien Subercaze,132
+2017,,SM4MQ: A Semantic Model for Multidimensional Queries,Jovan Varga,133
+2017,,Using Insights from Psychology and Language to Improve How People Reason with Description Logics,Paul Warren,134
+2017,,A SPARQL Extension for Generating RDF from Heterogeneous Formats,Maxime Lefran cois,135
+2017,,Updating Wikipedia via DBpedia Mappings and SPARQL,Albin Ahmeti,136
+2017,,Learning Commonalities in RDF,Sara El Hassad,137
+2017,,Lean Kernels in Description Logics,Rafael Pe naloza,138
+2017,,Linked Data Notiﬁcations: A Resource-Centric Communication Protocol,Sarven Capadisli,139
+2017,,Crowdsourced Aﬃnity: A Matter of Fact or Experience,Chun Lu,140
+2017,,A Semantic Graph-Based Approach for Radicalisation Detection on Social Media,Hassan Saif,141
+2017,,Modeling and Querying Greek Legislation Using Semantic Web Technologies,Ilias Chalkidis,142
+2017,,Self-Enforcing Access Control for Encrypted RDF,Javier D. Fern,143
+2017,,Removing Barriers to Transparency: A Case Study on the Use of Semantic Technologies to Tackle Procurement Data Inconsistency,Giuseppe Futia,144
+2017,,NdFluents: An Ontology for Annotated Statements with Inference Preservation,Jos e M. Gim enez-Garc a,145
+2017,,Exploiting Source-Object Networks to Resolve Object Conﬂicts in Linked Data,Wenqiang Liu,146
+2017,,Adopting Semantic Technologies for Eﬀective Corporate Transparency,Maria Mora-Rodriguez,147
+2017,,Methods for Intrinsic Evaluation of Links in the Web of Data,Cristina Sarasua,148
+2017,,Entity Deduplication on ScholarlyData,Ziqi Zhang,149
+2017,,W – A Generalization Approach for Automatic Link Discovery,overy,150
+2017,,Actively Learning to Rank Semantic Associations for Personalized Contextual Exploration of Knowledge Graphs,Federico Bianchi,151
+2017,,Synthesizing Knowledge Graphs for Link and Type Prediction Benchmarking,Andr e Melo,152
+2017,,Applying Semantic Web Technologies to Assess Maintenance Tasks from Operational Interruptions: A Use-Case at Airbus,Ghislain Auguste Atemezing,153
+2017,,ArmaTweet : Detecting Events by Semantic Tweet Analysis,Alberto Tonon,154
+2017,,smartAPI: Towards a More Intelligent Network of Web APIs,Amrapali Zaveri,155
+2017,,Automating the Dynamic Interactions of Self-governed Components in Distributed Architectures,Sebastian R. Bader,156
+2017,,Building and Processing a Knowledge-Graph for Legal Data,Erwin Filtz,157
+2017,,Ontology Matching Algorithms for Data Model Alignment in Big Data,Ruth Achiaa Frimpong,158
+2017,,"Ontology-Based Data Access Mapping Generation Using Data, Schema, Query, and Mapping Knowledge",Pieter Heyvaert,159
+2017,,Engaging Librarians in the Process of Interlinking RDF Resources,Lucy McKenna,160
+2017,,A Knowledge-Based Framework for Improving Accessibility of Web Sites,Jens Pelzetter,161
+2017,,Iterative Approach for Information Extraction and Ontology Learning from Textual Aviation Safety Reports,Lama Saeeda,162
+2017,,Integrative Data Management for Reproducibility of Microscopy Experiments,Sheeba Samuel,163
+2017,,Modeling Company Risk and Importance in Supply Graphs,Lucas Carstens,164
+2017,,Towards an Open Extensible Framework for Empirical Benchmarking of Data Management Solutions: LITMUS,Harsh Thakkar,165
+2017,,Enhancing White-Box Machine Learning Processes by Incorporating Semantic Background Knowledge,Gilles Vandewiele,166
+2017,,Declarative Data Transformations for Linked Data Generation: The Case of DBpedia,Ben De Meester,167
+2017,,BalOnSe: Temporal Aspects of Dance Movement and Its Ontological Representation,Katerina El Raheb,168
+2017,,Reasoning on Engineering Knowledge: Applications and Desired Features,Constantin Hildebrandt,169
+2017,,"A Compressed, Inference-Enabled Encoding Scheme for RDF Stream Processing",J er emy Lhez,170
+2017,,From Data to City Indicators: A Knowledge Graph for Supporting Automatic Generation of Dashboards,Henrique Santos,171
+2017,,Ontology-Driven Uniﬁed Governance in Software Engineering: The PoolParty Case Study,Monika Solanki,172
+2017,,A Hypercat-Enabled Semantic Internet of Things Data Hub,Ilias Tachmazidis,173
+2018,10.1007/978-3-319-93417-4_1,Analyzing the Evolution of Vocabulary Terms and Their Impact on the LOD Cloud,Mohammad Abdel-Qader ,174
+2018,10.1007/978-3-319-93417-4_10,PageRank and Generic Entity Summarization for RDF Knowledge Bases,Dennis Diefenbach ,175
+2018,10.1007/978-3-319-93417-4_11,Answering Multiple-Choice Questions in Geographical Gaokao with a Concept Graph,Jiwei Ding ,176
+2018,10.1007/978-3-319-93417-4_12,TweetsKB: A Public and Large-Scale RDF Corpus of Annotated Tweets,Pavlos Fafalios ,177
+2018,10.1007/978-3-319-93417-4_13,HDTQ: Managing RDF Datasets in Compressed Space,Javier D. Fernández ,178
+2018,10.1007/978-3-319-93417-4_14,Answers Partitioning and Lazy Joins for Efficient Query Relaxation and Application to Similarity Search,Sébastien Ferré ,179
+2018,10.1007/978-3-319-93417-4_15,Evaluation of Schema.org for Aggregation of Cultural Heritage Metadata,Nuno Freire ,180
+2018,10.1007/978-3-319-93417-4_16,Dynamic Planning for Link Discovery,Kleanthi Georgala ,181
+2018,10.1007/978-3-319-93417-4_17,A Dataset for Web-Scale Knowledge Base Population,Michael Glass ,182
+2018,10.1007/978-3-319-93417-4_18,EventKG: A Multilingual Event-Centric Temporal Knowledge Graph,Simon Gottschalk ,183
+2018,10.1007/978-3-319-93417-4_19,Semantic Concept Discovery over Event Databases,Oktie Hassanzadeh ,184
+2018,10.1007/978-3-319-93417-4_2,GSP (Geo-Semantic-Parsing): Geoparsing and Geotagging with Machine Learning on Top of Linked Data,Marco Avvenuti ,185
+2018,10.1007/978-3-319-93417-4_20,Smart Papers: Dynamic Publications on the Blockchain,Michał R. Hoffman ,186
+2018,10.1007/978-3-319-93417-4_21,Mind the (Language) Gap: Generation of Multilingual Wikipedia Summaries from Wikidata for ArticlePlaceholders,Lucie-Aimée Kaffee ,187
+2018,10.1007/978-3-319-93417-4_22,What Does an Ontology Engineering Community Look Like? A Systematic Analysis of the schema.org Community,Samantha Kanza ,188
+2018,10.1007/978-3-319-93417-4_23,FERASAT: A Serendipity-Fostering Faceted Browser for Linked Data,Ali Khalili ,189
+2018,10.1007/978-3-319-93417-4_24,Classifying Crises-Information Relevancy with Semantics,Prashant Khare ,190
+2018,10.1007/978-3-319-93417-4_25,Efficient Temporal Reasoning on Streams of Events with DOTR,Alessandro Margara ,191
+2018,10.1007/978-3-319-93417-4_26,Intelligent Clients for Replicated Triple Pattern Fragments,Thomas Minier ,192
+2018,10.1007/978-3-319-93417-4_27,Knowledge Guided Attention and Inference for Describing Images Containing Unseen Objects,Aditya Mogadala ,193
+2018,10.1007/978-3-319-93417-4_28,Benchmarking of a Novel POS Tagging Based Semantic Similarity Approach for Job Description Similarity Computation,Joydeep Mondal ,194
+2018,10.1007/978-3-319-93417-4_29,A Tri-Partite Neural Document Language Model for Semantic Information Retrieval,Gia-Hung Nguyen ,195
+2018,10.1007/978-3-319-93417-4_3,LDP-DL: A Language to Define the Design of Linked Data Platforms,Noorani Bakerally ,196
+2018,10.1007/978-3-319-93417-4_30,Multiple Models for Recommending Temporal Aspects of Entities,Tu Ngoc Nguyen ,197
+2018,10.1007/978-3-319-93417-4_31,GDPRtEXT - GDPR as a Linked Data Resource,Harshvardhan J. Pandit ,198
+2018,10.1007/978-3-319-93417-4_32,Transfer Learning for Item Recommendations and Knowledge Graph Completion in Item Related Domains via a Co-Factorization Model,Guangyuan Piao ,199
+2018,10.1007/978-3-319-93417-4_33,Modeling and Summarizing News Events Using Semantic Triples,Radityo Eko Prasojo ,200
+2018,10.1007/978-3-319-93417-4_34,GNIS-LD: Serving and Visualizing the Geographic Names Information System Gazetteer as Linked Data,Blake Regalia ,201
+2018,10.1007/978-3-319-93417-4_35,Event-Enhanced Learning for KG Completion,Martin Ringsquandl ,202
+2018,10.1007/978-3-319-93417-4_36,Exploring Enterprise Knowledge Graphs: A Use Case in Software Engineering,Marta Sabou ,203
+2018,10.1007/978-3-319-93417-4_37,Using Link Features for Entity Clustering in Knowledge Graphs,Alieh Saeedi ,204
+2018,10.1007/978-3-319-93417-4_38,Modeling Relational Data with Graph Convolutional Networks,Michael Schlichtkrull ,205
+2018,10.1007/978-3-319-93417-4_39,Ontology-Driven Sentiment Analysis of Product and Service Aspects,Kim Schouten ,206
+2018,10.1007/978-3-319-93417-4_4,Empirical Analysis of Ranking Models for an Adaptable Dataset Search,Angelo B. Neves ,207
+2018,10.1007/978-3-319-93417-4_40,Frankenstein: A Platform Enabling Reuse of Question Answering Components,Kuldeep Singh ,208
+2018,10.1007/978-3-319-93417-4_41,Querying APIs with SPARQL: Language and Worst-Case Optimal Algorithms,Matthieu Mosser ,209
+2018,10.1007/978-3-319-93417-4_42,Task-Oriented Complex Ontology Alignment: Two Alignment Evaluation Sets,Élodie Thiéblin ,210
+2018,10.1007/978-3-319-93417-4_43,Where is My URI?,Andre Valdestilhas ,211
+2018,10.1007/978-3-319-93417-4_44,Optimizing Semantic Reasoning on Memory-Constrained Platforms Using the RETE Algorithm,William Van Woensel,212
+2018,10.1007/978-3-319-93417-4_45,Efficient Ontology-Based Data Integration with Canonical IRIs,Guohui Xiao ,213
+2018,10.1007/978-3-319-93417-4_46,Formal Query Generation for Question Answering over Knowledge Bases,Hamid Zafar ,214
+2018,10.1007/978-3-319-93417-4_47,A LOD Backend Infrastructure for Scientific Search Portals,Benjamin Zapilko ,215
+2018,10.1007/978-3-319-93417-4_48,Detecting Hate Speech on Twitter Using a Convolution-GRU Based Deep Neural Network,Ziqi Zhang ,216
+2018,10.1007/978-3-319-93417-4_5,sameAs.cc: The Closure of 500M owl:sameAs Statements,Wouter Beek ,217
+2018,10.1007/978-3-319-93417-4_6,Modeling and Preserving Greek Government Decisions Using Semantic Web Technologies and Permissionless Blockchains,Themis Beris ,218
+2018,10.1007/978-3-319-93417-4_7,Towards a Binary Object Notation for RDF,Victor Charpenay ,219
+2018,10.1007/978-3-319-93417-4_8,User-Centric Ontology Population,Kenneth Clarkson ,220
+2018,10.1007/978-3-319-93417-4_9,Using Ontology-Based Data Summarization to Develop Semantics-Aware Recommender Systems,Tommaso Di Noia ,221
+2019,10.1007/978-3-030-21348-0_1,A Decentralized Architecture for Sharing and Querying Semantic Data,Christian Aebeloe ,222
+2019,10.1007/978-3-030-21348-0_10,Aligning Biomedical Metadata with Ontologies Using Clustering and Embeddings,Rafael S. Gonçalves ,223
+2019,10.1007/978-3-030-21348-0_11,Generating Semantic Aspects for Queries,Dhruv Gupta ,224
+2019,10.1007/978-3-030-21348-0_12,A Recommender System for Complex Real-World Applications with Nonlinear Dependencies and Knowledge Graph Context,Marcel Hildebrandt ,225
+2019,10.1007/978-3-030-21348-0_13,Learning URI Selection Criteria to Improve the Crawling of Linked Open Data,Hai Huang ,226
+2019,10.1007/978-3-030-21348-0_14,Deontic Reasoning for Legal Ontologies,Cheikh Kacfah Emani ,227
+2019,10.1007/978-3-030-21348-0_15,Incorporating Joint Embeddings into Goal-Oriented Dialogues with Multi-task Learning,Firas Kassawat ,228
+2019,10.1007/978-3-030-21348-0_16,Link Prediction Using Multi Part Embeddings,Sameh K. Mohamed ,229
+2019,10.1007/978-3-030-21348-0_17,Modelling the Compatibility of Licenses,Benjamin Moreau ,230
+2019,10.1007/978-3-030-21348-0_18,GConsent - A Consent Ontology Based on the GDPR,Harshvardhan J. Pandit ,231
+2019,10.1007/978-3-030-21348-0_19,Latent Relational Model for Relation Extraction,Gaetano Rossiello ,232
+2019,10.1007/978-3-030-21348-0_2,Reformulation-Based Query Answering for RDF Graphs with RDFS Ontologies,Maxime Buron ,233
+2019,10.1007/978-3-030-21348-0_20,Mini-ME Swift: The First Mobile OWL Reasoner for iOS,Michele Ruta ,234
+2019,10.1007/978-3-030-21348-0_21,Validation of SHACL Constraints over KGs with OWL 2 QL Ontologies via Rewriting,Ognjen Savković ,235
+2019,10.1007/978-3-030-21348-0_22,An Ontology-Based Interactive System for Understanding User Queries,Giorgos Stoilos ,236
+2019,10.1007/978-3-030-21348-0_23,Knowledge-Based Short Text Categorization Using Entity and Category Embedding,Rima Türker ,237
+2019,10.1007/978-3-030-21348-0_24,A Hybrid Approach for Aspect-Based Sentiment Analysis Using a Lexicalized Domain Ontology and Attentional Neural Models,Olaf Wallaart ,238
+2019,10.1007/978-3-030-21348-0_25,Predicting Entity Mentions in Scientific Literature,Yalung Zheng ,239
+2019,10.1007/978-3-030-21348-0_26,AYNEC: All You Need for Evaluating Completion Techniques in Knowledge Graphs,Daniel Ayala ,240
+2019,10.1007/978-3-030-21348-0_27,RVO - The Research Variable Ontology,Madhushi Bandara ,241
+2019,10.1007/978-3-030-21348-0_28,EVENTSKG: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities,Said Fathalla ,242
+2019,10.1007/978-3-030-21348-0_29,CORAL: A Corpus of Ontological Requirements Annotated with Lexico-Syntactic Patterns,Alba Fernández-Izquierdo ,243
+2019,10.1007/978-3-030-21348-0_3,A Hybrid Graph Model for Distant Supervision Relation Extraction,Shangfu Duan ,244
+2019,10.1007/978-3-030-21348-0_30,MMKG: Multi-modal Knowledge Graphs,Ye Liu ,245
+2019,10.1007/978-3-030-21348-0_31,BeSEPPI: Semantic-Based Benchmarking of Property Path Implementations,Adrian Skubella ,246
+2019,10.1007/978-3-030-21348-0_32,QED: Out-of-the-Box Datasets for SPARQL Query Evaluation,Veronika Thost ,247
+2019,10.1007/978-3-030-21348-0_33,ToCo: An Ontology for Representing Hybrid Telecommunication Networks,Qianru Zhou ,248
+2019,10.1007/978-3-030-21348-0_34,A Software Framework and Datasets for the Analysis of Graph Measures on RDF Graphs,Matthäus Zloch ,249
+2019,10.1007/978-3-030-21348-0_35,The Location Index: A Semantic Web Spatial Data Infrastructure,Nicholas J. Car ,250
+2019,10.1007/978-3-030-21348-0_36,Legislative Document Content Extraction Based on Semantic Web Technologies,Francisco Cifuentes-Silva ,251
+2019,10.1007/978-3-030-21348-0_37,BiographySampo – Publishing and Enriching Biographies on the Semantic Web for Digital Humanities Research,Eero Hyvönen ,252
+2019,10.1007/978-3-030-21348-0_38,Tinderbook: Fall in Love with Culture,Enrico Palumbo ,253
+2019,10.1007/978-3-030-21348-0_39,Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation,Katherine Thornton ,254
+2019,10.1007/978-3-030-21348-0_4,Retrieving Textual Evidence for Knowledge Graph Facts,Gonenc Ercan ,255
+2019,10.1007/978-3-030-21348-0_40,Correction to: Using Shape Expressions (ShEx) to Share RDF Data Models and to Guide Curation with Rigorous Validation,Katherine Thornton ,256
+2019,10.1007/978-3-030-21348-0_5,Boosting DL Concept Learners,Nicola Fanizzi ,257
+2019,10.1007/978-3-030-21348-0_6,Link Prediction in Knowledge Graphs with Concepts of Nearest Neighbours,Sébastien Ferré ,258
+2019,10.1007/978-3-030-21348-0_7,Disclosing Citation Meanings for Augmented Research Retrieval and Exploration,Roger Ferrod ,259
+2019,10.1007/978-3-030-21348-0_8,Injecting Domain Knowledge in Electronic Medical Records to Improve Hospitalization Prediction,Raphaël Gazzotti ,260
+2019,10.1007/978-3-030-21348-0_9,Explore and Exploit. Dictionary Expansion with Human-in-the-Loop,Anna Lisa Gentile ,261
+2020,10.1007/978-3-030-49461-2_1,Handling Impossible Derivations During Stream Reasoning,Hamid R. Bazoobandi ,262
+2020,10.1007/978-3-030-49461-2_10,Estimating Characteristic Sets for RDF Dataset Profiles Based on Sampling,Lars Heling ,263
+2020,10.1007/978-3-030-49461-2_11,SchemaTree: Maximum-Likelihood Property Recommendation for Wikidata,Lars C. Gleim ,264
+2020,10.1007/978-3-030-49461-2_12,Hyperbolic Knowledge Graph Embeddings for Knowledge Base Completion,Prodromos Kolyvakis ,265
+2020,10.1007/978-3-030-49461-2_13,Unsupervised Bootstrapping of Active Learning for Entity Resolution,Anna Primpeli ,266
+2020,10.1007/978-3-030-49461-2_14,Processing SPARQL Aggregate Queries with Web Preemption,Arnaud Grall ,267
+2020,10.1007/978-3-030-49461-2_15,Embedding-Based Recommendations on Scholarly Knowledge Graphs,Mojtaba Nayyeri ,268
+2020,10.1007/978-3-030-49461-2_16,Investigating Software Usage in the Social Sciences: A Knowledge Graph Approach,David Schindler ,269
+2020,10.1007/978-3-030-49461-2_17,Fostering Scientific Meta-analyses with Knowledge Graphs: A Case-Study,Ilaria Tiddi ,270
+2020,10.1007/978-3-030-49461-2_18,SAShA: Semantic-Aware Shilling Attacks on Recommender Systems Exploiting Knowledge Graphs,Vito Walter Anelli ,271
+2020,10.1007/978-3-030-49461-2_19,Entity Extraction from Wikipedia List Pages,Nicolas Heist ,272
+2020,10.1007/978-3-030-49461-2_2,Modular Graphical Ontology Engineering Evaluated,Cogan Shimizu ,273
+2020,10.1007/978-3-030-49461-2_20,The Knowledge Graph Track at OAEI,Sven Hertling ,274
+2020,10.1007/978-3-030-49461-2_21,Detecting Synonymous Properties by Shared Data-Driven Definitions,Jan-Christoph Kalo ,275
+2020,10.1007/978-3-030-49461-2_22,Entity Summarization with User Feedback,Qingxia Liu ,276
+2020,10.1007/978-3-030-49461-2_23,Incremental Multi-source Entity Resolution for Knowledge Graph Completion,Alieh Saeedi ,277
+2020,10.1007/978-3-030-49461-2_24,Building Linked Spatio-Temporal Data from Vectorized Historical Maps,Basel Shbita ,278
+2020,10.1007/978-3-030-49461-2_25,QAnswer KG: Designing a Portable Question Answering System over RDF Data,Dennis Diefenbach ,279
+2020,10.1007/978-3-030-49461-2_26,Equivalent Rewritings on Path Views with Binding Patterns,Julien Romero ,280
+2020,10.1007/978-3-030-49461-2_27,A Knowledge Graph for Industry 4.0,Sebastian R. Bader ,281
+2020,10.1007/978-3-030-49461-2_28,MetaLink: A Travel Guide to the LOD Cloud,Wouter Beek ,282
+2020,10.1007/978-3-030-49461-2_29,Astrea: Automatic Generation of SHACL Shapes from Ontologies,Andrea Cimmino ,283
+2020,10.1007/978-3-030-49461-2_3,Fast and Exact Rule Mining with AMIE 3,Jonathan Lajus ,284
+2020,10.1007/978-3-030-49461-2_30,SemTab 2019: Resources to Benchmark Tabular Data to Knowledge Graph Matching Systems,Ernesto Jiménez-Ruiz ,285
+2020,10.1007/978-3-030-49461-2_31,VQuAnDa: Verbalization QUestion ANswering DAtaset,Endri Kacupaj ,286
+2020,10.1007/978-3-030-49461-2_32,ESBM: An Entity Summarization BenchMark,Qingxia Liu ,287
+2020,10.1007/978-3-030-49461-2_33,GEval: A Modular and Extensible Evaluation Framework for Graph Embedding Techniques,Maria Angela Pellegrino ,288
+2020,10.1007/978-3-030-49461-2_34,YAGO 4: A Reason-able Knowledge Base,Thomas Pellissier-Tanon ,289
+2020,10.1007/978-3-030-49461-2_35,On Modeling the Physical World as a Collection of Things: The W3C Thing Description Ontology,Victor Charpenay ,290
+2020,10.1007/978-3-030-49461-2_36,Applying Knowledge Graphs as Integrated Semantic Information Model for the Computerized Engineering of Building Automation Systems,Henrik Dibowski ,291
+2020,10.1007/978-3-030-49461-2_37,Supporting Complex Decision Making by Semantic Technologies,Stefan Fenz ,292
+2020,10.1007/978-3-030-49461-2_38,Piveau: A Large-Scale Open Data Management Platform Based on Semantic Web Technologies,Fabian Kirstein ,293
+2020,10.1007/978-3-030-49461-2_39,StreamPipes Connect: Semantics-Based Edge Adapters for the IIoT,Philipp Zehnder ,294
+2020,10.1007/978-3-030-49461-2_4,A Simple Method for Inducing Class Taxonomies in Knowledge Graphs,Marcin Pietrasik ,295
+2020,10.1007/978-3-030-49461-2_5,Hybrid Reasoning Over Large Knowledge Bases Using On-The-Fly Knowledge Extraction,Giorgos Stoilos ,296
+2020,10.1007/978-3-030-49461-2_6,Partial Domain Adaptation for Relation Extraction Based on Adversarial Learning,Xiaofei Cao ,297
+2020,10.1007/978-3-030-49461-2_7,SASOBUS: Semi-automatic Sentiment Domain Ontology Building Using Synsets,Ewelina Dera ,298
+2020,10.1007/978-3-030-49461-2_8,Keyword Search over RDF Using Document-Centric Information Retrieval Systems,Giorgos Kadilierakis ,299
+2020,10.1007/978-3-030-49461-2_9,Entity Linking and Lexico-Semantic Patterns for Ontology Learning,Lama Saeeda ,300
+2021,10.1007/978-3-030-77385-4_1,Streaming Partitioning of RDF Graphs for Datalog Reasoning,Temitope Ajileye ,301
+2021,10.1007/978-3-030-77385-4_10,A Semantic Framework to Support AI System Accountability and Audit,Iman Naja ,302
+2021,10.1007/978-3-030-77385-4_11,Comparison Table Generation from Knowledge Bases,Arnaud Giacometti ,303
+2021,10.1007/978-3-030-77385-4_12,Incremental Schema Discovery at Scale for RDF Data,Redouane Bouhamoum ,304
+2021,10.1007/978-3-030-77385-4_13,HTTP Extensions for the Management of Highly Dynamic Data Resources,Lars Gleim ,305
+2021,10.1007/978-3-030-77385-4_14,Expressibility of OWL Axioms with Patterns,Aaron Eberhart ,306
+2021,10.1007/978-3-030-77385-4_15,Refining Transitive and Pseudo-Transitive Relations at Web Scale,Shuai Wang ,307
+2021,10.1007/978-3-030-77385-4_16,Data Reliability and Trustworthiness Through Digital Transmission Contracts,Simon Mangel ,308
+2021,10.1007/978-3-030-77385-4_17,Neural Knowledge Base Repairs,Thomas Pellissier Tanon ,309
+2021,10.1007/978-3-030-77385-4_18,Natural Language Inference over Tables: Enabling Explainable Data Exploration on Data Lakes,Mario Ramirez ,310
+2021,10.1007/978-3-030-77385-4_19,Grounding Dialogue Systems via Knowledge Graph Aware Decoding with Pre-trained Transformers,Debanjan Chaudhuri ,311
+2021,10.1007/978-3-030-77385-4_2,Parallelised ABox Reasoning and Query Answering with Expressive Description Logics,Andreas Steigmiller ,312
+2021,10.1007/978-3-030-77385-4_20,WEB-SOBA: Word Embeddings-Based Semi-automatic Ontology Building for Aspect-Based Sentiment Classification,Fenna ten Haaf,313
+2021,10.1007/978-3-030-77385-4_21,Context Transformer with Stacked Pointer Networks for Conversational Question Answering over Knowledge Graphs,Joan Plepi ,314
+2021,10.1007/978-3-030-77385-4_22,Neural Multi-hop Reasoning with Logical Rules on Biomedical Knowledge Graphs,Yushan Liu ,315
+2021,10.1007/978-3-030-77385-4_23,Augmenting Ontology Alignment by Semantic Embedding and Distant Supervision,Jiaoyan Chen ,316
+2021,10.1007/978-3-030-77385-4_24,Convolutional Complex Knowledge Graph Embeddings,Caglar Demir ,317
+2021,10.1007/978-3-030-77385-4_25,RETRA: Recurrent Transformers for Learning Temporally Contextualized Knowledge Graph Embeddings,Simon Werner ,318
+2021,10.1007/978-3-030-77385-4_26,Injecting Background Knowledge into Embedding Models for Predictive Tasks on Knowledge Graphs,Claudia d’Amato ,319
+2021,10.1007/978-3-030-77385-4_27,Structured Semantic Modeling of Scientific Citation Intents,Roger Ferrod ,320
+2021,10.1007/978-3-030-77385-4_28,Discovering Research Hypotheses in Social Science Using Knowledge Graph Embeddings,Rosaline de Haan,321
+2021,10.1007/978-3-030-77385-4_29,Towards a Linked Open Code,Ahmed El Amine Djebri ,322
+2021,10.1007/978-3-030-77385-4_3,Analysing Large Inconsistent Knowledge Graphs Using Anti-patterns,Thomas de Groot,323
+2021,10.1007/978-3-030-77385-4_30,A Polyvocal and Contextualised Semantic Web,Marieke van Erp,324
+2021,10.1007/978-3-030-77385-4_31,"The WASABI Dataset: Cultural, Lyrics and Audio Analysis Metadata About 2 Million Popular Commercially Released Songs",Michel Buffa ,325
+2021,10.1007/978-3-030-77385-4_32,RuBQ 2.0: An Innovated Russian Question Answering Dataset,Ivan Rybin ,326
+2021,10.1007/978-3-030-77385-4_33,A Knowledge Organization System for the United Nations Sustainable Development Goals,Amit Joshi ,327
+2021,10.1007/978-3-030-77385-4_34,RSP4J: An API for RDF Stream Processing,Riccardo Tommasini ,328
+2021,10.1007/978-3-030-77385-4_35,WasmTree: Web Assembly for the Semantic Web,Julian Bruyat ,329
+2021,10.1007/978-3-030-77385-4_36,ParaQA: A Question Answering Dataset with Paraphrase Responses for Single-Turn Conversation,Endri Kacupaj ,330
+2021,10.1007/978-3-030-77385-4_37,kgbench: A Collection of Knowledge Graph Datasets for Evaluating Relational and Multimodal Machine Learning,Peter Bloem ,331
+2021,10.1007/978-3-030-77385-4_38,The SLOGERT Framework for Automated Log Knowledge Graph Construction,Andreas Ekelhart ,332
+2021,10.1007/978-3-030-77385-4_39,P2P-O: A Purchase-To-Pay Ontology for Enabling Semantic Invoices,Michael Schulze ,333
+2021,10.1007/978-3-030-77385-4_4,Processing SPARQL Property Path Queries Online with Web Preemption,Julien Aimonier-Davat ,334
+2021,10.1007/978-3-030-77385-4_40,KOBE: Cloud-Native Open Benchmarking Engine for Federated Query Processors,Charalampos Kostopoulos ,335
+2021,10.1007/978-3-030-77385-4_41,CSKG: The CommonSense Knowledge Graph,Filip Ilievski ,336
+2021,10.1007/978-3-030-77385-4_42,A Knowledge Graph-Based Approach for Situation Comprehension in Driving Scenarios,Lavdim Halilaj ,337
+2021,10.1007/978-3-030-77385-4_43,Pay-as-you-go Population of an Automotive Signal Knowledge Graph,Yulia Svetashova ,338
+2021,10.1007/978-3-030-77385-4_44,Correction to: A Semantic Framework to Support AI System Accountability and Audit,Iman Naja ,339
+2021,10.1007/978-3-030-77385-4_5,Ontology-Based Map Data Quality Assurance,Haonan Qiu ,340
+2021,10.1007/978-3-030-77385-4_6,Applying Grammar-Based Compression to RDF,Michael Röder ,341
+2021,10.1007/978-3-030-77385-4_7,HDT Bitmap Triple Indices for Efficient RDF Data Exploration,Maximilian Wenzel ,342
+2021,10.1007/978-3-030-77385-4_8,Programming and Debugging with Semantically Lifted States,Eduard Kamburjan ,343
+2021,10.1007/978-3-030-77385-4_9,Do Embeddings Actually Capture Knowledge Graph Semantics?,Nitisha Jain ,344
+2022,10.1007/978-3-031-06981-9_1,Enhancing Sequential Recommendation via Decoupled Knowledge Graphs,Bingchao Wu ,345
+2023,10.1007/978-3-031-06981-9_10,The Problem with XSD Binary Floating Point Datatypes in RDF,Jan Martin Keil ,346
+2022,10.1007/978-3-031-06981-9_11,DCWEB-SOBA: Deep Contextual Word Embeddings-Based Semi-automatic Ontology Building for Aspect-Based Sentiment Classification,Roos van Lookeren Campagne,347
+2022,10.1007/978-3-031-06981-9_12,"Never Mind the Semantic Gap: Modular, Lazy and Safe Loading of RDF Data",Eduard Kamburjan ,348
+2022,10.1007/978-3-031-06981-9_13,Improving Question Answering Quality Through Language Feature-Based SPARQL Query Candidate Validation,Aleksandr Gashkov ,349
+2022,10.1007/978-3-031-06981-9_14,Learning Concept Lengths Accelerates Concept Learning in ALC,N’Dah Jean Kouagou ,350
+2022,10.1007/978-3-031-06981-9_15,Dihedron Algebraic Embeddings for Spatio-Temporal Knowledge Graph Completion,Mojtaba Nayyeri ,351
+2022,10.1007/978-3-031-06981-9_16,Hierarchical Topic Modelling for Knowledge Graphs,Yujia Zhang ,352
+2022,10.1007/978-3-031-06981-9_17,Do Arduinos Dream of Efficient Reasoners?,Alexandre Bento ,353
+2022,10.1007/978-3-031-06981-9_18,A Programming Interface for Creating Data According to the SPAR Ontologies and the OpenCitations Data Model,Simone Persiani ,354
+2022,10.1007/978-3-031-06981-9_19,LD Connect: A Linked Data Portal for IOS Press Scientometrics,Zilong Liu ,355
+2022,10.1007/978-3-031-06981-9_2,An Analysis of Links in Wikidata,Armin Haller ,356
+2022,10.1007/978-3-031-06981-9_20,Chowlk: from UML-Based Ontology Conceptualizations to OWL,Serge Chávez-Feria ,357
+2023,10.1007/978-3-031-06981-9_21,QuoteKG: A Multilingual Knowledge Graph of Quotes,Tin Kuculo ,358
+2022,10.1007/978-3-031-06981-9_22,Stunning Doodle: A Tool for Joint Visualization and Analysis of Knowledge Graphs and Graph Embeddings,Antonia Ettorre ,359
+2022,10.1007/978-3-031-06981-9_23,Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information,Pasquale Lisena ,360
+2022,10.1007/978-3-031-06981-9_24,Stream Reasoning Playground,Patrik Schneider ,361
+2022,10.1007/978-3-031-06981-9_25,The Dow Jones Knowledge Graph,Ian Horrocks ,362
+2022,10.1007/978-3-031-06981-9_26,CONSTRUCT Queries Performance on a Spark-Based Big RDF Triplestore,Adam Sanchez-Ayte ,363
+2022,10.1007/978-3-031-06981-9_27,Matching Multiple Ontologies to Build a Knowledge Graph for Personalized Medicine,Marta Contreiras Silva ,364
+2022,10.1007/978-3-031-06981-9_28,FindSampo: A Linked Data Based Portal and Data Service for Analyzing and Disseminating Archaeological Object Finds,Heikki Rantala ,365
+2022,10.1007/978-3-031-06981-9_3,Knowledge Graph Entity Type Prediction with Relational Aggregation Graph Attention Network,Changlong Zou ,366
+2022,10.1007/978-3-031-06981-9_4,Union and Intersection of All Justifications,Jieying Chen ,367
+2022,10.1007/978-3-031-06981-9_5,Supervised Knowledge Aggregation for Knowledge Graph Completion,Patrick Betz ,368
+2022,10.1007/978-3-031-06981-9_6,Expressive Scene Graph Generation Using Commonsense Knowledge Infusion for Visual Understanding and Reasoning,Muhammad Jaleed Khan ,369
+2022,10.1007/978-3-031-06981-9_7,Impact of the Characteristics of Multi-source Entity Matching Tasks on the Performance of Active Learning Methods,Anna Primpeli ,370
+2022,10.1007/978-3-031-06981-9_8,Optimal ABox Repair w.r.t. Static TBoxes: From Quantified ABoxes Back to ABoxes,Franz Baader ,371
+2022,10.1007/978-3-031-06981-9_9,Ensemble-Based Fact Classification with Knowledge Graph Embeddings,Unmesh Joshi ,372
+2023,10.1007/978-3-031-33455-9_1,Explainable Drug Repurposing in Context via Deep Reinforcement Learning,Lise Stork ,373
+2023,10.1007/978-3-031-33455-9_10,Classifying Sequences by Combining Context-Free Grammars and OWL Ontologies,Nicolas Lazzari ,374
+2023,10.1007/978-3-031-33455-9_11,NASTyLinker: NIL-Aware Scalable Transformer-Based Entity Linker,Nicolas Heist ,375
+2023,10.1007/978-3-031-33455-9_12,"iSummary: Workload-Based, Personalized Summaries for Knowledge Graphs",Giannis Vassiliou ,376
+2023,10.1007/978-3-031-33455-9_13,Neural Class Expression Synthesis,N’Dah Jean Kouagou ,377
+2023,10.1007/978-3-031-33455-9_14,Evaluating Language Models for Knowledge Base Completion,Blerta Veseli ,378
+2023,10.1007/978-3-031-33455-9_15,Subsumption Prediction for E-Commerce Taxonomies,Jingchuan Shi ,379
+2023,10.1007/978-3-031-33455-9_16,Two-View Graph Neural Networks for Knowledge Graph Completion,Vinh Tong ,380
+2023,10.1007/978-3-031-33455-9_17,GETT-QA: Graph Embedding Based T2T Transformer for Knowledge Graph Question Answering,Debayan Banerjee ,381
+2023,10.1007/978-3-031-33455-9_18,Repairing Ontologies Using Weakening and Completing,Ying Li ,382
+2023,10.1007/978-3-031-33455-9_2,A Comparative Study of Stream Reasoning Engines,Nathan Gruber ,383
+2023,10.1007/978-3-031-33455-9_20,RELD: A Knowledge Graph of Relation Extraction Datasets,Manzoor Ali ,384
+2023,10.1007/978-3-031-33455-9_21,IMKG: The Internet Meme Knowledge Graph,Riccardo Tommasini ,385
+2023,10.1007/978-3-031-33455-9_22,Describing and Organizing Semantic Web and Machine Learning Systems in the SWeMLS-KG,Fajar J. Ekaputra ,386
+2023,10.1007/978-3-031-33455-9_23,"A Concise Ontology to Support Research on Complex, Multimodal Clinical Reasoning",Sabbir M. Rashid ,387
+2023,10.1007/978-3-031-33455-9_24,LauNuts: A Knowledge Graph to Identify and Compare Geographic Regions in the European Union,Adrian Wilke ,388
+2023,10.1007/978-3-031-33455-9_25,HHT: An Approach for Representing Temporally-Evolving Historical Territories,William Charles ,389
+2023,10.1007/978-3-031-33455-9_26,An Upper Ontology for Modern Science Branches and Related Entities,Said Fathalla ,390
+2023,10.1007/978-3-031-33455-9_27,K-Hub: A Modular Ontology to Support Document Retrieval and Knowledge Extraction in Industry 5.0,Anisa Rula ,391
+2023,10.1007/978-3-031-33455-9_28,pyRDF2Vec: A Python Implementation and Extension of RDF2Vec,Bram Steenwinckel ,392
+2023,10.1007/978-3-031-33455-9_29,Boosting Knowledge Graph Generation from Tabular Data with RML Views,Julián Arenas-Guerrero ,393
+2023,10.1007/978-3-031-33455-9_3,Join Ordering of SPARQL Property Path Queries,Julien Aimonier-Davat ,394
+2023,10.1007/978-3-031-33455-9_30,A Knowledge Graph of Contentious Terminology for Inclusive Representation of Cultural Heritage,Andrei Nesterov ,395
+2023,10.1007/978-3-031-33455-9_31,LegalHTML: A Representation Language for Legal Acts,Armando Stellato ,396
+2023,10.1007/978-3-031-33455-9_32,Whyis 2: An Open Source Framework for Knowledge Graph Development and Research,Jamie McCusker ,397
+2023,10.1007/978-3-031-33455-9_33,Prototyping an End-User User Interface for the Solid Application Interoperability Specification Under GDPR,Hadrien Bailly ,398
+2023,10.1007/978-3-031-33455-9_34,SemReasoner - A High-Performance Knowledge Graph Store and Rule-Based Reasoner,Kevin Angele ,399
+2023,10.1007/978-3-031-33455-9_35,LIS: A Knowledge Graph-Based Line Information System,Irlan Grangel-González ,400
+2023,10.1007/978-3-031-33455-9_36,Combining Semantic Web and Machine Learning for Auditable Legal Key Element Extraction,Anna Breit ,401
+2023,10.1007/978-3-031-33455-9_37,Understanding Customer Requirements,Basel Shbita ,402
+2023,10.1007/978-3-031-33455-9_38,Investigating Ontology-Based Data Access with GitHub,Yahlieel Jafta ,403
+2023,10.1007/978-3-031-33455-9_39,Enabling Live SPARQL Queries over ConceptNet Using Triple Pattern Fragments,Marcelo Machado ,404
+2023,10.1007/978-3-031-33455-9_4,Refining Large Integrated Identity Graphs Using the Unique Name Assumption,Shuai Wang ,405
+2023,10.1007/978-3-031-33455-9_40,Evaluation of a Representative Selection of SPARQL Query Engines Using Wikidata,An Ngoc Lam ,406
+2023,10.1007/978-3-031-33455-9_41,MOSAIK: An Agent-Based Decentralized Control System with Stigmergy for a Transportation Scenario,Sebastian Schmid ,407
+2023,10.1007/978-3-031-33455-9_42,Correction to: IMKG: The Internet Meme Knowledge Graph,Riccardo Tommasini ,408
+2023,10.1007/978-3-031-33455-9_5,Structural Bias in Knowledge Graphs for the Entity Alignment Task,Nikolaos Fanourakis ,409
+2023,10.1007/978-3-031-33455-9_6,A Framework to Include and Exploit Probabilistic Information in SHACL Validation Reports,Rémi Felin ,410
+2023,10.1007/978-3-031-33455-9_7,Transformer Based Semantic Relation Typing for Knowledge Graph Integration,Sven Hertling ,411
+2023,10.1007/978-3-031-33455-9_8,Entity Linking for KGQA Using AMR Graphs,Nadine Steinmetz ,412
+2023,10.1007/978-3-031-33455-9_9,REGNUM: Generating Logical Rules with Numerical Predicates in Knowledge Graphs,Armita Khajeh Nassiri ,413
+2024,10.1007/978-3-031-60626-7_1,Do Similar Entities Have Similar Embeddings?,Nicolas Hubert ,414
+2024,10.1007/978-3-031-60626-7_10,Explanation of Link Predictions on Knowledge Graphs via Levelwise Filtering and Graph Summarization,Roberto Barile ,415
+2024,10.1007/978-3-031-60626-7_11,Large Language Models for Scientific Question Answering: An Extensive Analysis of the SciQA Benchmark,Jens Lehmann ,416
+2024,10.1007/978-3-031-60626-7_12,Efficient Evaluation of Conjunctive Regular Path Queries Using Multi-way Joins,Nikolaos Karalis ,417
+2024,10.1007/978-3-031-60626-7_13,Can Contrastive Learning Refine Embeddings,Lihui Liu ,418
+2024,10.1007/978-3-031-60626-7_14,Automation of Electronic Invoice Validation Using Knowledge Graph Technologies,Johannes Mäkelburg ,419
+2024,10.1007/978-3-031-60626-7_15,Towards Cyber Mapping the German Financial System with Knowledge Graphs,Markus Schröder ,420
+2024,10.1007/978-3-031-60626-7_16,Integrating Domain Knowledge for Enhanced Concept Model Explainability in Plant Disease Classification,Jihen Amara ,421
+2024,10.1007/978-3-031-60626-7_17,Generative Expression Constrained Knowledge-Based Decoding for Open Data,Lucas Lageweg ,422
+2024,10.1007/978-3-031-60626-7_18,OntoEditor: Real-Time Collaboration via Distributed Version Control for Ontology Development,Ahmad Hemid ,423
+2024,10.1007/978-3-031-60626-7_2,Treat Different Negatives Differently: Enriching Loss Functions with Domain and Range Constraints for Link Prediction,Nicolas Hubert ,424
+2024,10.1007/978-3-031-60626-7_3,QAGCN: Answering Multi-relation Questions via Single-Step Implicit Reasoning over Knowledge Graphs,Ruijie Wang ,425
+2024,10.1007/978-3-031-60626-7_4,Leveraging Pre-trained Language Models for Time Interval Prediction in Text-Enhanced Temporal Knowledge Graphs,Duygu Sezen Islakoglu ,426
+2024,10.1007/978-3-031-60626-7_5,A Language Model Based Framework for New Concept Placement in Ontologies,Hang Dong ,427
+2024,10.1007/978-3-031-60626-7_6,Low-Dimensional Hyperbolic Knowledge Graph Embedding for Better Extrapolation to Under-Represented Data,Zhuoxun Zheng ,428
+2024,10.1007/978-3-031-60626-7_7,SC-Block: Supervised Contrastive Blocking Within Entity Resolution Pipelines,Alexander Brinkmann ,429
+2024,10.1007/978-3-031-60626-7_8,Navigating Ontology Development with Large Language Models,Mohammad Javad Saeedizade ,430
+2024,10.1007/978-3-031-60626-7_9,ESLM: Improving Entity Summarization by Leveraging Language Models,Asep Fajar Firmansyah ,431
+2024,10.1007/978-3-031-60635-9_1,PyGraft: Configurable Generation of Synthetic Schemas and Knowledge Graphs at Your Fingertips,Nicolas Hubert ,432
+2024,10.1007/978-3-031-60635-9_10,SousLeSens - A Comprehensive Suite for the Industrial Practice of Semantic Knowledge Graphs,Claude Fauconnet ,433
+2024,10.1007/978-3-031-60635-9_11,MLSea: A Semantic Layer for Discoverable Machine Learning,Ioannis Dasoulas ,434
+2024,10.1007/978-3-031-60635-9_12,Enabling Social Demography Research Using Semantic Technologies,Lise Stork ,435
+2024,10.1007/978-3-031-60635-9_13,SCOOP All the Constraints’ Flavours for Your Knowledge Graph,Xuemin Duan ,436
+2024,10.1007/978-3-031-60635-9_14,FidMark: A Fiducial Marker Ontology for Semantically Describing Visual Markers,Maxim Van de Wynckel ,437
+2024,10.1007/978-3-031-60635-9_2,NORIA-O: An Ontology for Anomaly Detection and Incident Management in ICT Systems,Lionel Tailhardat ,438
+2024,10.1007/978-3-031-60635-9_3,FlexRML: A Flexible and Memory Efficient Knowledge Graph Materializer,Michael Freund ,439
+2024,10.1007/978-3-031-60635-9_4,IICONGRAPH: Improved Iconographic and Iconological Statements in Knowledge Graphs,Bruno Sartini ,440
+2024,10.1007/978-3-031-60635-9_5,VisionKG: Unleashing the Power of Visual Datasets via Knowledge Graph,Jicheng Yuan ,441
+2024,10.1007/978-3-031-60635-9_6,OfficeGraph: A Knowledge Graph of Office Building IoT Measurements,Roderick van der Weerdt,442
+2024,10.1007/978-3-031-60635-9_7,Musical Meetups Knowledge Graph (MMKG): A Collection of Evidence for Historical Social Network Analysis,Alba Morales Tirado ,443
+2024,10.1007/978-3-031-60635-9_8,Generate and Update Large HDT RDF Knowledge Graphs on Commodity Hardware,Antoine Willerval ,444
+2024,10.1007/978-3-031-60635-9_9,SMW Cloud: A Corpus of Domain-Specific Knowledge Graphs from Semantic MediaWikis,Daniil Dobriy ,445
+2015,,SPARQL with Property Paths,Egor V. Kostylev,446
+2015,,Facilitating Entity Navigation Through Top-K Link Patterns,Liang Zheng,447
+2015,,Serving DBpedia with DOLCE – More than Just Adding a Cherry on Top,Heiko Paulheim,448
+2015,,Ontology-Based Integration of Cross-Linked Datasets,Diego Calvanese,449
+2015,,Mapping Analysis in Ontology-Based Data Access: Algorithms and Complexity,Domenico Lembo,450
+2015,,Towards Defeasible Mappings for Tractable Description Logics,Kunal Sengupta,451
+2015,,An Algebra of Qualitative Taxonomical Relations for Ontology Alignments,Armen Inants,452
+2015,,CogMap: A Cognitive Support Approach to Property and Instance Alignment,Jan N oner,453
+2015,,Eﬀective Online Knowledge Graph Fusion,Haofen Wang,454
+2015,,Adding DL-Lite TBoxes to Proper Knowledge Bases,Giuseppe De Giacomo,455
+2015,,R O : An Eﬃcient Ranking-Based Reasoner for OWL Ontologies,Yong-Bin Kang,456
+2015,,Recursion in SPARQL,Juan L. Reutter,457
+2015,,Rewriting-Based Instance Retrieval for Negated Concepts in Description Logic Ontologies,Jianfeng Du,458
+2015,,Optimizing the Computation of Overriding,Piero A. Bonatti,459
+2015,,LANCE: Piercing to the Heart of Instance Matching Tools,Tzanina Saveta,460
+2015,,Decision-Making Bias in Instance Matching Model Selection,Mayank Kejriwal,461
+2015,,Klink-2: Integrating Multiple Web Sources to Generate Semantic Topic Networks,: ISWC ,462
+2015,,TabEL: Entity Linking in Web Tables,Chandra Sekhar Bhagavatula,463
+2015,,Path-Based Semantic Relatedness on Linked Data and Its Use to Word and Entity Disambiguation,Ioana Hulpu s,464
+2015,,SANAPHOR: Ontology-Based Coreference Resolution,Roman Prokofyev,465
+2015,,Improving Entity Retrieval on Structured Data,Besnik Fetahu,466
+2015,,A Flexible Framework for Understanding the Dynamics of Evolving RDF Datasets,Yannis Roussakis,467
+2015,,Federated SPARQL Queries Processing with Replicated Fragments,Gabriela Montoya,468
+2015,,Interest-Based RDF Update Propagation,Kemele M. Endris,469
+2015,,General Terminology Induction in OWL,Viachaslau Sazonau,470
+2015,,Understanding How Users Edit Ontologies: Comparing Hypotheses About Four Real-World Projects,Simon Walk,471
+2015,,Next Step for NoHR: OWL 2 QL,Nuno Costa,472
+2015,,Concept Forgetting in ALCOI -Ontologies Using an Ackermann Approach,Yizheng Zhao,473
+2015,,Content-Based Recommendations via DBpedia and Freebase: A Case Study in the Music Domain,Phuong T. Nguyen,474
+2015,,Explaining and Suggesting Relatedness in Knowledge Graphs,Giuseppe Pirr`o,475
+2015,,Type-Constrained Representation Learning in Knowledge Graphs,Denis Krompa,476
+2015,,"Publishing Without Publishers: A Decentralized Approach to Dissemination, Retrieval, and Archiving of Data",Tobias Kuhn,477
+2015,,FEASIBLE: A Feature-Based SPARQL Benchmark Generation Framework,Muhammad Saleem,478
+2015,,LDQL: A Query Language for the Web of Linked Data,Olaf Hartig,479
+2015,,Opportunistic Linked Data Querying Through Approximate Membership Metadata,Miel Vander Sande,480
+2015,,Networks of Linked Data Eddies: An Adaptive Web Query Processing Engine for RDF Data,Maribel Acosta,481
+2015,,Substring Filtering for Low-Cost Linked Data Interfaces,Joachim Van Herwegen,482
+2015,,LinkDaViz – Automatic Binding of Linked Data to Visualizations,Klaudia Thellmann,483
+2015,,RDFox: A Highly-Scalable RDF Store,Yavor Nenov,484
+2015,,Multilingual Ontology Mapping in Practice: A Support System for Domain Experts,Mauro Dragoni,485
+2015,,Data Access Linking and Integration with DALI: Building a Safety Net for an Ocean of City Data,II,486
+2015,,Building and Using a Knowledge Graph to Combat Human Traﬃcking,Pedro Szekely,487
+2015,,Semantic-Guided Feature Selection for Industrial Automation Systems,Martin Ringsquandl,488
+2015,,A Semantic Processing Framework for IoT-Enabled Communication Systems,Muhammad Intizar Ali,489
+2015,,LSQ: The Linked SPARQL Queries Dataset,Muhammad Saleem,490
+2015,,Automatic Curation of Clinical Trials Data in LinkedCT,Oktie Hassanzadeh,491
+2015,,DBpedia Commons: Structured Multimedia Metadata from the Wikimedia Commons,Gaurav Vaidya,492
+2015,,Provenance-Centered Dataset of Drug-Drug Interactions,Juan M. Banda,493
+2015,,The GeoLink Modular Oceanography Ontology,Adila Krisnadhi,494
+2015,,TR Discover: A Natural Language Interface for Querying and Analyzing Interlinked Datasets,Dezhao Song,495
+2015,,Semantic Bridges for Biodiversity Sciences,rland,496
+2015,,FraPPE: A Vocabulary to Represent Heterogeneous Spatio-temporal Data to Support Visual Analytics,Marco Balduini,497
+2015,,The Transport Disruption Ontology,David Corsar,498
+2015,,LOD Lab: Experiments at LOD Scale,Laurens Rietveld,499
+2015,,Strategies for Eﬃciently Keeping Local Linked Open Data Caches Up-To-Date,Renata Dividino,500
+2015,,CityBench: A Conﬁgurable Benchmark to Evaluate RSP Engines Using Smart City Datasets,Muhammad Intizar Ali,501
+2015,,"A Multi-reasoner, Justiﬁcation-Based Approach to Reasoner Correctness",Michael Lee,502
+2015,,Introducing Defeasibility into OWL Ontologies,Giovanni Casini,503
+2015,,Timely Semantics: A Study of a Stream-Based Ranking System for Entity Relationships,Lorenz Fischer,504
+2015,,Link Analysis of Life Science Linked Data,Wei Hu,505
+2015,,Drug Encyclopedia – Linked Data Application for Physicians,Jakub Koz ak,506
+2015,,"Collecting, Integrating, Enriching and Republishing Open City Data as Linked Data",Stefan Bischof,507
+2015,,ASSESS — Automatic Self-Assessment Using Linked Data,Lorenz B uhmann,508
+2015,,Ontology Based Access to Exploration Data at Statoil,Evgeny Kharlamov,509
+2015,,B OX: Practical Mapping of RDBs to OWL 2,,510
+2015,,Assessing and Reﬁning Mappings to RDF to Improve Dataset Quality,Anastasia Dimou,511
+2015,,A Generic RDF Transformation Software and Its Application to an Online Translation Service for Common Languages of Linked Data,Olivier Corby,512
+2016,,Structuring Linked Data Search Results Using Probabilistic Soft Logic,Duhai Alshukaili,513
+2016,,Knowledge Representation on the Web Revisited: The Case for Prototypes,Michael Cochez,514
+2016,,Updating DL-Lite Ontologies Through First-Order Queries,Giuseppe De Giacomo,515
+2016,,Are Names Meaningful? Quantifying Social Meaning on the Semantic Web,Steven de Rooij,516
+2016,,User Validation in Ontology Alignment,Zlatan Dragisic,517
+2016,,"Seed, an End-User Text Composition Tool for the Semantic Web",Bahaa Eldesouky,518
+2016,,Exception-Enriched Rule Learning from Knowledge Graphs,Mohamed H. Gad-Elrab,519
+2016,,Planning Ahead: Stream-Driven Linked-Data Access Under Update-Budget Constraints,Shen Gao,520
+2016,,Explicit Query Interpretation and Diversiﬁcation for Context-Driven Concept Search Across Ontologies,Chetana Gavankar,521
+2016,,Predicting Energy Consumption of Ontology Reasoning over Mobile Devices,Isa Guclu,522
+2016,,Walking Without a Map: Ranking-Based Traversal for Querying Linked Data,Olaf Hartig,523
+2016,,The Multiset Semantics of SPARQL Patterns,Renzo Angles,524
+2016,,CubeQA—Question Answering on RDF Data Cubes,Konrad H offner,525
+2016,,Optimizing Aggregate SPARQL Queries Using Materialized RDF Views,Dilshod Ibragimov,526
+2016,,Algebraic Calculi for Weighted Ontology Alignments,Armen Inants,527
+2016,,Ontologies for Knowledge Graphs: Breaking the Rules,Markus Krtzsch,528
+2016,,An Extensible Linear Approach for Holistic Ontology Matching,Imen Megdiche,529
+2016,,Semantic Sensitive Simultaneous Tensor Factorization,Makoto Nakatsuji,530
+2016,,Multi-level Semantic Labelling of Numerical Values,Sebastian Neumaier,531
+2016,,Semantic Labeling: A Domain-Independent Approach,Minh Pham,532
+2016,,Exploiting Emergent Schemas to Make RDF Systems More Eﬃcient,Minh-Duc Pham,533
+2016,,Distributed RDF Query Answering with Dynamic Data Exchange,Anthony Potter,534
+2016,,Ontop of Geospatial Databases,Konstantina Bereta,535
+2016,,RDF2Vec: RDF Graph Embeddings for Data Mining,Petar Ristoski,536
+2016,,SPARQL-to-SQL on Internet of Things Databases and Streams,Eugene Siow,537
+2016,,Can You Imagine... A Language for Combinatorial Creativity?,Fabian M. Suchanek,538
+2016,,Leveraging Linked Data to Discover Semantic Relations Within Data Sources,Mohsen Taheriyan,539
+2016,,Integrating Medical Scienti ﬁ c Knowledge with the Semantically Quanti ﬁ ed Self,an Third,540
+2016,,Learning to Assess Linked Data Relationships Using Genetic Programming,Ilaria Tiddi,541
+2016,,A Probabilistic Model for Time-Aware Entity Recommendation,Lei Zhang,542
+2016,,A Knowledge Base Approach to Cross-Lingual Keyword Query Interpretation,Lei Zhang,543
+2016,,Context-Free Path Queries on RDF Graphs,Xiaowang Zhang,544
+2016,,Unsupervised Entity Resolution on Multi-type Graphs,Linhong Zhu,545
+2016,,Expressive Multi-level Modeling for the Semantic Web,Freddy Brasileiro,546
+2016,,A Practical Acyclicity Notion for Query Answering Over Horn- SRIQ Ontologies,David Carral,547
+2016,,Containment of Expressive SPARQL Navigational Queries,Melisachew Wudage Chekol,548
+2016,,WebBrain: Joint Neural Learning of Large-Scale Commonsense Knowledge,Jiaqiang Chen,549
+2016,,Eﬃcient Algorithms for Association Finding and Frequent Association Pattern Mining,Gong Cheng,550
+2016,,A Reuse-Based Annotation Approach for Medical Documents,Victor Christen,551
+2016,,Ontological Representation of Audio Features,Alo Allik,552
+2016,,"Querying Wikidata: Comparing SPARQL, Relational and Graph Databases",Daniel Hern,553
+2016,,Clinga: Bringing Chinese Physical and Human Geography in Linked Open Data,Wei Hu,554
+2016,,LinkGen: Multipurpose Linked Data Generator,Amit Krishna Joshi,555
+2016,,OntoBench: Generating Custom OWL 2 Benchmark Ontologies,Vincent Link,556
+2016,,Linked Data (in Low-Resource) Platforms: A Mapping for Constrained Application Protocol,Giuseppe Loseto,557
+2016,,TripleWave: Spreading RDF Streams on the Web,Andrea Mauri,558
+2016,,Conference Linked Data: The ScholarlyData Project,Andrea Giovanni Nuzzolese,559
+2016,,The OWL Reasoner Evaluation (ORE) 2015 Resources,Bijan Parsia,560
+2016,,FOOD: FOod in Open Data,Silvio Peroni,561
+2016,,"YAGO: A Multilingual Knowledge Base from Wikipedia, Wordnet, and Geonames",Thomas Rebele,562
+2016,,Abstract Meaning Representations as Linked Data,"('', [])",563
+2016,,A Collection of Benchmark Datasets for Systematic Evaluations of Machine Learning on the Semantic Web,Petar Ristoski,564
+2016,,Enabling Combined Software and Data Engineering at Web-Scale: The ALIGNED Suite of Ontologies,Monika Solanki,565
+2016,,A Replication Study of the Top Performing Systems in SemEval Twitter Sentiment Analysis,Efstratios Sygkounas,566
+2016,,VoldemortKG: Mapping schema.org and Web Entities to Linked Open Data,Alberto Tonon,567
+2016,,AUFX-O: Novel Methods for the Representation of Audio Processing Workﬂows,Thomas Wilmering,568
+2016,,Translating Ontologies in Real-World Settings,Mihael Arcan,569
+2016,,EnergyUse - A Collective Semantic Platform for Monitoring and Discussing Energy Consumption,Gr egoire Burel,570
+2016,,Extracting Semantic Information for e-Commerce,Bruno Charron,571
+2016,,Building Urban LOD for Solving Illegally Parked Bicycles in Tokyo,Shusaku Egami,572
+2016,,Ontology-Based Design of Space Systems,Christian Hennig,573
+2016,,Interoperability for Smart Appliances in the IoT World,Laura Daniele,574
+2016,,Capturing Industrial Information Models with Ontologies and Constraints,Evgeny Kharlamov,575
+2016,,Towards Analytics Aware Ontology Based Access to Static and Streaming Data,Evgeny Kharlamov,576
+2016,,QuerioDALI: Question Answering Over Dynamic and Linked Knowledge Graphs,Vanessa Lopez,577
+2016,,Automatic Classiﬁcation of Springer Nature Proceedings with Smart Topic Miner,Francesco Osborne,578
+2016,,Semantic Technologies for Data Analysis in Health Care,Robert Piro,579
+2016,,Building and Exploring an Enterprise Knowledge Graph for Investment Analysis,Tong Ruan,580
+2016,,Extending SPARQL for Data Analytic Tasks,Julian Dolby,581
+2016,,An Ontology of Soil Properties and Processes,Heshan Du,582
+2016,,LODStats: The Data Web Census Dataset,Ivan Ermilov,583
+2016,,Zhishi.lemon: On Publishing Zhishi.me as Linguistic Linked Open Data,Zhijia Fang,584
+2016,,Linked Disambiguated Distributional Semantic Networks,Stefano Faralli,585
+2016,,BESDUI: A Benchmark for End-User Structured Data User Interfaces,Roberto Garca,586
+2016,,SPARQLGX: Eﬃcient Distributed Evaluation of SPARQL with Apache Spark,Damien Graux,587
+2017,,Diefficiency Metrics: Measuring the Continuous Efficiency of Query Processing Approaches,Maribel Acosta,588
+2017,,The CEDAR Workbench: An Ontology-Assisted Environment for Authoring Metadata that Describe Scientific Experiments,Rafael S. Gonçalves,589
+2017,,WebIsALOD: Providing Hypernymy Relations Extracted from the Web as Linked Open Data,Sven Hertling,590
+2017,,Ontology-Based Data Access to Slegge,Dag Hovland,591
+2017,,BiOnIC: A Catalog of User Interactions with Biomedical Ontologies,Maulik R. Kamdar,592
+2017,,Neural Embeddings for Populated Geonames Locations,Mayank Kejriwal,593
+2017,,Distributed Semantic Analytics Using the SANSA Stack,Jens Lehmann,594
+2017,,The MIDI Linked Data Cloud,Albert Meroño-Peñuela,595
+2017,,SocialLink: Linking DBpedia Entities to Corresponding Twitter Accounts,Yaroslav Nechaev,596
+2017,,UNDO: The United Nations System Document Ontology,Silvio Peroni,597
+2017,,One Year of the OpenCitations Corpus,Silvio Peroni,598
+2017,,CodeOntology: RDF-ization of Source Code,Mattia Atzeni,599
+2017,,An Entity Relatedness Test Dataset,José Eduardo Talavera Herrera,600
+2017,,RSPLab: RDF Stream Processing Benchmarking Made Easy,Riccardo Tommasini,601
+2017,,LC-QuAD: A Corpus for Complex Question Answering over Knowledge Graphs,Priyansh Trivedi,602
+2017,,PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking,Meng Wang,603
+2017,,A Controlled Crowdsourcing Approach for Practical Ontology Extensions and Metadata Annotations,Yolanda Gil,604
+2017,,An Investigative Search Engine for the Human Trafficking Domain,Mayank Kejriwal,605
+2017,,Lessons Learned in Building Linked Data for the American Art Collaborative,Craig A. Knoblock,606
+2017,,Modeling and Using an Actor Ontology of Second World War Military Units and Personnel,Petri Leskinen,607
+2017,,Sustainable Linked Data Generation: The Case of DBpedia,Wouter Maroy,608
+2017,,Semantic Rule-Based Equipment Diagnostics,Gulnar Mehdi,609
+2017,,Linked Data Publication of Live Music Archives and Analyses,Sean Bechhofer,610
+2017,,Automatic Query-Centric API for Routine Access to Linked Data,Albert Meroño-Peñuela,611
+2017,,Realizing an RDF-Based Information Model for a Manufacturing Company – A Case Study,Niklas Petersen,612
+2017,,Personalizing Actions in Context for Risk Management Using Semantic Web Technologies,Jiewen Wu,613
+2017,,The MedRed Ontology for Representing Clinical Data Acquisition Metadata,Jean-Paul Calbimonte,614
+2017,,Iguana: A Generic Framework for Benchmarking the Read-Write Performance of Triple Stores,Felix Conrads,615
+2017,,Ireland’s Authoritative Geospatial Linked Data,Christophe Debruyne,616
+2017,,LOD-a-lot,Javier D. Fernández,617
+2017,,IMGpedia: A Linked Dataset with Content-Based Analysis of Wikimedia Images,Sebastián Ferrada,618
+2017,,WIDOCO: A Wizard for Documenting Ontologies,Daniel Garijo,619
+2017,,Multi-label Based Learning for Better Multi-criteria Ranking of Ontology Reasoners,Nourhène Alaya,620
+2017,,Tractable Query Answering for Expressive Ontologies and Existential Rules,David Carral,621
+2017,,Zooming in on Ontologies: Minimal Modules and Best Excerpts,Jieying Chen,622
+2017,,Global RDF Vector Space Embeddings,Michael Cochez,623
+2017,,LDScript: A Linked Data Script Language,Olivier Corby,624
+2017,,Practical Update Management in Ontology-Based Data Access,Giuseppe Giacomo,625
+2017,,Computing Authoring Tests from Competency Questions: Experimental Validation,Matt Dennis,626
+2017,,Matching Web Tables with Knowledge Base Entities: From Entity Lookups to Entity Embeddings,Vasilis Efthymiou,627
+2017,,Learning Commonalities in SPARQL,Sara El Hassad,628
+2017,,Meta Structures in Knowledge Graphs,Valeria Fionda,629
+2017,,Challenges of Source Selection in the WoD,Tobias Grubenmann,630
+2017,,The Efficacy of OWL and DL on User Understanding of Axioms and Their Entailments,Eisa Alharbi,631
+2017,,AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data,Sherzod Hakimov,632
+2017,,Computing FO-Rewritings in in Practice: From Atomic to Conjunctive Queries,Peter Hansen,633
+2017,,A Formal Framework for Comparing Linked Data Fragments,Olaf Hartig,634
+2017,,Language-Agnostic Relation Extraction from Wikipedia Abstracts,Nicolas Heist,635
+2017,,Alignment Cubes: Towards Interactive Visual Exploration and Evaluation of Multiple Ontology Alignments,Valentina Ivanova,636
+2017,,Attributed Description Logics: Ontologies for Knowledge Graphs,Markus Krötzsch,637
+2017,,Reliable Granular References to Changing Linked Data,Tobias Kuhn,638
+2017,,Cost-Driven Ontology-Based Data Access,Davide Lanti,639
+2017,,The Odyssey Approach for Optimizing Federated SPARQL Queries,Gabriela Montoya,640
+2017,,Automated Fine-Grained Trust Assessment in Federated Knowledge Bases,Andreas Nolle,641
+2017,,A Decidable Very Expressive Description Logic for Databases,Alessandro Artale,642
+2017,,Completeness-Aware Rule Learning from Knowledge Graphs,Thomas Pellissier Tanon,643
+2017,,Entity Comparison in RDF Graphs,Alina Petrova,644
+2017,,Provenance Information in a Collaborative Knowledge Graph: An Evaluation of Wikidata External References,Alessandro Piscopo,645
+2017,,Strider: A Hybrid Adaptive Distributed RDF Stream Processing Engine,Xiangnan Ren,646
+2017,,Mining Hypotheses from Data in OWL: Advanced Evaluation and Complete Construction,Viachaslau Sazonau,647
+2017,,Semantic Faceted Search with Aggregation and Recursion,Evgeny Sherkhonov,648
+2017,,"Investigating Learnability, User Performance, and Preferences of the Path Query Language SemwidgQL Compared to SPARQL",Timo Stegemann,649
+2017,,Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding,Zequn Sun,650
+2017,,Blockchain Enabled Privacy Audit Logs,Andrew Sutton,651
+2017,,VICKEY: Mining Conditional Keys on Knowledge Bases,Danai Symeonidou,652
+2017,,Improving Visual Relationship Detection Using Semantic Modeling of Scene Descriptions,Stephan Baier,653
+2017,,Ontolex JeuxDeMots and Its Alignment to the Linguistic Linked Open Data Cloud,Andon Tchechmedjiev,654
+2017,,"Towards Holistic Concept Representations: Embedding Relational Knowledge, Visual Attributes, and Distributional Word Semantics",Steffen Thoma,655
+2017,,An Extension of SPARQL for Expressing Qualitative Preferences,Antonis Troumpoukis,656
+2017,,Encoding Category Correlations into Bilingual Topic Modeling for Cross-Lingual Taxonomy Alignment,Tianxing Wu,657
+2017,,Cross-Lingual Infobox Alignment in Wikipedia Using Entity-Attribute Factor Graph,Yan Zhang,658
+2017,,An Empirical Study on How the Distribution of Ontologies Affects Reasoning on the Web,Hamid R. Bazoobandi,659
+2017,,Expressive Stream Reasoning with Laser,Hamid R. Bazoobandi,660
+2017,,Semantics and Validation of Shapes Schemas for RDF,Iovka Boneva,661
+2017,,Temporal Query Answering in DL-Lite over Inconsistent Data,Camille Bourgaux,662
+2017,,Semantic Wide and Deep Learning for Detecting Crisis-Information Categories on Social Media,Grégoire Burel,663
+2018,10.1007/978-3-030-00668-6_1,DOREMUS: A Graph of Linked Musical Works,Manel Achichi ,664
+2018,10.1007/978-3-030-00668-6_10,A Framework to Build Games with a Purpose for Linked Data Refinement,Gloria Re Calegari ,665
+2018,10.1007/978-3-030-00668-6_11,VoxEL: A Benchmark Dataset for Multilingual Entity Linking,Henry Rosales-Méndez ,666
+2018,10.1007/978-3-030-00668-6_12,The Computer Science Ontology: A Large-Scale Taxonomy of Research Areas,Angelo A. Salatino ,667
+2018,10.1007/978-3-030-00668-6_13,DistLODStats: Distributed Computation of RDF Dataset Statistics,Gezim Sejdiu ,668
+2022,10.1007/978-3-030-00668-6_14,Knowledge Integration for Disease Characterization: A Breast Cancer Example,Oshani Seneviratne ,669
+2018,10.1007/978-3-030-00668-6_15,Comunica: A Modular SPARQL Query Engine for the Web,Ruben Taelman ,670
+2018,10.1007/978-3-030-00668-6_16,VoCaLS: Vocabulary and Catalog of Linked Streams,Riccardo Tommasini ,671
+2018,10.1007/978-3-030-00668-6_17,A Complex Alignment Benchmark: GeoLink Dataset,Lu Zhou ,672
+2018,10.1007/978-3-030-00668-6_18,Supporting Digital Healthcare Services Using Semantic Web Technologies,Gintaras Barisevičius ,673
+2018,10.1007/978-3-030-00668-6_19,Semantic Technologies for Healthy Lifestyle Monitoring,Mauro Dragoni ,674
+2018,10.1007/978-3-030-00668-6_2,Audio Commons Ontology: A Data Model for an Audio Content Ecosystem,Miguel Ceriani ,675
+2018,10.1007/978-3-030-00668-6_20,"Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices in ResearchSpace",Dominic Oldman ,676
+2018,10.1007/978-3-030-00668-6_21,Ontology-Based Recommendation of Editorial Products,Thiviyan Thanapalasingam ,677
+2018,10.1007/978-3-030-00668-6_22,Synthesizing Knowledge Graphs from Web Sources with the MINTE Framework,Diego Collarana ,678
+2018,10.1007/978-3-030-00668-6_23,Getting the Most Out of Wikidata: Semantic Technology Usage in Wikipedia’s Knowledge Graph,Stanislav Malyshev ,679
+2018,10.1007/978-3-030-00668-6_3,Wiki-MID: A Very Large Multi-domain Interests Dataset of Twitter Users with Mappings to Wikipedia,Giorgia Di Tommaso,680
+2018,10.1007/978-3-030-00668-6_4,HeLiS: An Ontology for Supporting Healthy Lifestyles,Mauro Dragoni ,681
+2018,10.1007/978-3-030-00668-6_5,SABINE: A Multi-purpose Dataset of Semantically-Annotated Social Content,Silvana Castano ,682
+2018,10.1007/978-3-030-00668-6_6,Querying Large Knowledge Graphs over Triple Pattern Fragments: An Empirical Study,Lars Heling ,683
+2018,10.1007/978-3-030-00668-6_7,Drammar: A Comprehensive Ontological Resource on Drama,Vincenzo Lombardo ,684
+2018,10.1007/978-3-030-00668-6_8,The SPAR Ontologies,Silvio Peroni ,685
+2018,10.1007/978-3-030-00668-6_9,Browsing Linked Data Catalogs with LODAtlas,Emmanuel Pietriga ,686
+2018,10.1007/978-3-030-00671-6_1,Fine-Grained Evaluation of Rule- and Embedding-Based Systems for Knowledge Graph Completion,Christian Meilicke ,687
+2018,10.1007/978-3-030-00671-6_10,Ontology Driven Extraction of Research Processes,Vayianos Pertsas ,688
+2018,10.1007/978-3-030-00671-6_12,QA4IE: A Question Answering Based Framework for Information Extraction,Lin Qiu ,689
+2018,10.1007/978-3-030-00671-6_13,Constructing a Recipe Web from Historical Newspapers,Marieke van Erp,690
+2018,10.1007/978-3-030-00671-6_14,Structured Event Entity Resolution in Humanitarian Domains,Mayank Kejriwal ,691
+2018,10.1007/978-3-030-00671-6_15,"That’s Interesting, Tell Me More! Finding Descriptive Support Passages for Knowledge Graph Relationships",Sumit Bhatia ,692
+2018,10.1007/978-3-030-00671-6_16,Exploring RDFS KBs Using Summaries,Georgia Troullinou ,693
+2018,10.1007/978-3-030-00671-6_17,What Is the Cube Root of 27? Question Answering Over CodeOntology,Mattia Atzeni ,694
+2018,10.1007/978-3-030-00671-6_18,GraFa: Scalable Faceted Browsing for RDF Graphs,José Moreno-Vega ,695
+2018,10.1007/978-3-030-00671-6_19,Semantics and Validation of Recursive SHACL,Julien Corman ,696
+2018,10.1007/978-3-030-00671-6_2,Aligning Knowledge Base and Document Embedding Models Using Regularized Multi-Task Learning,Matthias Baumgartner ,697
+2018,10.1007/978-3-030-00671-6_20,Certain Answers for SPARQL with Blank Nodes,Daniel Hernández ,698
+2018,,Eﬃcient Handling of SPARQL OPTIONAL for OBDA,Guohui Xiao,699
+2018,10.1007/978-3-030-00671-6_22,Representativeness of Knowledge Bases with the Generalized Benford’s Law,Arnaud Soulet ,700
+2018,10.1007/978-3-030-00671-6_23,Detecting Erroneous Identity Links on the Web Using Network Metrics,Joe Raad ,701
+2018,10.1007/978-3-030-00671-6_24,: A Benchmark Generator for Spatial Link Discovery Tools,Tzanina Saveta ,702
+2018,10.1007/978-3-030-00671-6_25,"Specifying, Monitoring, and Executing Workflows in Linked Data Environments",Tobias Käfer ,703
+2018,10.1007/978-3-030-00671-6_26,Mapping Diverse Data to RDF in Practice,Alexandros Chortaras ,704
+2018,10.1007/978-3-030-00671-6_27,A Novel Approach and Practical Algorithms for Ontology Integration,Giorgos Stoilos ,705
+2018,10.1007/978-3-030-00671-6_28,"Practical Ontology Pattern Instantiation, Discovery, and Maintenance with Reasonable Ontology Templates",Martin G. Skjæveland ,706
+2018,10.1007/978-3-030-00671-6_29,Pragmatic Ontology Evolution: Reconciling User Requirements and Application Performance,Francesco Osborne ,707
+2018,10.1007/978-3-030-00671-6_3,Inducing Implicit Relations from Text Using Distantly Supervised Deep Nets,Michael Glass ,708
+2018,10.1007/978-3-030-00671-6_30,Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding,Meng Wang ,709
+2018,10.1007/978-3-030-00671-6_31,Query-Based Linked Data Anonymization,Remy Delanaux ,710
+2018,10.1007/978-3-030-00671-6_32,Answering Provenance-Aware Queries on RDF Data Cubes Under Memory Budgets,Luis Galárraga ,711
+2018,10.1007/978-3-030-00671-6_33,Bash Datalog: Answering Datalog Queries with Unix Shell Commands,Thomas Rebele ,712
+2018,10.1007/978-3-030-00671-6_34,WORQ: Workload-Driven RDF Query Processing,Amgad Madkour ,713
+2018,10.1007/978-3-030-00671-6_35,Canonicalisation of Monotone SPARQL Queries,Jaime Salas ,714
+2018,10.1007/978-3-030-00671-6_36,Cross-Lingual Classification of Crisis Data,Prashant Khare ,715
+2018,10.1007/978-3-030-00671-6_37,Measuring Semantic Coherence of a Conversation,Svitlana Vakulenko ,716
+2018,10.1007/978-3-030-00671-6_38,Combining Truth Discovery and RDF Knowledge Bases to Their Mutual Advantage,Valentina Beretta ,717
+2018,10.1007/978-3-030-00671-6_39,Content Based Fake News Detection Using Knowledge Graphs,Jeff Z. Pan ,718
+2018,10.1007/978-3-030-00671-6_4,Towards Encoding Time in Text-Based Entity Embeddings,Federico Bianchi ,719
+2018,10.1007/978-3-030-00671-6_5,Rule Learning from Knowledge Graphs Guided by Embedding Models,Vinh Thinh Ho ,720
+2018,10.1007/978-3-030-00671-6_6,A Novel Ensemble Method for Named Entity Recognition and Disambiguation Based on Neural Network,Lorenzo Canale ,721
+2018,10.1007/978-3-030-00671-6_7,EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs,Mohnish Dubey ,722
+2018,10.1007/978-3-030-00671-6_8,TSE-NER: An Iterative Approach for Long-Tail Entity Extraction in Scientific Publications,Sepideh Mesbah ,723
+2018,10.1007/978-3-030-00671-6_9,An Ontology-Driven Probabilistic Soft Logic Approach to Improve NLP Entity Annotations,Marco Rospocher ,724
+2019,10.1007/978-3-030-30793-6_1,Decentralized Indexing over a Network of RDF Peers,Christian Aebeloe ,725
+2019,10.1007/978-3-030-30793-6_10,Mapping Factoid Adjective Constraints to Existential Restrictions over Knowledge Bases,Jiwei Ding ,726
+2019,10.1007/978-3-030-30793-6_11,Mining Significant Maximum Cardinalities in Knowledge Bases,Arnaud Giacometti ,727
+2019,10.1007/978-3-030-30793-6_12,"HapPenIng: Happen, Predict, Infer—Event Series Completion in a Knowledge Graph",Simon Gottschalk ,728
+2019,10.1007/978-3-030-30793-6_13,Uncovering the Semantics of Wikipedia Categories,Nicolas Heist ,729
+2019,10.1007/978-3-030-30793-6_14,Qsearch: Answering Quantity Queries from Text,Vinh Thinh Ho ,730
+2019,10.1007/978-3-030-30793-6_15,A Worst-Case Optimal Join Algorithm for SPARQL,Aidan Hogan ,731
+2019,10.1007/978-3-030-30793-6_16,Knowledge Graph Consolidation by Unifying Synonymous Relationships,Jan-Christoph Kalo ,732
+2019,10.1007/978-3-030-30793-6_17,Skyline Queries over Knowledge Graphs,Ilkcan Keles ,733
+2019,10.1007/978-3-030-30793-6_18,Detecting Influences of Ontology Design Patterns in Biomedical Ontologies,Christian Kindermann ,734
+2019,10.1007/978-3-030-30793-6_19,Popularity-Driven Ontology Ranking Using Qualitative Features,Niklas Kolbe ,735
+2019,10.1007/978-3-030-30793-6_2,Datalog Materialisation in Distributed RDF Stores with Dynamic Data Exchange,Temitope Ajileye ,736
+2019,10.1007/978-3-030-30793-6_20,Incorporating Literals into Knowledge Graph Embeddings,Agustinus Kristiadi ,737
+2019,10.1007/978-3-030-30793-6_21,Extracting Novel Facts from Tables for Knowledge Graph Completion,Benno Kruit ,738
+2019,10.1007/978-3-030-30793-6_22,Difficulty-Controllable Multi-hop Question Generation from Knowledge Graphs,Vishwajeet Kumar ,739
+2019,10.1007/978-3-030-30793-6_23,Type Checking Program Code Using SHACL,Martin Leinberger ,740
+2019,10.1007/978-3-030-30793-6_24,Decentralized Reasoning on a Network of Aligned Ontologies with Link Keys,Jérémy Lhez ,741
+2019,10.1007/978-3-030-30793-6_25,Ontology Completion Using Graph Convolutional Networks,Na Li ,742
+2019,10.1007/978-3-030-30793-6_26,Non-parametric Class Completeness Estimators for Collaborative Knowledge Graphs—The Case of Wikidata,Michael Luggen ,743
+2019,10.1007/978-3-030-30793-6_27,Pretrained Transformers for Simple Question Answering over Knowledge Graphs,Denis Lukovnikov ,744
+2019,10.1007/978-3-030-30793-6_28,Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs,Gaurav Maheshwari ,745
+2019,10.1007/978-3-030-30793-6_29,THOTH: Neural Translation and Enrichment of Knowledge Graphs,Diego Moussallem ,746
+2019,10.1007/978-3-030-30793-6_3,How to Make Latent Factors Interpretable by Feeding Factorization Machines with Knowledge Graphs,Vito Walter Anelli ,747
+2019,10.1007/978-3-030-30793-6_30,Entity Enabled Relation Linking,Jeff Z. Pan ,748
+2019,10.1007/978-3-030-30793-6_31,SHACL Constraints with Inference Rules,Paolo Pareti ,749
+2019,10.1007/978-3-030-30793-6_32,Query-Based Entity Comparison in Knowledge Graphs Revisited,Alina Petrova ,750
+2019,10.1007/978-3-030-30793-6_33,Anytime Large-Scale Analytics of Linked Open Data,Arnaud Soulet ,751
+2019,10.1007/978-3-030-30793-6_34,Absorption-Based Query Answering for Expressive Description Logics,Andreas Steigmiller ,752
+2019,10.1007/978-3-030-30793-6_35,TransEdge: Translating Relation-Contextualized Embeddings for Knowledge Graphs,Zequn Sun ,753
+2019,10.1007/978-3-030-30793-6_36,Unsupervised Discovery of Corroborative Paths for Fact Validation,Zafar Habeeb Syed ,754
+2019,10.1007/978-3-030-30793-6_37,RDF Explorer: A Visual SPARQL Query Builder,Hernán Vargas ,755
+2019,10.1007/978-3-030-30793-6_38,Capturing Semantic and Syntactic Information for Link Prediction in Knowledge Graphs,Changjian Wang ,756
+2019,10.1007/978-3-030-30793-6_39,A Framework for Evaluating Snippet Generation for Dataset Search,Xiaxia Wang ,757
+2019,10.1007/978-3-030-30793-6_4,Observing LOD Using Equivalent Set Graphs: It Is Mostly Flat and Sparsely Linked,Luigi Asprino ,758
+2019,10.1007/978-3-030-30793-6_40,Summarizing News Articles Using Question-and-Answer Pairs via Learning,Xuezhi Wang ,759
+2019,10.1007/978-3-030-30793-6_41,Product Classification Using Microdata Annotations,Ziqi Zhang ,760
+2019,10.1007/978-3-030-30793-6_42,Truthful Mechanisms for Multi Agent Self-interested Correspondence Selection,Nan Zhi ,761
+2019,10.1007/978-3-030-30793-6_5,Optimizing Horn- Reasoning for OBDA,Labinot Bajraktari ,762
+2019,10.1007/978-3-030-30793-6_6,Using a KG-Copy Network for Non-goal Oriented Dialogues,Debanjan Chaudhuri ,763
+2019,10.1007/978-3-030-30793-6_7,Canonicalizing Knowledge Base Literals,Jiaoyan Chen ,764
+2019,10.1007/978-3-030-30793-6_8,Bag Semantics of DL-Lite with Functionality Axioms,Gianluca Cima ,765
+2019,10.1007/978-3-030-30793-6_9,Validating SHACL Constraints over a SPARQL Endpoint,Julien Corman ,766
+2019,10.1007/978-3-030-30796-7_1,The KEEN Universe,Mehdi Ali ,767
+2019,10.1007/978-3-030-30796-7_10,FoodKG: A Semantics-Driven Knowledge Graph for Food Recommendation,Steven Haussmann ,768
+2019,10.1007/978-3-030-30796-7_11,BTC-2019: The 2019 Billion Triple Challenge Dataset,José-Miguel Herrera ,769
+2019,10.1007/978-3-030-30796-7_12,Extending the YAGO2 Knowledge Graph with Precise Geospatial Knowledge,Nikolaos Karalis ,770
+2019,10.1007/978-3-030-30796-7_13,The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity,Elmar Kiesling ,771
+2019,10.1007/978-3-030-30796-7_14,SemanGit: A Linked Dataset from git,Dennis Oliver Kubitza ,772
+2019,10.1007/978-3-030-30796-7_15,Squerall: Virtual Ontology-Based Access to Heterogeneous and Large Data Sources,Mohamed Nadjib Mami ,773
+2019,10.1007/978-3-030-30796-7_16,List.MID: A MIDI-Based Benchmark for Evaluating RDF Lists,Albert Meroño-Peñuela ,774
+2019,10.1007/978-3-030-30796-7_17,A Scalable Framework for Quality Assessment of RDF Datasets,Gezim Sejdiu ,775
+2019,10.1007/978-3-030-30796-7_18,QaldGen: Towards Microbenchmarking of Question Answering Systems over Knowledge Graphs,Kuldeep Singh ,776
+2019,10.1007/978-3-030-30796-7_19,Sparklify: A Scalable Software Component for Efficient Evaluation of SPARQL Queries over Distributed RDF Datasets,Claus Stadler ,777
+2019,10.1007/978-3-030-30796-7_2,VLog: A Rule Engine for Knowledge Graphs,David Carral ,778
+2019,10.1007/978-3-030-30796-7_20,ClaimsKG: A Knowledge Graph of Fact-Checked Claims,Andon Tchechmedjiev ,779
+2019,10.1007/978-3-030-30796-7_21,CoCoOn: Cloud Computing Ontology for IaaS Price and Performance Comparison,Qian Zhang ,780
+2019,10.1007/978-3-030-30796-7_22,Semantically-Enabled Optimization of Digital Marketing Campaigns,Vincenzo Cutrona ,781
+2019,10.1007/978-3-030-30796-7_23,An End-to-End Semantic Platform for Nutritional Diseases Management,Ivan Donadello ,782
+2019,10.1007/978-3-030-30796-7_24,VLX-Stories: Building an Online Event Knowledge Base with Emerging Entity Detection,Dèlia Fernàndez-Cañellas ,783
+2019,10.1007/978-3-030-30796-7_25,Personalized Knowledge Graphs for the Pharmaceutical Domain,Anna Lisa Gentile ,784
+2019,10.1007/978-3-030-30796-7_26,Use of OWL and Semantic Web Technologies at Pinterest,Rafael S. Gonçalves ,785
+2019,10.1007/978-3-030-30796-7_27,An Assessment of Adoption and Quality of Linked Data in European Open Government Data,Luis-Daniel Ibáñez ,786
+2019,10.1007/978-3-030-30796-7_28,Easy Web API Development with SPARQL Transformer,Pasquale Lisena ,787
+2019,10.1007/978-3-030-30796-7_29,Benefit Graph Extraction from Healthcare Policies,Vanessa Lopez ,788
+2019,10.1007/978-3-030-30796-7_3,ArCo: The Italian Cultural Heritage Knowledge Graph,Valentina Anita Carriero ,789
+2019,10.1007/978-3-030-30796-7_30,Knowledge Graph Embedding for Ecotoxicological Effect Prediction,Erik B. Myklebust ,790
+2019,10.1007/978-3-030-30796-7_31,Improving Editorial Workflow and Metadata Quality at Springer Nature,Angelo A. Salatino ,791
+2019,10.1007/978-3-030-30796-7_32,A Pay-as-you-go Methodology to Design and Build Enterprise Knowledge Graphs from Relational Databases,Juan F. Sequeda ,792
+2019,10.1007/978-3-030-30796-7_4,Making Study Populations Visible Through Knowledge Graphs,Shruthi Chari ,793
+2019,10.1007/978-3-030-30796-7_5,LC-QuAD 2.0: A Large Dataset for Complex Question Answering over Wikidata and DBpedia,Mohnish Dubey ,794
+2019,10.1007/978-3-030-30796-7_6,SEO: A Scientific Events Data Model,Said Fathalla ,795
+2019,10.1007/978-3-030-30796-7_7,DBpedia FlexiFusion the Best of Wikipedia > Wikidata > Your Data,Johannes Frey ,796
+2019,10.1007/978-3-030-30796-7_8,The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data,Michael Färber ,797
+2019,10.1007/978-3-030-30796-7_9,The RealEstateCore Ontology,Karl Hammar ,798
+2020,10.1007/978-3-030-62419-4_1,Computing Compliant Anonymisations of Quantified ABoxes w.r.t. Policies,Franz Baader ,799
+2020,10.1007/978-3-030-62419-4_10,A Novel Path-Based Entity Relatedness Measure for Efficient Collective Entity Linking,Cheikh Brahim El Vaigh,800
+2020,10.1007/978-3-030-62419-4_11,Enhancing Online Knowledge Graph Population with Semantic Knowledge,Dèlia Fernàndez-Cañellas ,801
+2020,10.1007/978-3-030-62419-4_12,Extending SPARQL with Similarity Joins,Sebastián Ferrada ,802
+2020,10.1007/978-3-030-62419-4_13,ExCut: Explainable Embedding-Based Clustering over Knowledge Graphs,Mohamed H. Gad-Elrab ,803
+2020,10.1007/978-3-030-62419-4_14,Cost- and Robustness-Based Query Optimization for Linked Data Fragments,Lars Heling ,804
+2020,10.1007/978-3-030-62419-4_15,"GeoSPARQL+: Syntax, Semantics and System for Integrated Querying of Graph, Raster and Vector Data",Timo Homburg ,805
+2020,10.1007/978-3-030-62419-4_16,FunMap: Efficient Execution of Functional Mappings for Knowledge Graph Creation,Samaneh Jozashoori ,806
+2020,10.1007/978-3-030-62419-4_17,KnowlyBERT - Hybrid Query Answering over Language Models and Knowledge Graphs,Jan-Christoph Kalo ,807
+2020,10.1007/978-3-030-62419-4_18,Generating Referring Expressions from RDF Knowledge Graphs for Data Linking,Armita Khajeh Nassiri ,808
+2020,10.1007/978-3-030-62419-4_19,Prevalence and Effects of Class Hierarchy Precompilation in Biomedical Ontologies,Christian Kindermann ,809
+2020,10.1007/978-3-030-62419-4_2,PNEL: Pointer Network Based End-To-End Entity Linking over Knowledge Graphs,Debayan Banerjee ,810
+2020,10.1007/978-3-030-62419-4_20,Tab2Know: Building a Knowledge Base from Tables in Scientific Papers,Benno Kruit ,811
+2020,10.1007/978-3-030-62419-4_21,Deciding SHACL Shape Containment Through Description Logics Reasoning,Martin Leinberger ,812
+2020,10.1007/978-3-030-62419-4_22,Rule-Guided Graph Neural Networks for Recommender Systems,Xinze Lyu ,813
+2020,10.1007/978-3-030-62419-4_23,Leveraging Semantic Parsing for Relation Linking over Knowledge Bases,Nandana Mihindukulasooriya ,814
+2020,10.1007/978-3-030-62419-4_24,NABU – Multilingual Graph-Based Neural RDF Verbalizer,Diego Moussallem ,815
+2020,10.1007/978-3-030-62419-4_25,Fantastic Knowledge Graph Embeddings and How to Find the Right Space for Them,Mojtaba Nayyeri ,816
+2020,10.1007/978-3-030-62419-4_26,LM4KG: Improving Common Sense Knowledge Graphs with Language Models,Janna Omeliyanenko ,817
+2020,10.1007/978-3-030-62419-4_27,SHACL Satisfiability and Containment,Paolo Pareti ,818
+2020,10.1007/978-3-030-62419-4_28,Contextual Propagation of Properties for Knowledge Graphs,Pierre-Henri Paris ,819
+2020,10.1007/978-3-030-62419-4_29,In-Database Graph Analytics with Recursive SPARQL,Aidan Hogan ,820
+2020,10.1007/978-3-030-62419-4_3,Explainable Link Prediction for Emerging Entities in Knowledge Graphs,Rajarshi Bhowmik ,821
+2020,10.1007/978-3-030-62419-4_30,From Syntactic Structure to Semantic Relationship: Hypernym Extraction from Definitions by Recurrent Neural Networks Using the Part of Speech Information,Yixin Tan ,822
+2020,10.1007/978-3-030-62419-4_31,Focused Query Expansion with Entity Cores for Patient-Centric Health Search,Erisa Terolli ,823
+2020,10.1007/978-3-030-62419-4_32,Generating Expressive Correspondences: An Approach Based on User Knowledge Needs and A-Box Relation Discovery,Elodie Thiéblin ,824
+2020,10.1007/978-3-030-62419-4_33,Weakly Supervised Short Text Categorization Using World Knowledge,Rima Türker ,825
+2020,10.1007/978-3-030-62419-4_34,PreFace: Faceted Retrieval of Prerequisites Using Domain-Specific Knowledge Bases,Prajna Upadhyay ,826
+2020,10.1007/978-3-030-62419-4_35,Detecting Different Forms of Semantic Shift in Word Embeddings via Paradigmatic and Syntagmatic Association Changes,Anna Wegmann ,827
+2020,10.1007/978-3-030-62419-4_36,BCRL: Long Text Friendly Knowledge Graph Representation Learning,Gang Wu ,828
+2020,10.1007/978-3-030-62419-4_37,Temporal Knowledge Graph Completion Based on Time Series Gaussian Embedding,Chenjin Xu ,829
+2020,10.1007/978-3-030-62419-4_38,Revealing Secrets in SPARQL Session Level,Xinyue Zhang ,830
+2020,10.1007/978-3-030-62419-4_4,Tentris – A Tensor-Based Triple Store,Alexander Bigerl ,831
+2020,10.1007/978-3-030-62419-4_5,Refining Node Embeddings via Semantic Proximity,Melisachew Wudage Chekol ,832
+2020,10.1007/978-3-030-62419-4_6,Learning Short-Term Differences and Long-Term Dependencies for Entity Alignment,Jia Chen ,833
+2020,10.1007/978-3-030-62419-4_7,Generating Compact and Relaxable Answers to Keyword Queries over Knowledge Graphs,Gong Cheng ,834
+2020,10.1007/978-3-030-62419-4_8,Controlled Query Evaluation in Ontology-Based Data Access,Gianluca Cima ,835
+2020,10.1007/978-3-030-62419-4_9,Linked Credibility Reviews for Explainable Misinformation Detection,Ronald Denaux ,836
+2020,10.1007/978-3-030-62466-8_1,CASQAD – A New Dataset for Context-Aware Spatial Question Answering,Jewgeni Rose ,837
+2022,10.1007/978-3-030-62466-8_10,NanoMine: A Knowledge Graph for Nanocomposite Materials Science,Jamie P. McCusker ,838
+2020,10.1007/978-3-030-62466-8_11,G2GML: Graph to Graph Mapping Language for Bridging RDF and Property Graphs,Hirokazu Chiba ,839
+2020,10.1007/978-3-030-62466-8_12,The International Data Spaces Information Model – An Ontology for Sovereign Exchange of Digital Content,Sebastian Bader ,840
+2020,10.1007/978-3-030-62466-8_13,LDflex: A Read/Write Linked Data Abstraction for Front-End Web Developers,Ruben Verborgh ,841
+2020,10.1007/978-3-030-62466-8_14,An Ontology for the Materials Design Domain,Huanyu Li ,842
+2022,10.1007/978-3-030-62466-8_15,Explanation Ontology: A Model of Explanations for User-Centered AI,Shruthi Chari ,843
+2020,10.1007/978-3-030-62466-8_16,An SKOS-Based Vocabulary on the Swift Programming Language,Christian Grévisse ,844
+2020,10.1007/978-3-030-62466-8_17,The Virtual Knowledge Graph System Ontop,Guohui Xiao ,845
+2021,10.1007/978-3-030-62466-8_18,KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis,Filip Ilievski ,846
+2020,10.1007/978-3-030-62466-8_19,Covid-on-the-Web: Knowledge Graph and Services to Advance COVID-19 Research,Franck Michel ,847
+2020,10.1007/978-3-030-62466-8_2,HDTCat: Let’s Make HDT Generation Scale,Dennis Diefenbach ,848
+2020,10.1007/978-3-030-62466-8_20,ODArchive – Creating an Archive for Structured Data from Open Data Portals,Thomas Weber ,849
+2020,10.1007/978-3-030-62466-8_21,Tough Tables: Carefully Evaluating Entity Linking for Tabular Data,Vincenzo Cutrona ,850
+2020,10.1007/978-3-030-62466-8_22,Facilitating the Analysis of COVID-19 Literature Through a Knowledge Graph,Bram Steenwinckel ,851
+2020,10.1007/978-3-030-62466-8_23,Crime Event Localization and Deduplication,Federica Rollo ,852
+2022,10.1007/978-3-030-62466-8_24,Transparent Integration and Sharing of Life Cycle Sustainability Data with Provenance,Emil Riis Hansen ,853
+2020,10.1007/978-3-030-62466-8_25,A Knowledge Graph for Assessing Agressive Tax Planning Strategies,Niklas Lüdemann ,854
+2020,10.1007/978-3-030-62466-8_26,Turning Transport Data to Comply with EU Standards While Enabling a Multimodal Transport Knowledge Graph,Mario Scrocca ,855
+2020,10.1007/978-3-030-62466-8_27,Enhancing Public Procurement in the European Union Through Constructing and Exploiting an Integrated Knowledge Graph,Ahmet Soylu ,856
+2020,10.1007/978-3-030-62466-8_28,The OpenCitations Data Model,Marilena Daquino ,857
+2020,10.1007/978-3-030-62466-8_29,Semantic Integration of Bosch Manufacturing Data Using Virtual Knowledge Graphs,Elem Güzel Kalaycı ,858
+2020,10.1007/978-3-030-62466-8_3,Squirrel – Crawling RDF Knowledge Graphs on the Web,Michael Röder ,859
+2022,10.1007/978-3-030-62466-8_30,A Semantic Framework for Enabling Radio Spectrum Policy Management and Evaluation,Henrique Santos ,860
+2020,10.1007/978-3-030-62466-8_31,Leveraging Linguistic Linked Data for Cross-Lingual Model Transfer in the Pharmaceutical Domain,Jorge Gracia ,861
+2020,10.1007/978-3-030-62466-8_32,Reasoning Engine for Support Maintenance,Rana Farah ,862
+2020,10.1007/978-3-030-62466-8_33,Ontology-Enhanced Machine Learning: A Bosch Use Case of Welding Quality Monitoring,Yulia Svetashova ,863
+2020,10.1007/978-3-030-62466-8_34,Revisiting Ontologies of Units of Measure for Harmonising Quantity Values – A Use Case,Francisco Martín-Recuerda ,864
+2020,10.1007/978-3-030-62466-8_35,NEO: A Tool for Taxonomy Enrichment with New Emerging Occupations,Anna Giabelli ,865
+2020,10.1007/978-3-030-62466-8_36,Domain-Specific Customization of Schema.org Based on SHACL,Umutcan Şimşek ,866
+2020,10.1007/978-3-030-62466-8_37,Understanding Data Centers from Logs: Leveraging External Knowledge for Distant Supervision,Chad DeLuca ,867
+2020,10.1007/978-3-030-62466-8_38,Assisting the RDF Annotation of a Digital Humanities Corpus Using Case-Based Reasoning,Nicolas Lasolle ,868
+2020,10.1007/978-3-030-62466-8_39,A First Step Towards a Streaming Linked Data Life-Cycle,Riccardo Tommasini ,869
+2020,10.1007/978-3-030-62466-8_4,OBA: An Ontology-Based Framework for Creating REST APIs for Knowledge Graphs,Daniel Garijo ,870
+2020,10.1007/978-3-030-62466-8_40,AWARE: A Situational Awareness Framework for Facilitating Adaptive Behavior of Autonomous Vehicles in Manufacturing,Boulos El Asmar,871
+2020,10.1007/978-3-030-62466-8_41,Google Dataset Search by the Numbers,Omar Benjelloun ,872
+2020,10.1007/978-3-030-62466-8_42,Dynamic Faceted Search for Technical Support Exploiting Induced Knowledge,Nandana Mihindukulasooriya ,873
+2020,10.1007/978-3-030-62466-8_43,Linking Ontological Classes and Archaeological Forms,Vincenzo Lombardo ,874
+2021,10.1007/978-3-030-62466-8_44,Correction to: KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis,Filip Ilievski ,875
+2022,10.1007/978-3-030-62466-8_45,Correction to: Transparent Integration and Sharing of Life Cycle Sustainability Data with Provenance,Emil Riis Hansen ,876
+2020,10.1007/978-3-030-62466-8_5,Schímatos: A SHACL-Based Web-Form Generator for Knowledge Graph Editing,Jesse Wright ,877
+2020,10.1007/978-3-030-62466-8_6,OWL2Bench: A Benchmark for OWL 2 Reasoners,Gunjan Singh ,878
+2020,10.1007/978-3-030-62466-8_7,RuBQ: A Russian Dataset for Question Answering over Wikidata,Vladislav Korablinov ,879
+2020,10.1007/978-3-030-62466-8_8,HDGI: A Human Device Gesture Interaction Ontology for the Internet of Things,Madhawa Perera ,880
+2020,10.1007/978-3-030-62466-8_9,AI-KG: An Automatically Generated Knowledge Graph of Artificial Intelligence,Danilo Dessì ,881
+2021,10.1007/978-3-030-88361-4_1,PCSG: Pattern-Coverage Snippet Generation for RDF Datasets,Xiaxia Wang ,882
+2021,10.1007/978-3-030-88361-4_10,Learning to Recommend Items to Wikidata Editors,Kholoud AlGhamdi ,883
+2021,10.1007/978-3-030-88361-4_11,Graph-Boosted Active Learning for Multi-source Entity Resolution,Anna Primpeli ,884
+2021,10.1007/978-3-030-88361-4_12,Computing CQ Lower-Bounds over OWL 2 Through Approximation to RSA,Federico Igne ,885
+2021,10.1007/978-3-030-88361-4_13,Fast ObjectRank for Large Knowledge Databases,Hiroaki Shiokawa ,886
+2021,10.1007/978-3-030-88361-4_14,"Open Domain Question Answering over Knowledge Graphs Using Keyword Search, Answer Type Prediction, SPARQL and Pre-trained Neural Models",Christos Nikas ,887
+2021,10.1007/978-3-030-88361-4_15,Automatically Extracting OWL Versions of FOL Ontologies,Torsten Hahmann ,888
+2021,10.1007/978-3-030-88361-4_16,Using Compositional Embeddings for Fact Checking,Ana Alexandra Morim da Silva,889
+2021,10.1007/978-3-030-88361-4_17,Background Knowledge in Schema Matching: Strategy vs. Data,Jan Portisch ,890
+2021,10.1007/978-3-030-88361-4_18,A Graph-Based Approach for Inferring Semantic Descriptions of Wikipedia Tables,Binh Vu ,891
+2021,10.1007/978-3-030-88361-4_19,Generative Relation Linking for Question Answering over Knowledge Bases,Gaetano Rossiello ,892
+2021,10.1007/978-3-030-88361-4_2,A Source-to-Target Constraint Rewriting for Direct Mapping,Ratan Bahadur Thapa ,893
+2021,10.1007/978-3-030-88361-4_20,Dataset or Not? A Study on the Veracity of Semantic Markup for Dataset Pages,Tarfah Alrashed ,894
+2021,10.1007/978-3-030-88361-4_21,Learning Visual Models Using a Knowledge Graph as a Trainer,Sebastian Monka ,895
+2021,10.1007/978-3-030-88361-4_22,Controlled Query Evaluation over Prioritized Ontologies with Expressive Data Protection Policies,Gianluca Cima ,896
+2021,10.1007/978-3-030-88361-4_23,ProGS: Property Graph Shapes Language,Philipp Seifer ,897
+2021,10.1007/978-3-030-88361-4_24,Improving Knowledge Graph Embeddings with Ontological Reasoning,Nitisha Jain ,898
+2021,10.1007/978-3-030-88361-4_25,CKGG: A Chinese Knowledge Graph for High-School Geography Education and Beyond,Yulin Shen ,899
+2021,10.1007/978-3-030-88361-4_26,A High-Level Ontology Network for ICT Infrastructures,Oscar Corcho ,900
+2021,10.1007/978-3-030-88361-4_27,Chimera: A Bridge Between Big Data Analytics and Semantic Technologies,Matteo Belcao ,901
+2021,10.1007/978-3-030-88361-4_28,Scalable Transformation of Big Geospatial Data into Linked Data,George Mandilaras ,902
+2021,10.1007/978-3-030-88361-4_29,AgroLD: A Knowledge Graph for the Plant Sciences,Pierre Larmande ,903
+2021,10.1007/978-3-030-88361-4_3,Learning to Predict the Departure Dynamics of Wikidata Editors,Guangyuan Piao ,904
+2021,10.1007/978-3-030-88361-4_30,LiterallyWikidata - A Benchmark for Knowledge Graph Completion Using Literals,Genet Asefa Gesese ,905
+2021,10.1007/978-3-030-88361-4_31,A Framework for Quality Assessment of Semantic Annotations of Tabular Data,Roberto Avogadro ,906
+2021,10.1007/978-3-030-88361-4_32,EduCOR: An Educational and Career-Oriented Recommendation Ontology,Eleni Ilkou ,907
+2021,10.1007/978-3-030-88361-4_33,The Punya Platform: Building Mobile Research Apps with Linked Data and Semantic Features,Evan W. Patton ,908
+2021,10.1007/978-3-030-88361-4_34,BEEO: Semantic Support for Event-Based Data Analytics,Michele Ciavotta ,909
+2021,10.1007/978-3-030-88361-4_35,Rail Topology Ontology: A Rail Infrastructure Base Ontology,Stefan Bischof ,910
+2021,10.1007/978-3-030-88361-4_36,Mapping Manuscript Migrations on the Semantic Web: A Semantic Portal and Linked Open Data Service for Premodern Manuscript Research,Eero Hyvönen ,911
+2021,10.1007/978-3-030-88361-4_37,Wikibase as an Infrastructure for Knowledge Graphs: The EU Knowledge Graph,Dennis Diefenbach ,912
+2021,10.1007/978-3-030-88361-4_38,Leveraging Semantic Technologies for Digital Interoperability in the European Railway Domain,Julián Andrés Rojas ,913
+2021,10.1007/978-3-030-88361-4_39,Use of Semantic Technologies to Inform Progress Toward Zero-Carbon Economy,Stefano Germano ,914
+2021,10.1007/978-3-030-88361-4_4,Towards Neural Schema Alignment for OpenStreetMap and Knowledge Graphs,Alishiba Dsouza ,915
+2021,10.1007/978-3-030-88361-4_40,Towards Semantic Interoperability in Historical Research: Documenting Research Data and Knowledge with Synthesis,Pavlos Fafalios ,916
+2021,10.1007/978-3-030-88361-4_41,On Constructing Enterprise Knowledge Graphs Under Quality and Availability Constraints,Matthew Kujawinski ,917
+2021,10.1007/978-3-030-88361-4_42,Reconciling and Using Historical Person Registers as Linked Open Data in the AcademySampo Portal and Data Service,Petri Leskinen ,918
+2021,10.1007/978-3-030-88361-4_5,Improving Inductive Link Prediction Using Hyper-relational Facts,Mehdi Ali ,919
+2021,10.1007/978-3-030-88361-4_6,Large-Scale Multi-granular Concept Extraction Based on Machine Reading Comprehension,Siyu Yuan ,920
+2021,10.1007/978-3-030-88361-4_7,Graphhopper: Multi-hop Scene Graph Reasoning for Visual Question Answering,Rajat Koner ,921
+2021,10.1007/978-3-030-88361-4_8,EDG-Based Question Decomposition for Complex Question Answering over Knowledge Bases,Xixin Hu ,922
+2021,10.1007/978-3-030-88361-4_9,Zero-Shot Visual Question Answering Using Knowledge Graph,Zhuo Chen ,923
+2022,10.1007/978-3-031-19433-7_1,Introducing Semantic Information for Numerical Attribute Prediction over Knowledge Graphs,Bingcong Xue ,924
+2022,10.1007/978-3-031-19433-7_10,EaT-PIM: Substituting Entities in Procedural Instructions Using Flow Graphs and Embeddings,Sola S. Shirai ,925
+2022,10.1007/978-3-031-19433-7_11,: Temporal Heterogeneous Information Network Embedding in Hyperbolic Spaces,Qijie Bai ,926
+2022,10.1007/978-3-031-19433-7_12,Facing Changes: Continual Entity Alignment for Growing Knowledge Graphs,Yuxin Wang ,927
+2022,10.1007/978-3-031-19433-7_13,Mapping Relational Database Constraints to SHACL,Ratan Bahadur Thapa ,928
+2022,10.1007/978-3-031-19433-7_14,POSO: A Generic Positioning System Ontology,Maxim Van de Wynckel,929
+2022,10.1007/978-3-031-19433-7_15,Each Snapshot to Each Space: Space Adaptation for Temporal Knowledge Graph Completion,Yancong Li ,930
+2022,10.1007/978-3-031-19433-7_16,Efficient Dependency Analysis for Rule-Based Ontologies,Larry González ,931
+2022,10.1007/978-3-031-19433-7_17,Heterogeneous Graph Neural Network with Hypernetworks for Knowledge Graph Embedding,Xiyang Liu ,932
+2022,10.1007/978-3-031-19433-7_18,MultPAX: Keyphrase Extraction Using Language Models and Knowledge Graphs,Hamada M. Zahera ,933
+2022,10.1007/978-3-031-19433-7_19,RT-KGD: Relation Transition Aware Knowledge-Grounded Dialogue Generation,Kexin Wang ,934
+2022,10.1007/978-3-031-19433-7_2,Faithful Embeddings for  Knowledge Bases,Bo Xiong ,935
+2022,10.1007/978-3-031-19433-7_20,LoGNet: Local and Global Triple Embedding Network,Giuseppe Pirrò ,936
+2022,10.1007/978-3-031-19433-7_21,An Analysis of Content Gaps Versus User Needs in the Wikidata Knowledge Graph,David Abián ,937
+2022,10.1007/978-3-031-19433-7_22,Repairing SHACL Constraint Violations Using Answer Set Programming,Shqiponja Ahmetaj ,938
+2022,10.1007/978-3-031-19433-7_23,Entity Type Prediction Leveraging Graph Walks and Entity Descriptions,Russa Biswas ,939
+2022,10.1007/978-3-031-19433-7_24,Strabo 2: Distributed Management of Massive Geospatial RDF Datasets,Dimitris Bilidas ,940
+2022,10.1007/978-3-031-19433-7_25,Controlled Query Evaluation in OWL 2 QL: A “Longest Honeymoon” Approach,Piero Bonatti ,941
+2022,10.1007/978-3-031-19433-7_26,A Survey of Syntactic Modelling Structures in Biomedical Ontologies,Christian Kindermann ,942
+2022,10.1007/978-3-031-19433-7_27,HybridFC: A Hybrid Fact-Checking Approach for Knowledge Graphs,Umair Qudus ,943
+2022,10.1007/978-3-031-19433-7_28,GNNQ: A Neuro-Symbolic Approach to Query Answering over Incomplete Knowledge Graphs,Maximilian Pflueger ,944
+2022,10.1007/978-3-031-19433-7_29,Radar Station: Using KG Embeddings for Semantic Table Interpretation and Entity Disambiguation,Jixiong Liu ,945
+2022,10.1007/978-3-031-19433-7_3,Enhancing Document-Level Relation Extraction by Entity Knowledge Injection,Xinyi Wang ,946
+2022,10.1007/978-3-031-19433-7_30,CRNet: Modeling Concurrent Events over Temporal Knowledge Graph,Shichao Wang ,947
+2022,10.1007/978-3-031-19433-7_31,LODChain: Strengthen the Connectivity of Your RDF Dataset to the Rest LOD Cloud,Michalis Mountantonakis ,948
+2022,10.1007/978-3-031-19433-7_32,WDV: A Broad Data Verbalisation Dataset Built from Wikidata,Gabriel Amaral ,949
+2022,10.1007/978-3-031-19433-7_33,Machine Learning-Friendly Biomedical Datasets for Equivalence and Subsumption Ontology Matching,Yuan He ,950
+2022,10.1007/978-3-031-19433-7_34,The DLCC Node Classification Benchmark for Analyzing Knowledge Graph Embeddings,Jan Portisch ,951
+2022,10.1007/978-3-031-19433-7_35,: A Library for Multi-source Knowledge Graph Embeddings and Applications,Xindi Luo ,952
+2022,10.1007/978-3-031-19433-7_36,IMGT-KG: A Knowledge Graph for Immunogenetics,Gaoussou Sanou ,953
+2022,10.1007/978-3-031-19433-7_37,REBench: Microbenchmarking Framework for Relation Extraction Systems,Manzoor Ali ,954
+2022,10.1007/978-3-031-19433-7_38,"ISSA: Generic Pipeline, Knowledge Model and Visualization Tools to Help Scientists Search and Make Sense of a Scientific Archive",Anne Toulet ,955
+2022,10.1007/978-3-031-19433-7_39,CS-KG: A Large-Scale Knowledge Graph of Research Entities and Claims in Computer Science,Danilo Dessí ,956
+2022,10.1007/978-3-031-19433-7_4,Hashing the Hypertrie: Space- and Time-Efficient Indexing for SPARQL in Tensors,Alexander Bigerl ,957
+2022,10.1007/978-3-031-19433-7_40,RMLStreamer-SISO: An RDF Stream Generator from Streaming Heterogeneous Data,Sitt Min Oo ,958
+2022,10.1007/978-3-031-19433-7_41,WDBench: A Wikidata Graph Query Benchmark,Renzo Angles ,959
+2022,10.1007/978-3-031-19433-7_42,Leveraging Knowledge Graph Technologies to Assess Journals and Conferences at Springer Nature,Simone Angioni ,960
+2022,10.1007/978-3-031-19433-7_43,Semantic Knowledge Graphs for Distributed Data Spaces: The Public Procurement Pilot Experience,Cecile Guasch ,961
+2022,10.1007/978-3-031-19433-7_44,Ontology Reshaping for Knowledge Graph Construction: Applied on Bosch Welding Case,Dongzhuoran Zhou ,962
+2022,10.1007/978-3-031-19433-7_45,Executable Knowledge Graphs for Machine Learning: A Bosch Case of Welding Monitoring,Zhuoxun Zheng ,963
+2022,10.1007/978-3-031-19433-7_46,Scaling Knowledge Graphs for Automating AI of Digital Twins,Joern Ploennigs ,964
+2022,10.1007/978-3-031-19433-7_47,Knowledge Graph Induction Enabling Recommending and Trend Analysis: A Corporate Research Community Use Case,Nandana Mihindukulasooriya ,965
+2022,10.1007/978-3-031-19433-7_48,SeLoC-ML: Semantic Low-Code Engineering for Machine Learning Applications in Industrial IoT,Haoyu Ren ,966
+2022,10.1007/978-3-031-19433-7_5,Towards Neural Network Interpretability Using Commonsense Knowledge Graphs,Youmna Ismaeil ,967
+2022,10.1007/978-3-031-19433-7_6,Reproducibility Crisis in the LOD Cloud? Studying the Impact of Ontology Accessibility and Archiving as a Counter Measure,Johannes Frey ,968
+2022,10.1007/978-3-031-19433-7_7,HCL: Improving Graph Representation with Hierarchical Contrastive Learning,Jun Wang ,969
+2022,10.1007/978-3-031-19433-7_8,How to Agree to Disagree,Lucía Gómez Álvarez ,970
+2022,10.1007/978-3-031-19433-7_9,Context-Driven Visual Object Recognition Based on Knowledge Graphs,Sebastian Monka ,971
+2023,10.1007/978-3-031-47240-4_1,Link Traversal Query Processing Over Decentralized Environments with Structural Assumptions,Ruben Taelman ,972
+2023,10.1007/978-3-031-47240-4_10,Spatial Link Prediction with Spatial and Semantic Embeddings,Genivika Mann ,973
+2023,10.1007/978-3-031-47240-4_11,How is Your Knowledge Graph Used: Content-Centric Analysis of SPARQL Query Logs,Luigi Asprino ,974
+2023,10.1007/978-3-031-47240-4_12,Iterative Geographic Entity Alignment with Cross-Attention,Alishiba Dsouza ,975
+2023,10.1007/978-3-031-47240-4_13,Entity-Relation Distribution-Aware Negative Sampling for Knowledge Graph Embedding,Naimeng Yao ,976
+2023,10.1007/978-3-031-47240-4_14,Negative Sampling with Adaptive Denoising Mixup for Knowledge Graph Embedding,Xiangnan Chen ,977
+2023,10.1007/978-3-031-47240-4_15,Comparison of Knowledge Graph Representations for Consumer Scenarios,Ana Iglesias-Molina ,978
+2023,10.1007/978-3-031-47240-4_16,A Comprehensive Study on Knowledge Graph Embedding over Relational Patterns Based on Rule Learning,Long Jin ,979
+2023,10.1007/978-3-031-47240-4_17,Compact Encoding of Reified Triples Using HDTr,Jose M. Gimenez-Garcia ,980
+2023,10.1007/978-3-031-47240-4_18,Causal Inference-Based Debiasing Framework for Knowledge Graph Completion,Lin Ren ,981
+2023,10.1007/978-3-031-47240-4_19,Can ChatGPT Replace Traditional KBQA Models? An In-Depth Analysis of the Question Answering Performance of the GPT LLM Family,Yiming Tan ,982
+2023,10.1007/978-3-031-47240-4_2,Dense Re-Ranking with Weak Supervision for RDF Dataset Search,Qiaosheng Chen ,983
+2023,10.1007/978-3-031-47240-4_20,Mapping and Cleaning Open Commonsense Knowledge Bases with Generative Translation,Julien Romero ,984
+2023,10.1007/978-3-031-47240-4_21,Integrating Knowledge Graph Embeddings and Pre-trained Language Models in Hypercomplex Spaces,Mojtaba Nayyeri ,985
+2023,10.1007/978-3-031-47240-4_22,LLMs4OL: Large Language Models for Ontology Learning,Hamed Babaei Giglou ,986
+2023,10.1007/978-3-031-47240-4_23,Biomedical Knowledge Graph Embeddings with Negative Statements,Rita T. Sousa ,987
+2023,10.1007/978-3-031-47240-4_24,Knowledge Graph Enhanced Language Models for Sentiment Analysis,Jie Li ,988
+2023,10.1007/978-3-031-47240-4_25,TemporalFC: A Temporal Fact Checking Approach over Knowledge Graphs,Umair Qudus ,989
+2023,10.1007/978-3-031-47240-4_26,Assessing the Generalization Capabilities of Neural Machine Translation Models for SPARQL Query Generation,Samuel Reyd ,990
+2023,10.1007/978-3-031-47240-4_27,Linking Tabular Columns to Unseen Ontologies,Sarthak Dash ,991
+2023,10.1007/978-3-031-47240-4_28,Neural Multi-hop Logical Query Answering with Concept-Level Answers,Zhenwei Tang ,992
+2023,10.1007/978-3-031-47240-4_29,ForecastTKGQuestions: A Benchmark for Temporal Question Answering and Forecasting over Temporal Knowledge Graphs,Zifeng Ding ,993
+2023,10.1007/978-3-031-47240-4_3,Optimizing SPARQL Queries with SHACL,Ratan Bahadur Thapa ,994
+2023,10.1007/978-3-031-47240-4_30,SORBET: A Siamese Network for Ontology Embeddings Using a Distance-Based Regression Loss and BERT,Francis Gosselin ,995
+2023,10.1007/978-3-031-47240-4_31,Visualizing Mappings Between Pairwise Ontologies - An Empirical Study of Matrix and Linked Indented List in Their User Support During Class Mapping Creation and Evaluation,Bo Fu ,996
+2023,10.1007/978-3-031-47240-4_32,FeaBI: A Feature Selection-Based Framework for Interpreting KG Embeddings,Youmna Ismaeil ,997
+2023,10.1007/978-3-031-47240-4_33,CapsKG: Enabling Continual Knowledge Integration in Language Models for Automatic Knowledge Graph Completion,Janna Omeliyanenko ,998
+2023,10.1007/978-3-031-47240-4_4,HAEE: Low-Resource Event Detection with Hierarchy-Aware Event Graph Embeddings,Guoxuan Ding ,999
+2023,10.1007/978-3-031-47240-4_5,Textual Entailment for Effective Triple Validation in Object Prediction,Andrés García-Silva ,1000
+2023,10.1007/978-3-031-47240-4_6,ASKRL: An Aligned-Spatial Knowledge Representation Learning Framework for Open-World Knowledge Graph,Ziyu Shang ,1001
+2023,10.1007/978-3-031-47240-4_7,Rethinking Uncertainly Missing and Ambiguous Visual Modality in Multi-Modal Entity Alignment,Zhuo Chen ,1002
+2023,10.1007/978-3-031-47240-4_8,Disentangled Contrastive Learning for Knowledge-Aware Recommender System,Shuhua Huang ,1003
+2023,10.1007/978-3-031-47240-4_9,Dependency-Aware Core Column Discovery for Table Understanding,Jingyi Qiu ,1004
+2023,10.1007/978-3-031-47243-5_1,HOLY: An Ontology Covering the Hydrogen Market,Kiara M. Ascencion Arevalo ,1005
+2023,10.1007/978-3-031-47243-5_10,SPARQL_edit: Editing RDF Literals in Knowledge Graphs via View-Update Translations,Sascha Meckler ,1006
+2023,10.1007/978-3-031-47243-5_11,LDkit: Linked Data Object Graph Mapping Toolkit for Web Applications,Karel Klíma ,1007
+2023,10.1007/978-3-031-47243-5_12,VOYAGE: A Large Collection of Vocabulary Usage in Open RDF Datasets,Qing Shi ,1008
+2023,10.1007/978-3-031-47243-5_13,Linked Data Objects (LDO): A TypeScript-Enabled RDF Devtool,Jackson Morgan ,1009
+2023,10.1007/978-3-031-47243-5_14,Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text,Nandana Mihindukulasooriya ,1010
+2023,10.1007/978-3-031-47243-5_15,Benchmarking Geospatial Question Answering Engines Using the Dataset GeoQuestions1089,Sergios-Anestis Kefalidis ,1011
+2023,10.1007/978-3-031-47243-5_16,FedShop: A Benchmark for Testing the Scalability of SPARQL Federation Engines,Minh-Hoang Dang ,1012
+2023,10.1007/978-3-031-47243-5_17,The Polifonia Ontology Network: Building a Semantic Backbone for Musical Heritage,Jacopo de Berardinis,1013
+2023,10.1007/978-3-031-47243-5_18,Solving the IoT Cascading Failure Dilemma Using a Semantic Multi-agent System,Amal Guittoum ,1014
+2023,10.1007/978-3-031-47243-5_19,Aviation Certification Powered by the Semantic Web Stack,Paul Cuddihy ,1015
+2023,10.1007/978-3-031-47243-5_2,MMpedia: A Large-Scale Multi-modal Knowledge Graph,Yinan Wu ,1016
+2023,10.1007/978-3-031-47243-5_20,The Holocaust Archival Material Knowledge Graph,Herminio García-González ,1017
+2023,10.1007/978-3-031-47243-5_21,Scaling Data Science Solutions with Semantics and Machine Learning: Bosch Case,Baifan Zhou ,1018
+2023,10.1007/978-3-031-47243-5_22,AIDA-Bot 2.0: Enhancing Conversational Agents with Knowledge Graphs for Analysing the Research Landscape,Antonello Meloni ,1019
+2023,10.1007/978-3-031-47243-5_23,The Wikibase Approach to the Enslaved.Org Hub Knowledge Graph,Cogan Shimizu ,1020
+2023,10.1007/978-3-031-47243-5_24,The World Literature Knowledge Graph,Marco Antonio Stranisci ,1021
+2023,10.1007/978-3-031-47243-5_25,Literal-Aware Knowledge Graph Embedding for Welding Quality Monitoring: A Bosch Case,Zhipeng Tan ,1022
+2023,10.1007/978-3-031-47243-5_3,Ontology Repositories and Semantic Artefact Catalogues with the OntoPortal Technology,Clement Jonquet ,1023
+2023,10.1007/978-3-031-47243-5_4,AsdKB: A Chinese Knowledge Base for the Early Screening and Diagnosis of Autism Spectrum Disorder,Tianxing Wu ,1024
+2023,10.1007/978-3-031-47243-5_5,TEC: Transparent Emissions Calculation Toolkit,Milan Markovic ,1025
+2023,10.1007/978-3-031-47243-5_6,SemOpenAlex: The Scientific Landscape in 26 Billion RDF Triples,Michael Färber ,1026
+2023,10.1007/978-3-031-47243-5_7,Comprehensive Analysis of Freebase and Dataset Creation for Robust Evaluation of Knowledge Graph Link Prediction Models,Nasim Shirvani-Mahdavi ,1027
+2023,10.1007/978-3-031-47243-5_8,The SAREF Pipeline and Portal—An Ontology Verification Framework,Maxime Lefrançois ,1028
+2023,10.1007/978-3-031-47243-5_9,The RML Ontology: A Community-Driven Modular Redesign After a Decade of Experience in Mapping Heterogeneous Data to RDF,Ana Iglesias-Molina ,1029
+2024,10.1007/978-3-031-77844-5_1,SnapE – Training Snapshot Ensembles of Link Prediction Models,Ali Shaban ,1030
+2024,10.1007/978-3-031-77844-5_10,Unaligned Federated Knowledge Graph Embedding,Deyu Chen ,1031
+2024,10.1007/978-3-031-77844-5_11,Finetuning Generative Large Language Models with Discrimination Instructions for Knowledge Graph Completion,Yang Liu ,1032
+2024,10.1007/978-3-031-77844-5_12,Blink: Blank Node Matching Using Embeddings,Alexander Becker ,1033
+2024,10.1007/978-3-031-77844-5_13,Distilling Event Sequence Knowledge From Large Language Models,Somin Wadhwa ,1034
+2024,10.1007/978-3-031-77844-5_2,Numerical Literals in Link Prediction: A Critical Examination of Models and Datasets,Moritz Blum ,1035
+2024,10.1007/978-3-031-77844-5_3,Relationships Are Complicated! An Analysis of Relationships Between Datasets on the Web,Kate Lin ,1036
+2024,10.1007/978-3-031-77844-5_4,Multi-view Transformer-Based Network for Prerequisite Learning in Concept Graphs,Zhichun Wang ,1037
+2024,10.1007/978-3-031-77844-5_5,Knowledge Graph Structure as Prompt: Improving Small Language Models Capabilities for Knowledge-Based Causal Discovery,Yuni Susanti ,1038
+2024,10.1007/978-3-031-77844-5_6,Repairing Networks of  Ontologies Using Weakening and Completing,Ying Li ,1039
+2024,10.1007/978-3-031-77844-5_7,Do LLMs Really Adapt to Domains? An Ontology Learning Perspective,Huu Tan Mai ,1040
+2024,10.1007/978-3-031-77844-5_8,Supervised Relational Learning with Selective Neighbor Entities for Few-Shot Knowledge Graph Completion,Jiewen Hou ,1041
+2024,10.1007/978-3-031-77844-5_9,Knowledge Graphs for Enhancing Large Language Models in Entity Disambiguation,Gerard Pons ,1042
+2024,10.1007/978-3-031-77847-6_1,SparkKG-ML: A Library to Facilitate End–to–End Large–Scale Machine Learning Over Knowledge Graphs in Python,Bedirhan Gergin ,1043
+2025,10.1007/978-3-031-77847-6_10,Data Privacy Vocabulary (DPV) – Version 2.0,Harshvardhan J. Pandit ,1044
+2025,10.1007/978-3-031-77847-6_11,Developing Application Profiles for Enhancing Data and Workflows in Cultural Heritage Digitisation Processes,Sebastian Barzaghi ,1045
+2024,10.1007/978-3-031-77847-6_12,Intelligent Urban Traffic Management via Semantic Interoperability Across Multiple Heterogeneous Mobility Data Sources,Mario Scrocca ,1046
+2024,10.1007/978-3-031-77847-6_13,Quality in Color: Using Knowledge Graphs for Enhanced Quality Control in an Automotive Paintshop,Bram Steenwinckel ,1047
+2024,10.1007/978-3-031-77847-6_14,UFEL: a By-Design Understandable and Frugal Entity Linking System for French Microposts,Vivien Leonard ,1048
+2024,10.1007/978-3-031-77847-6_15,Leveraging Knowledge Graphs for Earth System Dataset Discovery,Vincent Armant ,1049
+2024,10.1007/978-3-031-77847-6_16,Semantic and Technically Interoperable Data Exchange in the Flanders Smart Data Space,Dwight Van Lancker ,1050
+2024,10.1007/978-3-031-77847-6_17,Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data,Antonio De Santis ,1051
+2024,10.1007/978-3-031-77847-6_18,Increasing the Accuracy of LLM Question-Answering Systems with Ontologies,Dean Allemang ,1052
+2024,10.1007/978-3-031-77847-6_2,KROWN: A Benchmark for RDF Graph Materialisation,Dylan Van Assche,1053
+2024,10.1007/978-3-031-77847-6_3,KGHeartBeat: An Open Source Tool for Periodically Evaluating the Quality of Knowledge Graphs,Maria Angela Pellegrino ,1054
+2024,10.1007/978-3-031-77847-6_4,InstructIE: A Bilingual Instruction-based Information Extraction Dataset,Honghao Gui ,1055
+2024,10.1007/978-3-031-77847-6_5,Diachronical Geometry Without Polygons: The Extended HHT Ontology for Heterogeneous Geometrical Representations,William Charles ,1056
+2024,10.1007/978-3-031-77847-6_6,"CimpleKG: A Continuously Updated Knowledge Graph on Misinformation, Factors and Fact-Checks",Grégoire Burel ,1057
+2024,10.1007/978-3-031-77847-6_7,AutoRDF2GML: Facilitating RDF Integration in Graph Machine Learning,Michael Färber ,1058
+2024,10.1007/978-3-031-77847-6_8,SciHyp: A Fine-Grained Dataset Describing Hypotheses and Their Components from Scientific Articles,Rosni Vasu ,1059
+2024,10.1007/978-3-031-77847-6_9,The ICS-SEC KG: An Integrated Cybersecurity Resource for Industrial Control Systems,Kabul Kurniawan ,1060
+2024,10.1007/978-3-031-77850-6_1,AdaptLIL: A Real-Time Adaptive Linked Indented List Visualization for Ontology Mapping,Bo Fu ,1061
+2024,10.1007/978-3-031-77850-6_10,Understanding SPARQL Queries: Are We Already There? Multilingual Natural Language Generation Based on SPARQL Queries and Large Language Models,Aleksandr Perevalov ,1062
+2024,10.1007/978-3-031-77850-6_11,Advancing Robotic Perception with Perceived-Entity Linking,Mark Adamik ,1063
+2024,10.1007/978-3-031-77850-6_12,PreAdapter: Pre-training Language Models on Knowledge Graphs,Janna Omeliyanenko ,1064
+2024,10.1007/978-3-031-77850-6_13,PRONTO: Prompt-Based Detection of Semantic Containment Patterns in MLMs,Alessandro De Bellis ,1065
+2024,10.1007/978-3-031-77850-6_2,DISCIE–Discriminative Closed Information Extraction,Cedric Möller ,1066
+2024,10.1007/978-3-031-77850-6_3,Expanding the Scope: Inductive Knowledge Graph Reasoning with Multi-starting Progressive Propagation,Zhoutian Shao ,1067
+2024,10.1007/978-3-031-77850-6_4,Compiling SHACL Into SQL,Maxime Jakubowski ,1068
+2024,10.1007/978-3-031-77850-6_5,DUNKS: Chunking and Summarizing Large and Heterogeneous Data for Dataset Search,Qiaosheng Chen ,1069
+2024,10.1007/978-3-031-77850-6_6,CRAWD: Sampling-Based Estimation of Count-Distinct SPARQL Queries,Thi Hoang Thi Pham ,1070
+2024,10.1007/978-3-031-77850-6_7,Exploiting Distant Supervision to Learn Semantic Descriptions of Tables with Overlapping Data,Binh Vu ,1071
+2024,10.1007/978-3-031-77850-6_8,PathFinder: Returning Paths in Graph Queries,Benjamín Farías ,1072
+2024,10.1007/978-3-031-77850-6_9,eSPARQL: Representing and Reconciling Agnostic and Atheistic Beliefs in RDF-star Knowledge Graphs,Xinyi Pan ,1073

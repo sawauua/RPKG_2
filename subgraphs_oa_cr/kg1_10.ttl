@@ -1,0 +1,3419 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rpo:FraunhoferInstituteforIntelligentAnalysisandInformationSystemsIAIS a rpo:Organisation ;
+    rpo:part_of rpo:FraunhoferInstituteforIntelligentAnalysisandInformationSystems .
+
+rpo:addresses a owl:ObjectProperty .
+
+rpo:affiliated_with a owl:ObjectProperty .
+
+rpo:cited_by a owl:ObjectProperty .
+
+rpo:cites a owl:ObjectProperty .
+
+rpo:doi a owl:DatatypeProperty .
+
+rpo:funded_by a owl:ObjectProperty .
+
+rpo:has_id a owl:DatatypeProperty .
+
+rpo:has_keyword a owl:ObjectProperty .
+
+rpo:has_licene a owl:DatatypeProperty .
+
+rpo:has_topic a owl:ObjectProperty .
+
+rpo:is_open_access a owl:DatatypeProperty .
+
+rpo:key_person a owl:ObjectProperty .
+
+rpo:language a owl:DatatypeProperty .
+
+rpo:nr_of_citations a owl:DatatypeProperty .
+
+rpo:openalex_id a owl:DatatypeProperty .
+
+rpo:part_of a owl:ObjectProperty .
+
+rpo:published_by a owl:ObjectProperty .
+
+rpo:published_in_year a owl:DatatypeProperty .
+
+rpo:works_with a owl:ObjectProperty .
+
+rpo:written_by a owl:ObjectProperty .
+
+rpo:wrote a owl:ObjectProperty .
+
+rpo:Amsterdam a rpo:City .
+
+rpo:Archaeology a rpo:ResearchArea ;
+    rdfs:label "Archaeology" .
+
+rpo:Belgium a rpo:Country .
+
+rpo:Bolzano a rpo:City .
+
+rpo:Brisbane a rpo:City .
+
+rpo:ComputerVision a rpo:ResearchArea ;
+    rdfs:label "Computer vision" .
+
+rpo:DC a rpo:City .
+
+rpo:DistributedComputing a rpo:ResearchArea ;
+    rdfs:label "Distributed computing" .
+
+rpo:Drug a rpo:Topic ;
+    rdfs:label "Drug" .
+
+rpo:Economics a rpo:ResearchField ;
+    rdfs:label "Economics" .
+
+rpo:Economy a rpo:ResearchArea ;
+    rdfs:label "Economy" .
+
+rpo:Espoo a rpo:City .
+
+rpo:Flagstaff a rpo:City .
+
+rpo:FraunhoferInstituteforIntelligentAnalysisandInformationSystems a rpo:Organisation .
+
+rpo:GenderEquality a rpo:Goal .
+
+rpo:Ghent a rpo:City .
+
+rpo:GoldCoast a rpo:City .
+
+rpo:Hanover a rpo:City .
+
+rpo:Helsinki a rpo:City .
+
+rpo:History a rpo:ResearchField ;
+    rdfs:label "History" .
+
+rpo:InternetPrivacy a rpo:ResearchArea ;
+    rdfs:label "Internet privacy" .
+
+rpo:Italy a rpo:Country .
+
+rpo:Leipzig a rpo:City .
+
+rpo:Leukerbad a rpo:City .
+
+rpo:Linguistics a rpo:ResearchArea ;
+    rdfs:label "Linguistics" .
+
+rpo:London a rpo:City .
+
+rpo:Manchester a rpo:City .
+
+rpo:MarinaDelRey a rpo:City .
+
+rpo:MathematicalAnalysis a rpo:ResearchArea ;
+    rdfs:label "Mathematical analysis" .
+
+rpo:Mathematics a rpo:ResearchField ;
+    rdfs:label "Mathematics" .
+
+rpo:MedicalEducation a rpo:ResearchArea ;
+    rdfs:label "Medical education" .
+
+rpo:Nanjing a rpo:City .
+
+rpo:Netherlands a rpo:Country .
+
+rpo:Oxford a rpo:City .
+
+rpo:Physics a rpo:ResearchField ;
+    rdfs:label "Physics" .
+
+rpo:Psychiatry a rpo:ResearchArea ;
+    rdfs:label "Psychiatry" .
+
+rpo:QuantumMechanics a rpo:ResearchArea ;
+    rdfs:label "Quantum mechanics" .
+
+rpo:Radiology a rpo:ResearchArea ;
+    rdfs:label "Radiology" .
+
+rpo:SanktAugustin a rpo:City .
+
+rpo:Sierre a rpo:City .
+
+rpo:SustainableCitiesAndCommunities a rpo:Goal .
+
+rpo:Switzerland a rpo:Country .
+
+rpo:UK a rpo:Country .
+
+rpo:XiAn a rpo:City .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10000> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10001> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10002> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10003> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10004> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10005> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10006> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10007> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10008> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10009> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10010> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10011> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10012> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10013> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10014> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10015> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10016> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10017> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10018> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10019> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10020> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10021> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10022> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10023> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10024> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10025> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10026> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10027> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10028> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10029> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10030> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10031> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10032> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10033> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10034> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10035> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10036> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10037> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10038> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10039> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10040> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10041> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10042> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10043> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10044> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10045> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10046> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10047> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10048> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10049> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10050> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10051> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10052> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10053> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10054> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10055> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10056> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10057> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10058> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10059> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10060> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10061> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10062> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10063> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10064> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10065> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10066> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10067> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10068> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10069> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10070> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10071> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10072> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10073> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10074> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10075> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10076> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10077> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10078> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10079> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10080> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10081> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10082> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10083> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10084> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10085> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10086> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10087> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10088> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10089> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10090> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10091> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10092> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10093> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10094> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10095> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10096> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10097> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10098> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10099> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10100> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10101> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10102> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10103> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10104> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10105> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10106> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10107> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10108> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10109> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10110> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10111> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10112> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10113> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10114> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10115> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10116> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10117> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10118> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10119> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10120> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10121> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10122> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10123> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10124> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10125> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10126> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10127> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10128> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10129> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10130> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10131> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10132> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10133> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10134> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10135> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10136> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10137> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10138> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10139> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10140> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10141> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10142> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10143> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10144> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10145> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10146> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10147> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10148> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10149> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10150> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10151> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10152> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10153> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10154> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10155> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10156> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10157> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10158> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10159> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10160> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10161> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10162> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10163> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10164> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10165> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10166> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10167> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10168> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10169> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10170> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10171> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10172> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10173> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10174> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10175> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10176> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10177> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10178> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10179> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10180> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10181> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10182> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10183> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10184> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10185> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10186> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10187> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10188> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10189> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10190> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10191> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10192> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10193> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10194> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10195> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10196> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10197> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10198> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10199> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10200> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10201> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10202> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10203> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10204> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10205> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10206> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10207> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10208> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10209> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10210> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10211> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10212> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10213> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10214> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10215> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10216> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10217> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10218> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10219> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10220> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10221> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10222> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10223> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10224> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10225> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10226> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10227> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10228> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10229> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10230> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10231> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10232> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10233> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10234> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10235> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10236> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10237> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10238> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10239> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10240> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10241> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10242> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10243> a rpo:AcademicWork ;
+    rpo:cited_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> .
+
+rpo:Albert a rpo:Author ;
+    rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
+    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5019540386> ;
+    rpo:located_in rpo:NL ;
+    rpo:works_with rpo:RinkeHoekstra ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> ;
+    foaf:name "Albert Meroño-Peñuela" .
+
+rpo:Ambiguity a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Ambiguity" .
+
+rpo:Annotation a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Annotation" .
+
+rpo:Australia a rpo:Country .
+
+rpo:Bonn a rpo:City .
+
+rpo:BridgingNetworking a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Bridging (networking)" .
+
+rpo:Business a rpo:Keyword,
+        rpo:ResearchField ;
+    rdfs:label "Business" .
+
+rpo:CA a rpo:City .
+
+rpo:China a rpo:Country .
+
+rpo:CloudComputing a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Cloud computing" .
+
+rpo:Composability a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Composability" .
+
+rpo:ComputerNetwork a rpo:ResearchArea ;
+    rdfs:label "Computer network" .
+
+rpo:ControlledVocabulary a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Controlled vocabulary" .
+
+rpo:Crowdsourcing a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Crowdsourcing" .
+
+rpo:CulturalHeritage a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Cultural heritage" .
+
+rpo:DataMining a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Data mining" .
+
+rpo:DataModelGIS a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Data model (GIS)" .
+
+rpo:DataModeling a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Data modeling" .
+
+rpo:DataSet a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Data set" .
+
+rpo:Digitization a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Digitization" .
+
+rpo:DomainMathematicalAnalysis a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Domain (mathematical analysis)" .
+
+rpo:Drugbank a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "DrugBank" .
+
+rpo:Dublin a rpo:City .
+
+rpo:Ecology a rpo:ResearchArea ;
+    rdfs:label "Ecology" .
+
+rpo:ElectronicMedicalRecord a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Electronic medical record" .
+
+rpo:Finance a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Finance" .
+
+rpo:Finland a rpo:Country .
+
+rpo:HumanComputerInteraction a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Human–computer interaction" .
+
+rpo:IDEF1X a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "IDEF1X" .
+
+rpo:InformationModel a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Information model" .
+
+rpo:Interoperability a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Interoperability" .
+
+rpo:Ireland a rpo:Country .
+
+rpo:KnowledgeBase a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Knowledge base" .
+
+rpo:KnowledgeManagement a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Knowledge management" .
+
+rpo:Law a rpo:ResearchArea ;
+    rdfs:label "Law" .
+
+rpo:LosAngeles a rpo:City .
+
+rpo:MD a rpo:City .
+
+rpo:MayankKejriwal a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5074197492> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:PedroSzekely ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> ;
+    foaf:name "Mayank Kejriwal" .
+
+rpo:MedicalKnowledge a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Medical knowledge" .
+
+rpo:MedicalRecord a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Medical record" .
+
+rpo:Medicine a rpo:Keyword,
+        rpo:ResearchField ;
+    rdfs:label "Medicine" .
+
+rpo:Multimedia a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Multimedia" .
+
+rpo:Munich a rpo:City .
+
+rpo:NaturalLanguageProcessing a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Natural language processing" .
+
+rpo:Paleontology a rpo:ResearchArea ;
+    rdfs:label "Paleontology" .
+
+rpo:PoliticalScience a rpo:ResearchField ;
+    rdfs:label "Political science" .
+
+rpo:Portfolio a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Portfolio" .
+
+rpo:ProcessComputing a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Process (computing)" .
+
+rpo:Publishing a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Publishing" .
+
+rpo:QuestionAnswering a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Question answering" .
+
+rpo:RelevanceLaw a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Relevance (law)" .
+
+rpo:ResourceDisambiguation a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Resource (disambiguation)" .
+
+rpo:RinkeHoekstra a rpo:Author ;
+    rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
+    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5045494777> ;
+    rpo:located_in rpo:NL ;
+    rpo:works_with rpo:Albert ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> ;
+    foaf:name "Rinke Hoekstra" .
+
+rpo:RiskAnalysisEngineering a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Risk analysis (engineering)" .
+
+rpo:RiskManagement a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Risk management" .
+
+rpo:RuleBasedSystem a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Rule-based system" .
+
+rpo:SchemaGeneticAlgorithms a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Schema (genetic algorithms)" .
+
+rpo:SearchEngine a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Search engine" .
+
+rpo:SemanticInteroperability a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Semantic interoperability" .
+
+rpo:SemanticSearch a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Semantic search" .
+
+rpo:ServiceBusiness a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Service (business)" .
+
+rpo:Siemens a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Siemens" .
+
+rpo:Standardization a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Standardization" .
+
+rpo:TheInternet a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "The Internet" .
+
+rpo:UpperOntology a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Upper ontology" .
+
+rpo:Usability a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Usability" .
+
+rpo:Vocabulary a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Vocabulary" .
+
+rpo:Workflow a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Workflow" .
+
+rpo:Biology a rpo:ResearchField ;
+    rdfs:label "Biology" .
+
+rpo:ComputerSecurity a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Computer security" .
+
+rpo:ContextualChangeUnitedStates a rpo:Organisation ;
+    rpo:located_in rpo:MD,
+        rpo:USA .
+
+rpo:England a rpo:Country .
+
+rpo:GriffithUniversity a rpo:Organisation ;
+    rpo:located_in rpo:Australia,
+        rpo:GoldCoast .
+
+rpo:InstitutNationalDeRechercheEnSciencesEtTechnologiesDu a rpo:Organisation ;
+    rpo:located_in rpo:Dublin,
+        rpo:Ireland .
+
+rpo:LeibnizUniversityHannover a rpo:Organisation ;
+    rpo:located_in rpo:Germany,
+        rpo:Hanover .
+
+rpo:NanjingUniversity a rpo:Organisation ;
+    rpo:located_in rpo:China,
+        rpo:Nanjing .
+
+rpo:NorthernArizonaUniversity a rpo:Organisation ;
+    rpo:located_in rpo:Flagstaff,
+        rpo:USA .
+
+rpo:OperatingSystem a rpo:ResearchArea ;
+    rdfs:label "Operating system" .
+
+rpo:SmithsonianAmericanArtMuseum a rpo:Organisation ;
+    rpo:located_in rpo:DC,
+        rpo:USA .
+
+rpo:TechnicalUniversityOfMunich a rpo:Organisation ;
+    rpo:key_person rpo:ThomasHofmann ;
+    rpo:located_in rpo:Germany,
+        rpo:Munich .
+
+rpo:TheUniversityOfQueensland a rpo:Organisation ;
+    rpo:located_in rpo:Australia,
+        rpo:Brisbane .
+
+rpo:TheoreticalComputerScience a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Theoretical computer science" .
+
+rpo:UniversityOfHelsinki a rpo:Organisation ;
+    rpo:located_in rpo:Finland,
+        rpo:Helsinki .
+
+rpo:UniversityOfManchester a rpo:Organisation ;
+    rpo:located_in rpo:England,
+        rpo:Manchester .
+
+rpo:WaltersArtMuseum a rpo:Organisation ;
+    rpo:located_in rpo:MD,
+        rpo:USA .
+
+rpo:ContextArchaeology a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Context (archaeology)" .
+
+rpo:Database a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Database" .
+
+rpo:GauravMaheshwari a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfBonn ;
+    rpo:funded_by rpo:UniversityOfBonn ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044599885> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:JensLehmann,
+        rpo:MohnishDubey,
+        rpo:PriyanshTrivedi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> ;
+    foaf:name "Gaurav Maheshwari" .
+
+rpo:Graph a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Graph" .
+
+rpo:IndustryInnovationAndInfrastructure a rpo:Goal .
+
+rpo:KeyLock a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Key (lock)" .
+
+rpo:MohnishDubey a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfBonn ;
+    rpo:funded_by rpo:UniversityOfBonn ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061147491> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:GauravMaheshwari,
+        rpo:JensLehmann,
+        rpo:PriyanshTrivedi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> ;
+    foaf:name "Mohnish Dubey" .
+
+rpo:PriyanshTrivedi a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfBonn ;
+    rpo:funded_by rpo:UniversityOfBonn ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5025276555> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:GauravMaheshwari,
+        rpo:JensLehmann,
+        rpo:MohnishDubey ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> ;
+    foaf:name "Priyansh Trivedi" .
+
+rpo:Reuse a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Reuse" .
+
+rpo:SetAbstractDataType a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Set (abstract data type)" .
+
+rpo:SoftwareEngineering a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Software engineering" .
+
+rpo:VarietyCybernetics a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Variety (cybernetics)" .
+
+rpo:AlexandreCotting a rpo:Author ;
+    rpo:affiliated_with rpo:HESSOValaisWallis ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054680238> ;
+    rpo:located_in rpo:CH ;
+    rpo:works_with rpo:FabienDubosson,
+        rpo:JeanPaulCalbimonte,
+        rpo:RogerHilfiker,
+        rpo:Schumacher ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> ;
+    foaf:name "Alexandre Cotting" .
+
+rpo:DavidMWeigl a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfOxford ;
+    rpo:funded_by rpo:UniversityOfOxford ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5037706975> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:Fazekas,
+        rpo:KevinPage,
+        rpo:SeanBechhofer,
+        rpo:ThomasWilmering ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> ;
+    foaf:name "David M. Weigl" .
+
+rpo:FabienDubosson a rpo:Author ;
+    rpo:affiliated_with rpo:HESSOValaisWallis ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002724392> ;
+    rpo:located_in rpo:CH ;
+    rpo:works_with rpo:AlexandreCotting,
+        rpo:JeanPaulCalbimonte,
+        rpo:RogerHilfiker,
+        rpo:Schumacher ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> ;
+    foaf:name "Fabien Dubosson" .
+
+rpo:Fazekas a rpo:Author ;
+    rpo:affiliated_with rpo:QueenMaryUniversityOfLondon ;
+    rpo:funded_by rpo:QueenMaryUniversityOfLondon ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5032485940> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:DavidMWeigl,
+        rpo:KevinPage,
+        rpo:SeanBechhofer,
+        rpo:ThomasWilmering ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> ;
+    foaf:name "György Fazekas" .
+
+rpo:JPaulGettyMuseum a rpo:Organisation ;
+    rpo:located_in rpo:CA,
+        rpo:USA .
+
+rpo:JeanPaulCalbimonte a rpo:Author ;
+    rpo:affiliated_with rpo:HESSOValaisWallis ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5042196402> ;
+    rpo:located_in rpo:CH ;
+    rpo:works_with rpo:AlexandreCotting,
+        rpo:FabienDubosson,
+        rpo:RogerHilfiker,
+        rpo:Schumacher ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> ;
+    foaf:name "Jean-Paul Calbimonte" .
+
+rpo:KevinPage a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfOxford ;
+    rpo:funded_by rpo:UniversityOfOxford ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5041918610> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:DavidMWeigl,
+        rpo:Fazekas,
+        rpo:SeanBechhofer,
+        rpo:ThomasWilmering ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> ;
+    foaf:name "Kevin Page" .
+
+rpo:LeipzigUniversity a rpo:Organisation ;
+    rpo:located_in rpo:Germany,
+        rpo:Leipzig .
+
+rpo:QueenMaryUniversityOfLondon a rpo:Organisation ;
+    rpo:located_in rpo:England,
+        rpo:London .
+
+rpo:RogerHilfiker a rpo:Author ;
+    rpo:affiliated_with rpo:HESSOValaisWallis ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031989085> ;
+    rpo:located_in rpo:CH ;
+    rpo:works_with rpo:AlexandreCotting,
+        rpo:FabienDubosson,
+        rpo:JeanPaulCalbimonte,
+        rpo:Schumacher ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> ;
+    foaf:name "Roger Hilfiker" .
+
+rpo:Schumacher a rpo:Author ;
+    rpo:affiliated_with rpo:HESSOValaisWallis ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010070272> ;
+    rpo:located_in rpo:CH ;
+    rpo:works_with rpo:AlexandreCotting,
+        rpo:FabienDubosson,
+        rpo:JeanPaulCalbimonte,
+        rpo:RogerHilfiker ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> ;
+    foaf:name "Michaël Schumacher" .
+
+rpo:SeanBechhofer a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfManchester ;
+    rpo:funded_by rpo:UniversityOfManchester ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5047066677> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:DavidMWeigl,
+        rpo:Fazekas,
+        rpo:KevinPage,
+        rpo:ThomasWilmering ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> ;
+    foaf:name "Sean Bechhofer" .
+
+rpo:SouthernCaliforniaEarthquakeCenter a rpo:Organisation ;
+    rpo:located_in rpo:LosAngeles,
+        rpo:USA .
+
+rpo:ThomasWilmering a rpo:Author ;
+    rpo:affiliated_with rpo:QueenMaryUniversityOfLondon ;
+    rpo:funded_by rpo:QueenMaryUniversityOfLondon ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5006651609> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:DavidMWeigl,
+        rpo:Fazekas,
+        rpo:KevinPage,
+        rpo:SeanBechhofer ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> ;
+    foaf:name "Thomas Wilmering" .
+
+rpo:VrijeUniversiteitAmsterdam a rpo:Organisation ;
+    rpo:located_in rpo:Amsterdam,
+        rpo:Netherlands .
+
+rpo:Auer a rpo:Author ;
+    rpo:affiliated_with rpo:LeibnizUniversityHannover ;
+    rpo:funded_by rpo:LeibnizUniversityHannover ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5071765665> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:ChristophLange,
+        rpo:Grangel,
+        rpo:LavdimHalilaj,
+        rpo:NiklasPetersen,
+        rpo:SteffenLohmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Sören Auer" .
+
+rpo:ChristophLange a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5007714809> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Auer,
+        rpo:Grangel,
+        rpo:LavdimHalilaj,
+        rpo:NiklasPetersen,
+        rpo:SteffenLohmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Christoph Lange" .
+
+rpo:DanielGarijo a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
+    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5033224077> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DeborahKhider,
+        rpo:JulienEmileGeay,
+        rpo:NicholasPMckay,
+        rpo:VarunRatnakar,
+        rpo:YolandaGil ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Daniel Garijo" .
+
+rpo:DeborahKhider a rpo:Author ;
+    rpo:affiliated_with rpo:SouthernCaliforniaEarthquakeCenter ;
+    rpo:funded_by rpo:SouthernCaliforniaEarthquakeCenter ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5073341661> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DanielGarijo,
+        rpo:JulienEmileGeay,
+        rpo:NicholasPMckay,
+        rpo:VarunRatnakar,
+        rpo:YolandaGil ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Deborah Khider" .
+
+rpo:Germany a rpo:Country .
+
+rpo:Grangel a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5001084075> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Auer,
+        rpo:ChristophLange,
+        rpo:LavdimHalilaj,
+        rpo:NiklasPetersen,
+        rpo:SteffenLohmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Irlán Grangel-González" .
+
+rpo:JulienEmileGeay a rpo:Author ;
+    rpo:affiliated_with rpo:SouthernCaliforniaEarthquakeCenter ;
+    rpo:funded_by rpo:SouthernCaliforniaEarthquakeCenter ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5081876907> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DanielGarijo,
+        rpo:DeborahKhider,
+        rpo:NicholasPMckay,
+        rpo:VarunRatnakar,
+        rpo:YolandaGil ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Julien Emile‐Geay" .
+
+rpo:KnowledgeGraph a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Knowledge graph" .
+
+rpo:LavdimHalilaj a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031926202> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Auer,
+        rpo:ChristophLange,
+        rpo:Grangel,
+        rpo:NiklasPetersen,
+        rpo:SteffenLohmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Lavdim Halilaj" .
+
+rpo:Metadata a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Metadata" .
+
+rpo:NicholasPMckay a rpo:Author ;
+    rpo:affiliated_with rpo:NorthernArizonaUniversity ;
+    rpo:funded_by rpo:NorthernArizonaUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5013707453> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DanielGarijo,
+        rpo:DeborahKhider,
+        rpo:JulienEmileGeay,
+        rpo:VarunRatnakar,
+        rpo:YolandaGil ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Nicholas P. McKay" .
+
+rpo:NiklasPetersen a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5058295890> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Auer,
+        rpo:ChristophLange,
+        rpo:Grangel,
+        rpo:LavdimHalilaj,
+        rpo:SteffenLohmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Niklas Petersen" .
+
+rpo:OntologyBasedDataIntegration a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Ontology-based data integration" .
+
+rpo:SteffenLohmann a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5080267757> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Auer,
+        rpo:ChristophLange,
+        rpo:Grangel,
+        rpo:LavdimHalilaj,
+        rpo:NiklasPetersen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> ;
+    foaf:name "Steffen Lohmann" .
+
+rpo:VarunRatnakar a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
+    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068092761> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DanielGarijo,
+        rpo:DeborahKhider,
+        rpo:JulienEmileGeay,
+        rpo:NicholasPMckay,
+        rpo:YolandaGil ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Varun Ratnakar" .
+
+rpo:YolandaGil a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
+    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5040878653> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DanielGarijo,
+        rpo:DeborahKhider,
+        rpo:JulienEmileGeay,
+        rpo:NicholasPMckay,
+        rpo:VarunRatnakar ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> ;
+    foaf:name "Yolanda Gil" .
+
+rpo:Epistemology a rpo:ResearchArea ;
+    rdfs:label "Epistemology" .
+
+rpo:FreeUniversityOfBozenBolzano a rpo:Organisation ;
+    rpo:located_in rpo:Bolzano,
+        rpo:Italy .
+
+rpo:JiahengZhang a rpo:Author ;
+    rpo:affiliated_with rpo:XiAnJiaotongUniversity ;
+    rpo:funded_by rpo:XiAnJiaotongUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5103017894> ;
+    rpo:located_in rpo:CN ;
+    rpo:works_with rpo:JunLiu,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Jiaheng Zhang" .
+
+rpo:JunLiu a rpo:Author ;
+    rpo:affiliated_with rpo:XiAnJiaotongUniversity ;
+    rpo:funded_by rpo:XiAnJiaotongUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100361891> ;
+    rpo:located_in rpo:CN ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Jun Liu" .
+
+rpo:MengWang a rpo:Author ;
+    rpo:affiliated_with rpo:XiAnJiaotongUniversity ;
+    rpo:funded_by rpo:XiAnJiaotongUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100377137> ;
+    rpo:located_in rpo:CN ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Meng Wang" .
+
+rpo:Philosophy a rpo:ResearchField ;
+    rdfs:label "Philosophy" .
+
+rpo:ProgrammingLanguage a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Programming language" .
+
+rpo:SenWang a rpo:Author ;
+    rpo:affiliated_with rpo:GriffithUniversity ;
+    rpo:funded_by rpo:GriffithUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5023353994> ;
+    rpo:located_in rpo:AU ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:MengWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Sen Wang" .
+
+rpo:SiemensGermany a rpo:Organisation ;
+    rpo:located_in rpo:Germany,
+        rpo:Munich .
+
+rpo:UniversityOfSouthernCalifornia a rpo:Organisation ;
+    rpo:located_in rpo:LosAngeles,
+        rpo:USA .
+
+rpo:WeiHu a rpo:Author ;
+    rpo:affiliated_with rpo:NanjingUniversity ;
+    rpo:funded_by rpo:NanjingUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100727084> ;
+    rpo:located_in rpo:CN ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WenqiangLiu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Wei Hu" .
+
+rpo:WenqiangLiu a rpo:Author ;
+    rpo:affiliated_with rpo:XiAnJiaotongUniversity ;
+    rpo:funded_by rpo:XiAnJiaotongUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100634312> ;
+    rpo:located_in rpo:CN ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:XueLi ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Wenqiang Liu" .
+
+rpo:XueLi a rpo:Author ;
+    rpo:affiliated_with rpo:TheUniversityOfQueensland ;
+    rpo:funded_by rpo:TheUniversityOfQueensland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100372201> ;
+    rpo:located_in rpo:AU ;
+    rpo:works_with rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> ;
+    foaf:name "Xue Li" .
+
+rpo:AnastasiaDimou a rpo:Author ;
+    rpo:affiliated_with rpo:GhentUniversity ;
+    rpo:funded_by rpo:GhentUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078833064> ;
+    rpo:located_in rpo:BE ;
+    rpo:works_with rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Anastasia Dimou" .
+
+rpo:BenDeMeester a rpo:Author ;
+    rpo:affiliated_with rpo:GhentUniversity ;
+    rpo:funded_by rpo:GhentUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102818604> ;
+    rpo:located_in rpo:BE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Ben De Meester" .
+
+rpo:Christophe a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5015530968> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Christophe Guéret" .
+
+rpo:DimitrisKontokostas a rpo:Author ;
+    rpo:affiliated_with rpo:LeipzigUniversity ;
+    rpo:funded_by rpo:LeipzigUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5070186420> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Dimitris Kontokostas" .
+
+rpo:Eero a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfHelsinki ;
+    rpo:funded_by rpo:UniversityOfHelsinki ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086685353> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Eero Hyvönen" .
+
+rpo:Eetu a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5091329964> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Eetu Mäkelä" .
+
+rpo:ErikMannens a rpo:Author ;
+    rpo:affiliated_with rpo:GhentUniversity ;
+    rpo:funded_by rpo:GhentUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5059346676> ;
+    rpo:located_in rpo:BE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Erik Mannens" .
+
+rpo:ErkkiHeino a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031797634> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Erkki Heino" .
+
+rpo:EskoIkkala a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5038251371> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Esko Ikkala" .
+
+rpo:EugeneEichelberger a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5083555952> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:Christophe,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Eugene Eichelberger" .
+
+rpo:Freddy a rpo:Author ;
+    rpo:affiliated_with rpo:InstitutNationalDeRechercheEnSciencesEtTechnologiesDu ;
+    rpo:funded_by rpo:InstitutNationalDeRechercheEnSciencesEtTechnologiesDu ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002426346> ;
+    rpo:located_in rpo:FR ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Freddy Lécué" .
+
+rpo:GemmaGallagher a rpo:Author ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010436951> ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Gemma Gallagher" .
+
+rpo:JerHayes a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5084304112> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Jer Hayes" .
+
+rpo:JiewenWu a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5012111443> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Jiewen Wu" .
+
+rpo:JouniTuominen a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021291777> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Jouni Tuominen" .
+
+rpo:LinkedData a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Linked data" .
+
+rpo:MikkoKoho a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010723046> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Mikko Koho" .
+
+rpo:MinnaTamper a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054608227> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:PetriLeskinen ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Minna Tamper" .
+
+rpo:PeterMccanney a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036363847> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:SaraVanDeMoosdijk ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Peter McCanney" .
+
+rpo:PetriLeskinen a rpo:Author ;
+    rpo:affiliated_with rpo:AaltoUniversity ;
+    rpo:funded_by rpo:AaltoUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036940398> ;
+    rpo:located_in rpo:FI ;
+    rpo:works_with rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> ;
+    foaf:name "Petri Leskinen" .
+
+rpo:RubenVerborgh a rpo:Author ;
+    rpo:affiliated_with rpo:GhentUniversity ;
+    rpo:funded_by rpo:GhentUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5055871472> ;
+    rpo:located_in rpo:BE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Ruben Verborgh" .
+
+rpo:SPARQL a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "SPARQL" .
+
+rpo:SaraVanDeMoosdijk a rpo:Author ;
+    rpo:affiliated_with rpo:AccentureIreland ;
+    rpo:funded_by rpo:AccentureIreland ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5023143958> ;
+    rpo:located_in rpo:IE ;
+    rpo:works_with rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> ;
+    foaf:name "Sara van de Moosdijk" .
+
+rpo:SebastianHellmann a rpo:Author ;
+    rpo:affiliated_with rpo:LeipzigUniversity ;
+    rpo:funded_by rpo:LeipzigUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102019010> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Sebastian Hellmann" .
+
+rpo:USA a rpo:Country .
+
+rpo:WouterMaroy a rpo:Author ;
+    rpo:affiliated_with rpo:GhentUniversity ;
+    rpo:funded_by rpo:GhentUniversity ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5089941668> ;
+    rpo:located_in rpo:BE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Wouter Maroy" .
+
+rpo:Elem a rpo:Author ;
+    rpo:affiliated_with rpo:FreeUniversityOfBozenBolzano ;
+    rpo:funded_by rpo:FreeUniversityOfBozenBolzano ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5015786061> ;
+    rpo:located_in rpo:IT ;
+    rpo:works_with rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Elem Güzel Kalaycı" .
+
+rpo:EvgenyKharlamov a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfOxford ;
+    rpo:funded_by rpo:UniversityOfOxford ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5025295947> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:Elem,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Evgeny Kharlamov" .
+
+rpo:GulnarMehdi a rpo:Author ;
+    rpo:affiliated_with rpo:SiemensGermany ;
+    rpo:funded_by rpo:SiemensGermany ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068270247> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Gulnar Mehdi" .
+
+rpo:GuohuiXiao a rpo:Author ;
+    rpo:affiliated_with rpo:FreeUniversityOfBozenBolzano ;
+    rpo:funded_by rpo:FreeUniversityOfBozenBolzano ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010550946> ;
+    rpo:located_in rpo:IT ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Guohui Xiao" .
+
+rpo:IanHorrocks a rpo:Author ;
+    rpo:affiliated_with rpo:UniversityOfOxford ;
+    rpo:funded_by rpo:UniversityOfOxford ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5060350556> ;
+    rpo:located_in rpo:GB ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Ian Horrocks" .
+
+rpo:MikhailRoshchin a rpo:Author ;
+    rpo:affiliated_with rpo:SiemensGermany ;
+    rpo:funded_by rpo:SiemensGermany ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5034178540> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Mikhail Roshchin" .
+
+rpo:Ognjen a rpo:Author ;
+    rpo:affiliated_with rpo:FreeUniversityOfBozenBolzano ;
+    rpo:funded_by rpo:FreeUniversityOfBozenBolzano ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5009122904> ;
+    rpo:located_in rpo:IT ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Ognjen Savković" .
+
+rpo:SebastianBrandt a rpo:Author ;
+    rpo:affiliated_with rpo:SiemensGermany ;
+    rpo:funded_by rpo:SiemensGermany ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5047583476> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:ThomasARunkler ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Sebastian Brandt" .
+
+rpo:ThomasARunkler a rpo:Author ;
+    rpo:affiliated_with rpo:TechnicalUniversityOfMunich ;
+    rpo:funded_by rpo:TechnicalUniversityOfMunich ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002518694> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> ;
+    foaf:name "Thomas A. Runkler" .
+
+rpo:UniversityOfBonn a rpo:Organisation ;
+    rpo:located_in rpo:Bonn,
+        rpo:Germany .
+
+rpo:XiAnJiaotongUniversity a rpo:Organisation ;
+    rpo:located_in rpo:China,
+        rpo:XiAn .
+
+rpo:ArtificialIntelligence a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Artificial intelligence" .
+
+rpo:RDF a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "RDF" .
+
+rpo:UniversityOfOxford a rpo:Organisation ;
+    rpo:located_in rpo:England,
+        rpo:Oxford,
+        rpo:UK .
+
+rpo:GhentUniversity a rpo:Organisation ;
+    rpo:located_in rpo:Belgium,
+        rpo:Ghent .
+
+rpo:HESSOValaisWallis a rpo:Organisation ;
+    rpo:located_in rpo:Leukerbad,
+        rpo:Sierre,
+        rpo:Switzerland .
+
+rpo:JensLehmann a rpo:Author ;
+    rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
+        rpo:UniversityOfBonn ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
+        rpo:UniversityOfBonn ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5067133778> ;
+    rpo:located_in rpo:DE ;
+    rpo:works_with rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:GauravMaheshwari,
+        rpo:MohnishDubey,
+        rpo:PriyanshTrivedi,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> ;
+    foaf:name "Jens Lehmann" .
+
+rpo:AccentureIreland a rpo:Organisation ;
+    rpo:located_in rpo:Dublin,
+        rpo:Ireland .
+
+rpo:CraigAKnoblock a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5089542402> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Craig A. Knoblock" .
+
+rpo:DavidNewbury a rpo:Author ;
+    rpo:affiliated_with rpo:JPaulGettyMuseum ;
+    rpo:funded_by rpo:JPaulGettyMuseum ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5018513832> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "David Newbury" .
+
+rpo:DuaneDegler a rpo:Author ;
+    rpo:affiliated_with rpo:ContextualChangeUnitedStates ;
+    rpo:funded_by rpo:ContextualChangeUnitedStates ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5059882572> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Duane Degler" .
+
+rpo:EleanorFink a rpo:Author ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5110052443> ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Eleanor Fink" .
+
+rpo:KateBlanch a rpo:Author ;
+    rpo:affiliated_with rpo:WaltersArtMuseum ;
+    rpo:funded_by rpo:WaltersArtMuseum ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5001196481> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Kate Blanch" .
+
+rpo:NikhilaBegurSreekanth a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5085815524> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Nikhila Begur Sreekanth" .
+
+rpo:NilayChheda a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5090221903> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Nilay Chheda" .
+
+rpo:NimeshJain a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5112261352> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Nimesh Jain" .
+
+rpo:RaviRajuKrishna a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5055705075> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Ravi Raju Krishna" .
+
+rpo:RobertSanderson a rpo:Author ;
+    rpo:affiliated_with rpo:JPaulGettyMuseum ;
+    rpo:funded_by rpo:JPaulGettyMuseum ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5067483608> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Robert Sanderson" .
+
+rpo:SaraSnyder a rpo:Author ;
+    rpo:affiliated_with rpo:SmithsonianAmericanArtMuseum ;
+    rpo:funded_by rpo:SmithsonianAmericanArtMuseum ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5004935225> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Sara Snyder" .
+
+rpo:YixiangYao a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102837987> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Yixiang Yao" .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> a rpo:Organisation ;
+    rpo:has_name "Springer International Publishing" .
+
+rpo:DataScience a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Data science" .
+
+rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems a rpo:Organisation ;
+    rpo:located_in rpo:Bonn,
+        rpo:Germany,
+        rpo:SanktAugustin .
+
+rpo:Ontology a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Ontology" .
+
+rpo:AaltoUniversity a rpo:Organisation ;
+    rpo:located_in rpo:Espoo,
+        rpo:Finland .
+
+rpo:PedroSzekely a rpo:Author ;
+    rpo:affiliated_with rpo:MarinaDelReyHospital ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068184256> ;
+    rpo:located_in rpo:US ;
+    rpo:works_with rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:MayankKejriwal,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> ;
+    foaf:name "Pedro Szekely" .
+
+rpo:MarinaDelReyHospital a rpo:Organisation ;
+    rpo:located_in rpo:CA,
+        rpo:MarinaDelRey,
+        rpo:USA .
+
+rpo:SemanticWeb a rpo:Keyword,
+        rpo:Topic ;
+    rdfs:label "Semantic Web" .
+
+rpo:WorldWideWeb a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "World Wide Web" .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10000>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10001>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10002>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10003>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10004>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10005>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10006>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10007>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10008>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10009>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10010>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10011>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10012>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10013> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_22" ;
+    rpo:funded_by rpo:UniversityOfBonn ;
+    rpo:has_keyword rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:InformationRetrieval,
+        rpo:KnowledgeBase,
+        rpo:KnowledgeGraph,
+        rpo:LinkedData,
+        rpo:QuestionAnswering,
+        rpo:RDF,
+        rpo:SPARQL,
+        rpo:SchemaGeneticAlgorithms,
+        rpo:SemanticWeb,
+        rpo:VarietyCybernetics ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "LC-QuAD: A Corpus for Complex Question Answering over Knowledge Graphs" ;
+    rpo:has_topic rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:InformationRetrieval,
+        rpo:KnowledgeBase,
+        rpo:KnowledgeGraph,
+        rpo:LinkedData,
+        rpo:QuestionAnswering,
+        rpo:RDF,
+        rpo:SPARQL,
+        rpo:SchemaGeneticAlgorithms,
+        rpo:SemanticWeb,
+        rpo:VarietyCybernetics ;
+    rpo:is_open_access "True" ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 236 ;
+    rpo:openalex_id "https://openalex.org/W2763039547" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:GauravMaheshwari,
+        rpo:JensLehmann,
+        rpo:MohnishDubey,
+        rpo:PriyanshTrivedi .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/610> a rpo:AcademicWork ;
+    rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10151>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10152>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10153>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10154>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10155>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10156>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10157>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10158>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10159>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10160>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10161>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10162>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10163>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10164>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10165> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_3" ;
+    rpo:funded_by rpo:QueenMaryUniversityOfLondon,
+        rpo:UniversityOfManchester,
+        rpo:UniversityOfOxford ;
+    rpo:has_keyword rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:DataSet,
+        rpo:Database,
+        rpo:InformationRetrieval,
+        rpo:Metadata,
+        rpo:ResourceDisambiguation,
+        rpo:SetAbstractDataType,
+        rpo:TheInternet,
+        rpo:Workflow,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Linked Data Publication of Live Music Archives and Analyses" ;
+    rpo:has_topic rpo:ArtificialIntelligence,
+        rpo:ComputerNetwork,
+        rpo:ComputerScience,
+        rpo:DataSet,
+        rpo:Database,
+        rpo:InformationRetrieval,
+        rpo:Metadata,
+        rpo:ProgrammingLanguage,
+        rpo:ResourceDisambiguation,
+        rpo:SetAbstractDataType,
+        rpo:TheInternet,
+        rpo:Workflow,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 8 ;
+    rpo:openalex_id "https://openalex.org/W2741530620" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:DavidMWeigl,
+        rpo:Fazekas,
+        rpo:KevinPage,
+        rpo:SeanBechhofer,
+        rpo:ThomasWilmering .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/613> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10215>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10216>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10217>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10218>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10219>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10220>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10221>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10222>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10223>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10224>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10225>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10226> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_32" ;
+    rpo:funded_by rpo:AccentureIreland,
+        rpo:InstitutNationalDeRechercheEnSciencesEtTechnologiesDu ;
+    rpo:has_keyword rpo:Business,
+        rpo:ComputerScience,
+        rpo:ContextArchaeology,
+        rpo:Finance,
+        rpo:InformationRetrieval,
+        rpo:KnowledgeGraph,
+        rpo:KnowledgeManagement,
+        rpo:Portfolio,
+        rpo:ProcessComputing,
+        rpo:RiskAnalysisEngineering,
+        rpo:RiskManagement,
+        rpo:SemanticWeb,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Personalizing Actions in Context for Risk Management Using Semantic Web Technologies" ;
+    rpo:has_topic rpo:Biology,
+        rpo:Business,
+        rpo:ComputerScience,
+        rpo:ContextArchaeology,
+        rpo:Finance,
+        rpo:InformationRetrieval,
+        rpo:KnowledgeGraph,
+        rpo:KnowledgeManagement,
+        rpo:OperatingSystem,
+        rpo:Paleontology,
+        rpo:Portfolio,
+        rpo:ProcessComputing,
+        rpo:RiskAnalysisEngineering,
+        rpo:RiskManagement,
+        rpo:SemanticWeb,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 3 ;
+    rpo:openalex_id "https://openalex.org/W2763542182" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:Christophe,
+        rpo:EugeneEichelberger,
+        rpo:Freddy,
+        rpo:GemmaGallagher,
+        rpo:JerHayes,
+        rpo:JiewenWu,
+        rpo:PeterMccanney,
+        rpo:SaraVanDeMoosdijk .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> a rpo:AcademicWork ;
+    rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10227>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10228>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10229>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10230>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10231>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10232>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10233>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10234>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10235>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10236>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10237>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10238>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10239>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10240>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10241>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10242>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10243> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_4" ;
+    rpo:funded_by rpo:HESSOValaisWallis ;
+    rpo:has_keyword rpo:Composability,
+        rpo:ComputerScience,
+        rpo:ContextArchaeology,
+        rpo:ControlledVocabulary,
+        rpo:DataScience,
+        rpo:InformationRetrieval,
+        rpo:Metadata,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:Reuse,
+        rpo:SemanticWeb,
+        rpo:Vocabulary,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "The MedRed Ontology for Representing Clinical Data Acquisition Metadata" ;
+    rpo:has_topic rpo:Biology,
+        rpo:Composability,
+        rpo:ComputerScience,
+        rpo:ContextArchaeology,
+        rpo:ControlledVocabulary,
+        rpo:DataScience,
+        rpo:DistributedComputing,
+        rpo:Ecology,
+        rpo:Epistemology,
+        rpo:InformationRetrieval,
+        rpo:Linguistics,
+        rpo:Metadata,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:Paleontology,
+        rpo:Philosophy,
+        rpo:Reuse,
+        rpo:SemanticWeb,
+        rpo:Vocabulary,
+        rpo:WorldWideWeb ;
+    rpo:is_open_access "True" ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 8 ;
+    rpo:openalex_id "https://openalex.org/W2761804009" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:AlexandreCotting,
+        rpo:FabienDubosson,
+        rpo:JeanPaulCalbimonte,
+        rpo:RogerHilfiker,
+        rpo:Schumacher .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/605> a rpo:AcademicWork ;
+    rpo:addresses rpo:GenderEquality ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10054>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10055>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10056>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10057>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10058>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10059>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10060>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10061>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10062>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10063>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10064>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10065>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10066>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10067>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10068>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10069>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10070>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10071>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10072>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10073>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10074> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_25" ;
+    rpo:funded_by rpo:MarinaDelReyHospital ;
+    rpo:has_keyword rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:DataScience,
+        rpo:DomainMathematicalAnalysis,
+        rpo:Graph,
+        rpo:InformationRetrieval,
+        rpo:RDF,
+        rpo:RelevanceLaw,
+        rpo:SPARQL,
+        rpo:SearchEngine,
+        rpo:SemanticSearch,
+        rpo:SemanticWeb,
+        rpo:VarietyCybernetics,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "An Investigative Search Engine for the Human Trafficking Domain" ;
+    rpo:has_topic rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:DataScience,
+        rpo:DomainMathematicalAnalysis,
+        rpo:Graph,
+        rpo:InformationRetrieval,
+        rpo:Law,
+        rpo:MathematicalAnalysis,
+        rpo:Mathematics,
+        rpo:PoliticalScience,
+        rpo:RDF,
+        rpo:RelevanceLaw,
+        rpo:SPARQL,
+        rpo:SearchEngine,
+        rpo:SemanticSearch,
+        rpo:SemanticWeb,
+        rpo:TheoreticalComputerScience,
+        rpo:VarietyCybernetics,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 17 ;
+    rpo:openalex_id "https://openalex.org/W2760878610" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:MayankKejriwal,
+        rpo:PedroSzekely .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/608> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10106>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10107>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10108>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10109>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10110>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10111>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10112>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10113>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10114>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10115>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10116>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10117>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10118>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10119>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10120> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_28" ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
+        rpo:GhentUniversity,
+        rpo:LeipzigUniversity ;
+    rpo:has_keyword rpo:ComputerScience,
+        rpo:InformationRetrieval,
+        rpo:LinkedData,
+        rpo:RDF,
+        rpo:SemanticWeb,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Sustainable Linked Data Generation: The Case of DBpedia" ;
+    rpo:has_topic rpo:ComputerScience,
+        rpo:InformationRetrieval,
+        rpo:LinkedData,
+        rpo:RDF,
+        rpo:SemanticWeb,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 10 ;
+    rpo:openalex_id "https://openalex.org/W2763906905" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:AnastasiaDimou,
+        rpo:BenDeMeester,
+        rpo:DimitrisKontokostas,
+        rpo:ErikMannens,
+        rpo:JensLehmann,
+        rpo:RubenVerborgh,
+        rpo:SebastianHellmann,
+        rpo:WouterMaroy .
+
+rpo:InformationRetrieval a rpo:Keyword,
+        rpo:ResearchArea ;
+    rdfs:label "Information retrieval" .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/603> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10014>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10015>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10016>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10017>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10018>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10019>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10020>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10021>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10022>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10023>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10024>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10025>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10026>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10027>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10028>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10029>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10030> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_23" ;
+    rpo:funded_by rpo:GriffithUniversity,
+        rpo:NanjingUniversity,
+        rpo:TheUniversityOfQueensland,
+        rpo:XiAnJiaotongUniversity ;
+    rpo:has_keyword rpo:BridgingNetworking,
+        rpo:ComputerScience,
+        rpo:DataScience,
+        rpo:Drugbank,
+        rpo:ElectronicMedicalRecord,
+        rpo:Graph,
+        rpo:InformationRetrieval,
+        rpo:KnowledgeGraph,
+        rpo:MedicalKnowledge,
+        rpo:MedicalRecord,
+        rpo:Medicine,
+        rpo:Ontology,
+        rpo:RDF,
+        rpo:SPARQL,
+        rpo:SemanticWeb,
+        rpo:TheoreticalComputerScience,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking" ;
+    rpo:has_topic rpo:BridgingNetworking,
+        rpo:ComputerNetwork,
+        rpo:ComputerScience,
+        rpo:DataScience,
+        rpo:Drug,
+        rpo:Drugbank,
+        rpo:ElectronicMedicalRecord,
+        rpo:Epistemology,
+        rpo:Graph,
+        rpo:InformationRetrieval,
+        rpo:InternetPrivacy,
+        rpo:KnowledgeGraph,
+        rpo:MedicalEducation,
+        rpo:MedicalKnowledge,
+        rpo:MedicalRecord,
+        rpo:Medicine,
+        rpo:Ontology,
+        rpo:Philosophy,
+        rpo:Psychiatry,
+        rpo:RDF,
+        rpo:Radiology,
+        rpo:SPARQL,
+        rpo:SemanticWeb,
+        rpo:TheoreticalComputerScience,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 35 ;
+    rpo:openalex_id "https://openalex.org/W2964109414" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:JiahengZhang,
+        rpo:JunLiu,
+        rpo:MengWang,
+        rpo:SenWang,
+        rpo:WeiHu,
+        rpo:WenqiangLiu,
+        rpo:XueLi .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/607> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10089>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10090>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10091>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10092>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10093>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10094>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10095>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10096>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10097>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10098>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10099>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10100>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10101>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10102>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10103>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10104>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10105> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_27" ;
+    rpo:funded_by rpo:AaltoUniversity,
+        rpo:UniversityOfHelsinki ;
+    rpo:has_keyword rpo:Ambiguity,
+        rpo:CloudComputing,
+        rpo:ComputerScience,
+        rpo:ComputerSecurity,
+        rpo:DataScience,
+        rpo:InformationRetrieval,
+        rpo:KeyLock,
+        rpo:Ontology,
+        rpo:ServiceBusiness ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Modeling and Using an Actor Ontology of Second World War Military Units and Personnel" ;
+    rpo:has_topic rpo:Ambiguity,
+        rpo:CloudComputing,
+        rpo:ComputerScience,
+        rpo:ComputerSecurity,
+        rpo:DataScience,
+        rpo:Economics,
+        rpo:Economy,
+        rpo:Epistemology,
+        rpo:InformationRetrieval,
+        rpo:KeyLock,
+        rpo:Ontology,
+        rpo:OperatingSystem,
+        rpo:Philosophy,
+        rpo:ProgrammingLanguage,
+        rpo:ServiceBusiness ;
+    rpo:is_open_access "True" ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 9 ;
+    rpo:openalex_id "https://openalex.org/W2761728384" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:Eero,
+        rpo:Eetu,
+        rpo:ErkkiHeino,
+        rpo:EskoIkkala,
+        rpo:JouniTuominen,
+        rpo:MikkoKoho,
+        rpo:MinnaTamper,
+        rpo:PetriLeskinen .
+
+rpo:ComputerScience a rpo:Keyword,
+        rpo:ResearchField ;
+    rdfs:label "Computer science" .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/606> a rpo:AcademicWork ;
+    rpo:addresses rpo:SustainableCitiesAndCommunities ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10075>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10076>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10077>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10078>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10079>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10080>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10081>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10082>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10083>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10084>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10085>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10086>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10087>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10088> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_26" ;
+    rpo:funded_by rpo:ContextualChangeUnitedStates,
+        rpo:JPaulGettyMuseum,
+        rpo:MarinaDelReyHospital,
+        rpo:SmithsonianAmericanArtMuseum,
+        rpo:WaltersArtMuseum ;
+    rpo:has_keyword rpo:ComputerScience,
+        rpo:CulturalHeritage,
+        rpo:DataScience,
+        rpo:LinkedData,
+        rpo:Multimedia,
+        rpo:Ontology,
+        rpo:Publishing,
+        rpo:SemanticWeb,
+        rpo:SetAbstractDataType,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Lessons Learned in Building Linked Data for the American Art Collaborative" ;
+    rpo:has_topic rpo:Archaeology,
+        rpo:ComputerScience,
+        rpo:CulturalHeritage,
+        rpo:DataScience,
+        rpo:Epistemology,
+        rpo:History,
+        rpo:Law,
+        rpo:LinkedData,
+        rpo:Multimedia,
+        rpo:Ontology,
+        rpo:Philosophy,
+        rpo:PoliticalScience,
+        rpo:ProgrammingLanguage,
+        rpo:Publishing,
+        rpo:SemanticWeb,
+        rpo:SetAbstractDataType,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 29 ;
+    rpo:openalex_id "https://openalex.org/W2762668546" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:CraigAKnoblock,
+        rpo:DavidNewbury,
+        rpo:DuaneDegler,
+        rpo:EleanorFink,
+        rpo:KateBlanch,
+        rpo:NikhilaBegurSreekanth,
+        rpo:NilayChheda,
+        rpo:NimeshJain,
+        rpo:PedroSzekely,
+        rpo:RaviRajuKrishna,
+        rpo:RobertSanderson,
+        rpo:SaraSnyder,
+        rpo:YixiangYao .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/611> a rpo:AcademicWork ;
+    rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10166>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10167>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10168>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10169>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10170>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10171>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10172>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10173>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10174>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10175>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10176>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10177>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10178>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10179>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10180>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10181>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10182>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10183>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10184>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10185>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10186>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10187>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10188>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10189>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10190>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10191> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_30" ;
+    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
+    rpo:has_keyword rpo:ComputerScience,
+        rpo:Database,
+        rpo:InformationRetrieval,
+        rpo:ProgrammingLanguage ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Automatic Query-Centric API for Routine Access to Linked Data" ;
+    rpo:has_topic rpo:ComputerScience,
+        rpo:Database,
+        rpo:InformationRetrieval,
+        rpo:ProgrammingLanguage ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 12 ;
+    rpo:openalex_id "https://openalex.org/W2764317770" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:Albert,
+        rpo:RinkeHoekstra .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/604> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10031>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10032>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10033>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10034>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10035>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10036>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10037>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10038>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10039>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10040>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10041>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10042>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10043>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10044>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10045>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10046>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10047>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10048>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10049>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10050>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10051>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10052>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10053> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_24" ;
+    rpo:funded_by rpo:NorthernArizonaUniversity,
+        rpo:SouthernCaliforniaEarthquakeCenter,
+        rpo:UniversityOfSouthernCalifornia ;
+    rpo:has_keyword rpo:Annotation,
+        rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:Crowdsourcing,
+        rpo:DataScience,
+        rpo:InformationRetrieval,
+        rpo:Metadata,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:SemanticWeb,
+        rpo:Standardization,
+        rpo:UpperOntology,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "A Controlled Crowdsourcing Approach for Practical Ontology Extensions and Metadata Annotations" ;
+    rpo:has_topic rpo:Annotation,
+        rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:Crowdsourcing,
+        rpo:DataScience,
+        rpo:Epistemology,
+        rpo:InformationRetrieval,
+        rpo:Metadata,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:OperatingSystem,
+        rpo:Philosophy,
+        rpo:SemanticWeb,
+        rpo:Standardization,
+        rpo:UpperOntology,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 14 ;
+    rpo:openalex_id "https://openalex.org/W2763174399" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:DanielGarijo,
+        rpo:DeborahKhider,
+        rpo:JulienEmileGeay,
+        rpo:NicholasPMckay,
+        rpo:VarunRatnakar,
+        rpo:YolandaGil .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/612> a rpo:AcademicWork ;
+    rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10192>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10193>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10194>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10195>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10196>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10197>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10198>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10199>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10200>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10201>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10202>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10203>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10204>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10205>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10206>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10207>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10208>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10209>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10210>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10211>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10212>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10213>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10214> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_31" ;
+    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
+        rpo:LeibnizUniversityHannover ;
+    rpo:has_keyword rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:DataModelGIS,
+        rpo:DataModeling,
+        rpo:DataScience,
+        rpo:Digitization,
+        rpo:IDEF1X,
+        rpo:InformationModel,
+        rpo:InformationRetrieval,
+        rpo:Interoperability,
+        rpo:KeyLock,
+        rpo:LinkedData,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:RDF,
+        rpo:SPARQL,
+        rpo:SemanticInteroperability,
+        rpo:SemanticWeb,
+        rpo:SoftwareEngineering,
+        rpo:WorldWideWeb ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Realizing an RDF-Based Information Model for a Manufacturing Company – A Case Study" ;
+    rpo:has_topic rpo:ArtificialIntelligence,
+        rpo:ComputerScience,
+        rpo:ComputerSecurity,
+        rpo:ComputerVision,
+        rpo:DataModelGIS,
+        rpo:DataModeling,
+        rpo:DataScience,
+        rpo:Digitization,
+        rpo:Epistemology,
+        rpo:IDEF1X,
+        rpo:InformationModel,
+        rpo:InformationRetrieval,
+        rpo:Interoperability,
+        rpo:KeyLock,
+        rpo:LinkedData,
+        rpo:Ontology,
+        rpo:OntologyBasedDataIntegration,
+        rpo:Philosophy,
+        rpo:RDF,
+        rpo:SPARQL,
+        rpo:SemanticInteroperability,
+        rpo:SemanticWeb,
+        rpo:SoftwareEngineering,
+        rpo:WorldWideWeb ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 25 ;
+    rpo:openalex_id "https://openalex.org/W2763245628" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:Auer,
+        rpo:ChristophLange,
+        rpo:Grangel,
+        rpo:LavdimHalilaj,
+        rpo:NiklasPetersen,
+        rpo:SteffenLohmann .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/609> a rpo:AcademicWork ;
+    rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10121>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10122>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10123>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10124>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10125>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10126>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10127>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10128>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10129>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10130>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10131>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10132>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10133>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10134>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10135>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10136>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10137>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10138>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10139>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10140>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10141>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10142>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10143>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10144>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10145>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10146>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10147>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10148>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10149>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10150> ;
+    rpo:doi "https://doi.org/10.1007/978-3-319-68204-4_29" ;
+    rpo:funded_by rpo:FreeUniversityOfBozenBolzano,
+        rpo:SiemensGermany,
+        rpo:TechnicalUniversityOfMunich,
+        rpo:UniversityOfOxford ;
+    rpo:has_keyword rpo:ComputerScience,
+        rpo:DataMining,
+        rpo:HumanComputerInteraction,
+        rpo:InformationRetrieval,
+        rpo:NaturalLanguageProcessing,
+        rpo:Ontology,
+        rpo:ProgrammingLanguage,
+        rpo:Reuse,
+        rpo:RuleBasedSystem,
+        rpo:Siemens,
+        rpo:SoftwareEngineering,
+        rpo:Usability ;
+    rpo:has_license "https://www.springer.com/tdm" ;
+    rpo:has_title "Semantic Rule-Based Equipment Diagnostics" ;
+    rpo:has_topic rpo:Biology,
+        rpo:ComputerScience,
+        rpo:DataMining,
+        rpo:Ecology,
+        rpo:Epistemology,
+        rpo:HumanComputerInteraction,
+        rpo:InformationRetrieval,
+        rpo:NaturalLanguageProcessing,
+        rpo:Ontology,
+        rpo:Philosophy,
+        rpo:Physics,
+        rpo:ProgrammingLanguage,
+        rpo:QuantumMechanics,
+        rpo:Reuse,
+        rpo:RuleBasedSystem,
+        rpo:Siemens,
+        rpo:SoftwareEngineering,
+        rpo:Usability ;
+    rpo:language "en" ;
+    rpo:nr_of_citations 25 ;
+    rpo:openalex_id "https://openalex.org/W2761748973" ;
+    rpo:published_by <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Springer_International_Publishing> ;
+    rpo:published_in_year 2017 ;
+    rpo:written_by rpo:Elem,
+        rpo:EvgenyKharlamov,
+        rpo:GulnarMehdi,
+        rpo:GuohuiXiao,
+        rpo:IanHorrocks,
+        rpo:MikhailRoshchin,
+        rpo:Ognjen,
+        rpo:SebastianBrandt,
+        rpo:ThomasARunkler .
+

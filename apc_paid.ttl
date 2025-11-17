@@ -1,0 +1,330 @@
+@prefix rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1005> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1010> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1013> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1015> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1017> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1020> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1023> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1025> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1026> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1029> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/1044> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/183> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/198> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/222> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/223> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/224> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/225> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/226> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/227> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/228> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/229> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/230> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/231> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/232> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/233> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/234> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/235> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/236> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/237> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/238> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/239> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/240> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/241> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/242> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/243> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/244> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/245> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/246> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/247> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/248> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/249> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/250> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/251> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/252> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/253> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/254> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/255> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/257> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/258> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/259> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/260> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/261> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/269> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/279> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/283> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/286> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/289> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/32> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/326> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/346> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/358> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/369> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/374> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/388> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/398> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/441> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/445> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/492> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/559> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/561> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/572> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/573> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/582> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/596> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/597> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/599> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/602> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/614> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/664> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/666> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/667> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/681> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/685> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/695> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/698> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/7> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/714> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/770> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/771> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/772> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/774> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/779> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/786> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/820> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/844> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/850> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/853> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/876> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/881> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/894> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/907> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/944> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/950> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/955> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/957> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/970> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/973> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/975> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/978> rpo:apc_currency "EUR" ;
+    rpo:apc_paid 5000 .
+
