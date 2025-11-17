@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import os
 
-target_dir = Path("C:/Users/FTS Demo/Documents/paper_eswc")
+target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 os.chdir(target_dir)
 
 RPO  = Namespace("http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#")

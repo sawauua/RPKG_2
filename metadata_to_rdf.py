@@ -9,7 +9,7 @@ import time
 import requests
 from itertools import count
 
-target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/paper_eswc")
+target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 os.chdir(target_dir)
 
 #prefixes to namespace uri

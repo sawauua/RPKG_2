@@ -7,7 +7,7 @@ RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 PRO  = Namespace("http://purl.org/spar/pro/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 
-target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/paper_eswc")
+target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 os.chdir(target_dir)
 
 def merge_ttl_subgraphs(input_folder: Path, output_file: Path):

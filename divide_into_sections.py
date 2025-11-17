@@ -5,7 +5,7 @@ import os
 import re
 from PyPDF2 import PdfReader
 
-os.chdir("C:/Users/FTS Demo/Documents/rp_kg_project/paper_eswc")
+os.chdir("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 
 def extract_metadata_from_pdf(pdf_path):
     
