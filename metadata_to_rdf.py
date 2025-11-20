@@ -110,44 +110,17 @@ def get_authors(graph: Graph, paper_id: int, meta: dict):
         
         inst = (auth.get("institutions") or [{}])[0]
         aff_name = inst.get("display_name")
-        country  = inst.get("country_code")
         if aff_name:
             affi_name = makeName(aff_name)
             graph.add((auth_uri, RPO.affiliated_with, RPO[affi_name]))
             graph.add((RPO.affiliated_with, RDF.type, OWL.ObjectProperty))
             
             info = extract_affiliations_from_metadata(auth)
-            if info.get("id") is not None:
-                graph.add((RPO[affi_name], RPO.has_id, RPO[info.get("id")[0]]))
-            graph.add((auth_uri, RPO.funded_by, RPO[affi_name]))
-            graph.add((RPO.funded_by, RDF.type, OWL.ObjectProperty))
-            graph.add((paper_uri, RPO.funded_by, RPO[affi_name]))
-            #print(f"    added {paper_id} author {full_name} and their affiliations")
             
             more = detailed_org(graph, info.get("institution"))
-            if more.get("class") is not None:
-                #print("class from dbpedia", more.get("class"))
-                graph.add((RPO[affi_name], RDF.type, RPO[more.get("class")]))
             if more.get("key_person") is not None:
                 graph.add((RPO[affi_name], RPO.key_person, RPO[makeName(more.get("key_person"))]))
                 graph.add((RPO.key_person, RDF.type, OWL.ObjectProperty))
-            if more.get("city") is not None:
-                graph.add((RPO[affi_name], RPO.located_in, RPO[makeName(more.get("city"))]))
-                graph.add((RPO.located_in, RDF.type, OWL.ObjectProperty))
-                graph.add((RPO[makeName(more.get("city"))], RDF.type, RPO.City))
-            elif info.get("city") is not None:
-                graph.add((RPO[affi_name], RPO.located_in, RPO[makeName(info.get("city"))]))
-                graph.add((RPO[makeName(info.get("city"))], RDF.type, RPO.City))
-            if more.get("country") is not None:
-                graph.add((RPO[affi_name], RPO.located_in, RPO[makeName(more.get("country"))]))
-                graph.add((RPO[makeName(more.get("country"))], RDF.type, RPO.Country))
-                print("added city form manual proces")
-            elif info.get("country") is not None:
-                graph.add((RPO[affi_name], RPO.located_in, RPO[makeName(info.get("country"))]))
-                graph.add((RPO[makeName(info.get("country"))], RDF.type, RPO.Country))
-                
-        if country:
-            graph.add((auth_uri, RPO.located_in, RPO[country]))
             
         graph.add((auth_uri, RPO.wrote, paper_uri))
         graph.add((RPO.wrote, RDF.type, OWL.ObjectProperty))
@@ -291,9 +264,6 @@ def handle_corp_division(graph: Graph, name: str):
 
             graph.add((specific_uri, RDF.type, RPO.Organisation))
             graph.add((general_uri, RDF.type, RPO.Organisation))
-            cl = get_dbpedia_class(general_name)
-            graph.add((general_uri, RDF.type, RPO[cl]))
-            print(f"added general uri as org of type {cl}")
     
 
 # ------------------- end of helper functions -----------------
@@ -442,6 +412,7 @@ def detailed_org(graph, name):
         handle_corp_division(graph, name)
     else:
         general_name = name
+    """ DELETED BC NOT USEFUL
     try:
         #print(general_name)
         org = get_dbpedia_class(general_name)
@@ -452,13 +423,13 @@ def detailed_org(graph, name):
     try:
         result = get_dbpedia_location(general_name)
         city = result.get("city")
-        #print(city)
+        #p("exception location not found")
+        city = "--"
+        country = "--"rint(city)
         country = result.get("country")
         #print(country)
     except Exception as e:
-        #print("exception location not found")
-        city = "--"
-        country = "--"
+        #print """
     feature = ["keyPerson", None]    
     leadership = get_dbpedia_leadership(general_name)
     for key, value in leadership.items():
@@ -466,10 +437,7 @@ def detailed_org(graph, name):
             feature = [key, value]
     #if db lookup failed
     return {
-        "city": city,
-        "country": country,
         f"key_person":    feature[1],
-        "class":    org,
         "source":   "None",
     }
 
@@ -492,6 +460,7 @@ def get_funder_info(graph, paper_id, meta, authors):
         print(f"    added funder {name}")
         
         more_fi = detailed_org(graph, name)
+        """ DELETED DUE TO DETAILED_ORG FUNCTION CHANGE
         if more_fi.get("class"):
             graph.add((funder_uri, RDF.type, RPO[more_fi.get("class")]))
         if more_fi.get("city"):
@@ -501,6 +470,7 @@ def get_funder_info(graph, paper_id, meta, authors):
         if more_fi.get("country"):
             graph.add((funder_uri, RPO.located_in, RPO[makeName(more_fi.get("country"))]))
             graph.add((RPO[makeName(more_fi.get("country"))], RDF.type, RPO.Country))
+        """ 
         if more_fi.get("key_person"):
             graph.add((funder_uri, RDF.key_person, RPO[makeName(more_fi.get("key_person"))]))
 
@@ -514,6 +484,19 @@ def get_funder_info(graph, paper_id, meta, authors):
 
         # Grants
         for award in f.get("award", []):
+            grant_uri = URIRef(f"{RPO}grant/{_slugify(award)}")
+            graph.add((grant_uri, RDF.type, RPO.Grant))
+            graph.add((grant_uri, RPO.grant_id, Literal(award)))
+            graph.add((RPO.grant_id, RDF.type, OWL.DatatypeProperty))
+            graph.add((paper_uri, RPO.received_grant, grant_uri))
+            graph.add((RPO.received_grant, RDF.type, OWL.ObjectProperty))
+            graph.add((grant_uri, RPO.funding_amount, Literal("")))  # amount unknown
+            graph.add((RPO.funding_amount, RDF.type, OWL.DatatypeProperty))
+            graph.add((funder_uri, RPO.funds, grant_uri))
+            graph.add((RPO.funds, RDF.type, OWL.ObjectProperty))
+            #print(f"    added grant info of {award}")
+            
+        for award in f.get("grants", []):
             grant_uri = URIRef(f"{RPO}grant/{_slugify(award)}")
             graph.add((grant_uri, RDF.type, RPO.Grant))
             graph.add((grant_uri, RPO.grant_id, Literal(award)))
@@ -596,12 +579,6 @@ def get_publishing_info(graph, paper_id, meta):
         graph.add((publisher_uri, RDF.type, RPO.Organisation))  # fallback
         
     more = detailed_org(graph, publisher_name)
-    if more.get("class"):
-        graph.add((publisher_uri, RDF.type, RPO[more.get("class")]))
-    if more.get("country"):
-        graph.add((publisher_uri, RPO.located_in, RPO[makeName(more.get("country"))]))
-    if more.get("city"):
-        graph.add((publisher_uri, RPO.located_in, RPO[makeName(more.get("city"))]))
     if more.get("key_person"):
         graph.add((publisher_uri, RPO.key_person, RPO[makeName(more.get("key_person"))]))
         

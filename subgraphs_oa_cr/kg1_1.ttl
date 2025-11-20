@@ -20,8 +20,6 @@ rpo:cites a owl:ObjectProperty .
 
 rpo:doi a owl:DatatypeProperty .
 
-rpo:funded_by a owl:ObjectProperty .
-
 rpo:has_id a owl:DatatypeProperty .
 
 rpo:has_keyword a owl:ObjectProperty .
@@ -35,8 +33,6 @@ rpo:is_open_access a owl:DatatypeProperty .
 rpo:key_person a owl:ObjectProperty .
 
 rpo:language a owl:DatatypeProperty .
-
-rpo:located_in a owl:ObjectProperty .
 
 rpo:nr_of_citations a owl:DatatypeProperty .
 
@@ -124,41 +120,15 @@ rpo:written_by a owl:ObjectProperty .
 
 rpo:wrote a owl:ObjectProperty .
 
-rpo:02139 a rpo:City .
-
-rpo:16801 a rpo:City .
-
-rpo:210023 a rpo:City .
-
-rpo:30602 a rpo:City .
-
-rpo:45435 a rpo:City .
-
-rpo:53562 a rpo:City .
-
-rpo:53706 a rpo:City .
-
-rpo:85748 a rpo:City .
-
-rpo:90292 a rpo:City .
-
-rpo:Aachen a rpo:City .
-
-rpo:Aalborg a rpo:City .
-
 rpo:AlexanderDejonghe a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086322708> ;
-    rpo:located_in rpo:BE ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/99> ;
     foaf:name "Alexander Dejonghe" .
 
 rpo:AmnaBasharat a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfGeorgia ;
-    rpo:funded_by rpo:UniversityOfGeorgia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5053358480> ;
-    rpo:located_in rpo:US ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/98> ;
     foaf:name "Amna Basharat" .
 
@@ -172,57 +142,15 @@ rpo:Art a rpo:ResearchField ;
 
 rpo:AudunVennesland a rpo:Author ;
     rpo:affiliated_with rpo:NorwegianUniversityOfScienceAndTechnology ;
-    rpo:funded_by rpo:NorwegianUniversityOfScienceAndTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5075395273> ;
-    rpo:located_in rpo:NO ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/50> ;
     foaf:name "Audun Vennesland" .
 
-rpo:Augsburg a rpo:City .
-
-rpo:Beijing a rpo:City .
-
-rpo:Bielefeld a rpo:City .
-
-rpo:Bolzano a rpo:City .
-
-rpo:Bonn a rpo:City .
-
-rpo:Bremen a rpo:City .
-
-rpo:Brussels a rpo:City .
-
-rpo:Budapest a rpo:City .
-
-rpo:Buffalo a rpo:City .
-
-rpo:California a rpo:City .
-
-rpo:Canada a rpo:Country .
-
-rpo:CapeTown a rpo:City .
-
-rpo:Chennai a rpo:City .
-
-rpo:China a rpo:Country .
-
-rpo:Cologne a rpo:City .
-
-rpo:Dayton a rpo:City .
-
 rpo:DenaTahvildari a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfAmsterdam ;
-    rpo:funded_by rpo:UniversityOfAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021146389> ;
-    rpo:located_in rpo:NL ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/48> ;
     foaf:name "Dena Tahvildari" .
-
-rpo:Denmark a rpo:Country .
-
-rpo:Dortmund a rpo:City .
-
-rpo:EC4A1DE a rpo:City .
 
 rpo:EconomicPolicy a rpo:ResearchArea ;
     rdfs:label "Economic policy" .
@@ -236,74 +164,42 @@ rpo:EmbeddedSystem a rpo:ResearchArea ;
 rpo:EnvironmentalEngineering a rpo:ResearchArea ;
     rdfs:label "Environmental engineering" .
 
-rpo:Espoo a rpo:City .
-
 rpo:ExternalQualityAssessment a rpo:Topic ;
     rdfs:label "External quality assessment" .
 
 rpo:FajarJEkaputra a rpo:Author ;
     rpo:affiliated_with rpo:TUWien ;
-    rpo:funded_by rpo:TUWien ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5012198006> ;
-    rpo:located_in rpo:AT ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/40> ;
     foaf:name "Fajar J. Ekaputra" .
 
 rpo:FattaneZarrinkalam a rpo:Author ;
     rpo:affiliated_with rpo:FerdowsiUniversityOfMashhad ;
-    rpo:funded_by rpo:FerdowsiUniversityOfMashhad ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5084754913> ;
-    rpo:located_in rpo:IR ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/51> ;
     foaf:name "Fattane Zarrinkalam" .
 
 rpo:Finance a rpo:ResearchArea ;
     rdfs:label "Finance" .
 
-rpo:Finland a rpo:Country .
-
-rpo:FinlandTAB a rpo:Country .
-
-rpo:Fribourg a rpo:City .
-
-rpo:FuturoscopeCedex a rpo:City .
-
-rpo:Galway a rpo:City .
-
-rpo:Gandhinagar a rpo:City .
-
-rpo:Genoa a rpo:City .
-
 rpo:GerhardWohlgenannt a rpo:Author ;
     rpo:affiliated_with rpo:ViennaUniversityOfEconomicsAndBusiness ;
-    rpo:funded_by rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5088348790> ;
-    rpo:located_in rpo:AT ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/35> ;
     foaf:name "Gerhard Wohlgenannt" .
 
-rpo:Ghent a rpo:City .
-
 rpo:GiulioPetrucci a rpo:Author ;
     rpo:affiliated_with rpo:FondazioneBrunoKessler ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5012562128> ;
-    rpo:located_in rpo:IT ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/43> ;
     foaf:name "Giulio Petrucci" .
 
 rpo:Grid a rpo:Topic ;
     rdfs:label "Grid" .
 
-rpo:Hannover a rpo:City .
-
-rpo:Hungary a rpo:Country .
-
 rpo:IgnacioTraverso a rpo:Author ;
     rpo:affiliated_with rpo:FZIResearchCenterForInformationTechnology ;
-    rpo:funded_by rpo:FZIResearchCenterForInformationTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5043542145> ;
-    rpo:located_in rpo:DE ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/49> ;
     foaf:name "Ignacio Traverso-Ribón" .
 
@@ -312,47 +208,19 @@ rpo:IgnacioTraverso a rpo:Author ;
 rpo:InternationalTrade a rpo:ResearchArea ;
     rdfs:label "International trade" .
 
-rpo:Iran a rpo:Country .
-
 rpo:KarlsruheInstituteofTechnology a rpo:Organisation .
 
 rpo:KatrinKrieger a rpo:Author ;
     rpo:affiliated_with rpo:OttoVonGuerickeUniversityMagdeburg ;
-    rpo:funded_by rpo:OttoVonGuerickeUniversityMagdeburg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5028133445> ;
-    rpo:located_in rpo:DE ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/41> ;
     foaf:name "Katrin Krieger" .
 
-rpo:Kiel a rpo:City .
-
 rpo:KjetilKjernsmo a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOslo ;
-    rpo:funded_by rpo:UniversityOfOslo ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5057284450> ;
-    rpo:located_in rpo:NO ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11> ;
     foaf:name "Kjetil Kjernsmo" .
-
-rpo:LS29JT a rpo:City .
-
-rpo:LaPlaineStDenisCedex a rpo:City .
-
-rpo:Lausanne a rpo:City .
-
-rpo:LedebergGhent a rpo:City .
-
-rpo:Leipzig a rpo:City .
-
-rpo:LosAngeles a rpo:City .
-
-rpo:LowerSaxony a rpo:City .
-
-rpo:Magdeburg a rpo:City .
-
-rpo:Mannheim a rpo:City .
-
-rpo:Mansfield a rpo:City .
 
 rpo:MarketEconomy a rpo:ResearchArea ;
     rdfs:label "Market economy" .
@@ -360,123 +228,52 @@ rpo:MarketEconomy a rpo:ResearchArea ;
 rpo:Marketing a rpo:ResearchArea ;
     rdfs:label "Marketing" .
 
-rpo:Mashhad a rpo:City .
-
 rpo:Matuszka a rpo:Author ;
     rpo:affiliated_with rpo:University ;
-    rpo:funded_by rpo:University ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078101606> ;
-    rpo:located_in rpo:HU ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/42> ;
     foaf:name "Tamás Matuszka" .
-
-rpo:Milano a rpo:City .
-
-rpo:Montpellier a rpo:City .
 
 rpo:MoralDisengagement a rpo:Topic ;
     rdfs:label "Moral disengagement" .
 
-rpo:NewDelhi a rpo:City .
-
 rpo:NoPoverty a rpo:Goal .
-
-rpo:OH a rpo:City .
-
-rpo:Ontario a rpo:City .
-
-rpo:Oslo a rpo:City .
-
-rpo:Oxford a rpo:City .
-
-rpo:Paris a rpo:City .
-
-rpo:Passau a rpo:City .
 
 rpo:PatrickPhilipp a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102908049> ;
-    rpo:located_in rpo:DE ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/45> ;
     foaf:name "Patrick Philipp" .
-
-rpo:Penryn a rpo:City .
-
-rpo:PeopleSRepublicOfChina a rpo:Country .
 
 rpo:Petrology a rpo:ResearchArea ;
     rdfs:label "Petrology" .
 
-rpo:Poland a rpo:Country .
-
-rpo:RI a rpo:City .
-
 rpo:RemoteSensing a rpo:ResearchArea ;
     rdfs:label "Remote sensing" .
-
-rpo:Rende a rpo:City .
-
-rpo:Rennes a rpo:City .
 
 rpo:Repressor a rpo:Topic ;
     rdfs:label "Repressor" .
 
-rpo:Russia a rpo:City .
-
-rpo:RussiaTAB a rpo:Country .
-
-rpo:Saint a rpo:City .
-
-rpo:SaintEtienne a rpo:City .
-
-rpo:SanktAugustin a rpo:City .
-
-rpo:Segovia a rpo:City .
-
 rpo:Sentence a rpo:Topic ;
     rdfs:label "Sentence" .
 
-rpo:Sheffield a rpo:City .
-
-rpo:SouthAfrica a rpo:Country .
-
-rpo:Southampton a rpo:City .
-
-rpo:StPetersburg a rpo:City .
-
-rpo:Sweden a rpo:Country .
-
 rpo:ThuLePham a rpo:Author ;
     rpo:affiliated_with rpo:OllscoilNaGaillimheUniversityOfGalway ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5073638984> ;
-    rpo:located_in rpo:IE ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/44> ;
     foaf:name "Thu-Le Pham" .
 
 rpo:TranscriptionFactor a rpo:Topic ;
     rdfs:label "Transcription factor" .
 
-rpo:Trento a rpo:City .
-
-rpo:Tripolis a rpo:City .
-
-rpo:Trondheim a rpo:City .
-
-rpo:Turku a rpo:City .
-
-rpo:Valladolid a rpo:City .
+rpo:UniversityOfWaterloo rpo:key_person rpo:VivekGoel .
 
 rpo:VisualArts a rpo:ResearchArea ;
     rdfs:label "Visual arts" .
 
-rpo:YorktownHeights a rpo:City .
-
 rpo:ZeroHunger a rpo:Goal .
 
-<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Inderscience_Publishers> a rpo:Company,
-        rpo:Organisation ;
+<http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Inderscience_Publishers> a rpo:Organisation ;
     rpo:has_name "Inderscience Publishers" .
 
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#org/Korean_Institute_of_Information_Scientists_and_Engineers> a rpo:Organisation ;
@@ -6230,18 +6027,14 @@ rpo:AggregateComposite a rpo:Keyword,
 
 rpo:Agnieszka a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfTechnology ;
-    rpo:funded_by rpo:UniversityOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5005050797> ;
-    rpo:located_in rpo:PL ;
     rpo:works_with rpo:CMariaKeet ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/88> ;
     foaf:name "Agnieszka Ławrynowicz" .
 
 rpo:AntoineZimmermann a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireHubertCurien ;
-    rpo:funded_by rpo:LaboratoireHubertCurien ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044171839> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:Maxime ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/71> ;
     foaf:name "Antoine Zimmermann" .
@@ -6254,15 +6047,9 @@ rpo:AssociationRuleLearning a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Association rule learning" .
 
-rpo:Athens a rpo:City .
-
 rpo:AugmentedReality a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Augmented reality" .
-
-rpo:Austria a rpo:Country .
-
-rpo:Belgium a rpo:Country .
 
 rpo:Benchmarking a rpo:Keyword,
         rpo:Topic ;
@@ -6280,13 +6067,9 @@ rpo:BridgingNetworking a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Bridging (networking)" .
 
-rpo:CA a rpo:City .
-
 rpo:CMariaKeet a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfCapeTown ;
-    rpo:funded_by rpo:UniversityOfCapeTown ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5057850155> ;
-    rpo:located_in rpo:ZA ;
     rpo:works_with rpo:Agnieszka ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/88> ;
     foaf:name "C. Maria Keet" .
@@ -6414,8 +6197,6 @@ rpo:DualProcessTheoryMoralPsychology a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Dual process theory (moral psychology)" .
 
-rpo:Dublin a rpo:City .
-
 rpo:EScience a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "e-Science" .
@@ -6478,9 +6259,7 @@ rpo:FrameNetworking a rpo:Keyword,
 
 rpo:FrancescaBria a rpo:Author ;
     rpo:affiliated_with rpo:Nesta ;
-    rpo:funded_by rpo:Nesta ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5049746086> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:HarryHalpin ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/32> ;
     foaf:name "Francesca Bria" .
@@ -6489,13 +6268,9 @@ rpo:Geochemistry a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Geochemistry" .
 
-rpo:GermanyTAB a rpo:Country .
-
 rpo:Giuseppe a rpo:Author ;
     rpo:affiliated_with rpo:InstituteForHighPerformanceComputingAndNetworking ;
-    rpo:funded_by rpo:InstituteForHighPerformanceComputingAndNetworking ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086627069> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:OlafHartig ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/46> ;
     foaf:name "Giuseppe Pirrò" .
@@ -6506,9 +6281,7 @@ rpo:GroundTruth a rpo:Keyword,
 
 rpo:HarryHalpin a rpo:Author ;
     rpo:affiliated_with rpo:WorldWideWebConsortium ;
-    rpo:funded_by rpo:WorldWideWebConsortium ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5015419040> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:FrancescaBria ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/32> ;
     foaf:name "Harry Halpin" .
@@ -6519,14 +6292,10 @@ rpo:HashFunction a rpo:Keyword,
 
 rpo:HeikoPaulheim a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfMannheim ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5040542771> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:RobertMeusel ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/3> ;
     foaf:name "Heiko Paulheim" .
-
-rpo:Heraklion a rpo:City .
 
 rpo:Heuristic a rpo:Keyword,
         rpo:Topic ;
@@ -6575,10 +6344,6 @@ rpo:JSON a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "JSON" .
 
-rpo:Karlsruhe a rpo:City .
-
-rpo:Kassel a rpo:City .
-
 rpo:KnowledgeAcquisition a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Knowledge acquisition" .
@@ -6603,8 +6368,6 @@ rpo:MachineTranslation a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Machine translation" .
 
-rpo:Madrid a rpo:City .
-
 rpo:MarkupLanguage a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Markup language" .
@@ -6618,9 +6381,7 @@ rpo:MathematicalOptimization a rpo:Keyword,
 
 rpo:Maxime a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireHubertCurien ;
-    rpo:funded_by rpo:LaboratoireHubertCurien ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5087523543> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AntoineZimmermann ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/71> ;
     foaf:name "Maxime Lefrançois" .
@@ -6635,9 +6396,7 @@ rpo:MetadataRepository a rpo:Keyword,
 
 rpo:MichelleCheatham a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5009022005> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:PawelGrzebala ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/85> ;
     foaf:name "Michelle Cheatham" .
@@ -6648,9 +6407,7 @@ rpo:ModularProgramming a rpo:Keyword,
 
 rpo:MofeedMHassan a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5022183897> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AxelCyrilleNgongaNgomo ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/74> ;
     foaf:name "Mofeed M. Hassan" .
@@ -6659,8 +6416,6 @@ rpo:Multimedia a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Multimedia" .
 
-rpo:Munich a rpo:City .
-
 rpo:NamedEntity a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Named entity" .
@@ -6668,8 +6423,6 @@ rpo:NamedEntity a rpo:Keyword,
 rpo:Namespace a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Namespace" .
-
-rpo:Norway a rpo:Country .
 
 rpo:NoveltyDetection a rpo:Keyword,
         rpo:Topic ;
@@ -6688,9 +6441,7 @@ rpo:Oceanography a rpo:ResearchArea ;
 
 rpo:OlafHartig a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfWaterloo ;
-    rpo:funded_by rpo:UniversityOfWaterloo ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5022300272> ;
-    rpo:located_in rpo:CA ;
     rpo:works_with rpo:Giuseppe ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/46> ;
     foaf:name "Olaf Hartig" .
@@ -6744,9 +6495,7 @@ rpo:PatternRecognitionPsychology a rpo:Keyword,
 
 rpo:PawelGrzebala a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5013390852> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:MichelleCheatham ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/85> ;
     foaf:name "Pawel Grzebala" .
@@ -6759,9 +6508,7 @@ rpo:Personalization a rpo:Keyword,
 
 rpo:PeterMika a rpo:Author ;
     rpo:affiliated_with rpo:YahooUnitedKingdom ;
-    rpo:funded_by rpo:YahooUnitedKingdom ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036340022> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:PetarRistoski ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/57> ;
     foaf:name "Peter Mika" .
@@ -6871,14 +6618,10 @@ rpo:Rewriting a rpo:Keyword,
 
 rpo:RobertMeusel a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfMannheim ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5047915112> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:HeikoPaulheim ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/3> ;
     foaf:name "Robert Meusel" .
-
-rpo:Rome a rpo:City .
 
 rpo:RuleBasedMachineTranslation a rpo:Keyword,
         rpo:Topic ;
@@ -6956,8 +6699,6 @@ rpo:SupportVectorMachine a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Support vector machine" .
 
-rpo:Switzerland a rpo:Country .
-
 rpo:TermTime a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Term (time)" .
@@ -6973,8 +6714,6 @@ rpo:TestBiology a rpo:Keyword,
 rpo:TheInternet a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "The Internet" .
-
-rpo:TheNetherlandsTAB a rpo:Country .
 
 rpo:Theology a rpo:ResearchArea ;
     rdfs:label "Theology" .
@@ -7019,8 +6758,6 @@ rpo:VarietyCybernetics a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Variety (cybernetics)" .
 
-rpo:Vienna a rpo:City .
-
 rpo:VirtualMachine a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Virtual machine" .
@@ -7028,8 +6765,6 @@ rpo:VirtualMachine a rpo:Keyword,
 rpo:VirtualReality a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Virtual reality" .
-
-rpo:Walldorf a rpo:City .
 
 rpo:WebApplication a rpo:Keyword,
         rpo:Topic ;
@@ -7064,19 +6799,9 @@ rpo:XML a rpo:Keyword,
 rpo:Advertising a rpo:ResearchArea ;
     rdfs:label "Advertising" .
 
-rpo:AirbusGermany a rpo:Organisation ;
-    rpo:located_in rpo:Bremen,
-        rpo:Germany .
-
-rpo:AkademiUniversity a rpo:Organisation ;
-    rpo:located_in rpo:FinlandTAB,
-        rpo:Turku .
-
 rpo:Albert a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfKassel ;
-    rpo:funded_by rpo:UniversityOfKassel ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5056244231> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:MartinPeters,
         rpo:SabineSachweh ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/53> ;
@@ -7084,21 +6809,15 @@ rpo:Albert a rpo:Author ;
 
 rpo:AliKhalili a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068734414> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AntonisLoizou,
         rpo:FrankVanHarmelen ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/91> ;
     foaf:name "Ali Khalili" .
 
-rpo:Amsterdam a rpo:City .
-
 rpo:AndreasHarth a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5033280983> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AchimRettinger,
         rpo:Michael ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/65> ;
@@ -7106,9 +6825,7 @@ rpo:AndreasHarth a rpo:Author ;
 
 rpo:AnsgarScherp a rpo:Author ;
     rpo:affiliated_with rpo:ChristianAlbrechtsZuKiel ;
-    rpo:funded_by rpo:ChristianAlbrechtsZuKiel ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5005533034> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:JohannSchaible,
         rpo:PedroSzekely ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/61> ;
@@ -7116,9 +6833,7 @@ rpo:AnsgarScherp a rpo:Author ;
 
 rpo:AntonisLoizou a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5011778057> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AliKhalili,
         rpo:FrankVanHarmelen ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/91> ;
@@ -7129,9 +6844,7 @@ rpo:Archaeology a rpo:ResearchArea ;
 
 rpo:BernhardBauer a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfAugsburg ;
-    rpo:funded_by rpo:UniversityOfAugsburg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5103130753> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:MaximilianOsenberg,
         rpo:MelanieLangermeier ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/37> ;
@@ -7140,32 +6853,20 @@ rpo:BernhardBauer a rpo:Author ;
 rpo:Botany a rpo:ResearchArea ;
     rdfs:label "Botany" .
 
-rpo:BrownUniversity a rpo:Organisation ;
-    rpo:located_in rpo:RI,
-        rpo:USA .
-
 rpo:Bubble a rpo:Topic ;
     rdfs:label "Bubble" .
 
 rpo:Campinas a rpo:Author ;
     rpo:affiliated_with rpo:OllscoilNaGaillimheUniversityOfGalway ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5059859368> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:FadiMaali,
         rpo:StefanDecker ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/25> ;
     foaf:name "Stéphane Campinas" .
 
-rpo:ChristianAlbrechtsZuKiel a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Kiel .
-
 rpo:ChristinSeifert a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPassau ;
-    rpo:funded_by rpo:UniversityOfPassau ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054484216> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:MichaelGranitzer,
         rpo:StefanZwicklbauer ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/59> ;
@@ -7180,9 +6881,7 @@ rpo:ChunLu a rpo:Author ;
 
 rpo:Corcho a rpo:Author ;
     rpo:affiliated_with rpo:UniversidadDeMadrid ;
-    rpo:funded_by rpo:UniversidadDeMadrid ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5082377531> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:FerraterMora,
         rpo:JeanPaulCalbimonte ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/79> ;
@@ -7191,55 +6890,25 @@ rpo:Corcho a rpo:Author ;
 rpo:Demography a rpo:ResearchArea ;
     rdfs:label "Demography" .
 
-rpo:DhirubhaiAmbaniInstituteOfInformationAndCommunicationTechnology a rpo:Organisation ;
-    rpo:located_in rpo:Gandhinagar,
-        rpo:India .
-
-rpo:FLAVIAITGermany a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Kassel .
-
-rpo:FZIResearchCenterForInformationTechnology a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Karlsruhe .
-
 rpo:FadiMaali a rpo:Author ;
     rpo:affiliated_with rpo:OllscoilNaGaillimheUniversityOfGalway ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5053543950> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:Campinas,
         rpo:StefanDecker ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/25> ;
     foaf:name "Fadi Maali" .
 
-rpo:FerdowsiUniversityOfMashhad a rpo:Organisation ;
-    rpo:located_in rpo:Iran,
-        rpo:Mashhad .
-
 rpo:FerraterMora a rpo:Author ;
     rpo:affiliated_with rpo:UniversidadDeMadrid ;
-    rpo:funded_by rpo:UniversidadDeMadrid ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5027570281> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:Corcho,
         rpo:JeanPaulCalbimonte ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/79> ;
     foaf:name "José Ferrater Mora" .
 
-rpo:FluidOperationsGermany a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Walldorf .
-
-rpo:GESISLeibnizInstituteForTheSocialSciences a rpo:Organisation ;
-    rpo:located_in rpo:Cologne,
-        rpo:Germany .
-
 rpo:GenevieveGorrell a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSheffield ;
-    rpo:funded_by rpo:UniversityOfSheffield ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5081967853> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:JohannPetrak,
         rpo:KalinaBontcheva ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/4> ;
@@ -7252,35 +6921,9 @@ rpo:HalaSkafMolli a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/76> ;
     foaf:name "Hala Skaf‐Molli" .
 
-rpo:IBMResearchIreland a rpo:Organisation ;
-    rpo:located_in rpo:Dublin,
-        rpo:Ireland .
-
-rpo:India a rpo:Country .
-
-rpo:IndianInstituteOfTechnologyDelhi a rpo:Organisation ;
-    rpo:located_in rpo:India,
-        rpo:NewDelhi .
-
-rpo:IndianInstituteOfTechnologyMadras a rpo:Organisation ;
-    rpo:located_in rpo:Chennai,
-        rpo:India .
-
-rpo:InstitutDeRechercheEnInformatiqueEt a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:Rennes .
-
-rpo:InstituteForHighPerformanceComputingAndNetworking a rpo:Organisation ;
-    rpo:located_in rpo:Italy,
-        rpo:Rende .
-
-rpo:Ireland a rpo:Country .
-
 rpo:JavierD a rpo:Author ;
     rpo:affiliated_with rpo:ViennaUniversityOfEconomicsAndBusiness ;
-    rpo:funded_by rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5040541999> ;
-    rpo:located_in rpo:AT ;
     rpo:works_with rpo:M,
         rpo:MiguelAPrieto ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/9> ;
@@ -7288,9 +6931,7 @@ rpo:JavierD a rpo:Author ;
 
 rpo:JeanPaulCalbimonte a rpo:Author ;
     rpo:affiliated_with rpo:PolytechniqueDeLausanne ;
-    rpo:funded_by rpo:PolytechniqueDeLausanne ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5042196402> ;
-    rpo:located_in rpo:CH ;
     rpo:works_with rpo:Corcho,
         rpo:FerraterMora ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/79> ;
@@ -7298,9 +6939,7 @@ rpo:JeanPaulCalbimonte a rpo:Author ;
 
 rpo:Johan a rpo:Author ;
     rpo:affiliated_with rpo:University ;
-    rpo:funded_by rpo:University ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5014646459> ;
-    rpo:located_in rpo:SE ;
     rpo:works_with rpo:PatrickLambrix,
         rpo:ValentinaIvanova ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/2> ;
@@ -7308,9 +6947,7 @@ rpo:Johan a rpo:Author ;
 
 rpo:JohannPetrak a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSheffield ;
-    rpo:funded_by rpo:UniversityOfSheffield ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5065971982> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:GenevieveGorrell,
         rpo:KalinaBontcheva ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/4> ;
@@ -7318,9 +6955,7 @@ rpo:JohannPetrak a rpo:Author ;
 
 rpo:JohannSchaible a rpo:Author ;
     rpo:affiliated_with rpo:GESISLeibnizInstituteForTheSocialSciences ;
-    rpo:funded_by rpo:GESISLeibnizInstituteForTheSocialSciences ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5001363347> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AnsgarScherp,
         rpo:PedroSzekely ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/61> ;
@@ -7328,9 +6963,7 @@ rpo:JohannSchaible a rpo:Author ;
 
 rpo:Jose a rpo:Author ;
     rpo:affiliated_with rpo:IberiaSpain ;
-    rpo:funded_by rpo:IberiaSpain ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5011911779> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:PanosAlexopoulos,
         rpo:RonaldDenaux ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/29> ;
@@ -7338,23 +6971,15 @@ rpo:Jose a rpo:Author ;
 
 rpo:KalinaBontcheva a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSheffield ;
-    rpo:funded_by rpo:UniversityOfSheffield ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021952588> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:GenevieveGorrell,
         rpo:JohannPetrak ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/4> ;
     foaf:name "Kalina Bontcheva" .
 
-rpo:L3SResearchCenter a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Hannover .
-
 rpo:M a rpo:Author ;
     rpo:affiliated_with rpo:UniversidadDeValladolid ;
-    rpo:funded_by rpo:UniversidadDeValladolid ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5041280789> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:JavierD,
         rpo:MiguelAPrieto ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/9> ;
@@ -7362,9 +6987,7 @@ rpo:M a rpo:Author ;
 
 rpo:MarcinWylot a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfFribourg ;
-    rpo:funded_by rpo:UniversityOfFribourg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5035324299> ;
-    rpo:located_in rpo:CH ;
     rpo:works_with rpo:PhilippeMauroux,
         rpo:RuslanMavlyutov ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/55> ;
@@ -7372,9 +6995,7 @@ rpo:MarcinWylot a rpo:Author ;
 
 rpo:MartinPeters a rpo:Author ;
     rpo:affiliated_with rpo:DortmundUniversityOfAppliedSciencesAndArts ;
-    rpo:funded_by rpo:DortmundUniversityOfAppliedSciencesAndArts ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5103166772> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Albert,
         rpo:SabineSachweh ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/53> ;
@@ -7392,9 +7013,7 @@ rpo:MaximumBubblePressureMethod a rpo:Topic ;
 
 rpo:MelanieLangermeier a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfAugsburg ;
-    rpo:funded_by rpo:UniversityOfAugsburg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5050938393> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:BernhardBauer,
         rpo:MaximilianOsenberg ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/37> ;
@@ -7402,9 +7021,7 @@ rpo:MelanieLangermeier a rpo:Author ;
 
 rpo:MichaelGranitzer a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPassau ;
-    rpo:funded_by rpo:UniversityOfPassau ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5006866152> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristinSeifert,
         rpo:StefanZwicklbauer ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/59> ;
@@ -7412,9 +7029,7 @@ rpo:MichaelGranitzer a rpo:Author ;
 
 rpo:MiguelAPrieto a rpo:Author ;
     rpo:affiliated_with rpo:UniversidadDeValladolid ;
-    rpo:funded_by rpo:UniversidadDeValladolid ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5065554261> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:JavierD,
         rpo:M ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/9> ;
@@ -7429,35 +7044,15 @@ rpo:Milan a rpo:Author ;
 
 rpo:MohamedAhmedSherif a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5052233342> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AxelCyrilleNgongaNgomo,
         rpo:JensLehmann ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/17> ;
     foaf:name "Mohamed Ahmed Sherif" .
 
-rpo:NationaleDesCheminsDeFerFrance a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:LaPlaineStDenisCedex .
-
-rpo:Nesta a rpo:Organisation ;
-    rpo:located_in rpo:EC4A1DE,
-        rpo:UK .
-
-rpo:NorwegianUniversityOfScienceAndTechnology a rpo:Organisation ;
-    rpo:located_in rpo:Norway,
-        rpo:Trondheim .
-
-rpo:OttoVonGuerickeUniversityMagdeburg a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Magdeburg .
-
 rpo:PanosAlexopoulos a rpo:Author ;
     rpo:affiliated_with rpo:IberiaSpain ;
-    rpo:funded_by rpo:IberiaSpain ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021213146> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:Jose,
         rpo:RonaldDenaux ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/29> ;
@@ -7474,9 +7069,7 @@ rpo:PascalMolli a rpo:Author ;
 
 rpo:PatrickLambrix a rpo:Author ;
     rpo:affiliated_with rpo:University ;
-    rpo:funded_by rpo:University ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078158687> ;
-    rpo:located_in rpo:SE ;
     rpo:works_with rpo:Johan,
         rpo:ValentinaIvanova ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/2> ;
@@ -7489,15 +7082,9 @@ rpo:PaulineFolz a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/76> ;
     foaf:name "Pauline Folz" .
 
-rpo:PennsylvaniaStateUniversity a rpo:Organisation ;
-    rpo:located_in rpo:16801,
-        rpo:USA .
-
 rpo:PetarRistoski a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfMannheim ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5045816451> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:PeterMika ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/47>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/57> ;
@@ -7505,7 +7092,6 @@ rpo:PetarRistoski a rpo:Author ;
 
 rpo:PhilippeLaublet a rpo:Author ;
     rpo:affiliated_with rpo:SensTexteInformatiqueHistoire ;
-    rpo:funded_by rpo:SensTexteInformatiqueHistoire ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5006470480> ;
     rpo:works_with rpo:ChunLu,
         rpo:Milan ;
@@ -7514,9 +7100,7 @@ rpo:PhilippeLaublet a rpo:Author ;
 
 rpo:PhilippeMauroux a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfFribourg ;
-    rpo:funded_by rpo:UniversityOfFribourg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5028454093> ;
-    rpo:located_in rpo:CH ;
     rpo:works_with rpo:MarcinWylot,
         rpo:RuslanMavlyutov ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/55> ;
@@ -7524,10 +7108,6 @@ rpo:PhilippeMauroux a rpo:Author ;
 
 rpo:Politics a rpo:Topic ;
     rdfs:label "Politics" .
-
-rpo:PolytechniqueDeLausanne a rpo:Organisation ;
-    rpo:located_in rpo:Lausanne,
-        rpo:Switzerland .
 
 rpo:Population a rpo:Topic ;
     rdfs:label "Population" .
@@ -7537,9 +7117,7 @@ rpo:Psychology a rpo:ResearchField ;
 
 rpo:RonaldDenaux a rpo:Author ;
     rpo:affiliated_with rpo:IberiaSpain ;
-    rpo:funded_by rpo:IberiaSpain ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044240602> ;
-    rpo:located_in rpo:ES ;
     rpo:works_with rpo:Jose,
         rpo:PanosAlexopoulos ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/29> ;
@@ -7547,9 +7125,7 @@ rpo:RonaldDenaux a rpo:Author ;
 
 rpo:RuslanMavlyutov a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfFribourg ;
-    rpo:funded_by rpo:UniversityOfFribourg ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5062619833> ;
-    rpo:located_in rpo:CH ;
     rpo:works_with rpo:MarcinWylot,
         rpo:PhilippeMauroux ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/55> ;
@@ -7557,17 +7133,11 @@ rpo:RuslanMavlyutov a rpo:Author ;
 
 rpo:SabineSachweh a rpo:Author ;
     rpo:affiliated_with rpo:DortmundUniversityOfAppliedSciencesAndArts ;
-    rpo:funded_by rpo:DortmundUniversityOfAppliedSciencesAndArts ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021217250> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Albert,
         rpo:MartinPeters ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/53> ;
     foaf:name "Sabine Sachweh" .
-
-rpo:SensTexteInformatiqueHistoire a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:Paris .
 
 rpo:SocialPsychology a rpo:ResearchArea ;
     rdfs:label "Social psychology" .
@@ -7579,13 +7149,9 @@ rpo:Software a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Software" .
 
-rpo:Spain a rpo:Country .
-
 rpo:StefanDecker a rpo:Author ;
     rpo:affiliated_with rpo:OllscoilNaGaillimheUniversityOfGalway ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5071104283> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:Campinas,
         rpo:FadiMaali ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/25> ;
@@ -7593,77 +7159,18 @@ rpo:StefanDecker a rpo:Author ;
 
 rpo:StefanZwicklbauer a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPassau ;
-    rpo:funded_by rpo:UniversityOfPassau ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5016537445> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristinSeifert,
         rpo:MichaelGranitzer ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/59> ;
     foaf:name "Stefan Zwicklbauer" .
 
-rpo:TechnicalUniversityOfMunich a rpo:Organisation ;
-    rpo:located_in rpo:85748,
-        rpo:Germany .
-
-rpo:TheNetherlands a rpo:Country .
-
 rpo:Thermodynamics a rpo:ResearchArea ;
     rdfs:label "Thermodynamics" .
 
-rpo:UnitedStatesGeologicalSurvey a rpo:Organisation ;
-    rpo:located_in rpo:53562,
-        rpo:USA .
-
-rpo:UniversityAtBuffaloStateUniversityOfNewYork a rpo:Organisation ;
-    rpo:located_in rpo:Buffalo,
-        rpo:USA .
-
-rpo:UniversityOf a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:LowerSaxony .
-
-rpo:UniversityOfCapeTown a rpo:Organisation ;
-    rpo:located_in rpo:CapeTown,
-        rpo:SouthAfrica .
-
-rpo:UniversityOfConnecticut a rpo:Organisation ;
-    rpo:located_in rpo:Mansfield,
-        rpo:USA .
-
-rpo:UniversityOfCrete a rpo:Organisation ;
-    rpo:located_in rpo:Greece,
-        rpo:Heraklion .
-
-rpo:UniversityOfExeter a rpo:Organisation ;
-    rpo:located_in rpo:Penryn,
-        rpo:UK .
-
-rpo:UniversityOfGenoa a rpo:Organisation ;
-    rpo:located_in rpo:Genoa,
-        rpo:Italy .
-
-rpo:UniversityOfGeorgia a rpo:Organisation ;
-    rpo:located_in rpo:30602,
-        rpo:USA .
-
-rpo:UniversityOfKassel a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Kassel .
-
-rpo:UniversityOfTechnology a rpo:Organisation ;
-    rpo:located_in rpo:,
-        rpo:Poland .
-
-rpo:UniversityOfWaterloo a rpo:Organisation ;
-    rpo:key_person rpo:VivekGoel ;
-    rpo:located_in rpo:Canada,
-        rpo:Ontario .
-
 rpo:ValentinaIvanova a rpo:Author ;
     rpo:affiliated_with rpo:University ;
-    rpo:funded_by rpo:University ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5112506445> ;
-    rpo:located_in rpo:SE ;
     rpo:works_with rpo:Johan,
         rpo:PatrickLambrix ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/2> ;
@@ -7671,27 +7178,15 @@ rpo:ValentinaIvanova a rpo:Author ;
 
 rpo:VolkerTresp a rpo:Author ;
     rpo:affiliated_with rpo:LudwigMaximilians ;
-    rpo:funded_by rpo:LudwigMaximilians ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5074808403> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Esteban,
         rpo:YinchongYang ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/60> ;
     foaf:name "Volker Tresp" .
 
-rpo:WorldWideWebConsortium a rpo:Organisation ;
-    rpo:located_in rpo:02139,
-        rpo:USA .
-
-rpo:YahooUnitedKingdom a rpo:Organisation ;
-    rpo:located_in rpo:California,
-        rpo:UK .
-
 rpo:YinchongYang a rpo:Author ;
     rpo:affiliated_with rpo:LudwigMaximilians ;
-    rpo:funded_by rpo:LudwigMaximilians ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036014410> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Esteban,
         rpo:VolkerTresp ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/60> ;
@@ -7699,9 +7194,7 @@ rpo:YinchongYang a rpo:Author ;
 
 rpo:AchilleFokoue a rpo:Author ;
     rpo:affiliated_with rpo:IBMResearchThomasJWatsonResearchCenter ;
-    rpo:funded_by rpo:IBMResearchThomasJWatsonResearchCenter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5062643837> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:MohammadSadoghi,
         rpo:OktieHassanzadeh,
         rpo:PingZhang ;
@@ -7710,9 +7203,7 @@ rpo:AchilleFokoue a rpo:Author ;
 
 rpo:AlbinAhmeti a rpo:Author ;
     rpo:affiliated_with rpo:TUWien ;
-    rpo:funded_by rpo:TUWien ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5023851854> ;
-    rpo:located_in rpo:AT ;
     rpo:works_with rpo:AxelPolleres,
         rpo:DiegoCalvanese,
         rpo:VadimSavenkov ;
@@ -7721,9 +7212,7 @@ rpo:AlbinAhmeti a rpo:Author ;
 
 rpo:AlessioPalmeroAprosio a rpo:Author ;
     rpo:affiliated_with rpo:FondazioneBrunoKessler ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5057630576> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:FrancescoCorcoglioniti,
         rpo:MarcoRospocher,
         rpo:MauroDragoni ;
@@ -7736,9 +7225,7 @@ rpo:Ambiguity a rpo:Keyword,
 
 rpo:AmitSheth a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5028772801> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:KrishnaprasadThirunarayan,
         rpo:PavanKapanipathi,
         rpo:RevathyKrishnamurthy ;
@@ -7747,9 +7234,7 @@ rpo:AmitSheth a rpo:Author ;
 
 rpo:AmolMittal a rpo:Author ;
     rpo:affiliated_with rpo:IndianInstituteOfTechnologyDelhi ;
-    rpo:funded_by rpo:IndianInstituteOfTechnologyDelhi ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5005766440> ;
-    rpo:located_in rpo:IN ;
     rpo:works_with rpo:CraigAKnoblock,
         rpo:PedroSzekely,
         rpo:SKRamnandan ;
@@ -7762,9 +7247,7 @@ rpo:Analytics a rpo:Keyword,
 
 rpo:AnthonyGCohn a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfLeeds ;
-    rpo:funded_by rpo:UniversityOfLeeds ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5024409281> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:DhavalkumarThakker,
         rpo:JoaquinValdes,
         rpo:VaniaDimitrova ;
@@ -7773,9 +7256,7 @@ rpo:AnthonyGCohn a rpo:Author ;
 
 rpo:ArgyroAvgoustaki a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfCrete ;
-    rpo:funded_by rpo:UniversityOfCrete ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036110808> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:DimitrisPlexousakis,
         rpo:GiorgosFlouris,
         rpo:IriniFundulaki ;
@@ -7784,9 +7265,7 @@ rpo:ArgyroAvgoustaki a rpo:Author ;
 
 rpo:ArtemSchumilin a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5029053126> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AchimRettinger,
         rpo:BasilEll,
         rpo:SteffenThoma ;
@@ -7795,9 +7274,7 @@ rpo:ArtemSchumilin a rpo:Author ;
 
 rpo:AxelPolleres a rpo:Author ;
     rpo:affiliated_with rpo:ViennaUniversityOfEconomicsAndBusiness ;
-    rpo:funded_by rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5076886839> ;
-    rpo:located_in rpo:AT ;
     rpo:works_with rpo:AlbinAhmeti,
         rpo:DiegoCalvanese,
         rpo:VadimSavenkov ;
@@ -7814,9 +7291,7 @@ rpo:BaselineSea a rpo:Keyword,
 
 rpo:BasilEll a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5089770558> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AchimRettinger,
         rpo:ArtemSchumilin,
         rpo:SteffenThoma ;
@@ -7843,9 +7318,7 @@ rpo:ChristinaUnger a rpo:Author ;
 
 rpo:ChristosTryfonopoulos a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPeloponnese ;
-    rpo:funded_by rpo:UniversityOfPeloponnese ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5090010728> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:LefterisZervakis,
         rpo:ManolisKoubarakis,
         rpo:SpirosSkiadopoulos ;
@@ -7862,9 +7335,7 @@ rpo:ComponentThermodynamics a rpo:Keyword,
 
 rpo:CraigAKnoblock a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
-    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5089542402> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AmolMittal,
         rpo:PedroSzekely,
         rpo:SKRamnandan ;
@@ -7873,9 +7344,7 @@ rpo:CraigAKnoblock a rpo:Author ;
 
 rpo:DanieleDellAglio a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5025549071> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:EmanueleDellaValle,
         rpo:MarcoBalduini,
         rpo:RiccardoTommasini ;
@@ -7904,9 +7373,7 @@ rpo:DescriptionLogic a rpo:Keyword,
 
 rpo:DhavalkumarThakker a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfLeeds ;
-    rpo:funded_by rpo:UniversityOfLeeds ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5035962673> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:AnthonyGCohn,
         rpo:JoaquinValdes,
         rpo:VaniaDimitrova ;
@@ -7915,9 +7382,7 @@ rpo:DhavalkumarThakker a rpo:Author ;
 
 rpo:DiegoCalvanese a rpo:Author ;
     rpo:affiliated_with rpo:FreeUniversityOfBozenBolzano ;
-    rpo:funded_by rpo:FreeUniversityOfBozenBolzano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5077723508> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AlbinAhmeti,
         rpo:AxelPolleres,
         rpo:VadimSavenkov ;
@@ -7926,9 +7391,7 @@ rpo:DiegoCalvanese a rpo:Author ;
 
 rpo:DiegoPeroni a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5088796656> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:EmanuelaCarlino,
         rpo:GloriaReCalegari,
         rpo:IreneCelino ;
@@ -7937,9 +7400,7 @@ rpo:DiegoPeroni a rpo:Author ;
 
 rpo:DilshodIbragimov a rpo:Author ;
     rpo:affiliated_with rpo:LibreDeBruxelles ;
-    rpo:funded_by rpo:LibreDeBruxelles ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5049347505> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:Esteban,
         rpo:KatjaHose,
         rpo:TorbenBachPedersen ;
@@ -7948,9 +7409,7 @@ rpo:DilshodIbragimov a rpo:Author ;
 
 rpo:DimitriosSkoutas a rpo:Author ;
     rpo:affiliated_with rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
-    rpo:funded_by rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5087768208> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:GiorgosGiannopoulos,
         rpo:NikosKaragiannakis,
         rpo:SpirosAthanasiou ;
@@ -7959,9 +7418,7 @@ rpo:DimitriosSkoutas a rpo:Author ;
 
 rpo:DimitrisPlexousakis a rpo:Author ;
     rpo:affiliated_with rpo:FORTHInstituteOfElectronicStructureAndLaser ;
-    rpo:funded_by rpo:FORTHInstituteOfElectronicStructureAndLaser ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5004081767> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ArgyroAvgoustaki,
         rpo:GiorgosFlouris,
         rpo:IriniFundulaki ;
@@ -7981,9 +7438,7 @@ rpo:ElenaCabrio a rpo:Author ;
 
 rpo:EmanuelaCarlino a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5058055563> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DiegoPeroni,
         rpo:GloriaReCalegari,
         rpo:IreneCelino ;
@@ -7992,19 +7447,12 @@ rpo:EmanuelaCarlino a rpo:Author ;
 
 rpo:EmanueleDellaValle a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5015694017> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DanieleDellAglio,
         rpo:MarcoBalduini,
         rpo:RiccardoTommasini ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/63> ;
     foaf:name "Emanuele Della Valle" .
-
-rpo:Erlangen a rpo:City,
-        rpo:Organisation ;
-    rpo:located_in rpo:Erlangen,
-        rpo:Germany .
 
 rpo:FilterSignalProcessing a rpo:Keyword,
         rpo:Topic ;
@@ -8012,9 +7460,7 @@ rpo:FilterSignalProcessing a rpo:Keyword,
 
 rpo:FrancescoCorcoglioniti a rpo:Author ;
     rpo:affiliated_with rpo:FondazioneBrunoKessler ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5046660236> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AlessioPalmeroAprosio,
         rpo:MarcoRospocher,
         rpo:MauroDragoni ;
@@ -8023,9 +7469,7 @@ rpo:FrancescoCorcoglioniti a rpo:Author ;
 
 rpo:Freddy a rpo:Author ;
     rpo:affiliated_with rpo:IBMResearchIreland ;
-    rpo:funded_by rpo:IBMResearchIreland ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002426346> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:PascalHitzler,
         rpo:PrabhakerMateti,
         rpo:RaghavaMutharaju ;
@@ -8037,9 +7481,7 @@ rpo:Gene a rpo:Topic ;
 
 rpo:GerardDeMelo a rpo:Author ;
     rpo:affiliated_with rpo:TsinghuaUniversity ;
-    rpo:funded_by rpo:TsinghuaUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5085818578> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:JacoboRouces,
         rpo:KatjaHose ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/26>,
@@ -8048,9 +7490,7 @@ rpo:GerardDeMelo a rpo:Author ;
 
 rpo:GiorgosFlouris a rpo:Author ;
     rpo:affiliated_with rpo:FORTHInstituteOfElectronicStructureAndLaser ;
-    rpo:funded_by rpo:FORTHInstituteOfElectronicStructureAndLaser ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5035032490> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ArgyroAvgoustaki,
         rpo:DimitrisPlexousakis,
         rpo:IriniFundulaki ;
@@ -8059,9 +7499,7 @@ rpo:GiorgosFlouris a rpo:Author ;
 
 rpo:GiorgosGiannopoulos a rpo:Author ;
     rpo:affiliated_with rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
-    rpo:funded_by rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5037415488> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:DimitriosSkoutas,
         rpo:NikosKaragiannakis,
         rpo:SpirosAthanasiou ;
@@ -8070,9 +7508,7 @@ rpo:GiorgosGiannopoulos a rpo:Author ;
 
 rpo:GloriaReCalegari a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5001917093> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DiegoPeroni,
         rpo:EmanuelaCarlino,
         rpo:IreneCelino ;
@@ -8085,9 +7521,7 @@ rpo:Granularity a rpo:Keyword,
 
 rpo:GuohuiXiao a rpo:Author ;
     rpo:affiliated_with rpo:FreeUniversityOfBozenBolzano ;
-    rpo:funded_by rpo:FreeUniversityOfBozenBolzano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010550946> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:KonstantinaBereta,
         rpo:ManolisKoubarakis,
         rpo:Stefan ;
@@ -8100,9 +7534,7 @@ rpo:IdentificationBiology a rpo:Keyword,
 
 rpo:IreneCelino a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054444380> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DiegoPeroni,
         rpo:EmanuelaCarlino,
         rpo:GloriaReCalegari ;
@@ -8111,9 +7543,7 @@ rpo:IreneCelino a rpo:Author ;
 
 rpo:IriniFundulaki a rpo:Author ;
     rpo:affiliated_with rpo:FORTHInstituteOfElectronicStructureAndLaser ;
-    rpo:funded_by rpo:FORTHInstituteOfElectronicStructureAndLaser ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5032918788> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ArgyroAvgoustaki,
         rpo:DimitrisPlexousakis,
         rpo:GiorgosFlouris ;
@@ -8122,9 +7552,7 @@ rpo:IriniFundulaki a rpo:Author ;
 
 rpo:IvanErmilov a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044231651> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:AxelCyrilleNgongaNgomo,
         rpo:Michael ;
@@ -8133,9 +7561,7 @@ rpo:IvanErmilov a rpo:Author ;
 
 rpo:JacoboRouces a rpo:Author ;
     rpo:affiliated_with rpo:AalborgUniversity ;
-    rpo:funded_by rpo:AalborgUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5073449145> ;
-    rpo:located_in rpo:DK ;
     rpo:works_with rpo:GerardDeMelo,
         rpo:KatjaHose ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/26>,
@@ -8144,9 +7570,7 @@ rpo:JacoboRouces a rpo:Author ;
 
 rpo:JeremyDebattista a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5057747620> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:ChristophLange,
         rpo:Santiago ;
@@ -8155,9 +7579,7 @@ rpo:JeremyDebattista a rpo:Author ;
 
 rpo:JoachimVanHerwegen a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5014917048> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:ErikMannens,
         rpo:RikVanDeWalle,
         rpo:RubenVerborgh ;
@@ -8166,9 +7588,7 @@ rpo:JoachimVanHerwegen a rpo:Author ;
 
 rpo:JoaquinValdes a rpo:Author ;
     rpo:affiliated_with rpo:NationaleDesCheminsDeFerFrance ;
-    rpo:funded_by rpo:NationaleDesCheminsDeFerFrance ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5034017807> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AnthonyGCohn,
         rpo:DhavalkumarThakker,
         rpo:VaniaDimitrova ;
@@ -8189,9 +7609,7 @@ rpo:KnowledgeRepresentationAndReasoning a rpo:Keyword,
 
 rpo:KonstantinTodorov a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
-    rpo:funded_by rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5049289161> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:MohamedBenEllefi,
         rpo:StefanDietze,
         rpo:Zohra ;
@@ -8200,9 +7618,7 @@ rpo:KonstantinTodorov a rpo:Author ;
 
 rpo:KonstantinaBereta a rpo:Author ;
     rpo:affiliated_with rpo:NationalAndKapodistrianUniversityOfAthens ;
-    rpo:funded_by rpo:NationalAndKapodistrianUniversityOfAthens ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5030928094> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:GuohuiXiao,
         rpo:ManolisKoubarakis,
         rpo:Stefan ;
@@ -8211,9 +7627,7 @@ rpo:KonstantinaBereta a rpo:Author ;
 
 rpo:KrishnaprasadThirunarayan a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5060617658> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AmitSheth,
         rpo:PavanKapanipathi,
         rpo:RevathyKrishnamurthy ;
@@ -8222,9 +7636,7 @@ rpo:KrishnaprasadThirunarayan a rpo:Author ;
 
 rpo:LefterisZervakis a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPeloponnese ;
-    rpo:funded_by rpo:UniversityOfPeloponnese ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5041421353> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ChristosTryfonopoulos,
         rpo:ManolisKoubarakis,
         rpo:SpirosSkiadopoulos ;
@@ -8245,9 +7657,7 @@ rpo:LinkageSoftware a rpo:Keyword,
 
 rpo:Lorenz a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5064499753> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AxelCyrilleNgongaNgomo,
         rpo:ChristinaUnger,
         rpo:RicardoUsbeck ;
@@ -8256,9 +7666,7 @@ rpo:Lorenz a rpo:Author ;
 
 rpo:MarcoBalduini a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5016710072> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DanieleDellAglio,
         rpo:EmanueleDellaValle,
         rpo:RiccardoTommasini ;
@@ -8267,9 +7675,7 @@ rpo:MarcoBalduini a rpo:Author ;
 
 rpo:MarcoRospocher a rpo:Author ;
     rpo:affiliated_with rpo:FondazioneBrunoKessler ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5043305308> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AlessioPalmeroAprosio,
         rpo:FrancescoCorcoglioniti,
         rpo:MauroDragoni ;
@@ -8294,9 +7700,7 @@ rpo:MicrodataStatistics a rpo:Keyword,
 
 rpo:MohamedBenEllefi a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
-    rpo:funded_by rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5055405326> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:KonstantinTodorov,
         rpo:StefanDietze,
         rpo:Zohra ;
@@ -8305,9 +7709,7 @@ rpo:MohamedBenEllefi a rpo:Author ;
 
 rpo:MohammadSadoghi a rpo:Author ;
     rpo:affiliated_with rpo:IBMResearchThomasJWatsonResearchCenter ;
-    rpo:funded_by rpo:IBMResearchThomasJWatsonResearchCenter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5074420391> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AchilleFokoue,
         rpo:OktieHassanzadeh,
         rpo:PingZhang ;
@@ -8320,9 +7722,7 @@ rpo:NamedEntityRecognition a rpo:Keyword,
 
 rpo:NikosKaragiannakis a rpo:Author ;
     rpo:affiliated_with rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
-    rpo:funded_by rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5028829733> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:DimitriosSkoutas,
         rpo:GiorgosGiannopoulos,
         rpo:SpirosAthanasiou ;
@@ -8335,9 +7735,7 @@ rpo:Novelty a rpo:Keyword,
 
 rpo:OktieHassanzadeh a rpo:Author ;
     rpo:affiliated_with rpo:IBMResearchThomasJWatsonResearchCenter ;
-    rpo:funded_by rpo:IBMResearchThomasJWatsonResearchCenter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068065546> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AchilleFokoue,
         rpo:MohammadSadoghi,
         rpo:PingZhang ;
@@ -8366,9 +7764,7 @@ rpo:OperationsManagement a rpo:Keyword,
 
 rpo:PascalHitzler a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5006872667> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:Freddy,
         rpo:PrabhakerMateti,
         rpo:RaghavaMutharaju ;
@@ -8377,9 +7773,7 @@ rpo:PascalHitzler a rpo:Author ;
 
 rpo:PavanKapanipathi a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5003720552> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AmitSheth,
         rpo:KrishnaprasadThirunarayan,
         rpo:RevathyKrishnamurthy ;
@@ -8392,9 +7786,7 @@ rpo:PersonalKnowledgeManagement a rpo:Keyword,
 
 rpo:PingZhang a rpo:Author ;
     rpo:affiliated_with rpo:IBMResearchThomasJWatsonResearchCenter ;
-    rpo:funded_by rpo:IBMResearchThomasJWatsonResearchCenter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5050360222> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AchilleFokoue,
         rpo:MohammadSadoghi,
         rpo:OktieHassanzadeh ;
@@ -8403,9 +7795,7 @@ rpo:PingZhang a rpo:Author ;
 
 rpo:PrabhakerMateti a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5032454549> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:Freddy,
         rpo:PascalHitzler,
         rpo:RaghavaMutharaju ;
@@ -8430,9 +7820,7 @@ rpo:QueryOptimization a rpo:Keyword,
 
 rpo:RaghavaMutharaju a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5027667267> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:Freddy,
         rpo:PascalHitzler,
         rpo:PrabhakerMateti ;
@@ -8449,9 +7837,7 @@ rpo:RelaxationPsychology a rpo:Keyword,
 
 rpo:RevathyKrishnamurthy a rpo:Author ;
     rpo:affiliated_with rpo:WrightStateUniversity ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5081033524> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AmitSheth,
         rpo:KrishnaprasadThirunarayan,
         rpo:PavanKapanipathi ;
@@ -8460,9 +7846,7 @@ rpo:RevathyKrishnamurthy a rpo:Author ;
 
 rpo:RicardoUsbeck a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5069462779> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AxelCyrilleNgongaNgomo,
         rpo:ChristinaUnger,
         rpo:Lorenz ;
@@ -8471,9 +7855,7 @@ rpo:RicardoUsbeck a rpo:Author ;
 
 rpo:RiccardoTommasini a rpo:Author ;
     rpo:affiliated_with rpo:PolitecnicoDiMilano ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5101434315> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:DanieleDellAglio,
         rpo:EmanueleDellaValle,
         rpo:MarcoBalduini ;
@@ -8482,9 +7864,7 @@ rpo:RiccardoTommasini a rpo:Author ;
 
 rpo:SKRamnandan a rpo:Author ;
     rpo:affiliated_with rpo:IndianInstituteOfTechnologyMadras ;
-    rpo:funded_by rpo:IndianInstituteOfTechnologyMadras ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5071681959> ;
-    rpo:located_in rpo:IN ;
     rpo:works_with rpo:AmolMittal,
         rpo:CraigAKnoblock,
         rpo:PedroSzekely ;
@@ -8493,9 +7873,7 @@ rpo:SKRamnandan a rpo:Author ;
 
 rpo:Santiago a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5023882285> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:ChristophLange,
         rpo:JeremyDebattista ;
@@ -8548,9 +7926,7 @@ rpo:SimpleKnowledgeOrganizationSystem a rpo:Keyword,
 
 rpo:SpirosAthanasiou a rpo:Author ;
     rpo:affiliated_with rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
-    rpo:funded_by rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5000205279> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:DimitriosSkoutas,
         rpo:GiorgosGiannopoulos,
         rpo:NikosKaragiannakis ;
@@ -8559,9 +7935,7 @@ rpo:SpirosAthanasiou a rpo:Author ;
 
 rpo:SpirosSkiadopoulos a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfPeloponnese ;
-    rpo:funded_by rpo:UniversityOfPeloponnese ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5009411092> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ChristosTryfonopoulos,
         rpo:LefterisZervakis,
         rpo:ManolisKoubarakis ;
@@ -8574,9 +7948,7 @@ rpo:StateComputerScience a rpo:Keyword,
 
 rpo:Stefan a rpo:Author ;
     rpo:affiliated_with rpo:AirbusGermany ;
-    rpo:funded_by rpo:AirbusGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5051421011> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:GuohuiXiao,
         rpo:KonstantinaBereta,
         rpo:ManolisKoubarakis ;
@@ -8585,9 +7957,7 @@ rpo:Stefan a rpo:Author ;
 
 rpo:StefanDietze a rpo:Author ;
     rpo:affiliated_with rpo:L3SResearchCenter ;
-    rpo:funded_by rpo:L3SResearchCenter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5070728314> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:KonstantinTodorov,
         rpo:MohamedBenEllefi,
         rpo:Zohra ;
@@ -8596,9 +7966,7 @@ rpo:StefanDietze a rpo:Author ;
 
 rpo:SteffenThoma a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5035133006> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AchimRettinger,
         rpo:ArtemSchumilin,
         rpo:BasilEll ;
@@ -8615,18 +7983,12 @@ rpo:Telecommunications a rpo:Keyword,
 
 rpo:TorbenBachPedersen a rpo:Author ;
     rpo:affiliated_with rpo:AalborgUniversity ;
-    rpo:funded_by rpo:AalborgUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061064237> ;
-    rpo:located_in rpo:DK ;
     rpo:works_with rpo:DilshodIbragimov,
         rpo:Esteban,
         rpo:KatjaHose ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10> ;
     foaf:name "Torben Bach Pedersen" .
-
-rpo:TsinghuaUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Beijing,
-        rpo:China .
 
 rpo:Usability a rpo:Keyword,
         rpo:Topic ;
@@ -8638,9 +8000,7 @@ rpo:Usable a rpo:Keyword,
 
 rpo:VadimSavenkov a rpo:Author ;
     rpo:affiliated_with rpo:ViennaUniversityOfEconomicsAndBusiness ;
-    rpo:funded_by rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5038696353> ;
-    rpo:located_in rpo:AT ;
     rpo:works_with rpo:AlbinAhmeti,
         rpo:AxelPolleres,
         rpo:DiegoCalvanese ;
@@ -8649,9 +8009,7 @@ rpo:VadimSavenkov a rpo:Author ;
 
 rpo:VaniaDimitrova a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfLeeds ;
-    rpo:funded_by rpo:UniversityOfLeeds ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5084785996> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:AnthonyGCohn,
         rpo:DhavalkumarThakker,
         rpo:JoaquinValdes ;
@@ -8664,9 +8022,7 @@ rpo:WebOntologyLanguage a rpo:Keyword,
 
 rpo:Zohra a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
-    rpo:funded_by rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5109240366> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:KonstantinTodorov,
         rpo:MohamedBenEllefi,
         rpo:StefanDietze ;
@@ -8675,9 +8031,7 @@ rpo:Zohra a rpo:Author ;
 
 rpo:AllelHadjali a rpo:Author ;
     rpo:affiliated_with rpo:DePoitiers ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5051474705> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:Baron,
         rpo:Fokou,
         rpo:Jean ;
@@ -8687,9 +8041,7 @@ rpo:AllelHadjali a rpo:Author ;
 
 rpo:AnkitSharma a rpo:Author ;
     rpo:affiliated_with rpo:UniversityAtBuffaloStateUniversityOfNewYork ;
-    rpo:funded_by rpo:UniversityAtBuffaloStateUniversityOfNewYork ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102930149> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:JensLehmann,
         rpo:Konrad,
         rpo:MohnishDubey,
@@ -8699,19 +8051,13 @@ rpo:AnkitSharma a rpo:Author ;
 
 rpo:Baron a rpo:Author ;
     rpo:affiliated_with rpo:DePoitiers ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078698314> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AllelHadjali,
         rpo:Fokou,
         rpo:Jean ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/75>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/8> ;
     foaf:name "Mickaël Baron" .
-
-rpo:BielefeldUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Bielefeld,
-        rpo:Germany .
 
 rpo:ChiaraGhidini a rpo:Author ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5069353228> ;
@@ -8722,15 +8068,9 @@ rpo:ChiaraGhidini a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/30> ;
     foaf:name "Chiara Ghidini" .
 
-rpo:DortmundUniversityOfAppliedSciencesAndArts a rpo:Organisation ;
-    rpo:located_in rpo:Dortmund,
-        rpo:Germany .
-
 rpo:ElenaSimperl a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthampton ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5046030036> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:MarkusLuczakRoesch,
         rpo:NigelShadbolt,
         rpo:OluwaseyiFeyisetan,
@@ -8740,9 +8080,7 @@ rpo:ElenaSimperl a rpo:Author ;
 
 rpo:FilipIlievski a rpo:Author ;
     rpo:affiliated_with rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5008608420> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:LaurensRietveld,
         rpo:MariekeVanErp,
         rpo:StefanSchlobach,
@@ -8752,9 +8090,7 @@ rpo:FilipIlievski a rpo:Author ;
 
 rpo:Fokou a rpo:Author ;
     rpo:affiliated_with rpo:DePoitiers ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5035861990> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AllelHadjali,
         rpo:Baron,
         rpo:Jean ;
@@ -8771,9 +8107,7 @@ rpo:Geometry a rpo:ResearchArea ;
 
 rpo:GongCheng a rpo:Author ;
     rpo:affiliated_with rpo:NanjingUniversity ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5063617509> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:JidongJiang,
         rpo:LiangZheng,
         rpo:XuJiang,
@@ -8781,13 +8115,9 @@ rpo:GongCheng a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/58> ;
     foaf:name "Gong Cheng" .
 
-rpo:Greece a rpo:Country .
-
 rpo:Jean a rpo:Author ;
     rpo:affiliated_with rpo:DePoitiers ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5101218389> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AllelHadjali,
         rpo:Baron,
         rpo:Fokou ;
@@ -8797,9 +8127,7 @@ rpo:Jean a rpo:Author ;
 
 rpo:JidongJiang a rpo:Author ;
     rpo:affiliated_with rpo:NanjingUniversity ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5080910366> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:GongCheng,
         rpo:LiangZheng,
         rpo:XuJiang,
@@ -8809,9 +8137,7 @@ rpo:JidongJiang a rpo:Author ;
 
 rpo:JohnPMccrae a rpo:Author ;
     rpo:affiliated_with rpo:BielefeldUniversity ;
-    rpo:funded_by rpo:BielefeldUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036503167> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ArmandoStellato,
         rpo:ManuelFiorelli,
         rpo:MariaTeresaPazienza,
@@ -8821,9 +8147,7 @@ rpo:JohnPMccrae a rpo:Author ;
 
 rpo:Konrad a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5029862975> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AnkitSharma,
         rpo:JensLehmann,
         rpo:MohnishDubey,
@@ -8833,9 +8157,7 @@ rpo:Konrad a rpo:Author ;
 
 rpo:LiangZheng a rpo:Author ;
     rpo:affiliated_with rpo:NanjingUniversity ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5100740528> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:GongCheng,
         rpo:JidongJiang,
         rpo:XuJiang,
@@ -8843,19 +8165,9 @@ rpo:LiangZheng a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/58> ;
     foaf:name "Liang Zheng" .
 
-rpo:LibreDeBruxelles a rpo:Organisation ;
-    rpo:located_in rpo:Belgium,
-        rpo:Brussels .
-
-rpo:LudwigMaximilians a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Munich .
-
 rpo:MariekeVanErp a rpo:Author ;
     rpo:affiliated_with rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5072750611> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:FilipIlievski,
         rpo:LaurensRietveld,
         rpo:StefanSchlobach,
@@ -8865,9 +8177,7 @@ rpo:MariekeVanErp a rpo:Author ;
 
 rpo:MarkusLuczakRoesch a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthampton ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036834185> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:ElenaSimperl,
         rpo:NigelShadbolt,
         rpo:OluwaseyiFeyisetan,
@@ -8895,9 +8205,7 @@ rpo:MauroFruet a rpo:Author ;
 
 rpo:MielVanderSande a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031614767> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:LaurensRietveld,
         rpo:RubenVerborgh,
         rpo:StefanSchlobach,
@@ -8907,9 +8215,7 @@ rpo:MielVanderSande a rpo:Author ;
 
 rpo:MohnishDubey a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061147491> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AnkitSharma,
         rpo:JensLehmann,
         rpo:Konrad,
@@ -8917,15 +8223,9 @@ rpo:MohnishDubey a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/66> ;
     foaf:name "Mohnish Dubey" .
 
-rpo:NationalAndKapodistrianUniversityOfAthens a rpo:Organisation ;
-    rpo:located_in rpo:Athens,
-        rpo:Greece .
-
 rpo:NigelShadbolt a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthampton ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5056692594> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:ElenaSimperl,
         rpo:MarkusLuczakRoesch,
         rpo:OluwaseyiFeyisetan,
@@ -8935,9 +8235,7 @@ rpo:NigelShadbolt a rpo:Author ;
 
 rpo:OluwaseyiFeyisetan a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthampton ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021612761> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:ElenaSimperl,
         rpo:MarkusLuczakRoesch,
         rpo:NigelShadbolt,
@@ -8962,9 +8260,7 @@ rpo:PaoloBusetta a rpo:Author ;
 
 rpo:PhilippCimiano a rpo:Author ;
     rpo:affiliated_with rpo:BielefeldUniversity ;
-    rpo:funded_by rpo:BielefeldUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5056086147> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ArmandoStellato,
         rpo:JohnPMccrae,
         rpo:ManuelFiorelli,
@@ -8974,9 +8270,7 @@ rpo:PhilippCimiano a rpo:Author ;
 
 rpo:RamineTinati a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthampton ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044104416> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:ElenaSimperl,
         rpo:MarkusLuczakRoesch,
         rpo:NigelShadbolt,
@@ -8986,9 +8280,7 @@ rpo:RamineTinati a rpo:Author ;
 
 rpo:SourishDasgupta a rpo:Author ;
     rpo:affiliated_with rpo:DhirubhaiAmbaniInstituteOfInformationAndCommunicationTechnology ;
-    rpo:funded_by rpo:DhirubhaiAmbaniInstituteOfInformationAndCommunicationTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5017847295> ;
-    rpo:located_in rpo:IN ;
     rpo:works_with rpo:AnkitSharma,
         rpo:JensLehmann,
         rpo:Konrad,
@@ -8998,28 +8290,11 @@ rpo:SourishDasgupta a rpo:Author ;
 
 rpo:SustainableCitiesAndCommunities a rpo:Goal .
 
-rpo:UniversidadDeMadrid a rpo:Organisation ;
-    rpo:located_in rpo:Madrid,
-        rpo:Spain .
-
-rpo:UniversidadDeValladolid a rpo:Organisation ;
-    rpo:located_in rpo:Segovia,
-        rpo:Spain,
-        rpo:Valladolid .
-
-rpo:UniversityOfAugsburg a rpo:Organisation ;
-    rpo:located_in rpo:Augsburg,
-        rpo:Germany .
-
-rpo:UniversityOfWisconsinMadison a rpo:Organisation ;
-    rpo:located_in rpo:53706,
-        rpo:USA .
+rpo:UniversityOfSouthernCalifornia rpo:key_person rpo:CarolFolt .
 
 rpo:XuJiang a rpo:Author ;
     rpo:affiliated_with rpo:NanjingUniversity ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5112204447> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:GongCheng,
         rpo:JidongJiang,
         rpo:LiangZheng,
@@ -9029,9 +8304,7 @@ rpo:XuJiang a rpo:Author ;
 
 rpo:YuzhongQu a rpo:Author ;
     rpo:affiliated_with rpo:NanjingUniversity ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5089586983> ;
-    rpo:located_in rpo:CN ;
     rpo:works_with rpo:GongCheng,
         rpo:JidongJiang,
         rpo:LiangZheng,
@@ -9041,9 +8314,7 @@ rpo:YuzhongQu a rpo:Author ;
 
 rpo:AlexeyAndreev a rpo:Author ;
     rpo:affiliated_with rpo:ITMOUniversity ;
-    rpo:funded_by rpo:ITMOUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5016151638> ;
-    rpo:located_in rpo:RU ;
     rpo:works_with rpo:,
         rpo:AnnaSpiridonova,
         rpo:DmitryMouromtsev,
@@ -9054,9 +8325,7 @@ rpo:AlexeyAndreev a rpo:Author ;
 
 rpo:AnnaSpiridonova a rpo:Author ;
     rpo:affiliated_with rpo:ITMOUniversity ;
-    rpo:funded_by rpo:ITMOUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102863555> ;
-    rpo:located_in rpo:RU ;
     rpo:works_with rpo:,
         rpo:AlexeyAndreev,
         rpo:DmitryMouromtsev,
@@ -9067,9 +8336,7 @@ rpo:AnnaSpiridonova a rpo:Author ;
 
 rpo:AnnetteTenTeije a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5000424011> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:FrankVanHarmelen,
         rpo:HamidRBazoobandi,
         rpo:HenriEBal,
@@ -9100,9 +8367,7 @@ rpo:DataSet a rpo:Keyword,
 
 rpo:DennisDiefenbach a rpo:Author ;
     rpo:affiliated_with rpo:LaboratoireHubertCurien ;
-    rpo:funded_by rpo:LaboratoireHubertCurien ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5073664557> ;
-    rpo:located_in rpo:FR ;
     rpo:works_with rpo:AndreasBoth,
         rpo:ChristophLange,
         rpo:DidierCherix,
@@ -9113,9 +8378,7 @@ rpo:DennisDiefenbach a rpo:Author ;
 
 rpo:DidierCherix a rpo:Author ;
     rpo:affiliated_with rpo:FLAVIAITGermany ;
-    rpo:funded_by rpo:FLAVIAITGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5063236974> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:ChristophLange,
         rpo:DennisDiefenbach,
@@ -9126,9 +8389,7 @@ rpo:DidierCherix a rpo:Author ;
 
 rpo:Dietlind a rpo:Author ;
     rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
-    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010708932> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:HeinerOberkampf,
         rpo:MatthiasHammon,
@@ -9139,9 +8400,7 @@ rpo:Dietlind a rpo:Author ;
 
 rpo:DmitryMouromtsev a rpo:Author ;
     rpo:affiliated_with rpo:ITMOUniversity ;
-    rpo:funded_by rpo:ITMOUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5014426410> ;
-    rpo:located_in rpo:RU ;
     rpo:works_with rpo:,
         rpo:AlexeyAndreev,
         rpo:AnnaSpiridonova,
@@ -9156,9 +8415,7 @@ rpo:Engineering a rpo:Keyword,
 
 rpo:EugeneCherny a rpo:Author ;
     rpo:affiliated_with rpo:AkademiUniversity ;
-    rpo:funded_by rpo:AkademiUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5030501634> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:,
         rpo:AlexeyAndreev,
         rpo:AnnaSpiridonova,
@@ -9167,20 +8424,12 @@ rpo:EugeneCherny a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/34> ;
     foaf:name "Eugene Cherny" .
 
-rpo:France a rpo:Country .
-
-rpo:FreeUniversityOfBozenBolzano a rpo:Organisation ;
-    rpo:located_in rpo:Bolzano,
-        rpo:Italy .
-
 rpo:Geodesy a rpo:ResearchArea ;
     rdfs:label "Geodesy" .
 
 rpo:HamidRBazoobandi a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5077602383> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AnnetteTenTeije,
         rpo:FrankVanHarmelen,
         rpo:HenriEBal,
@@ -9191,9 +8440,7 @@ rpo:HamidRBazoobandi a rpo:Author ;
 
 rpo:HeinerOberkampf a rpo:Author ;
     rpo:affiliated_with rpo:SiemensGermany ;
-    rpo:funded_by rpo:SiemensGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5020567518> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:Dietlind,
         rpo:MatthiasHammon,
@@ -9204,9 +8451,7 @@ rpo:HeinerOberkampf a rpo:Author ;
 
 rpo:HenriEBal a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5055231636> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AnnetteTenTeije,
         rpo:FrankVanHarmelen,
         rpo:HamidRBazoobandi,
@@ -9229,9 +8474,7 @@ rpo:InterfaceMatter a rpo:Keyword,
 
 rpo:JacopoUrbani a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5090620447> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AnnetteTenTeije,
         rpo:FrankVanHarmelen,
         rpo:HamidRBazoobandi,
@@ -9250,9 +8493,7 @@ rpo:KnowledgeExtraction a rpo:Keyword,
 
 rpo:KuldeepSingh a rpo:Author ;
     rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
-    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002627051> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:ChristophLange,
         rpo:DennisDiefenbach,
@@ -9266,9 +8507,7 @@ rpo:Management a rpo:ResearchArea ;
 
 rpo:MatthiasHammon a rpo:Author ;
     rpo:affiliated_with rpo:Erlangen ;
-    rpo:funded_by rpo:Erlangen ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5000317643> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:Dietlind,
         rpo:HeinerOberkampf,
@@ -9295,9 +8534,7 @@ rpo:ParallelComputing a rpo:Keyword,
 
 rpo:PeterHaase a rpo:Author ;
     rpo:affiliated_with rpo:ITMOUniversity ;
-    rpo:funded_by rpo:ITMOUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5011624157> ;
-    rpo:located_in rpo:RU ;
     rpo:works_with rpo:,
         rpo:AlexeyAndreev,
         rpo:AnnaSpiridonova,
@@ -9339,9 +8576,7 @@ rpo:RepresentationPolitics a rpo:Keyword,
 
 rpo:SaedeehShekarpour a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5070525944> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:ChristophLange,
         rpo:DennisDiefenbach,
@@ -9352,9 +8587,7 @@ rpo:SaedeehShekarpour a rpo:Author ;
 
 rpo:SonjaZillner a rpo:Author ;
     rpo:affiliated_with rpo:SiemensGermany ;
-    rpo:funded_by rpo:SiemensGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5034717531> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:Dietlind,
         rpo:HeinerOberkampf,
@@ -9368,9 +8601,7 @@ rpo:Statistics a rpo:ResearchArea ;
 
 rpo:StevenDeRooij a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfAmsterdam ;
-    rpo:funded_by rpo:UniversityOfAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5110211907> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AnnetteTenTeije,
         rpo:FrankVanHarmelen,
         rpo:HamidRBazoobandi,
@@ -9387,15 +8618,9 @@ rpo:SuggestedUpperMergedOntology a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Suggested Upper Merged Ontology" .
 
-rpo:TUWien a rpo:Organisation ;
-    rpo:located_in rpo:Austria,
-        rpo:Vienna .
-
 rpo:TuranGojayev a rpo:Author ;
     rpo:affiliated_with rpo:SiemensGermany ;
-    rpo:funded_by rpo:SiemensGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061554003> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Auer,
         rpo:Dietlind,
         rpo:HeinerOberkampf,
@@ -9403,15 +8628,6 @@ rpo:TuranGojayev a rpo:Author ;
         rpo:SonjaZillner ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/36> ;
     foaf:name "Turan Gojayev" .
-
-rpo:UniversityOfAmsterdam a rpo:Organisation ;
-    rpo:located_in rpo:Amsterdam,
-        rpo:TheNetherlands,
-        rpo:TheNetherlandsTAB .
-
-rpo:UniversityOfOslo a rpo:Organisation ;
-    rpo:located_in rpo:Norway,
-        rpo:Oslo .
 
 rpo:Vocabulary a rpo:Keyword,
         rpo:Topic ;
@@ -9427,7 +8643,6 @@ rpo:Workflow a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11401>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11402> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_23" ;
-    rpo:funded_by rpo:LaboratoireHubertCurien ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Database,
         rpo:InformationRetrieval,
@@ -9477,11 +8692,24 @@ rpo:Workflow a rpo:Keyword,
     rpo:written_by rpo:AntoineZimmermann,
         rpo:Maxime .
 
+rpo: a rpo:Author ;
+    rpo:affiliated_with rpo:ITMOUniversity,
+        rpo:InstitutDeRechercheEnInformatiqueEt ;
+    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086015258>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5090487419> ;
+    rpo:works_with rpo:AlexeyAndreev,
+        rpo:AnnaSpiridonova,
+        rpo:DmitryMouromtsev,
+        rpo:EugeneCherny,
+        rpo:PeterHaase ;
+    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/34>,
+        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/64> ;
+    foaf:name "Sébastien Ferré",
+        "Д. С. Павлов" .
+
 rpo:AchimRettinger a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5000758128> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasHarth,
         rpo:ArtemSchumilin,
         rpo:BasilEll,
@@ -9493,9 +8721,7 @@ rpo:AchimRettinger a rpo:Author ;
 
 rpo:AnastasiaDimou a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078833064> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AronLeviHerregodts,
         rpo:DimitriSchuurman,
         rpo:ErikMannens,
@@ -9507,9 +8733,7 @@ rpo:AnastasiaDimou a rpo:Author ;
 
 rpo:AronLeviHerregodts a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061446876> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:DimitriSchuurman,
         rpo:ErikMannens,
@@ -9547,9 +8771,7 @@ rpo:ChristianMader a rpo:Author ;
 
 rpo:DimitriSchuurman a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5026155524> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:AronLeviHerregodts,
         rpo:ErikMannens,
@@ -9561,9 +8783,7 @@ rpo:DimitriSchuurman a rpo:Author ;
 
 rpo:DimitrisKontokostas a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5070186420> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristianDirschl,
         rpo:ChristianMader,
         rpo:JensLehmann,
@@ -9576,12 +8796,8 @@ rpo:DimitrisKontokostas a rpo:Author ;
 rpo:Esteban a rpo:Author ;
     rpo:affiliated_with rpo:LibreDeBruxelles,
         rpo:SiemensGermany ;
-    rpo:funded_by rpo:LibreDeBruxelles,
-        rpo:SiemensGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5043009167>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5050401502> ;
-    rpo:located_in rpo:BE,
-        rpo:DE ;
     rpo:works_with rpo:DilshodIbragimov,
         rpo:KatjaHose,
         rpo:TorbenBachPedersen,
@@ -9592,23 +8808,11 @@ rpo:Esteban a rpo:Author ;
     foaf:name "Cristóbal Esteban",
         "Esteban Zimányi" .
 
-rpo:FORTHInstituteOfElectronicStructureAndLaser a rpo:Organisation ;
-    rpo:located_in rpo:Greece,
-        rpo:Heraklion .
-
-rpo:FoodAndAgricultureOrganizationOfTheUnitedNations a rpo:Organisation ;
-    rpo:located_in rpo:Italy,
-        rpo:Rome .
-
-rpo:IberiaSpain a rpo:Organisation ;
-    rpo:located_in rpo:Madrid,
-        rpo:Spain .
-
 rpo:ImageMathematics a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Image (mathematics)" .
 
-rpo:Italy a rpo:Country .
+rpo:KarlsruheInstituteOfTechnology rpo:key_person rpo:JanSHesthaven .
 
 rpo:KatjaEck a rpo:Author ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5070206871> ;
@@ -9621,18 +8825,11 @@ rpo:KatjaEck a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/90> ;
     foaf:name "Katja Eck" .
 
-rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:Montpellier .
-
 rpo:Michael a rpo:Author ;
     rpo:affiliated_with rpo:KarlsruheInstituteOfTechnology,
         rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology,
-        rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031363132>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031600582> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AchimRettinger,
         rpo:AndreasBoth,
         rpo:AndreasHarth,
@@ -9656,9 +8853,7 @@ rpo:MichaelLeuthold a rpo:Author ;
 
 rpo:PedroSzekely a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
-    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068184256> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AmolMittal,
         rpo:AnsgarScherp,
         rpo:CraigAKnoblock,
@@ -9670,9 +8865,7 @@ rpo:PedroSzekely a rpo:Author ;
 
 rpo:PieterHeyvaert a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5051964032> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:AronLeviHerregodts,
         rpo:DimitriSchuurman,
@@ -9682,15 +8875,9 @@ rpo:PieterHeyvaert a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/93> ;
     foaf:name "Pieter Heyvaert" .
 
-rpo:RWTHAachenUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Aachen,
-        rpo:Germany .
-
 rpo:SebastianHellmann a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5102019010> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristianDirschl,
         rpo:ChristianMader,
         rpo:DimitrisKontokostas,
@@ -9700,33 +8887,9 @@ rpo:SebastianHellmann a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/90> ;
     foaf:name "Sebastian Hellmann" .
 
-rpo:UK a rpo:Country .
-
-rpo:UniversityOfFribourg a rpo:Organisation ;
-    rpo:located_in rpo:Fribourg,
-        rpo:Switzerland .
-
-rpo:UniversityOfLeeds a rpo:Organisation ;
-    rpo:located_in rpo:LS29JT,
-        rpo:UK .
-
-rpo:UniversityOfPassau a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Passau .
-
-rpo:UniversityOfPeloponnese a rpo:Organisation ;
-    rpo:located_in rpo:Greece,
-        rpo:Tripolis .
-
-rpo:UniversityOfSheffield a rpo:Organisation ;
-    rpo:located_in rpo:Sheffield,
-        rpo:UK .
-
 rpo:AlessandroSolimando a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfGenoa ;
-    rpo:funded_by rpo:UniversityOfGenoa ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5025248745> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:CarstenBinnig,
         rpo:ChristophPinkel,
         rpo:DominiqueRitze,
@@ -9739,9 +8902,7 @@ rpo:AlessandroSolimando a rpo:Author ;
 
 rpo:AndreaTurbati a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfRomeTorVergata ;
-    rpo:funded_by rpo:UniversityOfRomeTorVergata ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5081271982> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
         rpo:JohannesKeizer,
@@ -9754,9 +8915,7 @@ rpo:AndreaTurbati a rpo:Author ;
 
 rpo:CarstenBinnig a rpo:Author ;
     rpo:affiliated_with rpo:BrownUniversity ;
-    rpo:funded_by rpo:BrownUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5073504200> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:ChristophPinkel,
         rpo:DominiqueRitze,
@@ -9769,9 +8928,7 @@ rpo:CarstenBinnig a rpo:Author ;
 
 rpo:CaterinaCaracciolo a rpo:Author ;
     rpo:affiliated_with rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
-    rpo:funded_by rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5038745414> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:JohannesKeizer,
@@ -9784,9 +8941,7 @@ rpo:CaterinaCaracciolo a rpo:Author ;
 
 rpo:ChristophPinkel a rpo:Author ;
     rpo:affiliated_with rpo:FluidOperationsGermany ;
-    rpo:funded_by rpo:FluidOperationsGermany ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5003833748> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:DominiqueRitze,
@@ -9799,9 +8954,7 @@ rpo:ChristophPinkel a rpo:Author ;
 
 rpo:ChristopherDuffy a rpo:Author ;
     rpo:affiliated_with rpo:PennsylvaniaStateUniversity ;
-    rpo:funded_by rpo:PennsylvaniaStateUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5087130372> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:FelixMichel,
         rpo:HilaryADugan,
         rpo:JordanSRead,
@@ -9826,9 +8979,7 @@ rpo:DistributedComputing a rpo:Keyword,
 
 rpo:DominiqueRitze a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfMannheim ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068732489> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:ChristophPinkel,
@@ -9841,9 +8992,7 @@ rpo:DominiqueRitze a rpo:Author ;
 
 rpo:Eero a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086685353> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eetu,
         rpo:ErkkiHeino,
         rpo:EskoIkkala,
@@ -9856,9 +9005,7 @@ rpo:Eero a rpo:Author ;
 
 rpo:Eetu a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5091329964> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:ErkkiHeino,
         rpo:EskoIkkala,
@@ -9875,9 +9022,7 @@ rpo:EntityLinking a rpo:Keyword,
 
 rpo:ErkkiHeino a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5031797634> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:EskoIkkala,
@@ -9890,9 +9035,7 @@ rpo:ErkkiHeino a rpo:Author ;
 
 rpo:ErnestoRuiz a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOxford ;
-    rpo:funded_by rpo:UniversityOfOxford ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5056324053> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:ChristophPinkel,
@@ -9905,9 +9048,7 @@ rpo:ErnestoRuiz a rpo:Author ;
 
 rpo:EskoIkkala a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5038251371> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:ErkkiHeino,
@@ -9920,9 +9061,7 @@ rpo:EskoIkkala a rpo:Author ;
 
 rpo:EvgenyKharlamov a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOxford ;
-    rpo:funded_by rpo:UniversityOfOxford ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5025295947> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:ChristophPinkel,
@@ -9939,9 +9078,7 @@ rpo:Exploit a rpo:Keyword,
 
 rpo:FelixMichel a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
-    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5063633869> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:HilaryADugan,
         rpo:JordanSRead,
@@ -9958,9 +9095,7 @@ rpo:FocusOptics a rpo:Keyword,
 
 rpo:HilaryADugan a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfWisconsinMadison ;
-    rpo:funded_by rpo:UniversityOfWisconsinMadison ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5087937289> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:JordanSRead,
@@ -9977,9 +9112,7 @@ rpo:InformationExtraction a rpo:Keyword,
 
 rpo:JohannesKeizer a rpo:Author ;
     rpo:affiliated_with rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
-    rpo:funded_by rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5059606977> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
@@ -9992,9 +9125,7 @@ rpo:JohannesKeizer a rpo:Author ;
 
 rpo:JordanSRead a rpo:Author ;
     rpo:affiliated_with rpo:UnitedStatesGeologicalSurvey ;
-    rpo:funded_by rpo:UnitedStatesGeologicalSurvey ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5044490476> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:HilaryADugan,
@@ -10007,9 +9138,7 @@ rpo:JordanSRead a rpo:Author ;
 
 rpo:JouniTuominen a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021291777> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:ErkkiHeino,
@@ -10022,9 +9151,7 @@ rpo:JouniTuominen a rpo:Author ;
 
 rpo:KatjaHose a rpo:Author ;
     rpo:affiliated_with rpo:AalborgUniversity ;
-    rpo:funded_by rpo:AalborgUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5015313855> ;
-    rpo:located_in rpo:DK ;
     rpo:works_with rpo:DilshodIbragimov,
         rpo:Esteban,
         rpo:GerardDeMelo,
@@ -10035,18 +9162,10 @@ rpo:KatjaHose a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/67> ;
     foaf:name "Katja Hose" .
 
-rpo:LaboratoireHubertCurien a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:Saint,
-        rpo:SaintEtienne .
-
 rpo:LaurensRietveld a rpo:Author ;
     rpo:affiliated_with rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
         rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
-        rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5002676649> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:FilipIlievski,
         rpo:MariekeVanErp,
         rpo:MielVanderSande,
@@ -10066,9 +9185,7 @@ rpo:Linguistics a rpo:Keyword,
 
 rpo:ManolisKoubarakis a rpo:Author ;
     rpo:affiliated_with rpo:NationalAndKapodistrianUniversityOfAthens ;
-    rpo:funded_by rpo:NationalAndKapodistrianUniversityOfAthens ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5075117735> ;
-    rpo:located_in rpo:GR ;
     rpo:works_with rpo:ChristosTryfonopoulos,
         rpo:GuohuiXiao,
         rpo:KonstantinaBereta,
@@ -10081,9 +9198,7 @@ rpo:ManolisKoubarakis a rpo:Author ;
 
 rpo:MartinG a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOslo ;
-    rpo:funded_by rpo:UniversityOfOslo ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5077435236> ;
-    rpo:located_in rpo:NO ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:ChristophPinkel,
@@ -10096,9 +9211,7 @@ rpo:MartinG a rpo:Author ;
 
 rpo:MatheusHauder a rpo:Author ;
     rpo:affiliated_with rpo:TechnicalUniversityOfMunich ;
-    rpo:funded_by rpo:TechnicalUniversityOfMunich ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078182123> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:HilaryADugan,
@@ -10111,9 +9224,7 @@ rpo:MatheusHauder a rpo:Author ;
 
 rpo:MikkoKoho a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5010723046> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:ErkkiHeino,
@@ -10126,9 +9237,7 @@ rpo:MikkoKoho a rpo:Author ;
 
 rpo:MinnaTamper a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054608227> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:ErkkiHeino,
@@ -10141,9 +9250,7 @@ rpo:MinnaTamper a rpo:Author ;
 
 rpo:PaulCHanson a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfWisconsinMadison ;
-    rpo:funded_by rpo:UniversityOfWisconsinMadison ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5041638098> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:HilaryADugan,
@@ -10156,9 +9263,7 @@ rpo:PaulCHanson a rpo:Author ;
 
 rpo:PetriLeskinen a rpo:Author ;
     rpo:affiliated_with rpo:AaltoUniversity ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5036940398> ;
-    rpo:located_in rpo:FI ;
     rpo:works_with rpo:Eero,
         rpo:Eetu,
         rpo:ErkkiHeino,
@@ -10179,9 +9284,7 @@ rpo:Reuse a rpo:Keyword,
 
 rpo:SachitRajbhandari a rpo:Author ;
     rpo:affiliated_with rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
-    rpo:funded_by rpo:FoodAndAgricultureOrganizationOfTheUnitedNations ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5061077315> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
@@ -10203,10 +9306,7 @@ rpo:SocialMedia a rpo:Keyword,
 rpo:StefanSchlobach a rpo:Author ;
     rpo:affiliated_with rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
         rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
-        rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5075365612> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:FilipIlievski,
         rpo:LaurensRietveld,
         rpo:MariekeVanErp,
@@ -10219,9 +9319,7 @@ rpo:StefanSchlobach a rpo:Author ;
 
 rpo:TizianoLorenzetti a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfRomeTorVergata ;
-    rpo:funded_by rpo:UniversityOfRomeTorVergata ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5078371651> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
@@ -10238,9 +9336,7 @@ rpo:UpperOntology a rpo:Keyword,
 
 rpo:VarunRatnakar a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
-    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5068092761> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:HilaryADugan,
@@ -10253,9 +9349,7 @@ rpo:VarunRatnakar a rpo:Author ;
 
 rpo:WolfgangMay a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOf ;
-    rpo:funded_by rpo:UniversityOf ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5042798174> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AlessandroSolimando,
         rpo:CarstenBinnig,
         rpo:ChristophPinkel,
@@ -10269,10 +9363,7 @@ rpo:WolfgangMay a rpo:Author ;
 rpo:WouterVanBeek a rpo:Author ;
     rpo:affiliated_with rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
         rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam,
-        rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5001599602> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:FilipIlievski,
         rpo:LaurensRietveld,
         rpo:MariekeVanErp,
@@ -10285,9 +9376,7 @@ rpo:WouterVanBeek a rpo:Author ;
 
 rpo:YolandaGil a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfSouthernCalifornia ;
-    rpo:funded_by rpo:UniversityOfSouthernCalifornia ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5040878653> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:ChristopherDuffy,
         rpo:FelixMichel,
         rpo:HilaryADugan,
@@ -10298,19 +9387,9 @@ rpo:YolandaGil a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/31> ;
     foaf:name "Yolanda Gil" .
 
-rpo:AalborgUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Aalborg,
-        rpo:Denmark .
-
-rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies a rpo:Organisation ;
-    rpo:located_in rpo:Athens,
-        rpo:Greece .
-
 rpo:Bojan a rpo:Author ;
     rpo:affiliated_with rpo:TrinityCollegeDublin ;
-    rpo:funded_by rpo:TrinityCollegeDublin ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5088807073> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
         rpo:KevinFeeney,
@@ -10324,9 +9403,7 @@ rpo:Bojan a rpo:Author ;
 
 rpo:FrankVanHarmelen a rpo:Author ;
     rpo:affiliated_with rpo:VrijeUniversiteitAmsterdam ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5029130731> ;
-    rpo:located_in rpo:NL ;
     rpo:works_with rpo:AliKhalili,
         rpo:AnnetteTenTeije,
         rpo:AntonisLoizou,
@@ -10338,15 +9415,9 @@ rpo:FrankVanHarmelen a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/91> ;
     foaf:name "Frank van Harmelen" .
 
-rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:SanktAugustin .
-
 rpo:GavinMendelGleason a rpo:Author ;
     rpo:affiliated_with rpo:TrinityCollegeDublin ;
-    rpo:funded_by rpo:TrinityCollegeDublin ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5077617343> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:Bojan,
         rpo:HarveyWhitehouse,
         rpo:KevinFeeney,
@@ -10360,9 +9431,7 @@ rpo:GavinMendelGleason a rpo:Author ;
 
 rpo:HarveyWhitehouse a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOxford ;
-    rpo:funded_by rpo:UniversityOfOxford ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5013542557> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:KevinFeeney,
@@ -10374,15 +9443,9 @@ rpo:HarveyWhitehouse a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/92> ;
     foaf:name "Harvey Whitehouse" .
 
-rpo:IBMResearchThomasJWatsonResearchCenter a rpo:Organisation ;
-    rpo:located_in rpo:USA,
-        rpo:YorktownHeights .
-
 rpo:KevinFeeney a rpo:Author ;
     rpo:affiliated_with rpo:TrinityCollegeDublin ;
-    rpo:funded_by rpo:TrinityCollegeDublin ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5029916696> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10396,9 +9459,7 @@ rpo:KevinFeeney a rpo:Author ;
 
 rpo:PeterTurchin a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfConnecticut ;
-    rpo:funded_by rpo:UniversityOfConnecticut ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5043788108> ;
-    rpo:located_in rpo:US ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10412,9 +9473,7 @@ rpo:PeterTurchin a rpo:Author ;
 
 rpo:Pieter a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOxford ;
-    rpo:funded_by rpo:UniversityOfOxford ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5019087129> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10428,9 +9487,7 @@ rpo:Pieter a rpo:Author ;
 
 rpo:RobBrennan a rpo:Author ;
     rpo:affiliated_with rpo:TrinityCollegeDublin ;
-    rpo:funded_by rpo:TrinityCollegeDublin ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5087699589> ;
-    rpo:located_in rpo:IE ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10444,9 +9501,7 @@ rpo:RobBrennan a rpo:Author ;
 
 rpo:StephGrohmann a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfOxford ;
-    rpo:funded_by rpo:UniversityOfOxford ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5021706854> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10460,9 +9515,7 @@ rpo:StephGrohmann a rpo:Author ;
 
 rpo:ThomasECurrie a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfExeter ;
-    rpo:funded_by rpo:UniversityOfExeter ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5017780530> ;
-    rpo:located_in rpo:GB ;
     rpo:works_with rpo:Bojan,
         rpo:GavinMendelGleason,
         rpo:HarveyWhitehouse,
@@ -10474,29 +9527,7 @@ rpo:ThomasECurrie a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/92> ;
     foaf:name "Thomas E. Currie" .
 
-rpo:TrinityCollegeDublin a rpo:Organisation ;
-    rpo:located_in rpo:Dublin,
-        rpo:Ireland .
-
-rpo: a rpo:Author,
-        rpo:City ;
-    rpo:affiliated_with rpo:ITMOUniversity,
-        rpo:InstitutDeRechercheEnInformatiqueEt ;
-    rpo:funded_by rpo:ITMOUniversity,
-        rpo:InstitutDeRechercheEnInformatiqueEt ;
-    rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5086015258>,
-        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5090487419> ;
-    rpo:located_in rpo:FR,
-        rpo:RU ;
-    rpo:works_with rpo:AlexeyAndreev,
-        rpo:AnnaSpiridonova,
-        rpo:DmitryMouromtsev,
-        rpo:EugeneCherny,
-        rpo:PeterHaase ;
-    rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/34>,
-        <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/64> ;
-    foaf:name "Sébastien Ferré",
-        "Д. С. Павлов" .
+rpo:WrightStateUniversity rpo:key_person rpo:SusanEdwardsPhysiologist .
 
 rpo:Algorithm a rpo:Keyword,
         rpo:ResearchArea ;
@@ -10518,9 +9549,7 @@ rpo:AndreasBoth a rpo:Author ;
 
 rpo:Auer a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5071765665> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:ChristophLange,
         rpo:Dietlind,
         rpo:HeinerOberkampf,
@@ -10539,9 +9568,7 @@ rpo:BenchmarkSurveying a rpo:Keyword,
 
 rpo:ChristophLange a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfBonn ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5007714809> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:Auer,
         rpo:DennisDiefenbach,
@@ -10558,10 +9585,6 @@ rpo:ContextArchaeology a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Context (archaeology)" .
 
-rpo:DePoitiers a rpo:Organisation ;
-    rpo:located_in rpo:France,
-        rpo:FuturoscopeCedex .
-
 rpo:Geography a rpo:Keyword,
         rpo:ResearchField ;
     rdfs:label "Geography" .
@@ -10569,10 +9592,6 @@ rpo:Geography a rpo:Keyword,
 rpo:HumanComputerInteraction a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Human–computer interaction" .
-
-rpo:OllscoilNaGaillimheUniversityOfGalway a rpo:Organisation ;
-    rpo:located_in rpo:Galway,
-        rpo:Ireland .
 
 rpo:OntologyAlignment a rpo:Keyword,
         rpo:Topic ;
@@ -10586,10 +9605,6 @@ rpo:SemanticWebStack a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Semantic Web Stack" .
 
-rpo:SiemensGermany a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Munich .
-
 rpo:SimilarityGeometry a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Similarity (geometry)" .
@@ -10598,19 +9613,12 @@ rpo:SocialSemanticWeb a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Social Semantic Web" .
 
-rpo:University a rpo:Organisation ;
-    rpo:located_in rpo:,
-        rpo:Budapest,
-        rpo:Hungary,
-        rpo:Sweden .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/90> a rpo:AcademicWork ;
     rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11682>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11683>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11684> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_40" ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:InformationRetrieval,
         rpo:OperationsManagement,
@@ -10640,15 +9648,9 @@ rpo:University a rpo:Organisation ;
         rpo:MichaelLeuthold,
         rpo:SebastianHellmann .
 
-rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam a rpo:Organisation ;
-    rpo:located_in rpo:Amsterdam,
-        rpo:TheNetherlands .
-
 rpo:ArmandoStellato a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfRomeTorVergata ;
-    rpo:funded_by rpo:UniversityOfRomeTorVergata ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5064329721> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:CaterinaCaracciolo,
         rpo:JohannesKeizer,
@@ -10664,9 +9666,7 @@ rpo:ArmandoStellato a rpo:Author ;
 
 rpo:Arndt a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5058457870> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:ChristianBeecks,
         rpo:ErikMannens,
         rpo:G,
@@ -10682,9 +9682,7 @@ rpo:Arndt a rpo:Author ;
 
 rpo:ChristianBeecks a rpo:Author ;
     rpo:affiliated_with rpo:RWTHAachenUniversity ;
-    rpo:funded_by rpo:RWTHAachenUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5039809923> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Arndt,
         rpo:ErikMannens,
         rpo:G,
@@ -10703,9 +9701,7 @@ rpo:Economics a rpo:ResearchField ;
 
 rpo:G a rpo:Author ;
     rpo:affiliated_with rpo:RWTHAachenUniversity ;
-    rpo:funded_by rpo:RWTHAachenUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5022057718> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10721,9 +9717,7 @@ rpo:G a rpo:Author ;
 
 rpo:Godin a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5103264952> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10737,18 +9731,9 @@ rpo:Godin a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/100> ;
     foaf:name "Fréderic Godin" .
 
-rpo:ITMOUniversity a rpo:Organisation ;
-    rpo:located_in rpo:GermanyTAB,
-        rpo:Russia,
-        rpo:RussiaTAB,
-        rpo:StPetersburg,
-        rpo:Walldorf .
-
 rpo:LaurensDeVocht a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5016784762> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10764,9 +9749,7 @@ rpo:LaurensDeVocht a rpo:Author ;
 
 rpo:ManuelFiorelli a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfRomeTorVergata ;
-    rpo:funded_by rpo:UniversityOfRomeTorVergata ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5101641640> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
@@ -10782,9 +9765,7 @@ rpo:ManuelFiorelli a rpo:Author ;
 
 rpo:MariaTeresaPazienza a rpo:Author ;
     rpo:affiliated_with rpo:UniversityOfRomeTorVergata ;
-    rpo:funded_by rpo:UniversityOfRomeTorVergata ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5111458384> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AndreaTurbati,
         rpo:ArmandoStellato,
         rpo:CaterinaCaracciolo,
@@ -10798,19 +9779,13 @@ rpo:MariaTeresaPazienza a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/24> ;
     foaf:name "Maria Teresa Pazienza" .
 
-rpo:NanjingUniversity a rpo:Organisation ;
-    rpo:located_in rpo:210023,
-        rpo:PeopleSRepublicOfChina .
-
 rpo:PoliticalScience a rpo:Keyword,
         rpo:ResearchField ;
     rdfs:label "Political science" .
 
 rpo:ThomasSeidl a rpo:Author ;
     rpo:affiliated_with rpo:RWTHAachenUniversity ;
-    rpo:funded_by rpo:RWTHAachenUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5003335849> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10826,9 +9801,7 @@ rpo:ThomasSeidl a rpo:Author ;
 
 rpo:TomDeNies a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5054815967> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10842,25 +9815,13 @@ rpo:TomDeNies a rpo:Author ;
     rpo:wrote <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/100> ;
     foaf:name "Tom De Nies" .
 
-rpo:USA a rpo:Country .
-
-rpo:UniversityOfSouthampton a rpo:Organisation ;
-    rpo:located_in rpo:Southampton,
-        rpo:UK .
-
-rpo:ViennaUniversityOfEconomicsAndBusiness a rpo:Organisation ;
-    rpo:located_in rpo:Austria,
-        rpo:Vienna .
-
 rpo:WebQueryClassification a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Web query classification" .
 
 rpo:WesleyDeNeve a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5029555436> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:Arndt,
         rpo:ChristianBeecks,
         rpo:ErikMannens,
@@ -10886,8 +9847,6 @@ rpo:WesleyDeNeve a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10591>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10592> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_37" ;
-    rpo:funded_by rpo:Nesta,
-        rpo:WorldWideWebConsortium ;
     rpo:has_keyword rpo:Business,
         rpo:ComputerScience,
         rpo:DataScience,
@@ -10937,8 +9896,6 @@ rpo:WesleyDeNeve a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10607>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10608> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_39" ;
-    rpo:funded_by rpo:AkademiUniversity,
-        rpo:ITMOUniversity ;
     rpo:has_keyword rpo:CloudComputing,
         rpo:ComputerScience,
         rpo:CulturalHeritage,
@@ -10992,10 +9949,6 @@ rpo:WesleyDeNeve a rpo:Author ;
 rpo:Biology a rpo:ResearchField ;
     rdfs:label "Biology" .
 
-rpo:FondazioneBrunoKessler a rpo:Organisation ;
-    rpo:located_in rpo:Italy,
-        rpo:Trento .
-
 rpo:KnowledgeManagement a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Knowledge management" .
@@ -11023,18 +9976,6 @@ rpo:SemanticSimilarity a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Semantic similarity" .
 
-rpo:UniversityOfMannheim a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Mannheim .
-
-rpo:UniversityOfOxford a rpo:Organisation ;
-    rpo:located_in rpo:Oxford,
-        rpo:UK .
-
-rpo:UniversityOfRomeTorVergata a rpo:Organisation ;
-    rpo:located_in rpo:Italy,
-        rpo:Rome .
-
 rpo:WebSearchQuery a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Web search query" .
@@ -11053,7 +9994,6 @@ rpo:WebSearchQuery a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10766>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10767> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_45" ;
-    rpo:funded_by rpo:OttoVonGuerickeUniversityMagdeburg ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:ContextArchaeology,
         rpo:Engineering,
@@ -11113,9 +10053,7 @@ rpo:WebSearchQuery a rpo:Keyword,
 
 rpo:AxelCyrilleNgongaNgomo a rpo:Author ;
     rpo:affiliated_with rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5038745720> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AndreasBoth,
         rpo:ChristinaUnger,
         rpo:IvanErmilov,
@@ -11137,9 +10075,7 @@ rpo:ComputerSecurity a rpo:Keyword,
 
 rpo:MauroDragoni a rpo:Author ;
     rpo:affiliated_with rpo:FondazioneBrunoKessler ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5069303169> ;
-    rpo:located_in rpo:IT ;
     rpo:works_with rpo:AlessioPalmeroAprosio,
         rpo:ChiaraGhidini,
         rpo:ElenaCabrio,
@@ -11158,13 +10094,6 @@ rpo:MauroDragoni a rpo:Author ;
 rpo:Physics a rpo:ResearchField ;
     rdfs:label "Physics" .
 
-rpo:UniversityOfSouthernCalifornia a rpo:Organisation ;
-    rpo:key_person rpo:CarolFolt ;
-    rpo:located_in rpo:90292,
-        rpo:CA,
-        rpo:LosAngeles,
-        rpo:USA .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/82> a rpo:AcademicWork ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11559>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11560>,
@@ -11176,7 +10105,6 @@ rpo:UniversityOfSouthernCalifornia a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11566>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11567> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_33" ;
-    rpo:funded_by rpo:AthenaResearchAndInnovationCenterInInformationCommunicationAndKnowledgeTechnologies ;
     rpo:has_keyword rpo:Annotation,
         rpo:ArtificialIntelligence,
         rpo:ClusterAnalysis,
@@ -11242,7 +10170,6 @@ rpo:OntologyBasedDataIntegration a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10602>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10603> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_38" ;
-    rpo:funded_by rpo:SensTexteInformatiqueHistoire ;
     rpo:has_keyword rpo:BaselineSea,
         rpo:ComputerScience,
         rpo:InformationRetrieval,
@@ -11290,9 +10217,6 @@ rpo:OntologyBasedDataIntegration a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11763>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11764> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_45" ;
-    rpo:funded_by rpo:AirbusGermany,
-        rpo:FreeUniversityOfBozenBolzano,
-        rpo:NationalAndKapodistrianUniversityOfAthens ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:ComputerSecurity,
         rpo:DataScience,
@@ -11330,10 +10254,7 @@ rpo:OntologyBasedDataIntegration a rpo:Keyword,
 rpo:JensLehmann a rpo:Author ;
     rpo:affiliated_with rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
         rpo:LeipzigUniversity ;
-    rpo:funded_by rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
-        rpo:LeipzigUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5067133778> ;
-    rpo:located_in rpo:DE ;
     rpo:works_with rpo:AnkitSharma,
         rpo:AxelCyrilleNgongaNgomo,
         rpo:ChristianDirschl,
@@ -11372,7 +10293,6 @@ rpo:KnowledgeBase a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10852>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10853> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_48" ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_keyword rpo:AdaptationEye,
         rpo:BigData,
         rpo:ComputerScience,
@@ -11423,7 +10343,6 @@ rpo:KnowledgeBase a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11630>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11631> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_36" ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_keyword rpo:Analytics,
         rpo:BigData,
         rpo:CharacterMathematics,
@@ -11492,10 +10411,6 @@ rpo:SoftwareEngineering a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Software engineering" .
 
-rpo:UniversityOfBonn a rpo:Organisation ;
-    rpo:located_in rpo:Bonn,
-        rpo:Germany .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/12> a rpo:AcademicWork ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10235>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10236>,
@@ -11510,7 +10425,6 @@ rpo:UniversityOfBonn a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10245>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10246> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_19" ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Database,
         rpo:InformationRetrieval,
@@ -11569,11 +10483,6 @@ rpo:UniversityOfBonn a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10582>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10583> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_36" ;
-    rpo:funded_by rpo:PennsylvaniaStateUniversity,
-        rpo:TechnicalUniversityOfMunich,
-        rpo:UnitedStatesGeologicalSurvey,
-        rpo:UniversityOfSouthernCalifornia,
-        rpo:UniversityOfWisconsinMadison ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataScience,
         rpo:EScience,
@@ -11618,15 +10527,6 @@ rpo:UniversityOfBonn a rpo:Organisation ;
         rpo:VarunRatnakar,
         rpo:YolandaGil .
 
-rpo:AaltoUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Espoo,
-        rpo:Finland .
-
-rpo:KarlsruheInstituteOfTechnology a rpo:Organisation ;
-    rpo:key_person rpo:JanSHesthaven ;
-    rpo:located_in rpo:Germany,
-        rpo:Karlsruhe .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/38> a rpo:AcademicWork ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10682>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10683>,
@@ -11642,8 +10542,6 @@ rpo:KarlsruheInstituteOfTechnology a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10693>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10694> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_42" ;
-    rpo:funded_by rpo:NationaleDesCheminsDeFerFrance,
-        rpo:UniversityOfLeeds ;
     rpo:has_keyword rpo:Abstraction,
         rpo:ArtificialIntelligence,
         rpo:ComputerScience,
@@ -11697,9 +10595,7 @@ rpo:KarlsruheInstituteOfTechnology a rpo:Organisation ;
 
 rpo:ErikMannens a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5059346676> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:Arndt,
         rpo:AronLeviHerregodts,
@@ -11722,15 +10618,9 @@ rpo:ErikMannens a rpo:Author ;
 
 rpo:IndustryInnovationAndInfrastructure a rpo:Goal .
 
-rpo:PolitecnicoDiMilano a rpo:Organisation ;
-    rpo:located_in rpo:Italy,
-        rpo:Milano .
-
 rpo:RikVanDeWalle a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5017556432> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:Arndt,
         rpo:AronLeviHerregodts,
@@ -11773,7 +10663,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10558>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10559> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_34" ;
-    rpo:funded_by rpo:IberiaSpain ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -11847,7 +10736,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11013>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11014> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_53" ;
-    rpo:funded_by rpo:NorwegianUniversityOfScienceAndTechnology ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:ContextArchaeology,
         rpo:DataMining,
@@ -11917,7 +10805,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10045>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10046> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_10" ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataMining,
         rpo:DataScience,
@@ -11972,8 +10859,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11140>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11141> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_10" ;
-    rpo:funded_by rpo:UniversityOfMannheim,
-        rpo:YahooUnitedKingdom ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:InformationRetrieval,
         rpo:MarkupLanguage,
@@ -12026,8 +10911,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10182>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10183> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_16" ;
-    rpo:funded_by rpo:UniversidadDeValladolid,
-        rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -12085,7 +10968,6 @@ rpo:TaskProjectManagement a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11883>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11884> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_49" ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -12163,7 +11045,6 @@ rpo:SemanticsComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10871>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10872> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_49" ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_keyword rpo:AbstractInterpretation,
         rpo:Algorithm,
         rpo:ArtificialIntelligence,
@@ -12221,9 +11102,6 @@ rpo:SemanticsComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11417>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11418> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_24" ;
-    rpo:funded_by rpo:FreeUniversityOfBozenBolzano,
-        rpo:TUWien,
-        rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:Axiom,
         rpo:ClassPhilosophy,
@@ -12266,13 +11144,6 @@ rpo:SemanticsComputerScience a rpo:Keyword,
         rpo:AxelPolleres,
         rpo:DiegoCalvanese,
         rpo:VadimSavenkov .
-
-rpo:WrightStateUniversity a rpo:Organisation ;
-    rpo:key_person rpo:SusanEdwardsPhysiologist ;
-    rpo:located_in rpo:45435,
-        rpo:Dayton,
-        rpo:OH,
-        rpo:USA .
 
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/30> a rpo:AcademicWork ;
     rpo:addresses rpo:IndustryInnovationAndInfrastructure ;
@@ -12358,7 +11229,6 @@ rpo:WrightStateUniversity a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11299>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11300> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_17" ;
-    rpo:funded_by rpo:InstitutDeRechercheEnInformatiqueEt ;
     rpo:has_keyword rpo:Ambiguity,
         rpo:ArtificialIntelligence,
         rpo:BridgingNetworking,
@@ -12420,7 +11290,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10233>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10234> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_18" ;
-    rpo:funded_by rpo:UniversityOfOslo ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Database,
         rpo:Implementation,
@@ -12478,7 +11347,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10339>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10340> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_21" ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:ContextArchaeology,
@@ -12540,9 +11408,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10405>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10406> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_25" ;
-    rpo:funded_by rpo:IndianInstituteOfTechnologyDelhi,
-        rpo:IndianInstituteOfTechnologyMadras,
-        rpo:UniversityOfSouthernCalifornia ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -12600,7 +11465,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11123>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11124> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_1" ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -12661,7 +11525,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11157>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11158> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_11" ;
-    rpo:funded_by rpo:NanjingUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ClassPhilosophy,
         rpo:ClusterAnalysis,
@@ -12725,7 +11588,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11318>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11319> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_18" ;
-    rpo:funded_by rpo:KarlsruheInstituteOfTechnology ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:InformationRetrieval,
@@ -12785,7 +11647,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11457>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11458> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_27" ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:BenchmarkSurveying,
         rpo:ComputerScience,
@@ -12897,10 +11758,6 @@ rpo:DomainMathematicalAnalysis a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11718>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11719> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_42" ;
-    rpo:funded_by rpo:TrinityCollegeDublin,
-        rpo:UniversityOfConnecticut,
-        rpo:UniversityOfExeter,
-        rpo:UniversityOfOxford ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataCuration,
         rpo:DataScience,
@@ -12955,9 +11812,7 @@ rpo:Epistemology a rpo:ResearchArea ;
 
 rpo:RubenVerborgh a rpo:Author ;
     rpo:affiliated_with rpo:GhentUniversity ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_id <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#https://openalex.org/A5055871472> ;
-    rpo:located_in rpo:BE ;
     rpo:works_with rpo:AnastasiaDimou,
         rpo:Arndt,
         rpo:AronLeviHerregodts,
@@ -12983,13 +11838,6 @@ rpo:RubenVerborgh a rpo:Author ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/93> ;
     foaf:name "Ruben Verborgh" .
 
-rpo:VrijeUniversiteitAmsterdam a rpo:Organisation ;
-    rpo:located_in rpo:,
-        rpo:Amsterdam,
-        rpo:GermanyTAB,
-        rpo:TheNetherlands,
-        rpo:TheNetherlandsTAB .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/55> a rpo:AcademicWork ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11087>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11088>,
@@ -13012,7 +11860,6 @@ rpo:VrijeUniversiteitAmsterdam a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11105>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11106> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_9" ;
-    rpo:funded_by rpo:UniversityOfFribourg ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataStructure,
         rpo:Identifier,
@@ -13071,7 +11918,6 @@ rpo:VrijeUniversiteitAmsterdam a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10137>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10138> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_14" ;
-    rpo:funded_by rpo:UniversityOfBonn ;
     rpo:has_keyword rpo:Algorithm,
         rpo:ArtificialIntelligence,
         rpo:BloomFilter,
@@ -13127,8 +11973,6 @@ rpo:VrijeUniversiteitAmsterdam a rpo:Organisation ;
         rpo:JeremyDebattista,
         rpo:Santiago .
 
-rpo:Germany a rpo:Country .
-
 rpo:OperatingSystem a rpo:Keyword,
         rpo:ResearchArea ;
     rdfs:label "Operating system" .
@@ -13162,7 +12006,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10630>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10631> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_4" ;
-    rpo:funded_by rpo:ViennaUniversityOfEconomicsAndBusiness ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataIntegration,
         rpo:DataMining,
@@ -13226,7 +12069,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10996>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10997> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_52" ;
-    rpo:funded_by rpo:FZIResearchCenterForInformationTechnology ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ClassPhilosophy,
         rpo:ComputerScience,
@@ -13300,8 +12142,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11061>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11062> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_6" ;
-    rpo:funded_by rpo:IBMResearchIreland,
-        rpo:WrightStateUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:Database,
@@ -13367,7 +12207,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11439>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11440> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_26" ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_keyword rpo:Algorithm,
         rpo:ArtificialIntelligence,
         rpo:ComputerNetwork,
@@ -13428,8 +12267,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11205>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11206> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_13" ;
-    rpo:funded_by rpo:LudwigMaximilians,
-        rpo:SiemensGermany ;
     rpo:has_keyword rpo:Algorithm,
         rpo:ArtificialIntelligence,
         rpo:ComputerScience,
@@ -13495,7 +12332,6 @@ rpo:TheoreticalComputerScience a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11705>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11706> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_41" ;
-    rpo:funded_by rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_keyword rpo:ComponentThermodynamics,
         rpo:ComputerScience,
         rpo:DataWeb,
@@ -13571,7 +12407,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10387>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10388> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_23" ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_keyword rpo:CompletenessOrderTheory,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -13638,7 +12473,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10791>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10792> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_46" ;
-    rpo:funded_by rpo:University ;
     rpo:has_keyword rpo:AugmentedReality,
         rpo:ComputerScience,
         rpo:HumanComputerInteraction,
@@ -13689,7 +12523,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11251>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11252> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_15" ;
-    rpo:funded_by rpo:UniversityOfPeloponnese ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:ExtensionPredicateLogic,
         rpo:FilterSignalProcessing,
@@ -13765,7 +12598,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10095>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10096> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_12" ;
-    rpo:funded_by rpo:WrightStateUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -13845,8 +12677,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11085>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11086> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_7" ;
-    rpo:funded_by rpo:DortmundUniversityOfAppliedSciencesAndArts,
-        rpo:UniversityOfKassel ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:Database,
@@ -13923,9 +12753,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11229>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11230> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_14" ;
-    rpo:funded_by rpo:ChristianAlbrechtsZuKiel,
-        rpo:GESISLeibnizInstituteForTheSocialSciences,
-        rpo:UniversityOfSouthernCalifornia ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:AssociationRuleLearning,
         rpo:BaselineSea,
@@ -13980,10 +12807,6 @@ rpo:SetAbstractDataType a rpo:Keyword,
         rpo:JohannSchaible,
         rpo:PedroSzekely .
 
-rpo:LeipzigUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Germany,
-        rpo:Leipzig .
-
 <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/23> a rpo:AcademicWork ;
     rpo:cites <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10407>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10408>,
@@ -14009,8 +12832,6 @@ rpo:LeipzigUniversity a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10428>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10429> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_29" ;
-    rpo:funded_by rpo:GhentUniversity,
-        rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_keyword rpo:CloudComputing,
         rpo:ComputerScience,
         rpo:Database,
@@ -14072,8 +12893,6 @@ rpo:LeipzigUniversity a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11367>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11368> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_2" ;
-    rpo:funded_by rpo:AalborgUniversity,
-        rpo:TsinghuaUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:Heuristics,
@@ -14143,8 +12962,6 @@ rpo:LeipzigUniversity a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11680>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11681> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_39" ;
-    rpo:funded_by rpo:UniversityOfCapeTown,
-        rpo:UniversityOfTechnology ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:InformationRetrieval,
@@ -14189,7 +13006,6 @@ rpo:LeipzigUniversity a rpo:Organisation ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11783>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11784> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_46" ;
-    rpo:funded_by rpo:AaltoUniversity ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:InformationRetrieval,
         rpo:LinkedData,
@@ -14263,7 +13079,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10364>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10365> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_22" ;
-    rpo:funded_by rpo:LeipzigUniversity ;
     rpo:has_keyword rpo:Annotation,
         rpo:ArtificialIntelligence,
         rpo:BenchmarkSurveying,
@@ -14325,10 +13140,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10653>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10654> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_40" ;
-    rpo:funded_by rpo:Erlangen,
-        rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
-        rpo:SiemensGermany,
-        rpo:UniversityOfBonn ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataScience,
@@ -14405,7 +13216,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11041>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11042> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_54" ;
-    rpo:funded_by rpo:FerdowsiUniversityOfMashhad ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:IdentificationBiology,
@@ -14473,7 +13283,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11183>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11184> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_12" ;
-    rpo:funded_by rpo:UniversityOfPassau ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:EntityLinking,
@@ -14537,8 +13346,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10118>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10119> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_13" ;
-    rpo:funded_by rpo:UniversityOfAmsterdam,
-        rpo:VrijeUniversiteitAmsterdam ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataStructure,
         rpo:InformationRetrieval,
@@ -14606,11 +13413,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11342>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11343> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_19" ;
-    rpo:funded_by rpo:DhirubhaiAmbaniInstituteOfInformationAndCommunicationTechnology,
-        rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
-        rpo:LeipzigUniversity,
-        rpo:UniversityAtBuffaloStateUniversityOfNewYork,
-        rpo:UniversityOfBonn ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:InformationRetrieval,
@@ -14686,8 +13488,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11617>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11618> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_35" ;
-    rpo:funded_by rpo:FORTHInstituteOfElectronicStructureAndLaser,
-        rpo:UniversityOfCrete ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Database,
         rpo:InformationRetrieval,
@@ -14747,7 +13547,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11808>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11809> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_47" ;
-    rpo:funded_by rpo:IBMResearchThomasJWatsonResearchCenter ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -14820,7 +13619,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10543>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10544> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_32" ;
-    rpo:funded_by rpo:UniversityOfSouthampton ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComponentThermodynamics,
         rpo:ComputerScience,
@@ -14898,7 +13696,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10680>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10681> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_41" ;
-    rpo:funded_by rpo:UniversityOfAugsburg ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataScience,
         rpo:InformationRetrieval,
@@ -14965,7 +13762,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10072>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10073> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_11" ;
-    rpo:funded_by rpo:UniversityOfSheffield ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:ContextArchaeology,
@@ -15037,7 +13833,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11501>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11502> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_29" ;
-    rpo:funded_by rpo:AmsterdamUMCLocationVrijeUniversiteitAmsterdam ;
     rpo:has_keyword rpo:CloudComputing,
         rpo:ComputerScience,
         rpo:Database,
@@ -15110,8 +13905,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11527>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11528> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_3" ;
-    rpo:funded_by rpo:L3SResearchCenter,
-        rpo:LaboratoireDInformatiqueDeRobotiqueEtDeDeMontpellier ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:CosineSimilarity,
@@ -15174,7 +13967,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11592>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11593> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_34" ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_keyword rpo:Analytics,
         rpo:ComputerScience,
         rpo:DataScience,
@@ -15242,10 +14034,6 @@ rpo:Philosophy a rpo:ResearchField ;
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11654>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11655> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_38" ;
-    rpo:funded_by rpo:FLAVIAITGermany,
-        rpo:FraunhoferInstituteForIntelligentAnalysisAndInformationSystems,
-        rpo:LaboratoireHubertCurien,
-        rpo:UniversityOfBonn ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:CoreOpticalFiber,
@@ -15328,8 +14116,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10452>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10453> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_3" ;
-    rpo:funded_by rpo:FoodAndAgricultureOrganizationOfTheUnitedNations,
-        rpo:UniversityOfRomeTorVergata ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:Conceptualization,
@@ -15488,7 +14274,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10755>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10756> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_44" ;
-    rpo:funded_by rpo:TUWien ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataScience,
         rpo:InformationRetrieval,
@@ -15568,8 +14353,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10901>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10902> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_5" ;
-    rpo:funded_by rpo:InstituteForHighPerformanceComputingAndNetworking,
-        rpo:UniversityOfWaterloo ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Database,
         rpo:InformationRetrieval,
@@ -15643,7 +14426,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10932>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10933> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_50" ;
-    rpo:funded_by rpo:UniversityOfMannheim ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -15709,7 +14491,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11279>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11280> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_16" ;
-    rpo:funded_by rpo:PolitecnicoDiMilano ;
     rpo:has_keyword rpo:Architecture,
         rpo:Comparability,
         rpo:ComputerScience,
@@ -15782,7 +14563,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10028>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10029> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_1" ;
-    rpo:funded_by rpo:University ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -15872,8 +14652,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10518>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10519> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_31" ;
-    rpo:funded_by rpo:AalborgUniversity,
-        rpo:TsinghuaUniversity ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:DescriptionLogic,
@@ -15939,8 +14717,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11557>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11558> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_30" ;
-    rpo:funded_by rpo:PolytechniqueDeLausanne,
-        rpo:UniversidadDeMadrid ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataMining,
         rpo:Database,
@@ -16027,7 +14803,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10166>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10167> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_15" ;
-    rpo:funded_by rpo:DePoitiers ;
     rpo:has_keyword rpo:BenchmarkSurveying,
         rpo:Combinatorics,
         rpo:ComputerScience,
@@ -16099,8 +14874,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10212>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10213> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_17" ;
-    rpo:funded_by rpo:AalborgUniversity,
-        rpo:LibreDeBruxelles ;
     rpo:has_keyword rpo:AggregateComposite,
         rpo:Algorithm,
         rpo:ComputerScience,
@@ -16175,7 +14948,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11397>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11398> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_20" ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:ComputerScience,
         rpo:ExplicitSemanticAnalysis,
@@ -16248,7 +15020,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11745>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11746> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_43" ;
-    rpo:funded_by rpo:GhentUniversity ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataMapping,
         rpo:Database,
@@ -16295,11 +15066,6 @@ rpo:NaturalLanguageProcessing a rpo:Keyword,
         rpo:RikVanDeWalle,
         rpo:RubenVerborgh .
 
-rpo:GhentUniversity a rpo:Organisation ;
-    rpo:located_in rpo:Belgium,
-        rpo:Ghent,
-        rpo:LedebergGhent .
-
 rpo:LinkedData a rpo:Keyword,
         rpo:Topic ;
     rdfs:label "Linked data" .
@@ -16336,8 +15102,6 @@ rpo:SPARQL a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11908>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11909> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_5" ;
-    rpo:funded_by rpo:GhentUniversity,
-        rpo:RWTHAachenUniversity ;
     rpo:has_keyword rpo:BenchmarkSurveying,
         rpo:ComputerScience,
         rpo:DataMining,
@@ -16435,7 +15199,6 @@ rpo:Ontology a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10488>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10489> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_30" ;
-    rpo:funded_by rpo:OllscoilNaGaillimheUniversityOfGalway ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:Granularity,
         rpo:Graph,
@@ -16521,7 +15284,6 @@ rpo:Ontology a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10973>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10974> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_51" ;
-    rpo:funded_by rpo:UniversityOfAmsterdam ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:DataScience,
         rpo:Documentation,
@@ -16583,13 +15345,6 @@ rpo:Ontology a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10280>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10281> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_2" ;
-    rpo:funded_by rpo:BrownUniversity,
-        rpo:FluidOperationsGermany,
-        rpo:UniversityOf,
-        rpo:UniversityOfGenoa,
-        rpo:UniversityOfMannheim,
-        rpo:UniversityOfOslo,
-        rpo:UniversityOfOxford ;
     rpo:has_keyword rpo:BenchmarkSurveying,
         rpo:Benchmarking,
         rpo:ComputerScience,
@@ -16688,8 +15443,6 @@ rpo:Ontology a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10321>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10322> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_20" ;
-    rpo:funded_by rpo:BielefeldUniversity,
-        rpo:UniversityOfRomeTorVergata ;
     rpo:has_keyword rpo:ComputerScience,
         rpo:ControlledVocabulary,
         rpo:InformationRetrieval,
@@ -16776,7 +15529,6 @@ rpo:Ontology a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10838>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/10839> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-18818-8_47" ;
-    rpo:funded_by rpo:FondazioneBrunoKessler ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:Axiom,
         rpo:ComputerScience,
@@ -16906,7 +15658,6 @@ rpo:Database a rpo:Keyword,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11865>,
         <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#paper/11866> ;
     rpo:doi "https://doi.org/10.1007/978-3-319-34129-3_48" ;
-    rpo:funded_by rpo:UniversityOfGeorgia ;
     rpo:has_keyword rpo:ArtificialIntelligence,
         rpo:Bottleneck,
         rpo:ComputerScience,
