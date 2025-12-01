@@ -61,7 +61,9 @@ def class_inst(oa_data):
 
 
 def extract_affiliation_types(author):
-    """Extract (id, type) pairs from an author's affiliations list."""
+    """
+    Extract (id, type) pairs from an author's affiliations list.
+    """
     out = []
     affs = author.get("institutions", [])
     for aff in affs:
@@ -80,9 +82,11 @@ def extract_affiliation_types(author):
 
 
 def extract_funder_types(oa_data):
-    """extract (id, type) pairs from the top-level funders list"""
+    """
+    extract (id, type) pairs from the top-level funders list
+    """
     out = []
-    funders = oa_data.get("funders", [])  # or "grants", depending on structure
+    funders = oa_data.get("funders", [])
     for f in funders:
         funder_id = f.get("funder", {}).get("id")
         funder_type = f.get("funder", {}).get("type")
@@ -153,10 +157,9 @@ def extract_affiliations(csv_path):
 
     OUTPUT_TTL = "institutions_affiliations.ttl"
     g.serialize(destination=OUTPUT_TTL, format="turtle")
-    print(f"Saved RDF graph to {OUTPUT_TTL}")
+    print(f"saved RDF graph to {OUTPUT_TTL}")
 
     print(f"funders found for {fundi} papers")
-    print("\nDone.")
     return g
 
 def org_info(cache, org_id, author_uri = False, fund = False):
