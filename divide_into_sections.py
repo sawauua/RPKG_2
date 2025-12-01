@@ -3,7 +3,10 @@
 import fitz
 import os
 import re
+import csv
+import json
 from PyPDF2 import PdfReader
+from pathlib import Path
 
 os.chdir("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 
@@ -34,11 +37,10 @@ def extract_metadata_from_pdf(pdf_path):
         if not spans_with_size:
             return metadata
 
-        # Sort by descending font size (largest text is likely title)
+        # sort by descending font size (largest text is likely title)
         sorted_spans = sorted(spans_with_size, key=lambda x: -x[1])
         top_size = sorted_spans[0][1]
         
-        # USE THIS FOR SECTION EXTRACTION
         # sections are smaller font size
         next_sizes = sorted(set(size for _, size in spans_with_size if size < top_size), reverse=True)
         
@@ -59,7 +61,7 @@ def extract_metadata_from_pdf(pdf_path):
 
             possible_sections = re.findall(pattern, candidate_text)
 
-            sections = []
+            sections = ["Abstract"]
             for s in possible_sections:
                 s = s.strip(" ,;.")
                 if 2 < len(s) < 200 and s not in sections:
@@ -71,34 +73,21 @@ def extract_metadata_from_pdf(pdf_path):
                         sections.append("Bibliography")
                     else:
                         sections.append(s)
-                    metadata["sections"] = [sect for sect in sections]
             si += 1
             
         # --- split full_text into sections based on section titles ---
         sections_dict = {}
         current_title = None
         buffer = []
-
-        for txt, size in spans_with_size:
-            if abs(size - section_size) < 0.1:
-                #section title
-                if current_title is not None:
-                    #save previous section
-                    sections_dict[current_title] = " ".join(buffer).strip()
-                current_title = txt.strip(" ,;.:")
-                buffer = []
-            else:
-                if current_title is not None:
-                    buffer.append(txt.strip())
-
-        #save the last section
-        if current_title is not None:
-            sections_dict[current_title] = " ".join(buffer).strip()
-
-        metadata["sections"] = sections_dict
-        print(metadata)
         
-    return metadata
+        sections_dict = split_sections(full_text, sections)
+        
+        for title, content in sections_dict.items():
+            if title == "Abstract":
+                print(title, content[:200], "...\n")
+                    
+        
+    return sections_dict
 
 def remove_math(text):
 
@@ -125,10 +114,43 @@ def remove_math(text):
     text = re.sub(r'\s{2,}', ' ', text)
     return text.strip()
 
+def split_sections(full_text, titles):
+    """
+    full_text : string containing all PDF text
+    titles    : list of section titles as detected, e.g. ['1 Introduction', '2 Related Work']
+    
+    Returns dict: { "1 Introduction": "...text...", "2 Related Work": "...text..." }
+    """
+
+    # normalize whitespace
+    normalized = re.sub(r"\s+", " ", full_text).strip()
+
+    # normalize and sort titles by length descending
+    titles = sorted([re.sub(r"\s+", " ", t.strip()) for t in titles],
+                    key=len, reverse=True)
+    pattern = "|".join(re.escape(t) for t in titles)
+    matches = list(re.finditer(pattern, normalized))
+    
+    sections = {}
+
+    for i, m in enumerate(matches):
+        title = m.group()
+
+        start = m.end()   # content begins after the title
+
+        if i + 1 < len(matches):
+            end = matches[i+1].start()
+            content = normalized[start:end].strip()
+        else:
+            content = normalized[start:].strip()
+
+        sections[title] = content
+
+    return sections
+
 def pdf_to_txt(pdf_path):
     """
         read pdfs and transform into txt and data
-        extracts:
             
     """
     with open(pdf_path, 'rb') as pdf_file:
@@ -141,7 +163,7 @@ def pdf_to_txt(pdf_path):
         gathered["year"] = metadata.creation_date.year
         
         #extract title, author, doi from metadata
-        sections = extract_metadata_from_pdf(pdf_path)['sections']
+        sections = extract_metadata_from_pdf(pdf_path)
 
             
         gathered["sections"] = sections
@@ -150,8 +172,9 @@ def pdf_to_txt(pdf_path):
 
 articles = []
 p_index = 1
+out_path = Path("articles_sections.csv")
 
-for i in range(1):
+for i in range(20):
     folder_year = 2015 + i
 
     pdf_folder = os.path.join("papers_pdf", f"eswc_{folder_year}")
@@ -160,7 +183,6 @@ for i in range(1):
     if i > 9:
         folder_year -= 10
         pdf_folder = os.path.join("papers_pdf", f"iswc_{folder_year}")
-        print(pdf_folder)
 
     # get list of all pdf files in the folder
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith(".pdf")]
@@ -168,8 +190,24 @@ for i in range(1):
     # read all pdf files in the folder
     for pdf_file in pdf_files:
         p_index += 1
-        data = pdf_to_txt(os.path.join(pdf_folder, pdf_file))
+        data = pdf_to_txt(pdf_file)
         data["id"] = p_index
         articles.append(data)
+        if p_index % 50 == 0:
+            print(f" =========== Processed {p_index} papers ==========")
+        
+    with out_path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        
+        writer.writerow([
+            "id", 
+            "sections"
+        ])
+        
+        for data in articles:
+            writer.writerow([
+                data.get("id"),
+                json.dumps(data.get("sections")),
+            ])
         
         
