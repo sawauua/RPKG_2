@@ -3,7 +3,6 @@ from pathlib import Path
 import os
 import csv
 import json
-
 import re
 import time
 import requests
@@ -14,16 +13,14 @@ os.chdir(target_dir)
 
 #prefixes to namespace uri
 RPO  = Namespace("http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#")
-RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 PRO  = Namespace("http://purl.org/spar/pro/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
     
-#!geo location to everything
-
 
 #add paper
-def add_paper(graph: Graph, paper_id: int, meta: dict):
-    #add general peper triples
+def add_paper(graph, paper_id, meta):
+    #add general paper triples
+    
     #create uri for the paper
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
 
@@ -89,7 +86,14 @@ def add_paper(graph: Graph, paper_id: int, meta: dict):
 # ---------------------------------------------
     
 #get authors
-def get_authors(graph: Graph, paper_id: int, meta: dict):
+def get_authors(graph, paper_id, meta):
+    """
+    Gathers author information from openalex, including their names and affiliated institutions.
+    Links paper to authors using rpo:written_by and rpo:wrote properties.
+    Links authors to each other using rpo:works_with property.
+    Adds institutional data from extract_affiliation_from_mtadata().
+
+    """
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
     oa = meta["openalex"]
     if not oa:
@@ -152,6 +156,12 @@ def get_authors(graph: Graph, paper_id: int, meta: dict):
     return author_uris
 
 def extract_affiliations_from_metadata(meta_auth):
+    """
+    processes affiliations of one author as listed in openalex.
+    Classifies institutions by heuristic keywords.
+    Splits nmes of affiliations to detect links to geographica entities via a heuristic.
+
+    """
     
     affiliations = {}
     keywords = [
@@ -196,7 +206,7 @@ def extract_affiliations_from_metadata(meta_auth):
 
 # ----------------- helper functions --------------------------
 
-def _slugify(text: str) -> str:
+def _slugify(text):
     return _slug_rx.sub("-", text.strip().lower()).strip("-") or "unk"
 
 _slug_rx = re.compile(r"[^A-Za-z0-9]+")
@@ -227,6 +237,10 @@ _CLASS_KEYWORDS = {
 }
 
 def _classify_from_text(text):
+    """
+    Uses a manualy created mapping to classify organisations.
+
+    """
     t = text.lower()
     for kw, cls in _CLASS_KEYWORDS.items():
         if kw in t:
@@ -234,6 +248,10 @@ def _classify_from_text(text):
     return "Organisation"
 
 def makeName(string):
+    """
+    Creates names for individuals according to the chosen convention (camel case for things)
+
+    """
     if string is not None:
         string = string.replace('&', 'and')
         words = re.findall(r'\b[A-Za-z0-9]+\b', string)
@@ -247,11 +265,16 @@ def makeName(string):
         return ''.join(result)
     return ''
 
-def handle_corp_division(graph: Graph, name: str):
+def handle_corp_division(graph, name):
+    """
+    Detects whether a geographical location is mentioned in the Organisation Name,
+        if yes, creates a specific ad general name for the Organisation (e.g. BMW (Germany) becomes BMW and BMW Germany)
+
+    """
     if "(" in name and name.endswith(")"):
         # general and specific names
-        general_name = name[:name.index("(")].strip()  # e.g., "Google"
-        specific_name = name.replace("(", "").replace(")", "").strip()  # e.g., "Google United States"
+        general_name = name[:name.index("(")].strip()  
+        specific_name = name.replace("(", "").replace(")", "").strip()  
         print("general name", general_name, ", specific name:", specific_name)
         # uri
         specific_uri = URIRef(f"{RPO}{specific_name.replace(' ', '')}")
@@ -260,7 +283,6 @@ def handle_corp_division(graph: Graph, name: str):
         if len(general_name) > 1:
             graph.add((specific_uri, RPO.part_of, general_uri))
             graph.add((RPO.part_of, RDF.type, OWL.ObjectProperty))
-            #graph.add((specific_uri, OWL.sameAs, general_uri))
 
             graph.add((specific_uri, RDF.type, RPO.Organisation))
             graph.add((general_uri, RDF.type, RPO.Organisation))
@@ -274,6 +296,10 @@ DBPEDIA_SPARQL = "https://dbpedia.org/sparql"
 HEADERS = {"User-Agent": "ontology-lookup/0.1"}
 
 def get_dbpedia_class(entity_name):
+    """
+    Quries DBpedia for additional information about Organisations.
+
+    """
     uri = f"http://dbpedia.org/resource/{entity_name.replace(' ', '_').replace('-', '_').replace('.', '').replace(',', '')}"
     #print(f"trying uri {uri}")
     query = f"""
@@ -406,30 +432,16 @@ def get_dbpedia_leadership(entity_name):
         }
 
 def detailed_org(graph, name):
+    """
+    gahers key_person from DBpedia
+
+    """
     
     if "(" in name and name.endswith(")"):
         general_name = name[:name.index("(")].strip()
         handle_corp_division(graph, name)
     else:
         general_name = name
-    """ DELETED BC NOT USEFUL
-    try:
-        #print(general_name)
-        org = get_dbpedia_class(general_name)
-    except Exception as e:
-        print("exception class not found")
-        org = "Organisation"
-        
-    try:
-        result = get_dbpedia_location(general_name)
-        city = result.get("city")
-        #p("exception location not found")
-        city = "--"
-        country = "--"rint(city)
-        country = result.get("country")
-        #print(country)
-    except Exception as e:
-        #print """
     feature = ["keyPerson", None]    
     leadership = get_dbpedia_leadership(general_name)
     for key, value in leadership.items():
@@ -446,6 +458,10 @@ def detailed_org(graph, name):
 
 
 def get_funder_info(graph, paper_id, meta, authors):
+    """
+    Gathers information about funders and grants from openalex and crossref (often incomplete)
+
+    """
 
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
     cross = meta.get("crossref") or {}
@@ -460,28 +476,14 @@ def get_funder_info(graph, paper_id, meta, authors):
         print(f"    added funder {name}")
         
         more_fi = detailed_org(graph, name)
-        """ DELETED DUE TO DETAILED_ORG FUNCTION CHANGE
-        if more_fi.get("class"):
-            graph.add((funder_uri, RDF.type, RPO[more_fi.get("class")]))
-        if more_fi.get("city"):
-            graph.add((funder_uri, RPO.located_in, RPO[makeName(more_fi.get("city"))]))
-            graph.add((RPO[makeName(more_fi.get("city"))], RDF.type, RPO.City))
-            print("added funder city for", name)
-        if more_fi.get("country"):
-            graph.add((funder_uri, RPO.located_in, RPO[makeName(more_fi.get("country"))]))
-            graph.add((RPO[makeName(more_fi.get("country"))], RDF.type, RPO.Country))
-        """ 
         if more_fi.get("key_person"):
             graph.add((funder_uri, RDF.key_person, RPO[makeName(more_fi.get("key_person"))]))
 
-
         # Paper - funder link
         graph.add((paper_uri, RPO.funded_by, funder_uri))
-
         # Author - funder link
         for a in authors:
             graph.add((a, RPO.funded_by, funder_uri))
-
         # Grants
         for award in f.get("award", []):
             grant_uri = URIRef(f"{RPO}grant/{_slugify(award)}")
@@ -508,12 +510,14 @@ def get_funder_info(graph, paper_id, meta, authors):
             graph.add((funder_uri, RPO.funds, grant_uri))
             graph.add((RPO.funds, RDF.type, OWL.ObjectProperty))
             #print(f"    added grant info of {award}")
-
-    
     
 _citation_id_counter = count(start=10_000)   # unique Ids for unseen papers
 
 def get_citation_info(graph, paper_id, meta):
+    """
+    created links between dataset articles and articles cited by them
+
+    """
 
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
     oa = meta.get("openalex")
@@ -541,6 +545,10 @@ def get_citation_info(graph, paper_id, meta):
 
 #publisher information
 def get_publishing_info(graph, paper_id, meta):
+    """
+    Gathers information about publishing entity
+
+    """
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
 
     oa = meta.get("openalex") or {}
@@ -557,7 +565,7 @@ def get_publishing_info(graph, paper_id, meta):
 
     print(f"     publisher: {publisher_name}")
 
-    # Create URI-safe ID
+    # create URI-safe id
     publisher_id = publisher_name.replace(" ", "_").replace(",", "").replace(".", "")
     publisher_uri = URIRef(f"{RPO}org/{publisher_id}")
 
@@ -565,10 +573,9 @@ def get_publishing_info(graph, paper_id, meta):
     graph.add((RPO.published_by, RDF.type, OWL.ObjectProperty))
     graph.add((publisher_uri, RDF.type, RPO.Organisation))
 
-    # Detect publishing platform type
+    #detect publishing platform type
     oa_type = source.get("type", "").lower()
     cr_type = cr.get("type_crossref", "").lower()
-
     if oa_type == "journal" or cr_type == "journal-article":
         graph.add((publisher_uri, RDF.type, RPO.Journal))
     elif oa_type == "conference" or cr_type == "proceedings-article":
@@ -582,7 +589,6 @@ def get_publishing_info(graph, paper_id, meta):
     if more.get("key_person"):
         graph.add((publisher_uri, RPO.key_person, RPO[makeName(more.get("key_person"))]))
         
-
     # Add readable name
     graph.add((publisher_uri, RPO.has_name, Literal(publisher_name)))
 
@@ -634,10 +640,6 @@ def _geo_hierarchy(qid):
     return res
 
 def get_geo_info(graph: Graph):
-    """
-    For every *literal* object of rpo:located_in, look up Wikidata and add
-    broader places:  city -> state -> country -> continent.
-    """
     for s, p, o in list(graph.triples((None, RPO.located_in, None))):
         if not isinstance(o, Literal):
             continue  # already a URIRef, skip
@@ -647,14 +649,14 @@ def get_geo_info(graph: Graph):
         if not qid:
             continue
 
-        # Create URI for the original place
+        #create URI for the original place
         place_uri = URIRef(f"{RPO}place/{_slugify(place_name)}")
         graph.remove((s, RPO.located_in, o))
         graph.add((s, RPO.located_in, place_uri))
         graph.add((place_uri, RDF.type, RPO.Place))
         graph.add((place_uri, RDFS.label, Literal(place_name)))
 
-        # Add broader hierarchy
+        # add broader hierarchy
         hierarchy = _geo_hierarchy(qid)
         parent_uri = place_uri
         for lvl in ("state", "country", "continent"):
@@ -664,20 +666,8 @@ def get_geo_info(graph: Graph):
                 graph.add((lvl_uri, RDF.type, RPO.Place))
                 graph.add((lvl_uri, RDFS.label, Literal(label)))
                 graph.add((parent_uri, RPO.located_in, lvl_uri))
-                parent_uri = lvl_uri   # walk upwards
+                parent_uri = lvl_uri
 
-
-"""def get_concepts_info():
-    types in my ontology: Topic, ResearchField, ResearchArea, Goal, Ideology, Keyword, SocietalProblem
-    add all the below mentioned features as instances of their types and add triples like paperuri has_topic topic etc.
-    #openalex topics
-    #cso topics
-    #ResearchField, ResearchArea
-    #keywords
-    #Goal
-    #SocietalProblem
-    pass"""
-    
 def _concept_class(level):
 
     if level == 0:
@@ -687,12 +677,15 @@ def _concept_class(level):
     return RPO.Topic
 
 def get_concepts_info(graph, paper_id, meta):
+    """
+    gathers research areas an fields, keywords, topics, sustainable development goals (SDG) form openalex
+
+    """
     paper_uri = URIRef(f"{RPO}paper/{paper_id}")
     
     if not meta.get("openalex"):
         return
-
-    # OpenAlex concepts (fields of study)
+    #openalex concepts (fields of study)
     if "concepts" in meta.get("openalex"):
         for c in meta.get("openalex", {}).get("concepts", []):
             name = c.get("display_name")
@@ -705,13 +698,13 @@ def get_concepts_info(graph, paper_id, meta):
             graph.add((paper_uri, RPO.has_topic, concept_uri))
             graph.add((RPO.has_topic, RDF.type, OWL.ObjectProperty))
 
-    # Crossref/OpenAlex keywords (if any)
+    # keywords
     keywords = meta.get("openalex", {}).get("keywords", [])
     for kw in keywords:
         if isinstance(kw, dict):  # if keyword is a dict with display_name
             kw_name = kw.get("display_name")
         else:
-            kw_name = kw  # assume it's a plain string
+            kw_name = kw
         if not kw_name:
             continue
         kw_uri = URIRef(f"{RPO}{makeName(kw_name)}")
@@ -728,53 +721,14 @@ def get_concepts_info(graph, paper_id, meta):
             graph.add((paper_uri, RPO.addresses, RPO[makeName(name)]))
             graph.add((RPO.addresses, RDF.type, OWL.ObjectProperty))
 
-"""def main():
-    folder = Path("test_papers_txt")
-    
-    #uncomment to load papers from folder
-    #papers = process_all_papers(folder)
-    
-    #or use pickle
-    with open("papers.pkl", "rb") as f:
-        papers = pickle.load(f)
 
-    g = Graph()
-    g.bind("rpo", RPO)
-    g.bind("rdf", RDF)
-    g.bind("pro", PRO)
-    g.bind("foaf", FOAF)
-
-    for pid, meta in papers.items():
-        add_paper(g, pid, meta)
-        authors = get_authors(g, pid, meta)
-        get_funder_info(g, pid, meta, authors)
-        get_citation_info(g, pid, meta)
-        get_publishing_info(g, pid, meta)
-        get_concepts_info(g, pid, meta)
-        
-    get_geo_info(g)
-
-    #PRINT STATEMENT: progress report
-    #print(f"Processed {len(papers)} paper(s):")
-    # ""for pid, meta in papers.items():
-    #    doi = (
-    #        (meta['openalex'] or {}).get('doi')
-    #        or (meta['crossref'] or {}).get('DOI')
-    #        or 'no‑doi'
-    #    )
-    #    print(f"  #{pid:<3} «{meta['title'][:60]}…» → DOI: {doi}")""
-
-    #serialize the graph for inspection
-    g.serialize("papers.ttl", format="turtle")
-    with open("papers.pkl", "wb") as f:
-        pickle.dump(papers, f)
-
-if __name__ == "__main__":
-    print(f"Current working directory: {Path.cwd()}")
-    main()
-    """
-    
 def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
+    """
+    construct subgraphs based on articlea_oa_cr_metadata.csv
+    creates chunks due to possible errors from dbpedia /wikidata (exhausting the API)
+    if an error occurs, change index and continue making subsequent subgraphs
+
+    """
     
     chunk_size = 100
     chunk_index = 1
@@ -810,7 +764,7 @@ def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
             }
             
             paper_counter += 1
-            if paper_counter > 0: #this was a helper statement before
+            if paper_counter > 0:
 
                 add_paper(g, paper_id, meta)
                 authors = get_authors(g, paper_id, meta)
@@ -825,7 +779,7 @@ def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
                     out_file = f"{output_prefix}_{chunk_index}.ttl"
                     g.serialize(destination=out_file, format="turtle")
 
-                    print(f"s aved chunk {chunk_index} to {out_file}")
+                    print(f"saved chunk {chunk_index} to {out_file}")
 
                     # reset counters and graph
                     chunk_index += 1
@@ -845,7 +799,7 @@ def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
             print(f"saved final chunk {chunk_index} to {out_file}")
             
     
-# RUN
+# ---------------------------- RUN -------------------------------
 csv_input = Path("articles_oa_cr_metadata.csv")
 kg_output = Path("subgraphs_oa_cr/kg1")
 

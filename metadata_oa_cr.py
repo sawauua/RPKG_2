@@ -20,8 +20,6 @@ RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 PRO  = Namespace("http://purl.org/spar/pro/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
     
-#!geo location to everything
-
 
 #search openalex by doi
 def search_openalex_by_doi(doi):

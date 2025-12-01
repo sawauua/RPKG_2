@@ -11,7 +11,7 @@ os.chdir("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
 def pdf_to_txt(pdf_path):
     """
         read pdfs and transform into txt and data
-        extracts:
+        extracts year of creation, doi, first author, title
             
     """
     with open(pdf_path, 'rb') as pdf_file:
@@ -23,7 +23,7 @@ def pdf_to_txt(pdf_path):
         
         gathered["year"] = metadata.creation_date.year
         
-        #extract title, author, doi from metadata
+        #extract title, author, doi from metadata if available
         if metadata.title is not None:
             title = metadata.title
             f_author = metadata.author
@@ -64,6 +64,8 @@ def extract_metadata_from_pdf(pdf_path):
 
         page = doc[0]
         text_dict = page.get_text("dict")
+        
+        #search by font size
 
         spans_with_size = []
         for block in text_dict["blocks"]:
@@ -76,40 +78,19 @@ def extract_metadata_from_pdf(pdf_path):
         if not spans_with_size:
             return metadata
 
-        # Sort by descending font size (largest text is likely title)
+        # sort by descending font size (largest text is likely title)
         sorted_spans = sorted(spans_with_size, key=lambda x: -x[1])
         top_size = sorted_spans[0][1]
 
-        # Collect all text with the top font size (title may be multiline)
+        #collect all text with the top font size (title may be in multiple lines)
         title_parts = [txt for txt, size in spans_with_size if abs(size - top_size) < 0.1]
         metadata["title"] = " ".join(title_parts).strip()
         
-        
-        """ USE THIS FOR SECTION EXTRACTION
-        # Find text right after the title for authors/affiliations
-        # Typically, authors are the next smaller font size
-        next_sizes = sorted(set(size for _, size in spans_with_size if size < top_size), reverse=True)
-        if next_sizes:
-            author_size = next_sizes[0]
-            author_texts = [txt for txt, size in spans_with_size if abs(size - author_size) < 0.1]
-            candidate_text = " ".join(author_texts)
-            # Split by commas or semicolons
-            possible_authors = re.split(r',|;', candidate_text)
-            authors = [a.strip() for a in possible_authors if 2 < len(a.strip()) < 100]
-            metadata["authors"] = ", ".join(authors)
-
-            # Affiliations often contain keywords
-            affiliations = [
-                a for a in authors
-                if re.search(r"University|Institute|College|Lab|Center|Department|@|School", a, re.I)
-            ]
-            metadata["affiliations"] = affiliations"""
-            
         # authors
         authors = extract_authors(full_text[:2000], metadata["title"])
         metadata["authors"] = authors
 
-        # Search full text for doi
+        # search full text for doi
         full_text = ""
         for page in doc:
             full_text += page.get_text("text") + "\n"
@@ -130,9 +111,9 @@ def extract_authors(text, title):
     # heuristic: lines between title and abstract
     lines = [l.strip() for l in snippet.split("\n") if l.strip()]
     if len(lines) > 0:
-        # authors usually appear on the second non-empty line on the first page snippet
+        # authors usually appear on the second non-empty line after title
         authors = lines[0]
-        authors = re.sub(r'\s*(?:\([^)]+\)|\[[^\]]+\]|\{[^}]+\})', '', authors)  # drop (…), […], {...}
+        authors = re.sub(r'\s*(?:\([^)]+\)|\[[^\]]+\]|\{[^}]+\})', '', authors)  
         authors = re.sub(r'[\u00B9\u00B2\u00B3\u0131\u2070-\u2079⁰¹²³⁴⁵⁶⁷⁸⁹]|[0-9]+', '', authors).strip()
         
         return normalize_text(authors)
