@@ -15,3 +15,8 @@
 14. Gather CS-KG information via the CS-KG Sparql endpoint using and cskg_chunks_query.txt save into /cskg_queries_results . oiginal queries were ran 6 time, each chunk for 200 ids.
 15. Run rdf_to_ttl.py (several times depending on chunk number) in /cskg_queries_results to tranform rdf cskg chunks into turtle
 16. Run merge_queried_cskg_chunks.py to merge cskg chunks into one cskg subgraph. Resulting file: cskg_output.ttl
+17. Run ner.ipynb to implement the NER on the paper content. Input: articles_sections_acknowledgments.csv Output: NER_dirty_fix.ttl
+18. Run query_research_entities.txt (dir /cskg_queries_results) to query CSKG and derive all possible research entities.
+19. Run res_ents_cskg_ner.py to partially match NER entities to CSKG entities. Output: NER_dirty_corrected_probably.ttl
+20. Run merge_ner_properly.ipynb to merge the three components: merged.ttl, cskg_output.ttl, NER_dirty_corrected_probably.ttl. Output: metadata_and_cskg.ttl.
+21. Run inferences.ipynb for final steps: querying wikidata and cleanup (careful, wikidata queries take a few hours).
