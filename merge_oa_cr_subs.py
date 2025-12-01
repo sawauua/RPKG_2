@@ -3,7 +3,6 @@ from pathlib import Path
 import os
 
 RPO  = Namespace("http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#")
-RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 PRO  = Namespace("http://purl.org/spar/pro/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 

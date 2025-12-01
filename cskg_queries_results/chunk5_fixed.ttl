@@ -1,0 +1,3591 @@
+@prefix cskg: <https://w3id.org/cskg/resource/> .
+@prefix cskg-ont: <https://w3id.org/cskg/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rpo:dummy rpo:dummyProp rpo:dummyVal .
+
+cskg:DummyEntity a cskg-ont:DummyClass .
+
+cskg:statement_10024626 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:websockets ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:continuous_and_reactive_data_access ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_10491277 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:cidoc_crm_reference_model ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:computational_ontology ;
+    prov:wasDerivedFrom cskg:W3095625862 .
+
+cskg:statement_106515 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:active_learning_method ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:task ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_10701344 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_datasets ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:semantic_model ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_10948105 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:extractsTask ;
+    rdf:subject cskg:knowledge_reasoner ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_11307981 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:entity_enrichment ;
+    prov:wasDerivedFrom cskg:W3203787185 .
+
+cskg:statement_11342956 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:link_prediction_approach ;
+    rdf:predicate cskg-ont:proposesMethod ;
+    rdf:subject cskg:literal ;
+    prov:wasDerivedFrom cskg:W3203283460 .
+
+cskg:statement_11364723 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:railway_domain ;
+    rdf:predicate cskg-ont:interacts-withMaterial ;
+    rdf:subject cskg:data_exchange ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_11416324 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:f1_score ;
+    rdf:predicate cskg-ont:analyzesMetric ;
+    rdf:subject cskg:deepfm ;
+    prov:wasDerivedFrom cskg:W3204097498 .
+
+cskg:statement_11476270 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_2_language_construct ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:synthetic_abox_axiom_generator ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_11604397 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:cultural_heritage_application ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:digital_humanity ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_11800375 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:digital_humanities_dh_research ;
+    rdf:predicate cskg-ont:linksTask ;
+    rdf:subject cskg:sampo_model ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_11828368 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantics ;
+    rdf:predicate cskg-ont:transfersMethod ;
+    rdf:subject cskg:owl_2_ql_ontology ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_11861805 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:wikibase ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:eu_knowledge_graph ;
+    prov:wasDerivedFrom cskg:W3203673500 .
+
+cskg:statement_120311 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:complementary_information ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:biological_system ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_12597628 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rich_correspondence_graph ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:selecting_informative_record_pair ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_13042858 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:use_case_development ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:system_architecture ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_13083956 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:european_authority ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:european_union_agency ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_13142660 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:violation_of_domain_constraint ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_13143327 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:matching_pattern ;
+    rdf:predicate cskg-ont:annotatesTask ;
+    rdf:subject cskg:supervised_entity_resolution_method ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_131858 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_language ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:shex ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_13225331 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:matching_pattern ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:supervised_entity_resolution_method ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_1324 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantics ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_1325 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:semantics ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_13250065 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontop ;
+    rdf:predicate cskg-ont:limitsMethod ;
+    rdf:subject cskg:legacy_relational_database ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_13880955 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:manufacturing ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:situational_awareness_framework ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_13993378 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ai_kg ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:intelligent_service ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_14353108 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:web_ontology_language ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_15003711 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:european_commission ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:eu_knowledge_graph ;
+    prov:wasDerivedFrom cskg:W3203673500 .
+
+cskg:statement_15035748 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology_predicate ;
+    rdf:predicate cskg-ont:proposesOtherEntity ;
+    rdf:subject cskg:cqs ;
+    prov:wasDerivedFrom cskg:W3203865089 .
+
+cskg:statement_15077597 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sensor_data_collection_and_processing ;
+    rdf:predicate cskg-ont:matchesTask ;
+    rdf:subject cskg:mobile_apps ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_15093644 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:literal ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:link_prediction_approach ;
+    prov:wasDerivedFrom cskg:W3203283460 .
+
+cskg:statement_15211551 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:resource_description_framework ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_15326366 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_knowledge ;
+    rdf:predicate cskg-ont:based-onMaterial ;
+    rdf:subject cskg:knowledge_graph ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_15383934 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:obda ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_15387712 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_analytic_tool ;
+    rdf:predicate cskg-ont:matchesMethod ;
+    rdf:subject cskg:mmm_portal ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_15425079 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:dynamic_window_approach ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_15454536 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:digital_information ;
+    rdf:predicate cskg-ont:predictsMaterial ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_15475426 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph_editing ;
+    rdf:predicate cskg-ont:based-onTask ;
+    rdf:subject cskg:schmatos ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_15678529 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ai_model ;
+    rdf:predicate cskg-ont:learnsMethod ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_16237821 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:trans_disciplinary_endeavor ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:abstractarchaeological_study ;
+    prov:wasDerivedFrom cskg:W3095625862 .
+
+cskg:statement_16361141 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:vertical_search_engine ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantic_markup ;
+    prov:wasDerivedFrom cskg:W3197320265 .
+
+cskg:statement_16504890 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:declarative_policy ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:query_answering ;
+    prov:wasDerivedFrom cskg:W3203865089 .
+
+cskg:statement_16967909 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:identifiesTask ;
+    rdf:subject cskg:iterative_approach_reasonkge ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_17097912 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:hdi ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_17132321 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:agrold ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_17177625 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:query_answering ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:reasoning ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_17239005 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:remote_graph_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:graphql ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_17905595 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:behavioral_rule ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_18006009 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:autonomous_logistics_vehicle ;
+    rdf:predicate cskg-ont:executesTask ;
+    rdf:subject cskg:automobile_manufacturing_plant ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_18079699 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdfs ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:ontology ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_18344253 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:word_embedding_algorithm ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:neo ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_19534826 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:case_based_reasoning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:rdf_annotation ;
+    prov:wasDerivedFrom cskg:W3087163425 .
+
+cskg:statement_20169032 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_base ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:kbqa ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_20193130 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_20205939 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_base ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:knowledge_base_question_answering ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_20248121 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3195545021 .
+
+cskg:statement_20270856 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_base ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:question_answering ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_20280283 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:wikidata ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_20295924 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:task ;
+    rdf:predicate cskg-ont:analyzesTask ;
+    rdf:subject cskg:f1_score ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_20296177 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:ontology ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_20448421 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_analytics ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:sampo_model ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_20489072 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_resource ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:wikidata ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_20710859 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:progs ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_20960135 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:active_learning_based_entity_resolution_method ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:multi_source_setting ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_21087757 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:discrete_search_space ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:metapaths ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_23178790 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:active_learning_based_entity_resolution_method ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:almser ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_23992773 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:nonsensical_prediction ;
+    rdf:predicate cskg-ont:guidesOtherEntity ;
+    rdf:subject cskg:semantics_of_entities_and_relation ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_24125785 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:metadata ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:semantic_markup ;
+    prov:wasDerivedFrom cskg:W3197320265 .
+
+cskg:statement_24154761 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ranking_of_entity ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:entity_ranking ;
+    prov:wasDerivedFrom cskg:W3203787185 .
+
+cskg:statement_24167413 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:solution ;
+    rdf:predicate cskg-ont:analyzesTask ;
+    rdf:subject cskg:millisecond_latency ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_24426614 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:falsity_of_fact ;
+    rdf:predicate cskg-ont:analyzesOtherEntity ;
+    rdf:subject cskg:property_graph ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_24450229 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_datasets ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:ai_pipeline ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_24512004 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:mobile_apps ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:mit_app_inventor ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_24564084 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:mobile_apps ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:mit_app_inventor ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_25001409 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:explicit_mapping_rule ;
+    rdf:predicate cskg-ont:producesOtherEntity ;
+    rdf:subject cskg:resource_description_framework ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_25442614 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:cqe ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:owl_2_ql ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_25493211 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:query_relevance ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:dataset_search ;
+    prov:wasDerivedFrom cskg:W3202929521 .
+
+cskg:statement_25577622 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:datalog_rule ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_25589611 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:user_specified_query ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:heterogeneous_graph ;
+    prov:wasDerivedFrom cskg:W3204061446 .
+
+cskg:statement_25711383 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:machine_learning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_driven_operation ;
+    prov:wasDerivedFrom cskg:W3204676723 .
+
+cskg:statement_25826201 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:plant_science ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_25864662 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:f_vqa_dataset ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:answer_based_zero_shot_vqa_split ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_25872396 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:supportsMaterial ;
+    rdf:subject cskg:cqels ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_25964640 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:cqels ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_2596853 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_enabled_framework ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_25983096 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_portal ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:digital_humanities_dh_research ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_26000573 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql_endpoint ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:lod_service ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_26002022 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_boosted_active_learning_method ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:almser ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_26004522 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_portal ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:digital_humanities_dh_research ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_26112000 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:european_railway_domain ;
+    rdf:predicate cskg-ont:includesMaterial ;
+    rdf:subject cskg:digital_interoperability ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_26488125 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontologies_of_units_of_measure ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:cloud_based_semantic_platform ;
+    prov:wasDerivedFrom cskg:W3097917501 .
+
+cskg:statement_26728777 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:apache_spark ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:geotriples_spark ;
+    prov:wasDerivedFrom cskg:W3202134957 .
+
+cskg:statement_26808288 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:biographical_information ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:register_description ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_26863684 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_2_language_construct ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:sparql_query ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_27312815 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:web_ontology_language ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_27540953 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:manuscript_study ;
+    rdf:predicate cskg-ont:solvesTask ;
+    rdf:subject cskg:data_analytic_tool ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_2813105 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reference_architecture ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_28256251 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:web_based_tool ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:esco ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_28571101 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:vehicle ;
+    rdf:predicate cskg-ont:executesTask ;
+    rdf:subject cskg:automobile_manufacturing_plant ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_28769475 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:open_collaborative_knowledge_base ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:wikidata ;
+    prov:wasDerivedFrom cskg:W3204097498 .
+
+cskg:statement_28850166 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_constraint ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:progs ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_29008224 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ai_model ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:internet_of_thing ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_29343979 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_representation ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3096981993 .
+
+cskg:statement_29357206 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate cskg-ont:learnsMethod ;
+    rdf:subject cskg:cqe ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_2938392 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:mask_based_learning_mechanism ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:answer_based_zero_shot_vqa_split ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_29421011 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:cqe ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_29770633 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_enabled_framework ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:robots_situational_awareness ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_29788049 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:benchmark ;
+    rdf:predicate cskg-ont:supportsMaterial ;
+    rdf:subject cskg:sparql_query_engine ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_29972201 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_centric_system_design ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_29975032 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_language ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_30499999 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_language ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantics ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_30516447 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_2_language_construct ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:ontology_benchmark ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_30608731 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:application_centric_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_exchange ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_30634453 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:online_job_vacancy ;
+    rdf:predicate cskg-ont:improvesTask ;
+    rdf:subject cskg:online_labour_market ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_30807223 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:robots_situational_awareness ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_31287961 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:metadata ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:noise_in_semantic_markup ;
+    prov:wasDerivedFrom cskg:W3197320265 .
+
+cskg:statement_31340318 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:resource_description_framework ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:general_purpose_keyword_search ;
+    prov:wasDerivedFrom cskg:W3203787185 .
+
+cskg:statement_31494527 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology_based_data_access ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_31826424 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:confidential_information ;
+    rdf:predicate cskg-ont:limitsMaterial ;
+    rdf:subject cskg:query_answer ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_31896575 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:induced_knowledge ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:dynamic_faceted_search ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_31905282 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:labeled_record_pair ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:supervised_entity_resolution_method ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_31998958 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:users_response ;
+    rdf:predicate cskg-ont:based-onMaterial ;
+    rdf:subject cskg:facet ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_32790500 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:taxonomy_enrichment_task ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:neo ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_33080697 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_structure ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:edg ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_3369 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:answer_set_programming ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:prototypical_validator ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_3382309 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dh_research_and_application ;
+    rdf:predicate cskg-ont:adaptsTask ;
+    rdf:subject cskg:external_tool ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_338242 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream_generator ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:rdf_stream_reasoner ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_34183353 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_tool ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:dh_research_and_application ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_34732841 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology ;
+    rdf:predicate cskg-ont:proposesMaterial ;
+    rdf:subject cskg:cqs ;
+    prov:wasDerivedFrom cskg:W3203865089 .
+
+cskg:statement_34791497 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:path_search ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:unsupervised_fact_checking_approach ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_34875688 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ai_model ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_34876289 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:remote_graph_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:rule_engine ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_34876820 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:path_search ;
+    rdf:predicate cskg-ont:analyzesTask ;
+    rdf:subject cskg:unsupervised_fact_checking_approach ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_35045525 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:semantic_layer ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_35074824 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:built_in_tutorial ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:platform ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_35178376 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_language ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantics_definition ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_35192804 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rich_correspondence_graph ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:almser ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_3528631 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_matching_and_extraction ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:existing_method ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_3540655 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology_predicate ;
+    rdf:predicate cskg-ont:proposesOtherEntity ;
+    rdf:subject cskg:comparison_predicate ;
+    prov:wasDerivedFrom cskg:W3203865089 .
+
+cskg:statement_3591041 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:obda_system ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:ontop ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_36022652 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:informative_pair ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:labeling ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_36138602 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:uk_production_system ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3195545021 .
+
+cskg:statement_36396976 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:task_negotiation ;
+    prov:wasDerivedFrom cskg:W3095598187 .
+
+cskg:statement_36821427 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:esther ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:metapaths ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_36961592 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:smartphone_capability ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:mobile_apps ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_37361498 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_layer ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_37684421 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:neo ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:taxonomy_enrichment_task ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_3820196 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_approximation ;
+    rdf:predicate cskg-ont:solvesMethod ;
+    rdf:subject cskg:fol ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_38295205 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:web_based_tool ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:neo ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_38420635 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:editor ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:annotation_of_document ;
+    prov:wasDerivedFrom cskg:W3087163425 .
+
+cskg:statement_38626491 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_triple ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:ai_kg ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_3888698 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shacl_based_web_form_generator ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:schmatos ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_39718929 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:esther ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:auc_roc ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_39905902 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:linked_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:sampo_model ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_39967192 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:apache_spark ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:rdf_graph ;
+    prov:wasDerivedFrom cskg:W3202134957 .
+
+cskg:statement_40155208 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:query_evaluation ;
+    rdf:predicate cskg-ont:transfersTask ;
+    rdf:subject cskg:owl_2_ql_ontology ;
+    prov:wasDerivedFrom cskg:W4307466367 .
+
+cskg:statement_40262539 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:domain_relevant_structure ;
+    rdf:predicate cskg-ont:supportsOtherEntity ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_40278428 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql_endpoint ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:external_tool ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_40418399 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:resource_description_framework ;
+    rdf:predicate cskg-ont:predictsMethod ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_40438430 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:biological_and_plant_sciences_question ;
+    rdf:predicate cskg-ont:transfersTask ;
+    rdf:subject cskg:domain_specific_knowledge_platform ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_40529180 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:real_world_web_stream ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:dbpedia_live_change ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_406863 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:scoring ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:unsupervised_fact_checking_approach ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_41400598 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:scaling_knowledge_graph ;
+    rdf:predicate cskg-ont:producesTask ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_42166625 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:benchmark ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:owl_2_reasoning ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_42438124 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:analytics ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:beeo ;
+    prov:wasDerivedFrom cskg:W3204676723 .
+
+cskg:statement_42498026 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:supervised_learning_task ;
+    rdf:predicate cskg-ont:solvesTask ;
+    rdf:subject cskg:artificial_neural_network_approach ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_42528372 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:supervised_learning_task ;
+    rdf:predicate cskg-ont:providesTask ;
+    rdf:subject cskg:artificial_neural_network_approach ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_42615358 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream_generator ;
+    rdf:predicate cskg-ont:limitsMethod ;
+    rdf:subject cskg:streaming_data ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_43260628 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_structure ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:entity_description_graph ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_43313543 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_base ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:edg_based_question_decomposition ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_43327021 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:ontology_reasoner ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_43582522 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ojvs ;
+    rdf:predicate cskg-ont:extractsMaterial ;
+    rdf:subject cskg:esco ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_43643430 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:embeddings ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_43702845 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:human_device_gesture_interaction_ontology ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:hdgi ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_44385872 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:relational_database ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:structured_digital_information ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_44387728 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:artificial_neural_network_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:supervised_learning_task ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_44476776 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:pointer_network ;
+    rdf:predicate cskg-ont:extractsMethod ;
+    rdf:subject cskg:bert ;
+    prov:wasDerivedFrom cskg:W3204339634 .
+
+cskg:statement_44704443 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology ;
+    rdf:predicate cskg-ont:based-onMaterial ;
+    rdf:subject cskg:rdfs ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_4482831 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:robot ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_44938309 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:edg_based_question_decomposition ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:complex_question_answering ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_45018288 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:active_learning_method ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:entity_resolution ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_45088034 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:bert ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:machine_reading_comprehension_model ;
+    prov:wasDerivedFrom cskg:W3204339634 .
+
+cskg:statement_45218172 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:complementary_training_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:correspondence_graph ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_45248024 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:w3c_standard ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:rdf_based_knowledge_graph ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_45336030 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_boosted_active_learning_method ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:multi_source_entity_resolution ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_45459372 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:complementary_training_data ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:correspondence_graph ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_45532722 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:resource_description_framework ;
+    rdf:predicate cskg-ont:providesMethod ;
+    rdf:subject cskg:data_centric_system_design ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_45623705 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_portal ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:mmm_system ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_45653897 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql_query_engine ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:owl_2_reasoning ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_46350587 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dfs ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:interactive_virtual_assistant ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_46355155 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_data ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:form_based_web_application ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_46410819 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ranging ;
+    rdf:predicate cskg-ont:matchesTask ;
+    rdf:subject cskg:mobile_apps ;
+    prov:wasDerivedFrom cskg:W3204473813 .
+
+cskg:statement_4670209 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontological_reasoning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:embeddings ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_46721900 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:continuous_and_reactive_data_access ;
+    rdf:predicate cskg-ont:transfersOtherEntity ;
+    rdf:subject cskg:websockets ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_46974369 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dbpedia ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:qa_system ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_47103895 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:gridded_temperature_data ;
+    rdf:predicate cskg-ont:includesMaterial ;
+    rdf:subject cskg:netcdf ;
+    prov:wasDerivedFrom cskg:W3204000521 .
+
+cskg:statement_47318160 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_community ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:owl_approximation ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_47468523 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:geographical_data ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:solar_radiation_data ;
+    prov:wasDerivedFrom cskg:W3204000521 .
+
+cskg:statement_48484049 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:domain_specific_knowledge_platform ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:biological_and_plant_sciences_question ;
+    prov:wasDerivedFrom cskg:W3201944507 .
+
+cskg:statement_48928644 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_interoperability ;
+    rdf:predicate cskg-ont:providesTask ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_49052597 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:feature_learning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:existing_method ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_49054640 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:engineer ;
+    rdf:predicate cskg-ont:includesMaterial ;
+    rdf:subject cskg:collaborative_work ;
+    prov:wasDerivedFrom cskg:W3095598187 .
+
+cskg:statement_49061966 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:includesTask ;
+    rdf:subject cskg:sparql_query ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_49281052 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:resource_description_framework ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_49497909 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_integration ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_49497912 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_integration ;
+    rdf:predicate cskg-ont:producesTask ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_49603758 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_based_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:semantic_representation ;
+    prov:wasDerivedFrom cskg:W3096981993 .
+
+cskg:statement_50111343 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:inconsistent_prediction ;
+    rdf:predicate cskg-ont:proposesTask ;
+    rdf:subject cskg:training_process ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_5037288 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:stream_reasoning_query_language ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:query_answering ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_51026240 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:transfersMaterial ;
+    rdf:subject cskg:domain_relevant_structure ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_51042899 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:rmlstreamer ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_51811012 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology_grounding_robots_observation ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_52201965 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ibm ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:reference_architecture ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_53222850 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:situational_awareness_framework ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:adaptive_behavior_of_autonomous_vehicle ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_5329953 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:historical_people_register_reconciliation ;
+    rdf:predicate cskg-ont:proposesTask ;
+    rdf:subject cskg:record_linkage ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_53403847 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ai_kg ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:decision_making ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_53649973 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:historical_people_register_reconciliation ;
+    rdf:predicate cskg-ont:providesTask ;
+    rdf:subject cskg:record_linkage ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_5398066 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:open_source_software_suite ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:chimera ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_5398878 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontop ;
+    rdf:predicate cskg-ont:limitsMethod ;
+    rdf:subject cskg:relational_database ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_54498290 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:taxonomic_concept ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:gasc_measure ;
+    prov:wasDerivedFrom cskg:W3096130309 .
+
+cskg:statement_54518927 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:inconsistent_prediction ;
+    rdf:predicate cskg-ont:adaptsTask ;
+    rdf:subject cskg:training_process ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_551097 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_stream ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:rmlstreamer ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_55321399 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:nonsensical_prediction ;
+    rdf:predicate cskg-ont:guidesOtherEntity ;
+    rdf:subject cskg:semantics ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_55423103 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:methodology ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:interactive_virtual_assistant ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_5547529 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:feature_learning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:matching_method ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_5554502 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:schemarank ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:running_time ;
+    prov:wasDerivedFrom cskg:W3204061446 .
+
+cskg:statement_55569044 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:extensible_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:query_relevance ;
+    prov:wasDerivedFrom cskg:W3202929521 .
+
+cskg:statement_55766191 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_55968701 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:pipeline_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:existing_method ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_56036765 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_language ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_56066943 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:answer_set_programming ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_56114063 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_based_data ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3096981993 .
+
+cskg:statement_56235053 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:falsity_of_fact ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_56529605 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dynamic_window_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:scalable_solution ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_56657108 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:resource_description_framework ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:ontology ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_56745547 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:prototypical_validator ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_5708315 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_interoperability ;
+    rdf:predicate cskg-ont:acquiresTask ;
+    rdf:subject cskg:resource_description_framework ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_5750262 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:kb_relation ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:kbqa ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_57505260 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:formal_semantics ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_57799130 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:learnsMaterial ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_57972776 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dynamic_heterogeneous_data_stream ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:rmlstreamer ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_58154838 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_description ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:genuine_and_spurious_relationship ;
+    prov:wasDerivedFrom cskg:W3203465137 .
+
+cskg:statement_58208317 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontology ;
+    rdf:predicate cskg-ont:based-onMaterial ;
+    rdf:subject cskg:semantic_web_standard ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_58241326 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_reasoner ;
+    rdf:predicate cskg-ont:includesMethod ;
+    rdf:subject cskg:aware ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_58675378 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_semantic_knowledge ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3096981993 .
+
+cskg:statement_58798308 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_layer ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_integration ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_5913212 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_based_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:semantic_descriptions_of_wikipedia_table ;
+    prov:wasDerivedFrom cskg:W3203465137 .
+
+cskg:statement_5925070 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:real_world_web_stream ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:wikimedia_eventstreams ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_59375276 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:lod_service ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:external_tool ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_59562399 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dfs ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:methodology ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_59579979 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_centric_system_design ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_interoperability ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_59663167 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:limitsMaterial ;
+    rdf:subject cskg:shacl ;
+    prov:wasDerivedFrom cskg:W3094985186 .
+
+cskg:statement_59746490 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:geographical_data ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:gridded_temperature_data ;
+    prov:wasDerivedFrom cskg:W3204000521 .
+
+cskg:statement_59845250 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:geographical_data ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:precipitation_data ;
+    prov:wasDerivedFrom cskg:W3204000521 .
+
+cskg:statement_59851481 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:tbox_axiom ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:owl2bench ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_59859830 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph_technology ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:answer_question ;
+    prov:wasDerivedFrom cskg:W3203834401 .
+
+cskg:statement_59970017 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontological_reasoning ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:knowledge_graph_embeddings ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_60289810 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:research_article ;
+    rdf:predicate cskg-ont:includesMaterial ;
+    rdf:subject cskg:abstractscientific_knowledge ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_60391704 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:research_article ;
+    rdf:predicate cskg-ont:contributes-toMaterial ;
+    rdf:subject cskg:abstractscientific_knowledge ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_60404267 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:research_article ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:abstractscientific_knowledge ;
+    prov:wasDerivedFrom cskg:W3092710364 .
+
+cskg:statement_60483906 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:geographical_data ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:government_data ;
+    prov:wasDerivedFrom cskg:W3204000521 .
+
+cskg:statement_60524943 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:obda_system ;
+    rdf:predicate cskg-ont:limitsMethod ;
+    rdf:subject cskg:legacy_relational_database ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_60563663 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_constraint ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:shape_language ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_60735542 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:violation_of_domain_constraint ;
+    rdf:predicate cskg-ont:analyzesTask ;
+    rdf:subject cskg:property_graph ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_60890426 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_standard ;
+    rdf:predicate cskg-ont:based-onMaterial ;
+    rdf:subject cskg:ontology ;
+    prov:wasDerivedFrom cskg:W3094960416 .
+
+cskg:statement_61291292 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph_technology ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_silo ;
+    prov:wasDerivedFrom cskg:W3203834401 .
+
+cskg:statement_61300014 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_integration ;
+    rdf:predicate cskg-ont:based-onTask ;
+    rdf:subject cskg:business_event_exchange_ontology ;
+    prov:wasDerivedFrom cskg:W3204676723 .
+
+cskg:statement_61300382 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_stream ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:dynamic_window_approach ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_61394054 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:zero_shot_vqa_algorithm ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_61500507 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:mask_based_learning_mechanism ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:zero_shot_vqa_algorithm ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_61705811 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:producesTask ;
+    rdf:subject cskg:symbolic_reasoning_inconsistent_prediction ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_62014256 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:cloud_based_semantic_platform ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:digital_twins_of_real_industry_asset ;
+    prov:wasDerivedFrom cskg:W3097917501 .
+
+cskg:statement_62489180 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:entity_ranking ;
+    rdf:predicate cskg-ont:improvesTask ;
+    rdf:subject cskg:ranking_of_entity ;
+    prov:wasDerivedFrom cskg:W3203787185 .
+
+cskg:statement_62537546 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:relational_database ;
+    rdf:predicate cskg-ont:predictsMaterial ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_62554647 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:active_learning_method ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:f1_score ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_62583535 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_layer ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_62709048 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:answer_set_programming ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:directed_graph ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_62818117 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_description ;
+    rdf:predicate cskg-ont:managesMethod ;
+    rdf:subject cskg:solution ;
+    prov:wasDerivedFrom cskg:W3203465137 .
+
+cskg:statement_63029085 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:profiling_characteristic ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:multi_source_matching_task ;
+    prov:wasDerivedFrom cskg:W3202190154 .
+
+cskg:statement_63200627 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:shape_constraint ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:property_graph ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_6328336 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_analysis ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:data_driven_operation ;
+    prov:wasDerivedFrom cskg:W3204676723 .
+
+cskg:statement_63375092 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:symbolic_reasoning_inconsistent_prediction ;
+    rdf:predicate cskg-ont:identifiesTask ;
+    rdf:subject cskg:iterative_approach_reasonkge ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_6343560 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:graph_structure ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:structure_of_complex_question ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_63724924 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparql ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:relational_database ;
+    prov:wasDerivedFrom cskg:W3202819518 .
+
+cskg:statement_63848960 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_model ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:ai_modelling_pipeline ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_63862641 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_2_language_construct ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:ontology ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_63927315 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:ml_based_quality_monitoring_method ;
+    prov:wasDerivedFrom cskg:W3095598187 .
+
+cskg:statement_64520969 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:stream_reasoning_query_language ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:c_sparql ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_64548259 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:producesMaterial ;
+    rdf:subject cskg:ibm ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_64665355 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:pipeline_approach ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:matching_method ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_64760333 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:reasoning ;
+    rdf:predicate cskg-ont:supportsTask ;
+    rdf:subject cskg:sparql_query_engine ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_64913708 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dh_research_and_application ;
+    rdf:predicate cskg-ont:adaptsTask ;
+    rdf:subject cskg:lod_service ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_65188456 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:query_answering ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_65192969 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:edgqa ;
+    rdf:predicate cskg-ont:analyzesMethod ;
+    rdf:subject cskg:qald_9 ;
+    prov:wasDerivedFrom cskg:W3203638210 .
+
+cskg:statement_65214721 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:base_registry ;
+    rdf:predicate cskg-ont:producesOtherEntity ;
+    rdf:subject cskg:semantic_web ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_65226964 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:state_of_the_art ;
+    rdf:predicate cskg-ont:analyzesMetric ;
+    rdf:subject cskg:millisecond_latency ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_65280098 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:sparse_genealogical_information ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:artificial_neural_network_approach ;
+    prov:wasDerivedFrom cskg:W3202572935 .
+
+cskg:statement_65387207 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:linked_data_principle ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:data_centric_system_design ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_65621786 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:distant_supervision ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:understanding_data_center ;
+    prov:wasDerivedFrom cskg:W3096981993 .
+
+cskg:statement_65718887 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:approach_esther ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:metapaths ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_65999403 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_interoperability ;
+    rdf:predicate cskg-ont:providesTask ;
+    rdf:subject cskg:linked_data_principle ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_66169571 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:embedding_model ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:reasoning ;
+    prov:wasDerivedFrom cskg:W3201736551 .
+
+cskg:statement_66548586 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:lod_service ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:dh_research_and_application ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_66648318 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:digital_interoperability ;
+    prov:wasDerivedFrom cskg:W3190898519 .
+
+cskg:statement_66723870 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:property_graph ;
+    rdf:predicate cskg-ont:producesMethod ;
+    rdf:subject cskg:semantics_definition ;
+    prov:wasDerivedFrom cskg:W3185529913 .
+
+cskg:statement_66786798 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:user_query ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:it_service_provider ;
+    prov:wasDerivedFrom cskg:W3094959403 .
+
+cskg:statement_66979475 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:concept_extraction_framework ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:large_scale_multi_granular_concept ;
+    prov:wasDerivedFrom cskg:W3204339634 .
+
+cskg:statement_67425240 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:automobile_manufacturing_plant ;
+    rdf:predicate cskg-ont:executesTask ;
+    rdf:subject cskg:logistics ;
+    prov:wasDerivedFrom cskg:W3095378303 .
+
+cskg:statement_67478299 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:query_language ;
+    rdf:predicate cskg-ont:executesMethod ;
+    rdf:subject cskg:stream_reasoning_initiative ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_7197883 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:ontop ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:sparql ;
+    prov:wasDerivedFrom cskg:W3201703729 .
+
+cskg:statement_7215309 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:compositional_embeddings ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:fact_checking ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_7428046 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_community ;
+    rdf:predicate cskg-ont:supportsMaterial ;
+    rdf:subject cskg:owl_approximation ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_7480246 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:streaming_data ;
+    rdf:predicate cskg-ont:limitsMaterial ;
+    rdf:subject cskg:rdf_stream_generator ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_7610732 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:benchmark ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:reasoning ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_7737074 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:rdf_stream ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:scalable_solution ;
+    prov:wasDerivedFrom cskg:W4307475884 .
+
+cskg:statement_7778601 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:external_datasets ;
+    rdf:predicate cskg-ont:executesMaterial ;
+    rdf:subject cskg:semantic_model ;
+    prov:wasDerivedFrom cskg:W4307475720 .
+
+cskg:statement_8051006 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:semantic_web_ontology ;
+    rdf:predicate cskg-ont:based-onMethod ;
+    rdf:subject cskg:resource_description_framework ;
+    prov:wasDerivedFrom cskg:W3202202588 .
+
+cskg:statement_8166215 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:data_analytic_tool ;
+    rdf:predicate cskg-ont:supportsMethod ;
+    rdf:subject cskg:mmm_portal ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_8398683 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:query_language ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:stream_reasoning_initiative ;
+    prov:wasDerivedFrom cskg:W3097119315 .
+
+cskg:statement_8909775 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:pattern_coverage_snippet ;
+    rdf:predicate cskg-ont:usesMethod ;
+    rdf:subject cskg:patterns_of_entity_description ;
+    prov:wasDerivedFrom cskg:W3202929521 .
+
+cskg:statement_903290 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:digital_humanities_dh_research ;
+    rdf:predicate cskg-ont:usesTask ;
+    rdf:subject cskg:sampo_model ;
+    prov:wasDerivedFrom cskg:W3193515054 .
+
+cskg:statement_9129470 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:dataset_markup ;
+    rdf:predicate cskg-ont:usesOtherEntity ;
+    rdf:subject cskg:dataset_searchs_web_scale_corpus ;
+    prov:wasDerivedFrom cskg:W3197320265 .
+
+cskg:statement_9273207 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:usesMaterial ;
+    rdf:subject cskg:zero_shot_visual_question_answering ;
+    prov:wasDerivedFrom cskg:W3202473058 .
+
+cskg:statement_9334781 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:owl_2_language_construct ;
+    rdf:predicate cskg-ont:includesOtherEntity ;
+    rdf:subject cskg:sparql_query ;
+    prov:wasDerivedFrom cskg:W3095329754 .
+
+cskg:statement_949715 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:knowledge_graph ;
+    rdf:predicate cskg-ont:analyzesMaterial ;
+    rdf:subject cskg:unsupervised_fact_checking_approach ;
+    prov:wasDerivedFrom cskg:W3201684697 .
+
+cskg:statement_9669470 a prov:Entity,
+        cskg-ont:Statement ;
+    rdf:object cskg:automated_manufacturing ;
+    rdf:predicate skos:broader ;
+    rdf:subject cskg:welding ;
+    prov:wasDerivedFrom cskg:W3095598187 .
+
+cskg-ont:acquiresTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:analyzesMaterial a owl:ObjectProperty .
+
+cskg-ont:analyzesOtherEntity a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:annotatesTask a owl:ObjectProperty .
+
+cskg-ont:contributes-toMaterial a owl:ObjectProperty .
+
+cskg-ont:executesMaterial a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:executesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:extractsMaterial a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:extractsMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:extractsTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:includesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:interacts-withMaterial a owl:ObjectProperty .
+
+cskg-ont:learnsMaterial a owl:ObjectProperty .
+
+cskg-ont:linksTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:managesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:matchesMethod a owl:ObjectProperty .
+
+cskg-ont:predictsMethod a owl:ObjectProperty .
+
+cskg-ont:proposesMaterial a owl:ObjectProperty .
+
+cskg-ont:proposesMethod a owl:ObjectProperty .
+
+cskg-ont:providesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:solvesMethod a owl:ObjectProperty .
+
+cskg-ont:supportsOtherEntity a owl:ObjectProperty .
+
+cskg-ont:transfersMethod a owl:ObjectProperty .
+
+cskg-ont:transfersOtherEntity a owl:ObjectProperty .
+
+cskg-ont:analyzesMetric a owl:ObjectProperty .
+
+cskg-ont:based-onTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:guidesOtherEntity a owl:ObjectProperty .
+
+cskg-ont:identifiesTask a owl:ObjectProperty .
+
+cskg-ont:improvesTask a owl:ObjectProperty .
+
+cskg-ont:learnsMethod a owl:ObjectProperty .
+
+cskg-ont:matchesTask a owl:ObjectProperty .
+
+cskg-ont:predictsMaterial a owl:ObjectProperty .
+
+cskg-ont:producesOtherEntity a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:proposesOtherEntity a owl:ObjectProperty .
+
+cskg-ont:proposesTask a owl:ObjectProperty .
+
+cskg-ont:solvesTask a owl:ObjectProperty .
+
+cskg-ont:transfersTask a owl:ObjectProperty .
+
+cskg:W3087163425 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_38"^^xsd:anyURI ;
+    rpo:mentions cskg:annotation_of_document,
+        cskg:case_based_reasoning,
+        cskg:editor,
+        cskg:rdf_annotation .
+
+cskg:W3095625862 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_43"^^xsd:anyURI ;
+    rpo:mentions cskg:abstractarchaeological_study,
+        cskg:cidoc_crm_reference_model,
+        cskg:computational_ontology,
+        cskg:trans_disciplinary_endeavor .
+
+cskg:W3097917501 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_34"^^xsd:anyURI ;
+    rpo:mentions cskg:cloud_based_semantic_platform,
+        cskg:digital_twins_of_real_industry_asset,
+        cskg:ontologies_of_units_of_measure .
+
+cskg:W3195545021 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_39"^^xsd:anyURI ;
+    rpo:mentions cskg:methodology,
+        cskg:semantic_web,
+        cskg:uk_production_system .
+
+cskg:W3202134957 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_28"^^xsd:anyURI ;
+    rpo:mentions cskg:apache_spark,
+        cskg:geotriples_spark,
+        cskg:rdf_graph .
+
+cskg:W3203283460 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_30"^^xsd:anyURI ;
+    rpo:mentions cskg:link_prediction_approach,
+        cskg:literal .
+
+cskg:W3203673500 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_37"^^xsd:anyURI ;
+    rpo:mentions cskg:eu_knowledge_graph,
+        cskg:european_commission,
+        cskg:wikibase .
+
+cskg:W3203834401 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_41"^^xsd:anyURI ;
+    rpo:mentions cskg:answer_question,
+        cskg:data_silo,
+        cskg:knowledge_graph_technology .
+
+cskg:W3204061446 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_13"^^xsd:anyURI ;
+    rpo:mentions cskg:heterogeneous_graph,
+        cskg:running_time,
+        cskg:schemarank,
+        cskg:user_specified_query .
+
+cskg:W3204097498 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_3"^^xsd:anyURI ;
+    rpo:mentions cskg:deepfm,
+        cskg:f1_score,
+        cskg:open_collaborative_knowledge_base,
+        cskg:wikidata .
+
+cskg:abstractarchaeological_study a cskg-ont:Task .
+
+cskg:adaptive_behavior_of_autonomous_vehicle a cskg-ont:Task .
+
+cskg:agrold a cskg-ont:Method .
+
+cskg:ai_modelling_pipeline a cskg-ont:Method .
+
+cskg:ai_pipeline a cskg-ont:Method .
+
+cskg:analytics a cskg-ont:Task .
+
+cskg:annotation_of_document a cskg-ont:Task .
+
+cskg:answer_question a cskg-ont:Material .
+
+cskg:application_centric_approach a cskg-ont:Method .
+
+cskg:approach_esther a cskg-ont:Method .
+
+cskg:auc_roc a cskg-ont:Metric .
+
+cskg:automated_manufacturing a cskg-ont:Task .
+
+cskg:autonomous_logistics_vehicle a cskg-ont:Task .
+
+cskg:base_registry a cskg-ont:OtherEntity .
+
+cskg:beeo a cskg-ont:Method .
+
+cskg:behavioral_rule a cskg-ont:Method .
+
+cskg:biographical_information a cskg-ont:Material .
+
+cskg:biological_system a cskg-ont:Method .
+
+cskg:built_in_tutorial a cskg-ont:OtherEntity .
+
+cskg:business_event_exchange_ontology a cskg-ont:Method .
+
+cskg:c_sparql a cskg-ont:Method .
+
+cskg:case_based_reasoning a cskg-ont:Method .
+
+cskg:chimera a cskg-ont:Method .
+
+cskg:cidoc_crm_reference_model a cskg-ont:Method .
+
+cskg:collaborative_work a cskg-ont:Material .
+
+cskg:comparison_predicate a cskg-ont:OtherEntity .
+
+cskg:complementary_information a cskg-ont:Task .
+
+cskg:complex_question_answering a cskg-ont:Task .
+
+cskg:compositional_embeddings a cskg-ont:Method .
+
+cskg:computational_ontology a cskg-ont:Method .
+
+cskg:concept_extraction_framework a cskg-ont:Method .
+
+cskg:confidential_information a cskg-ont:Material .
+
+cskg:cultural_heritage_application a cskg-ont:Task .
+
+cskg:data_analysis a cskg-ont:Task .
+
+cskg:data_analytics a cskg-ont:Task .
+
+cskg:data_silo a cskg-ont:Task .
+
+cskg:datalog_rule a cskg-ont:Method .
+
+cskg:dataset_markup a cskg-ont:OtherEntity .
+
+cskg:dataset_search a cskg-ont:Task .
+
+cskg:dataset_searchs_web_scale_corpus a cskg-ont:Task .
+
+cskg:dbpedia a cskg-ont:Material .
+
+cskg:dbpedia_live_change a cskg-ont:Material .
+
+cskg:decision_making a cskg-ont:Task .
+
+cskg:declarative_policy a cskg-ont:Method .
+
+cskg:deepfm a cskg-ont:Method .
+
+cskg:digital_humanity a cskg-ont:Task .
+
+cskg:digital_information a cskg-ont:Material .
+
+cskg:digital_twins_of_real_industry_asset a cskg-ont:OtherEntity .
+
+cskg:directed_graph a cskg-ont:Method .
+
+cskg:discrete_search_space a cskg-ont:OtherEntity .
+
+cskg:distant_supervision a cskg-ont:Task .
+
+cskg:dynamic_faceted_search a cskg-ont:Method .
+
+cskg:dynamic_heterogeneous_data_stream a cskg-ont:Material .
+
+cskg:edg a cskg-ont:Method .
+
+cskg:edgqa a cskg-ont:Method .
+
+cskg:editor a cskg-ont:Method .
+
+cskg:embedding_model a cskg-ont:Method .
+
+cskg:engineer a cskg-ont:Material .
+
+cskg:entity_description_graph a cskg-ont:Method .
+
+cskg:entity_enrichment a cskg-ont:Task .
+
+cskg:entity_resolution a cskg-ont:Task .
+
+cskg:european_authority a cskg-ont:Material .
+
+cskg:european_commission a cskg-ont:Material .
+
+cskg:european_railway_domain a cskg-ont:Material .
+
+cskg:european_union_agency a cskg-ont:Material .
+
+cskg:explicit_mapping_rule a cskg-ont:OtherEntity .
+
+cskg:extensible_approach a cskg-ont:Method .
+
+cskg:external_knowledge a cskg-ont:Material .
+
+cskg:external_semantic_knowledge a cskg-ont:OtherEntity .
+
+cskg:f_vqa_dataset a cskg-ont:Material .
+
+cskg:facet a cskg-ont:Method .
+
+cskg:fact_checking a cskg-ont:Task .
+
+cskg:fol a cskg-ont:Material .
+
+cskg:form_based_web_application a cskg-ont:Task .
+
+cskg:formal_semantics a cskg-ont:Method .
+
+cskg:gasc_measure a cskg-ont:Metric .
+
+cskg:general_purpose_keyword_search a cskg-ont:Method .
+
+cskg:genuine_and_spurious_relationship a cskg-ont:OtherEntity .
+
+cskg:geotriples_spark a cskg-ont:Method .
+
+cskg:government_data a cskg-ont:Material .
+
+cskg:graph_based_approach a cskg-ont:Method .
+
+cskg:graphql a cskg-ont:Method .
+
+cskg:hdgi a cskg-ont:Method .
+
+cskg:hdi a cskg-ont:Metric .
+
+cskg:heterogeneous_graph a cskg-ont:Method .
+
+cskg:human_device_gesture_interaction_ontology a cskg-ont:Method .
+
+cskg:induced_knowledge a cskg-ont:OtherEntity .
+
+cskg:informative_pair a cskg-ont:OtherEntity .
+
+cskg:intelligent_service a cskg-ont:Task .
+
+cskg:internet_of_thing a cskg-ont:Task .
+
+cskg:it_service_provider a cskg-ont:Method .
+
+cskg:kb_relation a cskg-ont:OtherEntity .
+
+cskg:knowledge_base_question_answering a cskg-ont:Task .
+
+cskg:knowledge_graph_editing a cskg-ont:Task .
+
+cskg:knowledge_graph_embeddings a cskg-ont:Method .
+
+cskg:knowledge_matching_and_extraction a cskg-ont:Task .
+
+cskg:labeled_record_pair a cskg-ont:Material .
+
+cskg:labeling a cskg-ont:Task .
+
+cskg:large_scale_multi_granular_concept a cskg-ont:OtherEntity .
+
+cskg:linked_data a cskg-ont:Material .
+
+cskg:logistics a cskg-ont:Task .
+
+cskg:machine_learning a cskg-ont:Method .
+
+cskg:machine_reading_comprehension_model a cskg-ont:Method .
+
+cskg:manufacturing a cskg-ont:Task .
+
+cskg:manuscript_study a cskg-ont:Task .
+
+cskg:ml_based_quality_monitoring_method a cskg-ont:Method .
+
+cskg:mmm_system a cskg-ont:Method .
+
+cskg:multi_source_entity_resolution a cskg-ont:Task .
+
+cskg:multi_source_matching_task a cskg-ont:Task .
+
+cskg:multi_source_setting a cskg-ont:Task .
+
+cskg:netcdf a cskg-ont:Material .
+
+cskg:noise_in_semantic_markup a cskg-ont:OtherEntity .
+
+cskg:obda a cskg-ont:Method .
+
+cskg:ojvs a cskg-ont:Material .
+
+cskg:online_job_vacancy a cskg-ont:Task .
+
+cskg:online_labour_market a cskg-ont:Material .
+
+cskg:ontologies_of_units_of_measure a cskg-ont:Method .
+
+cskg:ontology_based_data_access a cskg-ont:Task .
+
+cskg:ontology_benchmark a cskg-ont:Material .
+
+cskg:ontology_grounding_robots_observation a cskg-ont:OtherEntity .
+
+cskg:ontology_reasoner a cskg-ont:Method .
+
+cskg:open_collaborative_knowledge_base a cskg-ont:Material .
+
+cskg:open_source_software_suite a cskg-ont:Method .
+
+cskg:owl2bench a cskg-ont:Material .
+
+cskg:owl_2_ql a cskg-ont:Method .
+
+cskg:pattern_coverage_snippet a cskg-ont:Method .
+
+cskg:patterns_of_entity_description a cskg-ont:OtherEntity .
+
+cskg:plant_science a cskg-ont:Task .
+
+cskg:platform a cskg-ont:Material .
+
+cskg:pointer_network a cskg-ont:Method .
+
+cskg:precipitation_data a cskg-ont:Material .
+
+cskg:profiling_characteristic a cskg-ont:OtherEntity .
+
+cskg:qa_system a cskg-ont:Method .
+
+cskg:qald_9 a cskg-ont:Method .
+
+cskg:query_answer a cskg-ont:Task .
+
+cskg:query_evaluation a cskg-ont:Task .
+
+cskg:question_answering a cskg-ont:Task .
+
+cskg:railway_domain a cskg-ont:Material .
+
+cskg:ranging a cskg-ont:Task .
+
+cskg:rdf_annotation a cskg-ont:Method .
+
+cskg:rdf_based_knowledge_graph a cskg-ont:OtherEntity .
+
+cskg:rdf_data a cskg-ont:Material .
+
+cskg:rdf_graph a cskg-ont:Method .
+
+cskg:rdf_stream_reasoner a cskg-ont:Method .
+
+cskg:rdf_triple a cskg-ont:Method .
+
+cskg:register_description a cskg-ont:Task .
+
+cskg:robot a cskg-ont:Task .
+
+cskg:rule_engine a cskg-ont:Method .
+
+cskg:running_time a cskg-ont:Metric .
+
+cskg:scaling_knowledge_graph a cskg-ont:Task .
+
+cskg:schemarank a cskg-ont:Method .
+
+cskg:scoring a cskg-ont:Task .
+
+cskg:selecting_informative_record_pair a cskg-ont:Task .
+
+cskg:semantic_descriptions_of_wikipedia_table a cskg-ont:OtherEntity .
+
+cskg:semantic_web_resource a cskg-ont:Material .
+
+cskg:semantics_of_entities_and_relation a cskg-ont:OtherEntity .
+
+cskg:sensor_data_collection_and_processing a cskg-ont:Task .
+
+cskg:shacl_based_web_form_generator a cskg-ont:Method .
+
+cskg:shex a cskg-ont:Method .
+
+cskg:smartphone_capability a cskg-ont:OtherEntity .
+
+cskg:solar_radiation_data a cskg-ont:Material .
+
+cskg:sparse_genealogical_information a cskg-ont:OtherEntity .
+
+cskg:state_of_the_art a cskg-ont:Metric .
+
+cskg:structure_of_complex_question a cskg-ont:OtherEntity .
+
+cskg:structured_digital_information a cskg-ont:Material .
+
+cskg:synthetic_abox_axiom_generator a cskg-ont:Method .
+
+cskg:system_architecture a cskg-ont:Method .
+
+cskg:task_negotiation a cskg-ont:Task .
+
+cskg:taxonomic_concept a cskg-ont:Method .
+
+cskg:tbox_axiom a cskg-ont:OtherEntity .
+
+cskg:trans_disciplinary_endeavor a cskg-ont:Task .
+
+cskg:uk_production_system a cskg-ont:Method .
+
+cskg:understanding_data_center a cskg-ont:Task .
+
+cskg:use_case_development a cskg-ont:Task .
+
+cskg:user_query a cskg-ont:Material .
+
+cskg:user_specified_query a cskg-ont:OtherEntity .
+
+cskg:users_response a cskg-ont:Material .
+
+cskg:vehicle a cskg-ont:Task .
+
+cskg:vertical_search_engine a cskg-ont:Method .
+
+cskg:w3c_standard a cskg-ont:Material .
+
+cskg:welding a cskg-ont:Task .
+
+cskg:wikibase a cskg-ont:Material .
+
+cskg:wikimedia_eventstreams a cskg-ont:Material .
+
+cskg:word_embedding_algorithm a cskg-ont:Method .
+
+cskg:zero_shot_visual_question_answering a cskg-ont:Task .
+
+cskg-ont:adaptsTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:executesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:limitsMaterial a owl:ObjectProperty .
+
+cskg-ont:producesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:supportsMaterial a owl:ObjectProperty .
+
+cskg:W3202929521 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_1"^^xsd:anyURI ;
+    rpo:mentions cskg:dataset_search,
+        cskg:extensible_approach,
+        cskg:pattern_coverage_snippet,
+        cskg:patterns_of_entity_description,
+        cskg:query_relevance .
+
+cskg:W3203465137 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_18"^^xsd:anyURI ;
+    rpo:mentions cskg:genuine_and_spurious_relationship,
+        cskg:graph_based_approach,
+        cskg:semantic_description,
+        cskg:semantic_descriptions_of_wikipedia_table,
+        cskg:solution .
+
+cskg:W3204339634 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_6"^^xsd:anyURI ;
+    rpo:mentions cskg:bert,
+        cskg:concept_extraction_framework,
+        cskg:large_scale_multi_granular_concept,
+        cskg:machine_reading_comprehension_model,
+        cskg:pointer_network .
+
+cskg:active_learning_based_entity_resolution_method a cskg-ont:Method .
+
+cskg:answer_based_zero_shot_vqa_split a cskg-ont:Method .
+
+cskg:apache_spark a cskg-ont:Method .
+
+cskg:bert a cskg-ont:Method .
+
+cskg:biological_and_plant_sciences_question a cskg-ont:Task .
+
+cskg:cloud_based_semantic_platform a cskg-ont:Method .
+
+cskg:complementary_training_data a cskg-ont:Material .
+
+cskg:continuous_and_reactive_data_access a cskg-ont:OtherEntity .
+
+cskg:correspondence_graph a cskg-ont:OtherEntity .
+
+cskg:cqels a cskg-ont:Method .
+
+cskg:cqs a cskg-ont:Method .
+
+cskg:data_driven_operation a cskg-ont:Task .
+
+cskg:data_exchange a cskg-ont:Task .
+
+cskg:data_stream a cskg-ont:Material .
+
+cskg:dfs a cskg-ont:Method .
+
+cskg:digital_interoperability a cskg-ont:Task .
+
+cskg:domain_relevant_structure a cskg-ont:OtherEntity .
+
+cskg:domain_specific_knowledge_platform a cskg-ont:Method .
+
+cskg:edg_based_question_decomposition a cskg-ont:Method .
+
+cskg:embeddings a cskg-ont:Method .
+
+cskg:entity_ranking a cskg-ont:Task .
+
+cskg:esco a cskg-ont:Method .
+
+cskg:esther a cskg-ont:Method .
+
+cskg:eu_knowledge_graph a cskg-ont:OtherEntity .
+
+cskg:falsity_of_fact a cskg-ont:OtherEntity .
+
+cskg:feature_learning a cskg-ont:Method .
+
+cskg:graph_based_data a cskg-ont:Material .
+
+cskg:graph_boosted_active_learning_method a cskg-ont:Method .
+
+cskg:gridded_temperature_data a cskg-ont:Material .
+
+cskg:historical_people_register_reconciliation a cskg-ont:Task .
+
+cskg:inconsistent_prediction a cskg-ont:Task .
+
+cskg:interactive_virtual_assistant a cskg-ont:Method .
+
+cskg:iterative_approach_reasonkge a cskg-ont:Method .
+
+cskg:kbqa a cskg-ont:Method .
+
+cskg:knowledge_enabled_framework a cskg-ont:Method .
+
+cskg:knowledge_graph_technology a cskg-ont:Method .
+
+cskg:knowledge_reasoner a cskg-ont:Method .
+
+cskg:legacy_relational_database a cskg-ont:Material .
+
+cskg:link_prediction_approach a cskg-ont:Method .
+
+cskg:linked_data_principle a cskg-ont:Method .
+
+cskg:literal a cskg-ont:Task .
+
+cskg:mask_based_learning_mechanism a cskg-ont:Method .
+
+cskg:matching_method a cskg-ont:Method .
+
+cskg:matching_pattern a cskg-ont:Task .
+
+cskg:metadata a cskg-ont:Material .
+
+cskg:millisecond_latency a cskg-ont:Metric .
+
+cskg:mit_app_inventor a cskg-ont:Method .
+
+cskg:mmm_portal a cskg-ont:Method .
+
+cskg:nonsensical_prediction a cskg-ont:OtherEntity .
+
+cskg:obda_system a cskg-ont:Method .
+
+cskg:ontological_reasoning a cskg-ont:Method .
+
+cskg:ontology_predicate a cskg-ont:OtherEntity .
+
+cskg:owl_2_ql_ontology a cskg-ont:Material .
+
+cskg:owl_2_reasoning a cskg-ont:Task .
+
+cskg:path_search a cskg-ont:Task .
+
+cskg:pipeline_approach a cskg-ont:Method .
+
+cskg:progs a cskg-ont:Method .
+
+cskg:prototypical_validator a cskg-ont:Method .
+
+cskg:query_language a cskg-ont:Method .
+
+cskg:query_relevance a cskg-ont:OtherEntity .
+
+cskg:ranking_of_entity a cskg-ont:Task .
+
+cskg:rdfs a cskg-ont:Method .
+
+cskg:real_world_web_stream a cskg-ont:Material .
+
+cskg:record_linkage a cskg-ont:Task .
+
+cskg:reference_architecture a cskg-ont:Method .
+
+cskg:remote_graph_data a cskg-ont:Material .
+
+cskg:rich_correspondence_graph a cskg-ont:OtherEntity .
+
+cskg:robots_situational_awareness a cskg-ont:Task .
+
+cskg:scalable_solution a cskg-ont:Method .
+
+cskg:schmatos a cskg-ont:Method .
+
+cskg:semantic_description a cskg-ont:Method .
+
+cskg:semantic_markup a cskg-ont:Method .
+
+cskg:semantic_representation a cskg-ont:Method .
+
+cskg:semantic_web_community a cskg-ont:Material .
+
+cskg:semantic_web_standard a cskg-ont:Material .
+
+cskg:semantics_definition a cskg-ont:Method .
+
+cskg:situational_awareness_framework a cskg-ont:Method .
+
+cskg:sparql_endpoint a cskg-ont:Method .
+
+cskg:stream_reasoning_initiative a cskg-ont:Method .
+
+cskg:stream_reasoning_query_language a cskg-ont:Method .
+
+cskg:streaming_data a cskg-ont:Material .
+
+cskg:symbolic_reasoning_inconsistent_prediction a cskg-ont:Task .
+
+cskg:task a cskg-ont:Task .
+
+cskg:taxonomy_enrichment_task a cskg-ont:Task .
+
+cskg:training_process a cskg-ont:Method .
+
+cskg:violation_of_domain_constraint a cskg-ont:Task .
+
+cskg:web_based_tool a cskg-ont:Method .
+
+cskg:web_ontology_language a cskg-ont:Method .
+
+cskg:websockets a cskg-ont:Material .
+
+cskg:zero_shot_vqa_algorithm a cskg-ont:Method .
+
+cskg-ont:analyzesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:includesMaterial a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:limitsMethod a owl:ObjectProperty .
+
+cskg-ont:providesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W3095598187 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_33"^^xsd:anyURI ;
+    rpo:mentions cskg:automated_manufacturing,
+        cskg:collaborative_work,
+        cskg:engineer,
+        cskg:ml_based_quality_monitoring_method,
+        cskg:ontology,
+        cskg:semantic_web,
+        cskg:task_negotiation,
+        cskg:welding .
+
+cskg:W3197320265 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_20"^^xsd:anyURI ;
+    rpo:mentions cskg:dataset_markup,
+        cskg:dataset_searchs_web_scale_corpus,
+        cskg:metadata,
+        cskg:noise_in_semantic_markup,
+        cskg:semantic_markup,
+        cskg:vertical_search_engine .
+
+cskg:W3203787185 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_14"^^xsd:anyURI ;
+    rpo:mentions cskg:entity_enrichment,
+        cskg:entity_ranking,
+        cskg:general_purpose_keyword_search,
+        cskg:ranking_of_entity,
+        cskg:resource_description_framework,
+        cskg:sparql .
+
+cskg:W3203865089 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_22"^^xsd:anyURI ;
+    rpo:mentions cskg:comparison_predicate,
+        cskg:cqs,
+        cskg:declarative_policy,
+        cskg:ontology,
+        cskg:ontology_predicate,
+        cskg:query_answering .
+
+cskg:W3204676723 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_34"^^xsd:anyURI ;
+    rpo:mentions cskg:analytics,
+        cskg:beeo,
+        cskg:business_event_exchange_ontology,
+        cskg:data_analysis,
+        cskg:data_driven_operation,
+        cskg:data_integration,
+        cskg:machine_learning .
+
+cskg:abstractscientific_knowledge a cskg-ont:OtherEntity .
+
+cskg:active_learning_method a cskg-ont:Method .
+
+cskg:ai_kg a cskg-ont:Method .
+
+cskg:ai_model a cskg-ont:Method .
+
+cskg:almser a cskg-ont:Method .
+
+cskg:answer_set_programming a cskg-ont:Method .
+
+cskg:automobile_manufacturing_plant a cskg-ont:Task .
+
+cskg:benchmark a cskg-ont:Material .
+
+cskg:cqe a cskg-ont:Method .
+
+cskg:data_analytic_tool a cskg-ont:Method .
+
+cskg:dynamic_window_approach a cskg-ont:Method .
+
+cskg:existing_method a cskg-ont:Method .
+
+cskg:external_datasets a cskg-ont:Material .
+
+cskg:graph_structure a cskg-ont:Method .
+
+cskg:metapaths a cskg-ont:Method .
+
+cskg:owl_approximation a cskg-ont:Method .
+
+cskg:rdf_stream_generator a cskg-ont:Method .
+
+cskg:research_article a cskg-ont:Material .
+
+cskg:rmlstreamer a cskg-ont:Method .
+
+cskg:semantic_model a cskg-ont:Method .
+
+cskg:semantic_portal a cskg-ont:Method .
+
+cskg:shape_constraint a cskg-ont:Method .
+
+cskg:solution a cskg-ont:Task .
+
+cskg:sparql_query a cskg-ont:Method .
+
+cskg:sparql_query_engine a cskg-ont:Method .
+
+cskg:supervised_entity_resolution_method a cskg-ont:Method .
+
+cskg:supervised_learning_task a cskg-ont:Task .
+
+cskg-ont:based-onMaterial a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W3096981993 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_37"^^xsd:anyURI ;
+    rpo:mentions cskg:distant_supervision,
+        cskg:external_semantic_knowledge,
+        cskg:graph_based_data,
+        cskg:methodology,
+        cskg:semantic_representation,
+        cskg:understanding_data_center .
+
+cskg:W3204000521 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_25"^^xsd:anyURI ;
+    rpo:mentions cskg:geographical_data,
+        cskg:government_data,
+        cskg:gridded_temperature_data,
+        cskg:netcdf,
+        cskg:precipitation_data,
+        cskg:solar_radiation_data .
+
+cskg:artificial_neural_network_approach a cskg-ont:Method .
+
+cskg:data_centric_system_design a cskg-ont:Method .
+
+cskg:data_interoperability a cskg-ont:Task .
+
+cskg:dh_research_and_application a cskg-ont:Task .
+
+cskg:digital_humanities_dh_research a cskg-ont:Task .
+
+cskg:external_tool a cskg-ont:Method .
+
+cskg:f1_score a cskg-ont:Metric .
+
+cskg:geographical_data a cskg-ont:Material .
+
+cskg:knowledge_base a cskg-ont:Material .
+
+cskg:lod_service a cskg-ont:Task .
+
+cskg:neo a cskg-ont:Method .
+
+cskg:ontop a cskg-ont:Method .
+
+cskg:sampo_model a cskg-ont:Method .
+
+cskg:semantic_layer a cskg-ont:Method .
+
+cskg:unsupervised_fact_checking_approach a cskg-ont:Method .
+
+cskg-ont:transfersMaterial a owl:ObjectProperty .
+
+cskg:W3092710364 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_9"^^xsd:anyURI ;
+    rpo:mentions cskg:abstractscientific_knowledge,
+        cskg:ai_kg,
+        cskg:decision_making,
+        cskg:intelligent_service,
+        cskg:rdf_triple,
+        cskg:research_article .
+
+cskg:W3097119315 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_39"^^xsd:anyURI ;
+    rpo:mentions cskg:continuous_and_reactive_data_access,
+        cskg:dbpedia_live_change,
+        cskg:query_language,
+        cskg:real_world_web_stream,
+        cskg:stream_reasoning_initiative,
+        cskg:websockets,
+        cskg:wikimedia_eventstreams .
+
+cskg:W3201944507 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_29"^^xsd:anyURI ;
+    rpo:mentions cskg:agrold,
+        cskg:biological_and_plant_sciences_question,
+        cskg:biological_system,
+        cskg:complementary_information,
+        cskg:domain_specific_knowledge_platform,
+        cskg:knowledge_graph,
+        cskg:plant_science,
+        cskg:semantic_web .
+
+cskg:W4307466367 rpo:doi "https%3A//doi.org/10.1007/978-3-031-19433-7_25"^^xsd:anyURI ;
+    rpo:mentions cskg:confidential_information,
+        cskg:cqe,
+        cskg:owl_2_ql,
+        cskg:owl_2_ql_ontology,
+        cskg:query_answer,
+        cskg:query_evaluation,
+        cskg:semantic_web_ontology,
+        cskg:semantics .
+
+cskg:data_integration a cskg-ont:Task .
+
+cskg:mobile_apps a cskg-ont:Method .
+
+cskg:owl_2_language_construct a cskg-ont:OtherEntity .
+
+cskg:query_answering a cskg-ont:Task .
+
+cskg:relational_database a cskg-ont:Material .
+
+cskg:wikidata a cskg-ont:Material .
+
+cskg-ont:based-onMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:includesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:supportsMethod a owl:ObjectProperty .
+
+cskg:W3094959403 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_42"^^xsd:anyURI ;
+    rpo:mentions cskg:dfs,
+        cskg:dynamic_faceted_search,
+        cskg:facet,
+        cskg:induced_knowledge,
+        cskg:interactive_virtual_assistant,
+        cskg:it_service_provider,
+        cskg:methodology,
+        cskg:semantic_web_resource,
+        cskg:user_query,
+        cskg:users_response,
+        cskg:wikidata .
+
+cskg:W3094960416 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_8"^^xsd:anyURI ;
+    rpo:mentions cskg:hdgi,
+        cskg:hdi,
+        cskg:human_device_gesture_interaction_ontology,
+        cskg:ontology,
+        cskg:rdfs,
+        cskg:resource_description_framework,
+        cskg:semantic_web_standard .
+
+cskg:W3094985186 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_5"^^xsd:anyURI ;
+    rpo:mentions cskg:domain_relevant_structure,
+        cskg:form_based_web_application,
+        cskg:knowledge_graph,
+        cskg:knowledge_graph_editing,
+        cskg:rdf_based_knowledge_graph,
+        cskg:rdf_data,
+        cskg:schmatos,
+        cskg:shacl,
+        cskg:shacl_based_web_form_generator,
+        cskg:w3c_standard .
+
+cskg:W3202202588 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_15"^^xsd:anyURI ;
+    rpo:mentions cskg:fol,
+        cskg:owl_approximation,
+        cskg:resource_description_framework,
+        cskg:semantic_web_community,
+        cskg:semantic_web_ontology,
+        cskg:web_ontology_language .
+
+cskg:aware a cskg-ont:Method .
+
+cskg:rdf_stream a cskg-ont:Material .
+
+cskg:shape_language a cskg-ont:Method .
+
+cskg:sparql a cskg-ont:Method .
+
+cskg-ont:analyzesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W3096130309 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_35"^^xsd:anyURI ;
+    rpo:mentions cskg:esco,
+        cskg:gasc_measure,
+        cskg:neo,
+        cskg:ojvs,
+        cskg:online_job_vacancy,
+        cskg:online_labour_market,
+        cskg:taxonomic_concept,
+        cskg:taxonomy_enrichment_task,
+        cskg:web_based_tool,
+        cskg:word_embedding_algorithm .
+
+cskg:W3201703729 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_27"^^xsd:anyURI ;
+    rpo:mentions cskg:chimera,
+        cskg:legacy_relational_database,
+        cskg:obda,
+        cskg:obda_system,
+        cskg:ontology_based_data_access,
+        cskg:ontop,
+        cskg:open_source_software_suite,
+        cskg:relational_database,
+        cskg:semantic_web,
+        cskg:sparql .
+
+cskg:W3202572935 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_42"^^xsd:anyURI ;
+    rpo:mentions cskg:artificial_neural_network_approach,
+        cskg:biographical_information,
+        cskg:cultural_heritage_application,
+        cskg:digital_humanity,
+        cskg:historical_people_register_reconciliation,
+        cskg:record_linkage,
+        cskg:register_description,
+        cskg:sparse_genealogical_information,
+        cskg:supervised_learning_task .
+
+cskg:W3202819518 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_2"^^xsd:anyURI ;
+    rpo:mentions cskg:datalog_rule,
+        cskg:digital_information,
+        cskg:explicit_mapping_rule,
+        cskg:relational_database,
+        cskg:resource_description_framework,
+        cskg:semantic_web,
+        cskg:shacl,
+        cskg:sparql,
+        cskg:structured_digital_information .
+
+cskg:W3204473813 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_33"^^xsd:anyURI ;
+    rpo:mentions cskg:built_in_tutorial,
+        cskg:graphql,
+        cskg:mit_app_inventor,
+        cskg:mobile_apps,
+        cskg:platform,
+        cskg:ranging,
+        cskg:remote_graph_data,
+        cskg:rule_engine,
+        cskg:sensor_data_collection_and_processing,
+        cskg:smartphone_capability .
+
+cskg:ibm a cskg-ont:Method .
+
+cskg:semantic_web_ontology a cskg-ont:Method .
+
+cskg:semantics a cskg-ont:Method .
+
+cskg-ont:includesOtherEntity a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W3201684697 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_16"^^xsd:anyURI ;
+    rpo:mentions cskg:approach_esther,
+        cskg:auc_roc,
+        cskg:compositional_embeddings,
+        cskg:discrete_search_space,
+        cskg:esther,
+        cskg:fact_checking,
+        cskg:knowledge_graph,
+        cskg:metapaths,
+        cskg:path_search,
+        cskg:scoring,
+        cskg:unsupervised_fact_checking_approach .
+
+cskg-ont:producesMaterial a owl:ObjectProperty .
+
+cskg-ont:supportsTask a owl:ObjectProperty .
+
+cskg:methodology a cskg-ont:Method .
+
+cskg:W3201736551 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_24"^^xsd:anyURI ;
+    rpo:mentions cskg:embedding_model,
+        cskg:embeddings,
+        cskg:inconsistent_prediction,
+        cskg:iterative_approach_reasonkge,
+        cskg:knowledge_graph_embeddings,
+        cskg:nonsensical_prediction,
+        cskg:ontological_reasoning,
+        cskg:reasoning,
+        cskg:semantics,
+        cskg:semantics_of_entities_and_relation,
+        cskg:symbolic_reasoning_inconsistent_prediction,
+        cskg:training_process .
+
+cskg:W3202473058 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_9"^^xsd:anyURI ;
+    rpo:mentions cskg:answer_based_zero_shot_vqa_split,
+        cskg:existing_method,
+        cskg:external_knowledge,
+        cskg:f_vqa_dataset,
+        cskg:feature_learning,
+        cskg:knowledge_graph,
+        cskg:knowledge_matching_and_extraction,
+        cskg:mask_based_learning_mechanism,
+        cskg:matching_method,
+        cskg:pipeline_approach,
+        cskg:zero_shot_visual_question_answering,
+        cskg:zero_shot_vqa_algorithm .
+
+cskg:W3203638210 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_8"^^xsd:anyURI ;
+    rpo:mentions cskg:complex_question_answering,
+        cskg:dbpedia,
+        cskg:edg,
+        cskg:edg_based_question_decomposition,
+        cskg:edgqa,
+        cskg:entity_description_graph,
+        cskg:graph_structure,
+        cskg:kb_relation,
+        cskg:kbqa,
+        cskg:knowledge_base,
+        cskg:knowledge_base_question_answering,
+        cskg:qa_system,
+        cskg:qald_9,
+        cskg:question_answering,
+        cskg:structure_of_complex_question .
+
+cskg:property_graph a cskg-ont:Method .
+
+cskg-ont:usesOtherEntity a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W4307475720 rpo:doi "https%3A//doi.org/10.1007/978-3-031-19433-7_46"^^xsd:anyURI ;
+    rpo:mentions cskg:ai_model,
+        cskg:ai_modelling_pipeline,
+        cskg:ai_pipeline,
+        cskg:external_datasets,
+        cskg:ibm,
+        cskg:internet_of_thing,
+        cskg:knowledge_graph,
+        cskg:reference_architecture,
+        cskg:scaling_knowledge_graph,
+        cskg:semantic_model .
+
+cskg:shacl a cskg-ont:Method .
+
+cskg:W3095378303 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_40"^^xsd:anyURI ;
+    rpo:mentions cskg:adaptive_behavior_of_autonomous_vehicle,
+        cskg:automobile_manufacturing_plant,
+        cskg:autonomous_logistics_vehicle,
+        cskg:aware,
+        cskg:behavioral_rule,
+        cskg:knowledge_enabled_framework,
+        cskg:knowledge_reasoner,
+        cskg:logistics,
+        cskg:manufacturing,
+        cskg:ontology_grounding_robots_observation,
+        cskg:reasoning,
+        cskg:robot,
+        cskg:robots_situational_awareness,
+        cskg:situational_awareness_framework,
+        cskg:vehicle .
+
+cskg:W3095329754 rpo:doi "https%3A//doi.org/10.1007/978-3-030-62466-8_6"^^xsd:anyURI ;
+    rpo:mentions cskg:benchmark,
+        cskg:ontology,
+        cskg:ontology_benchmark,
+        cskg:ontology_reasoner,
+        cskg:owl2bench,
+        cskg:owl_2_language_construct,
+        cskg:owl_2_reasoning,
+        cskg:reasoning,
+        cskg:sparql_query,
+        cskg:sparql_query_engine,
+        cskg:synthetic_abox_axiom_generator,
+        cskg:tbox_axiom .
+
+cskg:ontology a cskg-ont:Material .
+
+cskg:resource_description_framework a cskg-ont:Method .
+
+cskg:reasoning a cskg-ont:Task .
+
+cskg-ont:producesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:usesTask a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg:W3193515054 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_36"^^xsd:anyURI ;
+    rpo:mentions cskg:data_analytic_tool,
+        cskg:data_analytics,
+        cskg:dh_research_and_application,
+        cskg:digital_humanities_dh_research,
+        cskg:external_tool,
+        cskg:linked_data,
+        cskg:lod_service,
+        cskg:manuscript_study,
+        cskg:mmm_portal,
+        cskg:mmm_system,
+        cskg:sampo_model,
+        cskg:semantic_portal,
+        cskg:sparql_endpoint .
+
+cskg:W3202190154 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_11"^^xsd:anyURI ;
+    rpo:mentions cskg:active_learning_based_entity_resolution_method,
+        cskg:active_learning_method,
+        cskg:almser,
+        cskg:complementary_training_data,
+        cskg:correspondence_graph,
+        cskg:entity_resolution,
+        cskg:f1_score,
+        cskg:graph_boosted_active_learning_method,
+        cskg:informative_pair,
+        cskg:labeled_record_pair,
+        cskg:labeling,
+        cskg:matching_pattern,
+        cskg:multi_source_entity_resolution,
+        cskg:multi_source_matching_task,
+        cskg:multi_source_setting,
+        cskg:profiling_characteristic,
+        cskg:rich_correspondence_graph,
+        cskg:selecting_informative_record_pair,
+        cskg:supervised_entity_resolution_method,
+        cskg:task .
+
+cskg:knowledge_graph a cskg-ont:Material .
+
+cskg:W4307475884 rpo:doi "https%3A//doi.org/10.1007/978-3-031-19433-7_40"^^xsd:anyURI ;
+    rpo:mentions cskg:c_sparql,
+        cskg:cqels,
+        cskg:data_stream,
+        cskg:dynamic_heterogeneous_data_stream,
+        cskg:dynamic_window_approach,
+        cskg:millisecond_latency,
+        cskg:query_answering,
+        cskg:rdf_stream,
+        cskg:rdf_stream_generator,
+        cskg:rdf_stream_reasoner,
+        cskg:reasoning,
+        cskg:rmlstreamer,
+        cskg:scalable_solution,
+        cskg:solution,
+        cskg:state_of_the_art,
+        cskg:stream_reasoning_query_language,
+        cskg:streaming_data .
+
+cskg:W3190898519 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_38"^^xsd:anyURI ;
+    rpo:mentions cskg:application_centric_approach,
+        cskg:base_registry,
+        cskg:data_centric_system_design,
+        cskg:data_exchange,
+        cskg:data_integration,
+        cskg:data_interoperability,
+        cskg:digital_interoperability,
+        cskg:european_authority,
+        cskg:european_railway_domain,
+        cskg:european_union_agency,
+        cskg:linked_data_principle,
+        cskg:railway_domain,
+        cskg:resource_description_framework,
+        cskg:semantic_layer,
+        cskg:semantic_web,
+        cskg:system_architecture,
+        cskg:use_case_development .
+
+cskg:W3185529913 rpo:doi "https%3A//doi.org/10.1007/978-3-030-88361-4_23"^^xsd:anyURI ;
+    rpo:mentions cskg:answer_set_programming,
+        cskg:directed_graph,
+        cskg:falsity_of_fact,
+        cskg:formal_semantics,
+        cskg:knowledge_graph,
+        cskg:progs,
+        cskg:property_graph,
+        cskg:prototypical_validator,
+        cskg:semantics,
+        cskg:semantics_definition,
+        cskg:shacl,
+        cskg:shape_constraint,
+        cskg:shape_language,
+        cskg:shex,
+        cskg:violation_of_domain_constraint,
+        cskg:wikidata .
+
+cskg:semantic_web a cskg-ont:Method .
+
+cskg-ont:usesMaterial a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
+cskg-ont:usesMethod a owl:ObjectProperty,
+        owl:TransitiveProperty .
+
