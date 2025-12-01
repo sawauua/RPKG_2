@@ -1,0 +1,49 @@
+construct chunks for your oa_ids. paste oa_ids in VALUES
+
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX provo: <http://www.w3.org/ns/prov#> 
+PREFIX cso: <http://cso.kmi.open.ac.uk/schema/cso#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterm: <http://purl.org/dc/terms/>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+
+CONSTRUCT {
+      cskg:DummyEntity rdf:type cskg-ont:DummyClass .
+      rpo:dummy rpo:dummyProp rpo:dummyVal .
+
+    ?t rdf:subject ?sub ;
+       rdf:predicate ?prop ;
+       rdf:object ?obj ;
+       provo:wasDerivedFrom ?paperID .
+
+    ?sub rdf:type ?Stype .
+    ?prop rdf:type ?Ptype .
+    ?obj rdf:type ?Otype .
+    ?t   rdf:type ?Ttype .
+
+    ?paperID rpo:mentions ?sub .
+    ?paperID rpo:mentions ?obj .
+    ?paperID rpo:doi ?doi .
+}
+WHERE {
+
+    VALUES ?paperID {
+     cskg:W4403282458
+     cskg:W4404724828
+     cskg:W4404724886
+     cskg:W4404725077
+    }
+    ?t rdf:subject ?sub ;
+       rdf:predicate ?prop ;
+       rdf:object ?obj ;
+       provo:wasDerivedFrom ?paperID .
+
+    ?paperID cskg-ont:doi ?doi .
+
+    OPTIONAL { ?sub rdf:type ?Stype . }
+    OPTIONAL { ?prop rdf:type ?Ptype . }
+    OPTIONAL { ?obj rdf:type ?Otype . }
+    OPTIONAL { ?t   rdf:type ?Ttype . }
+}
