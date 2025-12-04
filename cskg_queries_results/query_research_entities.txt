@@ -1,0 +1,19 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX cskg: <https://w3id.org/cskg/resource/> # CS-KG resources 
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#> # CS-KG ontology 
+PREFIX provo: <http://www.w3.org/ns/prov#> 
+PREFIX cso: <http://cso.kmi.open.ac.uk/schema/cso#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterm: <http://purl.org/dc/terms/>
+
+SELECT DISTINCT ?entity ?predicate ?type WHERE {
+  VALUES ?type {
+    cskg-ont:Method
+    cskg-ont:Material
+    cskg-ont:Metric
+    cskg-ont:Task
+    cskg-ont:OtherEntity
+  }
+  ?entity a ?type .
+ BIND(rdf:type AS ?predicate)
+}

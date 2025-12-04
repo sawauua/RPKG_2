@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?location ?locationType (COUNT(DISTINCT ?paper) AS ?numPapers)
+WHERE {
+    ?paper rpo:funded_by ?funder .
+    ?paper rpo:written_by ?author .
+    ?author rpo:affiliated_with ?affiliation .
+
+    {
+        ?affiliation rpo:located_in ?location .
+    }
+    UNION
+    {
+        ?affiliation rpo:related_to ?location .
+    }
+
+    ?location rdf:type ?locationType .
+    FILTER (?locationType IN (rpo:City, rpo:Country, rpo:Continent))
+}
+GROUP BY ?location ?locationType
+ORDER BY DESC(?numPapers)

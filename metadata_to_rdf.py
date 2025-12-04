@@ -4,8 +4,6 @@ import os
 import csv
 import json
 import re
-import time
-import requests
 from itertools import count
 
 target_dir = Path("C:/Users/FTS Demo/Documents/rp_kg_project/RPKG_2")
@@ -13,7 +11,6 @@ os.chdir(target_dir)
 
 #prefixes to namespace uri
 RPO  = Namespace("http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#")
-PRO  = Namespace("http://purl.org/spar/pro/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
     
 
@@ -22,7 +19,7 @@ def add_paper(graph, paper_id, meta):
     #add general paper triples
     
     #create uri for the paper
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
 
     #base type
     graph.add((paper_uri, RDF.type, RPO["AcademicWork"]))
@@ -57,28 +54,29 @@ def add_paper(graph, paper_id, meta):
         if oa_id:
             graph.add((paper_uri, RPO.openalex_id, Literal(oa_id)))
             graph.add((RPO.openalex_id, RDF.type, OWL.DatatypeProperty))
-            print(f"     oa id {oa_id}")
+            #print(f"     oa id {oa_id}")
         
         year = (meta["openalex"].get("publication_year"))
         if year:
             graph.add((paper_uri, RPO.published_in_year, Literal(year)))
             graph.add((RPO.published_in_year, RDF.type, OWL.DatatypeProperty))
-            print(f"     year {year}")
+            #print(f"     year {year}")
 
         cites = meta["openalex"].get("cited_by_count")
         if cites is not None:
             graph.add((paper_uri, RPO.nr_of_citations, Literal(cites)))
             graph.add((RPO.nr_of_citations, RDF.type, OWL.DatatypeProperty))
-            print(f"     cit count {cites}")
+            #print(f"     cit count {cites}")
 
         lang = meta["openalex"].get("language")
         if lang:
             graph.add((paper_uri, RPO.language, Literal(lang)))
             graph.add((RPO.language, RDF.type, OWL.DatatypeProperty))
-            print(f"     lang {lang}")
+            #print(f"     lang {lang}")
         #print(f"    added {paper_id} basic metadata")
         
     elif meta["crossref"]:
+        print("OPENALEX NOT FOUND FOR", paper_id)
         pass
         
     graph.add((paper_uri, RPO.has_title, Literal(meta["title"])))
@@ -94,7 +92,7 @@ def get_authors(graph, paper_id, meta):
     Adds institutional data from extract_affiliation_from_mtadata().
 
     """
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
     oa = meta["openalex"]
     if not oa:
         return
@@ -106,7 +104,7 @@ def get_authors(graph, paper_id, meta):
         full_name = auth["author"]["display_name"]
         auth_uri = URIRef(f"{RPO}{makeName(full_name)}")
         if auth_id:
-            graph.add((auth_uri, RPO.has_id, RPO[auth_id]))
+            graph.add((auth_uri, RPO.has_id, Literal(auth_id)))
             graph.add((RPO.has_id, RDF.type, OWL.DatatypeProperty))
         graph.add((auth_uri, RDF.type, RPO.Author))
         graph.add((auth_uri, FOAF.name, Literal(full_name)))
@@ -118,13 +116,6 @@ def get_authors(graph, paper_id, meta):
             affi_name = makeName(aff_name)
             graph.add((auth_uri, RPO.affiliated_with, RPO[affi_name]))
             graph.add((RPO.affiliated_with, RDF.type, OWL.ObjectProperty))
-            
-            info = extract_affiliations_from_metadata(auth)
-            
-            more = detailed_org(graph, info.get("institution"))
-            if more.get("key_person") is not None:
-                graph.add((RPO[affi_name], RPO.key_person, RPO[makeName(more.get("key_person"))]))
-                graph.add((RPO.key_person, RDF.type, OWL.ObjectProperty))
             
         graph.add((auth_uri, RPO.wrote, paper_uri))
         graph.add((RPO.wrote, RDF.type, OWL.ObjectProperty))
@@ -286,184 +277,15 @@ def handle_corp_division(graph, name):
 
             graph.add((specific_uri, RDF.type, RPO.Organisation))
             graph.add((general_uri, RDF.type, RPO.Organisation))
-    
-
-# ------------------- end of helper functions -----------------
-
-# ------------------- scrap DBpedia for org info --------------
-
-DBPEDIA_SPARQL = "https://dbpedia.org/sparql"
-HEADERS = {"User-Agent": "ontology-lookup/0.1"}
-
-def get_dbpedia_class(entity_name):
-    """
-    Quries DBpedia for additional information about Organisations.
-
-    """
-    uri = f"http://dbpedia.org/resource/{entity_name.replace(' ', '_').replace('-', '_').replace('.', '').replace(',', '')}"
-    #print(f"trying uri {uri}")
-    query = f"""
-    PREFIX dbr: <http://dbpedia.org/resource/>
-    PREFIX dbo: <http://dbpedia.org/ontology/>
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-    SELECT DISTINCT ?superclass WHERE {{
-      <{uri}> rdf:type ?class .
-      ?class rdfs:subClassOf* ?superclass .
-      FILTER(STRSTARTS(STR(?superclass), "http://dbpedia.org/ontology/"))
-    }}
-    """
-    time.sleep(0.1)
-    response = requests.get(DBPEDIA_SPARQL, params={"query": query, "format": "json"}, headers=HEADERS, timeout=10)
-    response.raise_for_status()
-    data = response.json()
-
-    superclasses = [binding["superclass"]["value"] for binding in data["results"]["bindings"]]
-    scls = []
-    for cl in superclasses:
-        cl = cl[cl.index("y")+2:]
-        scls.append(cl)
-    return _classify_from_text("".join(scls))
-    
-def get_dbpedia_location(entity_name):
-
-    uri = (
-        "http://dbpedia.org/resource/"
-        + entity_name.replace(" ", "_")
-                      .replace("-", "_")
-                      .replace(".", "")
-                      .replace(",", "")
-    )
-
-    query = f"""
-    PREFIX dbo:  <http://dbpedia.org/ontology/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-    SELECT DISTINCT ?cityLabel ?countryLabel WHERE {{
-      OPTIONAL {{
-        <{uri}> dbo:location|dbo:headquarter|dbo:locationCity ?city .
-        ?city rdfs:label ?cityLabel FILTER (lang(?cityLabel)="en")
-      }}
-      OPTIONAL {{
-        <{uri}> dbo:country ?country .
-        ?country rdfs:label ?countryLabel FILTER (lang(?countryLabel)="en")
-      }}
-    }}
-    LIMIT 1
-    """
-    #time.sleep(0.8)
-    try:
-        res = requests.get(
-            DBPEDIA_SPARQL,
-            params={"query": query, "format": "json"},
-            headers=HEADERS,
-            timeout=15,
-        )
-        res.raise_for_status()
-        bindings = res.json()["results"]["bindings"]
-        if not bindings:
-            return {"city": None, "country": None}
-
-        row = bindings[0]
-        #print(row)
-        city    = row["cityLabel"]["value"]    if "cityLabel"    in row else None
-        country = row["countryLabel"]["value"] if "countryLabel" in row else None
-        return {"city": city, "country": country}
-
-    except requests.exceptions.RequestException as e:
-        #print(f"DBpedia location lookup failed for '{entity_name}': {e}")
-        return {"city": None, "country": None}
-    
-def get_dbpedia_leadership(entity_name):
-    uri = (
-        "http://dbpedia.org/resource/"
-        + entity_name.replace(" ", "_")
-                      .replace("-", "_")
-                      .replace(".", "")
-                      .replace(",", "")
-    )
-
-    query = f"""
-    PREFIX dbo: <http://dbpedia.org/ontology/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-    SELECT DISTINCT ?ownerLabel ?keyPersonLabel ?ceoLabel ?presidentLabel WHERE {{
-      OPTIONAL {{ <{uri}> dbo:owner      ?owner .       ?owner rdfs:label ?ownerLabel FILTER(lang(?ownerLabel)="en") }}
-      OPTIONAL {{ <{uri}> dbp:keyPeople  ?keyPeople .   ?keyPeople rdfs:label ?keyPersonLabel FILTER(lang(?keyPersonLabel)="en") }}
-      OPTIONAL {{ <{uri}> dbo:ceo        ?ceo .         ?ceo rdfs:label ?ceoLabel FILTER(lang(?ceoLabel)="en") }}
-      OPTIONAL {{ <{uri}> dbo:president  ?president .   ?president rdfs:label ?presidentLabel FILTER(lang(?presidentLabel)="en") }}
-    }}
-    LIMIT 1
-    """
-    time.sleep(0.05)
-    try:
-        response = requests.get(
-            DBPEDIA_SPARQL,
-            params={"query": query, "format": "json"},
-            headers=HEADERS,
-            timeout=15,
-        )
-        response.raise_for_status()
-        bindings = response.json()["results"]["bindings"]
-        if not bindings:
-            return {
-                "owner": None,
-                "key_person": None,
-                "ceo": None,
-                "president": None,
-            }
-
-        row = bindings[0]
-        return {
-            "owner": row.get("ownerLabel", {}).get("value"),
-            "key_person": row.get("keyPersonLabel", {}).get("value"),
-            "ceo": row.get("ceoLabel", {}).get("value"),
-            "president": row.get("presidentLabel", {}).get("value"),
-        }
-
-    except requests.exceptions.RequestException as e:
-        #print(f"DBpedia leadership lookup failed for '{entity_name}': {e}")
-        return {
-            "owner": None,
-            "key_person": None,
-            "ceo": None,
-            "president": None,
-        }
-
-def detailed_org(graph, name):
-    """
-    gahers key_person from DBpedia
-
-    """
-    
-    if "(" in name and name.endswith(")"):
-        general_name = name[:name.index("(")].strip()
-        handle_corp_division(graph, name)
-    else:
-        general_name = name
-    feature = ["keyPerson", None]    
-    leadership = get_dbpedia_leadership(general_name)
-    for key, value in leadership.items():
-        if value is not None:
-            feature = [key, value]
-    #if db lookup failed
-    return {
-        f"key_person":    feature[1],
-        "source":   "None",
-    }
-
-
-# ------------------- end of scrapping DBpedia --------------------
-
-
+            
+            
 def get_funder_info(graph, paper_id, meta, authors):
     """
     Gathers information about funders and grants from openalex and crossref (often incomplete)
 
     """
 
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
     cross = meta.get("crossref") or {}
     for f in cross.get("funder", []):
         name = f.get("name")
@@ -475,10 +297,6 @@ def get_funder_info(graph, paper_id, meta, authors):
         graph.add((funder_uri, RPO.has_name, Literal(name)))
         print(f"    added funder {name}")
         
-        more_fi = detailed_org(graph, name)
-        if more_fi.get("key_person"):
-            graph.add((funder_uri, RDF.key_person, RPO[makeName(more_fi.get("key_person"))]))
-
         # Paper - funder link
         graph.add((paper_uri, RPO.funded_by, funder_uri))
         # Author - funder link
@@ -486,7 +304,7 @@ def get_funder_info(graph, paper_id, meta, authors):
             graph.add((a, RPO.funded_by, funder_uri))
         # Grants
         for award in f.get("award", []):
-            grant_uri = URIRef(f"{RPO}grant/{_slugify(award)}")
+            grant_uri = RPO[_slugify(award)]
             graph.add((grant_uri, RDF.type, RPO.Grant))
             graph.add((grant_uri, RPO.grant_id, Literal(award)))
             graph.add((RPO.grant_id, RDF.type, OWL.DatatypeProperty))
@@ -499,7 +317,7 @@ def get_funder_info(graph, paper_id, meta, authors):
             #print(f"    added grant info of {award}")
             
         for award in f.get("grants", []):
-            grant_uri = URIRef(f"{RPO}grant/{_slugify(award)}")
+            grant_uri = RPO[_slugify(award)]
             graph.add((grant_uri, RDF.type, RPO.Grant))
             graph.add((grant_uri, RPO.grant_id, Literal(award)))
             graph.add((RPO.grant_id, RDF.type, OWL.DatatypeProperty))
@@ -519,7 +337,7 @@ def get_citation_info(graph, paper_id, meta):
 
     """
 
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
     oa = meta.get("openalex")
     if not oa:
         return
@@ -531,7 +349,7 @@ def get_citation_info(graph, paper_id, meta):
     for cited_oa in referenced:
         # create synthetic ID → URI
         cited_pid = next(_citation_id_counter)
-        cited_uri = URIRef(f"{RPO}paper/{cited_pid}")
+        cited_uri = RPO[f"paper{cited_pid}"]
 
         # minimal typing; metadata can be fetched later if desired
         graph.add((cited_uri, RDF.type, RPO.AcademicWork))
@@ -541,7 +359,7 @@ def get_citation_info(graph, paper_id, meta):
         graph.add((RPO.cites, RDF.type, OWL.ObjectProperty))
         graph.add((cited_uri, RPO.cited_by, paper_uri))
         graph.add((RPO.cited_by, RDF.type, OWL.ObjectProperty))
-    print(f"     added some citation info, for example {paper_id} cited {cited_pid}")
+    #print(f"     added some citation info, for example {paper_id} cited {cited_pid}")
 
 #publisher information
 def get_publishing_info(graph, paper_id, meta):
@@ -549,7 +367,7 @@ def get_publishing_info(graph, paper_id, meta):
     Gathers information about publishing entity
 
     """
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
 
     oa = meta.get("openalex") or {}
     cr = meta.get("crossref") or {}
@@ -563,11 +381,11 @@ def get_publishing_info(graph, paper_id, meta):
         if not publisher_name:
             return  # No publisher info available
 
-    print(f"     publisher: {publisher_name}")
+    #print(f"     publisher: {publisher_name}")
 
     # create URI-safe id
     publisher_id = publisher_name.replace(" ", "_").replace(",", "").replace(".", "")
-    publisher_uri = URIRef(f"{RPO}org/{publisher_id}")
+    publisher_uri = RPO[publisher_id]
 
     graph.add((paper_uri, RPO.published_by, publisher_uri))
     graph.add((RPO.published_by, RDF.type, OWL.ObjectProperty))
@@ -585,88 +403,8 @@ def get_publishing_info(graph, paper_id, meta):
     else:
         graph.add((publisher_uri, RDF.type, RPO.Organisation))  # fallback
         
-    more = detailed_org(graph, publisher_name)
-    if more.get("key_person"):
-        graph.add((publisher_uri, RPO.key_person, RPO[makeName(more.get("key_person"))]))
-        
     # Add readable name
     graph.add((publisher_uri, RPO.has_name, Literal(publisher_name)))
-
-# geospatial enrichment
-
-_WD_ENDPOINT = "https://query.wikidata.org/sparql"
-_WD_SEARCH   = "https://www.wikidata.org/w/api.php"
-_GEO_PROPS   = {
-    "state":       "P131",   # located in the admin. territorial entity
-    "country":     "P17",    # country
-    "continent":   "P30",    # continent
-}
-
-#@lru_cache(maxsize=1024)
-def _wikidata_qid(label):
-    params = {
-        "action": "wbsearchentities",
-        "search": label,
-        "language": "en",
-        "format": "json",
-        "type": "item",
-        "limit": 5
-    }
-    r = requests.get(_WD_SEARCH, params=params, timeout=15,
-                     headers={"User-Agent": "ontology-enricher/0.1"})
-    if not r.ok:
-        return None
-    for item in r.json().get("search", []):
-        if item["label"].lower() == label.lower():
-            return item["id"]
-    return None
-
-#@lru_cache(maxsize=1024)
-def _geo_hierarchy(qid):
-
-    select_parts = " ".join(f"OPTIONAL {{ wd:{qid} wdt:{prop} ?{lvl}. ?{lvl} rdfs:label ?{lvl}Label FILTER(lang(?{lvl}Label)='en') }}" 
-                            for lvl, prop in _GEO_PROPS.items())
-    q = f"SELECT * WHERE {{ {select_parts} }} LIMIT 1"
-    r = requests.get(_WD_ENDPOINT, params={"query": q, "format": "json"}, timeout=30,
-                     headers={"User-Agent": "ontology-enricher/0.1"})
-    res = {}
-    if r.ok:
-        for lvl in _GEO_PROPS:
-            lab = f"{lvl}Label"
-            ent = f"?{lvl}"
-            binding = r.json()["results"]["bindings"]
-            if binding and lab in binding[0]:
-                res[lvl] = (binding[0][lab]["value"], binding[0][ent[1:]]["value"].split("/")[-1])
-    return res
-
-def get_geo_info(graph: Graph):
-    for s, p, o in list(graph.triples((None, RPO.located_in, None))):
-        if not isinstance(o, Literal):
-            continue  # already a URIRef, skip
-
-        place_name = str(o)
-        qid = _wikidata_qid(place_name)
-        if not qid:
-            continue
-
-        #create URI for the original place
-        place_uri = URIRef(f"{RPO}place/{_slugify(place_name)}")
-        graph.remove((s, RPO.located_in, o))
-        graph.add((s, RPO.located_in, place_uri))
-        graph.add((place_uri, RDF.type, RPO.Place))
-        graph.add((place_uri, RDFS.label, Literal(place_name)))
-
-        # add broader hierarchy
-        hierarchy = _geo_hierarchy(qid)
-        parent_uri = place_uri
-        for lvl in ("state", "country", "continent"):
-            if lvl in hierarchy:
-                label, qid_lvl = hierarchy[lvl]
-                lvl_uri = URIRef(f"{RPO}place/{qid_lvl}")
-                graph.add((lvl_uri, RDF.type, RPO.Place))
-                graph.add((lvl_uri, RDFS.label, Literal(label)))
-                graph.add((parent_uri, RPO.located_in, lvl_uri))
-                parent_uri = lvl_uri
 
 def _concept_class(level):
 
@@ -681,7 +419,7 @@ def get_concepts_info(graph, paper_id, meta):
     gathers research areas an fields, keywords, topics, sustainable development goals (SDG) form openalex
 
     """
-    paper_uri = URIRef(f"{RPO}paper/{paper_id}")
+    paper_uri = RPO[f"paper{paper_id}"]
     
     if not meta.get("openalex"):
         return
@@ -692,7 +430,7 @@ def get_concepts_info(graph, paper_id, meta):
             if not name:
                 continue
             level = c.get("level")
-            concept_uri = URIRef(f"{RPO}{makeName(name)}")
+            concept_uri = RPO[makeName(name)]
             graph.add((concept_uri, RDF.type, _concept_class(level)))
             graph.add((concept_uri, RDFS.label, Literal(name)))
             graph.add((paper_uri, RPO.has_topic, concept_uri))
@@ -707,7 +445,7 @@ def get_concepts_info(graph, paper_id, meta):
             kw_name = kw
         if not kw_name:
             continue
-        kw_uri = URIRef(f"{RPO}{makeName(kw_name)}")
+        kw_uri = RPO[makeName(kw_name)]
         graph.add((kw_uri, RDF.type, RPO.Keyword))
         graph.add((kw_uri, RDFS.label, Literal(kw_name)))
         graph.add((paper_uri, RPO.has_keyword, kw_uri))
@@ -738,7 +476,6 @@ def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
 
     g.bind("rpo", RPO)
     g.bind("foaf", FOAF)
-    g.bind("pro", PRO)
 
     with csv_path.open(encoding="utf-8") as fh:
         reader = csv.DictReader(fh)
@@ -773,30 +510,27 @@ def build_kg_from_csv(csv_path, output_prefix = "kg_chunk"):
                 get_publishing_info(g, paper_id, meta)
                 get_concepts_info(g, paper_id, meta)
             
-                if paper_counter == chunk_size :
-                    get_geo_info(g)
+                #if paper_counter == chunk_size :
+#
+                    #out_file = f"{output_prefix}_{chunk_index}.ttl"
+                    #g.serialize(destination=out_file, format="turtle")
 
-                    out_file = f"{output_prefix}_{chunk_index}.ttl"
-                    g.serialize(destination=out_file, format="turtle")
-
-                    print(f"saved chunk {chunk_index} to {out_file}")
+                    #print(f"saved chunk {chunk_index} to {out_file}")
 
                     # reset counters and graph
-                    chunk_index += 1
-                    paper_counter = 0
+                    #chunk_index += 1
+                    #paper_counter = 0
 
-                    g = Graph()
-                    g.bind("rpo", RPO)
-                    g.bind("foaf", FOAF)
-                    g.bind("pro", PRO)
+                    #g = Graph()
+                    #g.bind("rpo", RPO)
+                    #g.bind("foaf", FOAF)
             
-        if paper_counter > 0:
-            get_geo_info(g)
+        #if paper_counter > 0:
 
-            out_file = f"{output_prefix}_{chunk_index}.ttl"
-            g.serialize(destination=out_file, format="turtle")
-
-            print(f"saved final chunk {chunk_index} to {out_file}")
+    out_file = f"{output_prefix}_full.ttl"
+    g.serialize(destination=out_file, format="turtle")
+    print('saved to kg1_full.ttl')
+    #print(f"saved final chunk {chunk_index} to {out_file}")
             
     
 # ---------------------------- RUN -------------------------------

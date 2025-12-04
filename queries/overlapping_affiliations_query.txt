@@ -1,0 +1,47 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT DISTINCT ?paper ?org ?mentionedEntity
+WHERE {
+    {
+        ?paper rpo:funded_by ?org .
+    }
+    UNION
+  	{
+        ?paper rpo:funded_by ?lilorg .
+    	?lilorg rpo:part_of ?org .
+    }
+    UNION
+    {
+        ?paper rpo:written_by ?author .
+        ?author rpo:affiliated_with ?org .
+    }
+  	UNION
+    {
+        ?paper rpo:written_by ?author .
+        ?author rpo:affiliated_with ?childorg .
+    	?childorg rpo:part_of ?org .
+    }
+
+    ?paper rpo:mentions ?mentionedEntity .
+    ?mentionedEntity rpo:part_of ?org .
+  	?org rdf:type ?type .
+
+    FILTER (?type IN (
+        rpo:Organisation,
+        rpo:Company,
+        rpo:University,
+        rpo:NGO,
+        rpo:InternationalOrganisation,
+        rpo:StateInstitution,
+        rpo:MilitaryOrganisation,
+        rpo:PublishingCompany
+    ))
+}
+ORDER BY ?org ?paper

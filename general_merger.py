@@ -17,7 +17,7 @@ def merge_ttl_subgraphs(input_folder: Path, output_file: Path):
     merged.bind("foaf", FOAF)
     merged.bind("pro", PRO)
 
-    ttl_files = ["oa_cr_full.ttl", "institutions_affiliations.ttl", "apc_paid.ttl"]
+    ttl_files = ["kg1_full.ttl", "institutions_affiliations.ttl", "apc_paid.ttl"]
 
     print(f"found {len(ttl_files)} ttl files to merge.")
 

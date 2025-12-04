@@ -1,0 +1,29 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?org ?ven (COUNT(DISTINCT ?paper) AS ?numPapers)
+WHERE {
+    ?paper rpo:mentions ?mentionedEntity ;
+           rpo:published_at ?ven .
+
+    {
+        ?mentionedEntity rpo:part_of ?org .
+    }
+    UNION
+    {
+        ?mentionedEntity rpo:related_to ?org .
+    }
+
+    ?org rdf:type ?type .
+    FILTER (?org IN (rpo:Europe,
+    rpo:EuropeanUnion,
+    cskg:europe))
+}
+GROUP BY ?org ?ven
+ORDER BY ?org ?ven

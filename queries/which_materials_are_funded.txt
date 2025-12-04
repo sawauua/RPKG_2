@@ -1,0 +1,25 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?entity 
+       (COUNT(DISTINCT ?paper) AS ?numPapers)
+       (COUNT(DISTINCT ?fundedPaper) AS ?numFundedPapers)
+       ((COUNT(DISTINCT ?fundedPaper) / COUNT(DISTINCT ?paper)) * 2 AS ?fundedScore)
+WHERE {
+    ?paper rpo:mentions ?entity .
+  	?entity rdf:type cskg-ont:Material .
+
+    OPTIONAL {
+        ?paper rpo:funded_by ?funder .
+        BIND(?paper AS ?fundedPaper)
+    }
+}
+GROUP BY ?entity
+HAVING (COUNT(DISTINCT ?paper) > 10)
+ORDER BY DESC(?fundedScore)

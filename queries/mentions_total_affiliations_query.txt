@@ -1,0 +1,70 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rpo: <http://www.semanticweb.org/ftsdemo/ontologies/2025/5/rpo#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX cskg: <https://w3id.org/cskg/resource/>
+PREFIX cskg-ont: <https://w3id.org/cskg/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT
+  ?entity
+  (COUNT(DISTINCT ?paper) AS ?paperCount)
+  (COUNT(DISTINCT ?paper_company) AS ?companyCount)
+  (COUNT(DISTINCT ?paper_university) AS ?universityCount)
+  (COUNT(DISTINCT ?paper_ngo) AS ?ngoCount)
+  (COUNT(DISTINCT ?paper_state) AS ?stateInstitutionCount)
+WHERE {
+
+  # --- Identify papers linked to the research area ---
+  {
+    ?paper rpo:mentions ?entity .
+  }
+  UNION
+  {
+    ?paper rpo:mentions ?thing .
+    ?thing rpo:part_of ?entity .
+  }
+  UNION
+  {
+    ?paper rpo:mentions ?thing .
+    ?thing rpo:related_to ?entity .
+  }
+  UNION
+  {
+    ?paper rpo:mentions ?thing .
+    ?thing rpo:part_of ?comp .
+    ?comp rpo:related_to ?entity .
+  }
+
+  OPTIONAL {
+    ?paper rpo:written_by ?a1 .
+    ?a1 rpo:affiliated_with ?org1 .
+    ?org1 a rpo:Company .
+    BIND(?paper AS ?paper_company)
+  }
+
+  OPTIONAL {
+    ?paper rpo:written_by ?a2 .
+    ?a2 rpo:affiliated_with ?org2 .
+    ?org2 a rpo:University .
+    BIND(?paper AS ?paper_university)
+  }
+
+  OPTIONAL {
+    ?paper rpo:written_by ?a3 .
+    ?a3 rpo:affiliated_with ?org3 .
+    ?org3 a rpo:NGO .
+    BIND(?paper AS ?paper_ngo)
+  }
+
+  OPTIONAL {
+    ?paper rpo:written_by ?a4 .
+    ?a4 rpo:affiliated_with ?org4 .
+    ?org4 a rpo:StateInstitution .
+    BIND(?paper AS ?paper_state)
+  }
+
+}
+GROUP BY ?entity
+ORDER BY DESC(?paperCount)
